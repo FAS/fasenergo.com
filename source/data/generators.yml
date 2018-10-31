@@ -1165,8 +1165,8 @@ fas-15-1lm-15-kw:
     cooling: null
   engineId: loncin-lc2v90f
   enclosure:
-    type: закрытое
-    material: метал
+    type: Enclosed
+    material: Metal
     coating: null
     thermalInsulation: null
     protection: null
@@ -5033,7 +5033,7 @@ fas-15-ozp3-k-15-kw:
     cooling: null
   engineId: kubota-df972
   enclosure:
-    type: закрытое
+    type: Enclosed
     material: null
     coating: null
     thermalInsulation: null
@@ -5228,7 +5228,7 @@ fas-40-3-zr-40-kw:
     cooling: liquid
   engineId: zmz-409
   enclosure:
-    type: закрытое
+    type: Enclosed
     material: null
     coating: null
     thermalInsulation: null
