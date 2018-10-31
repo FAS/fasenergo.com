@@ -1,0 +1,24 @@
+---
+title:           Environmental Programmes
+contentTitle:    Environmental Programmes
+navTitle:        Environmental Programmes
+breadcrumbTitle: Environmental Programmes
+
+description: Environmental Programmes.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>FASENERGOMASH, LLC actively participates in environmental projects in Russia and CIS countries.</p>
+
+<p>The following three key types of generators can be currently distinguished:</p>
+
+<ol>
+  <li>Generators operating from associated petroleum gases. They increase the volume of useful gas used and reduce the share of its combustion in the production areas.</li>
+  <li>Generators operating from the recovery of industrial/household gases and vapours. They reduce harmful emissions.</li>
+  <li>Generators operating from the renewable resources, such as biogas, landfill and pyrolysis gas, generated from agricultural waste and peat.</li>
+</ol>
+
+<p>A few more projects are currently under development.</p>
+{% endblock %}

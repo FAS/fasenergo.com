@@ -1,0 +1,72 @@
+---
+title:           Turnkey Projects
+contentTitle:    Turnkey Projects
+navTitle:        Turnkey Projects
+breadcrumbTitle: Turnkey Projects
+
+description: Turnkey Projects.
+
+icon:             search
+shortDesc:        'Complete outfitting of a facility: design, installation, construction work, inspection and commissioning.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+{% from '_components/_buttons.nj' import PDFButton with context %}
+
+{% set pageE = CONTACTS.departments.sales %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+
+<p>Designing of gas supply facilities is a crucial stage coming ahead of construction.</p>
+<p>The project must comply with federal laws, technical regulations, sets of rules for the design and construction, civil engineering norms and regulations, State standards, as well as industrial and fire safety regulations.</p>
+<p>FASENERGOMASH, LLC considers the stage of designing as a complex approach.</p>
+<p>In the project division of the company, highly qualified engineers and designers implement projects of gas supply systems of any complexity.</p>
+<p><strong>FASENERGOMASH, LLC provides the following services for implementation of projects on a turnkey basis:</strong></p>
+
+<ul>
+  <li>Providing services of a general designer;</li>
+  <li>Carrying out engineering surveys;</li>
+  <li>Carrying out pre-project works;</li>
+  <li>Preparing versions of project implementation;</li>
+  <li>Selecting engineering solutions for project implementation;</li>
+  <li>Preparing basic project solutions;</li>
+  <li>Developing financial and economic parts of the project;</li>
+  <li>Developing design documentation;</li>
+  <li>Developing operational documentation;</li>
+  <li>Supporting the project during the examination period;</li>
+  <li>Arranging on-site design supervision.</li>
+</ul>
+
+<h2>New Rules for Designing Gas Supply Facilities</h2>
+
+<p>In accordance with the Federal Law No. 372-FZ “On Amendments to the Urban Development Code of the Russian Federation” of 3 July 2016, from 1 July 2017, members of self-regulatory organizations can perform works related to arrangement of the architectural and building design under contractor agreements having at least two specialists in the arrangement of the architectural and building design included in the National Register of Specialists.</p>
+<p>Maintaining of the National Register of Specialists is assigned to the NOPRIZ (national association of self-regulatory organizations based on the membership of those performing engineering surveys, and self-regulatory organizations based on the membership of those preparing design documentation).</p>
+<p>To be included in the register, specialists must meet certain requirements (Clause 6, Art. 55.5-1 of the Urban Development Code). Thus, manager must have a diploma of higher education in the civil engineering (a list of acceptable study programmes is set by the order of the Ministry of Russia), at least five years of work experience in the related industry, and absence of criminal records. Specialist, in addition to the diploma of higher education in civil engineering, must have at least ten years of general labour experience in the related industry and at least three years on engineering positions in organizations engaged in the preparation of project and design documentation. In addition, specialist must upgrade his/her qualification in the related industry at least once every five years and have no criminal records.</p>
+<p>Employees certified by the Federal Service for the Supervision of Environment, Technology and Nuclear Management (Rostekhnadzor) can design highly hazardous and hazardous facilities. Besides, companies must be accredited in the self-regulatory organizations.</p>
+<p>All projects implemented by FASENERGOMASH, LLC were carried out by specialists certified by Rostekhnadzor. Information about the designers is included in the National Register of Specialists of the NOPRIZ system, and the company is a member of the self-regulatory organizations.</p>
+
+<h2>Approval Documents</h2>
+
+<p>FASENERGOMASH, LLC has both experience and necessary permits for construction, engineering and commissioning works:</p>
+
+<p>
+  {{ PDFButton(
+    label = 'Approval Documents',
+    url = '/' + PATH.docs + '/Фасэнергомаш - Разрешительные документы.pdf'
+  ) }}
+</p>
+
+<aside class='h-margin-top+'>
+
+  <p>In case there is a necessity to order a project on a turnkey basis, please contact the Sales Department::</p>
+
+  <ul>
+    <li>{{ pagePhone1 }}</li>
+    <li>{{ pageEmail }}</li>
+  </ul>
+
+</aside>
+{% endblock %}

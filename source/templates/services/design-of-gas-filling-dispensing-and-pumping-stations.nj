@@ -1,0 +1,23 @@
+---
+title:           Design of Gas Filling, Dispensing and Pumping Stations
+contentTitle:    Design of Gas Filling, Dispensing and Pumping Stations
+navTitle:        Design of Gas Filling, Dispensing and Pumping Stations
+breadcrumbTitle: Design of Gas Filling, Dispensing and Pumping Stations
+
+description: Design of Gas Filling, Dispensing and Pumping Stations.
+
+icon:             search
+shortDesc:        'The design of gas filling, dispensing and pumping stations begins with the preparation of a package of documents.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<pThe design of gas filling, dispensing and pumping stations begins with the preparation of a package of documents. One of the most important documents is a contract for the acquisition or lease of a land plot, which clearly indicates its intended use.</p>
+<p>To start designing, the customer must obtain permission from the administration of the settlement, develop technical specifications, conduct geodetic surveys, environmental feasibility study, etc. These documents are the initial data for a designer.</p>
+<p>If the customer wants to receive a facility made on a turnkey basis, our company can take on the execution of the majority of the above listed items. The Resolution No. 87 of 16 February 2008 approved by the Government of the Russian Federation on the composition of the project documentation sections and requirements for their content clearly regulates what a project for construction should include.</p>
+<p>Project documentation can contain up to 12 sections, in which text and graphic parts are represented.</p>
+<p>The documentation includes technological sections and subsections, which detail the systems of electricity supply, water supply and sanitation, gas supply, environmental protection, a list of measures for civil defense and prevention of emergency situations of natural and man-made nature for hazardous production facilities and much more.
+</p>
+<p>The finished project must pass state or non-state expertise.</p>
+{% endblock %}

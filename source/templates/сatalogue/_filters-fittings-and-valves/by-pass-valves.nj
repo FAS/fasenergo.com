@@ -1,0 +1,36 @@
+---
+title:           By-pass Valves
+contentTitle:    By-pass Valves
+navTitle:        By-pass Valves
+breadcrumbTitle: By-pass Valves
+
+description: By-pass Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>By-pass valve is designed for mounting in a discharge line of pumping units in order to regulate pressure of supplying liquefied gas fraction to consumers.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/by-pass-valves/by-pass-valves.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>Design pressure RP40;</li>
+  <li>Nominal diameter ¾“- 1“ NPT IG;</li>
+  <li>Steel casing 1.0619;</li>
+  <li>Stainless steel ball 1.4308;</li>
+  <li>Setting range from 5 to 18 bar.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

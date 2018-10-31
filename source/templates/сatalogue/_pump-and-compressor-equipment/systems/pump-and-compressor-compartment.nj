@@ -1,0 +1,46 @@
+---
+title:           Pump and Compressor Compartment (PCC)
+contentTitle:    Pump and Compressor Compartment (PCC)
+navTitle:        Pump and Compressor Compartment (PCC)
+breadcrumbTitle: Pump and Compressor Compartment (PCC)
+
+description: Pump and Compressor Compartment (PCC).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/pcc/pump-and-compressor-compartment-fem-1--1--left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pcc/pump-and-compressor-compartment-fem-1--front-top.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pcc/pump-and-compressor-compartment-fem-2--1--front-top.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pcc/pump-and-compressor-compartment-fem-2--2--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Application</h2>
+
+<ul>
+  <li>Charging/discharging operations;</li>
+  <li>LPG pumping from railway tanks;</li>
+  <li>LPG supply to gas carriers and gas cylinder filling stations.</li>
+</ul>
+
+<h2>Advantages</h2>
+
+<ul>
+  <li>Unified factory-produced product;</li>
+  <li>Short terms of installation works;</li>
+  <li>Uniform manufacturer's warranty;</li>
+  <li>Unification of the operational fleet;</li>
+  <li>Uniform enterprise standard;</li>
+  <li>Reduction in operational expenses.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

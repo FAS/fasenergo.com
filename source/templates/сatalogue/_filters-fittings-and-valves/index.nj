@@ -1,0 +1,154 @@
+---
+title:           Filters, Fittings & Valves
+contentTitle:    Filters, Fittings & Valves
+navTitle:        Filters, Fittings & Valves
+breadcrumbTitle: Filters, Fittings & Valves
+
+description: Filters, Fittings & Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p>FASENERGOMASH, LLC offers on/off & shut-off valves for various gas equipment and gas supply systems. The range of gas fittings includes by-pass valves, flanges, filters and ball valves from the world’s leading manufacturers, such as RegO, FAS, NPT, ASTM, GOK and Coprim.</p>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Inspection Windows',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/inspection-windows.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/inspection-windows',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Shut-off and Relief Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/shut-off-and-relief-valve.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/shut-off-and-relief-valve',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Filters',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/oil-and-gas-filtering-strainers.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/oil-and-gas-filtering-strainers',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Ball Stop Valves (Interflanged)',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/gas-ball-stop-valves-interflanged.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/gas-ball-stop-valves-interflanged',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'By-pass Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/by-pass-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/by-pass-valves',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Check and Speed Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/check-and-speed-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/check-and-speed-valves',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Screwed Ball Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/screwed-ball-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/screwed-ball-valves',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Safety Bleeder Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/safety-bleeder-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/safety-bleeder-valves',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Safety Relief Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/safety-relief-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/safety-relief-valves',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Check Valves for Self-Priming Units',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/gas-check-valves-for-self-priming-units.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/gas-check-valves-for-self-priming-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Intrinsically Safe Insulating Flanges',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/intrinsically-safe-insulating-flanges.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/intrinsically-safe-insulating-flanges',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Separators',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/separators.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/separators',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Mass Flow Meters',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves/mass-low-meters.jpg',
+    url = '/сatalogue/filters-fittings-and-valves/mass-low-meters',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+<p>FASENERGOMASH, LLC is the leader of the North-western Federal District of the Russian Federation in the production of gas equipment. The company sells gas fittings of the following types:</p>
+<ul>
+    <li>By-pass valves;</li>
+    <li>Check and speed valves;</li>
+    <li>Stop/screwed ball valves;</li>
+    <li>Safety relief valves;</li>
+    <li>Safety bleeder valves, separators;</li>
+    <li>Mass flow meters.</li>
+</ul>
+<h2>Classification of Gas Fittings</h2>
+<p>Gas supply valves are classified according to their intended purpose, such as shut-off, safety, filtering, and control. There are also pipeline distribution valves, the function of which is to distribute the pipeline strings between several sections.</p>
+<p>Pipeline gas fittings are classified according to the nominal inside diameter (DN—size) and rated pressure.</p>
+
+<h3>On/off & Shut-off Gas Valves</h3>
+<p>The on/off & shut-off gas fittings include various types of valves intended for leak-proof disconnection of gas pipeline sections. Devices related to the on/off & shut-off valves must provide a leak-proof pipe closure as well as time saving and convenient operation of gas systems.</p>
+
+<h3>Safety Gas Valves</h3>
+<p>The function of safety valves is to protect gas equipment by relieving excess pressure. Such type of devices include safety, relieve and by-pass valves, as well as pilot operated safety devices and burst valves.</p>
+
+<h3>Gas Filters and Filtering Fittings</h3>
+<p>Gas filters are designed to protect gas pumping equipment against ingress of foreign materials and impurities. In addition, gas filters are configured to protect the pumping units of gas devices against hydraulic shocks and reverse flow of condensate.</p>
+
+<h3>Control Valves</h3>
+<p>The control gas valves include devices that are configured to regulate parameters of the equipment operating environment. Regulation implies the control of flow, maintenance of the required pressure within set limits, maintenance of the required mixture composition, etc.</p>
+
+<h2>On/off & Shut-off Valve Application</h2>
+<p>The shut-off valves are used on gas pipelines of various pressure levels, on both the main lines and the local pipelines of gas distributing and control equipment. The shut-off valves are used for distribution and safe operation of gas systems indoors and outdoors. The function of shut-off elements is to close and open gas channels.</p>
+<p>It is possible to conditionally divide the shut-off gas fittings into industrial shut-off valves and shut-off valves of general purpose. Industrial valves are used in complex industrial and process systems at gas, oil refining and petrochemical enterprises. These devices are subject to heightened requirements for safety and resistance to destructive effect of the environment.</p>
+<p>The shut-off gas valves of general purpose are widely used to ensure safe and comfortable operation of household equipment. They are widely used in autonomous gas supply systems and local gas distribution systems.</p>
+{% endblock %}

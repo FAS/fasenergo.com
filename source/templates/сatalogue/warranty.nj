@@ -1,0 +1,43 @@
+---
+title:           Warranty
+contentTitle:    Warranty
+navTitle:        Warranty
+breadcrumbTitle: Warranty
+
+description: Warranty.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>As a responsible manufacturer, we provide our clients with a warranty that secures investment in our equipment. Our warranty policy fully complies with the European and Russian regulations.</p>
+<p>Warranty servicing is provided by our Service Centre or partners.</p>
+<p>We recommend that the installation, commissioning and maintenance works be only performed by the company’s certified dealers or the Service Centre. The reason is simple—we know our generators like the back of our hands and thus ensure a faster and better performance of all types of works.</p>
+
+<h2>Aspects Covered by the Warranty</h2>
+
+<p>The warranty covers:</p>
+
+<ul>
+  <li>generators;</li>
+  <li>synchronization units;</li>
+  <li>cogeneration unit for heat removal;</li>
+  <li>other equipment listed in the supply contract.</li>
+</ul>
+
+<p>The warranty does not cover faults caused by mechanical damage, improper use, repair works performed by unauthorized personnel or normal wear and tear of the equipment.</p>
+<p>Installation of additional equipment or replacement of components must be agreed with our company, otherwise the warranty will be cancelled. For example, if a necessity to install an additional oil heating system for severe frost operation arises, it should be agreed with the company management.</p>
+
+<h2>Validity Period</h2>
+
+<p>The warranty is limited to the time or number of generator’s running hours.</p>
+<p>The validity period for all generators is the same—18 months from the date of installation, but not more than 24 months from the date of delivery.</p>
+{# <p>Количество моточасов зависит от генератора — от {{ numbro(selectGeneratorsMinServiceLife(GENERATORS)).format() }} до {{ numbro(selectGeneratorsMaxServiceLife(GENERATORS)).format() }}. Это указано в каталоге в описании каждого генератора.</p> #}
+
+<h2>Plan of Actions in Case of a Warranty Event</h2>
+
+<p>If you find a malfunction in the operation of a generator, contact your dealer or our Service Centre.</p>
+<p>At first, we will need to know the model number of your generator, the serial number stamped on the nameplate, and the description of the malfunction, preferably with photos or even video. Then we will try to determine the cause of the problem remotely. If this does not work out, or the malfunction is too serious, we will send a specialist to your site for diagnosis and repair.</p>
+<p>Spare parts, if they are required, are delivered very quickly. The delivery is carried out the same day if the required spare parts are in stock at the dealer’s site. Otherwise, the delivery will take 2–3 days.</p>
+<p>The repair time depends on the severity of the malfunction.</p>
+{% endblock %}

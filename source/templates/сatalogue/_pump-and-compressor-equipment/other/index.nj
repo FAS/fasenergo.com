@@ -1,0 +1,19 @@
+---
+title:           Other Pump & Compressor Equipment
+contentTitle:    Other Pump & Compressor Equipment
+navTitle:        Other Pump & Compressor Equipment
+breadcrumbTitle: Other
+
+description: Other Pump & Compressor Equipment
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

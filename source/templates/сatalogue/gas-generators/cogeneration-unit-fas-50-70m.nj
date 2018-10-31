@@ -1,0 +1,7 @@
+---
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - cogeneration-unit-fas-50-70m
+---
+
+{% extends './_generator.nj' %}

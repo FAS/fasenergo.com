@@ -1,0 +1,51 @@
+---
+title:           Gas Control & Distribution Unit FEM GRP/N
+contentTitle:    Gas Control & Distribution Unit FEM GRP/N
+navTitle:        FEM GRP/N
+breadcrumbTitle: FEM GRP/N
+
+description: Gas Control & Distribution Unit FEM GRP/N.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A gas control and distribution unit (GRP) or a distributing control station (DCS) is applied in autonomous gas supply systems and is designed for safe operation of the liquefied petroleum gas (propane/butane and mixtures thereof) consumption systems and heating systems as well as for regulation of pressure within the system.</p>
+<p>A distributing control station of FAS GRP/N type has a basic design and is additionally completed with a solenoid valve and a low pressure regulator. A distributing control station is factory-assembled in a steel cabinet. The connection to the station is carried out from the underside of the cabinet using a ¾“ coupling with a pipe conical (R) or cylindrical (G) thread.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/fem-grp-n/gas-control-distribution-unit-fem-grp-n--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>A steel cabinet, with shut-off elements, designed for outdoor mounting with external dimensions 700х500х250.</li>
+  <li>Inlet/outlet: ¾” G or R type thread.</li>
+  <li>Weight: 20.2 kg.</li>
+  <li>Outlet pressure: 30–50 mbar; allowable inlet pressure: 200–300 mbar;</li>
+  <li>A bypass line with a shut-off valve;</li>
+  <li>Solenoid valve power supply: 220V/50Hz. In the absence of voltage, the solenoid valve is closed.</li>
+  <li>The valve is controlled through the gas hazard monitoring sensor located in the room. A gas hazard monitoring sensor is supplied at extra charge.</li>
+</ul>
+
+<h2>Principal Components</h2>
+
+<ul>
+  <li>Metal cabinet – 1 pcs.</li>
+  <li>Inlet and outlet shut-off valves.</li>
+  <li>Ball valve – 3 pcs.</li>
+  <li>Pressure gauge – 2 pcs., at inlet and outlet.</li>
+  <li>Seamless metal pipe –1 pcs.</li>
+  <li>Pressure regulator – 2 pcs.</li>
+  <li>Solenoid valve – 1 pcs.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

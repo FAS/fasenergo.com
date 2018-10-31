@@ -1,0 +1,160 @@
+---
+title:           'Gas Control & Distribution Equipment'
+contentTitle:    Gas Control & Distribution Equipment
+navTitle:        Gas Control & Distribution Equipment
+breadcrumbTitle: Gas Control & Distribution Equipment
+
+description: Gas Control & Distribution Equipment.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p>Small-sized FEM gas control and distribution units as well as gas reducing stations produced by FASENERGOMASH, LLC are used in gas supply systems to reduce pressure in the main gas pipeline to the consumer desired level and to maintain the reached indicator in set mode.</p>
+
+<h2>Pressure Regulators</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'RegO',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/pressure-regulators/pressure-regulators-rego.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/gas-pressure-regulators/rego',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'GOK',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/pressure-regulators/pressure-regulators-gok.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/gas-pressure-regulators/gok',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/pressure-regulators/pressure-regulators-fem.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/gas-pressure-regulators/fem',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Gas Control & Distribution Units (GRP)</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'FEM GRP',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grp.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grp/fem-grp',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRP/N',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grp.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grp/fem-grp-n',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRP/V',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grp.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grp/fem-grp-v',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRP/S',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grp.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grp/fem-grp-s',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRP/N/S',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grp.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grp/fem-grp-n-s',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Gas Control & Distribution Units of Cabinet Type (GRPSh)</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'FEM GRPSh/1',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grpsh/fem-grpsh-1.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grpsh/fem-grpsh-1',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRPSh/2',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grpsh/fem-grpsh-2.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grpsh/fem-grpsh-2',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRPSh/3',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grpsh/fem-grpsh-2.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grpsh/fem-grpsh-3',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRPSh/4',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grpsh/fem-grpsh-2.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grpsh/fem-grpsh-4',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'FEM GRPSh/5',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment/grpsh/fem-grpsh-2.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment/grpsh/fem-grpsh-5',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2>Gas Control & Distribution Units and Equipment FEM</h2>
+
+<p>FASENERGOMASH, LLC produces gas control and distribution units (GRP) and cabinet-type gas reducing stations (GRPSh) for the autonomous and mainline gas supply systems of small and medium gas consumption facilities. Cabinet-type control and distribution units and reducing stations reduce the gas pressure to the customer required level. The FEM GRP and GRPSh are safe and small-sized.</p>
+
+<h3>Application and Basic Specifications of Cabinet-type Gas Control and Distribution Units</h3>
+
+<p>The cabinet-type gas control and distribution units are of significant importance because the pressure in a main gas pipeline is much higher than it is necessary for a safe household or industrial consumption. They reduce the pressure at the outlet from the main gas pipeline. The systems are used to control, distribute and reduce the pressure in a gas pipeline.</p>
+
+<p>FASENERGOMASH, LLC offers GRPSh models configured to operate with gas pressure of up to 16 bar at the inlet and of up to 30 mbar at the outlet. Besides, the company can manufacture equipment according to specific technical requirements of each customer.</p>
+
+<h3>Design of a FE, Gas Control & Distribution Unit</h3>
+
+<p>The FEM gas control and distribution units are mounted in a cabinet that can be placed inside a building, on its external wall or within the territory of the facility. All equipment manufactured by FASENERGOMASH, LLC are completed with a ball valve for manual adjustment of pressure in the gas pipeline.</p>
+
+<p>The safety of the system is provided by a speed valve, which automatically stops the gas supply when the pressure in the gas pipeline changes drastically. The units are also equipped with a solenoid valve that stops the gas supply in the event of power surges or when a leak is detected.</p>
+
+<p>The pre-installed integrated pressure gauges make it possible to monitor the gas inlet and outlet pressure within the system. In addition, at the customer's request, the system can be equipped with a gas meter to monitor gas consumption.</p>
+
+<h3>Price for FEM GRP and GRPSh</h3>
+
+<p>The GRP price varies depending on the configuration and the declared technical specification of the equipment. The company can manufacture gas equipment of various configurations under customised orders.</p>
+
+{% endblock %}

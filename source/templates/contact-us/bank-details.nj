@@ -1,0 +1,95 @@
+---
+title:           FASENERGOMASH LLC. Bank Details
+contentTitle:    FASENERGOMASH LLC. Bank Details
+navTitle:        Bank Details
+breadcrumbTitle: Bank Details
+
+description: FASENERGOMASH LLC. Bank Details
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<table class='Table'>
+  <tr>
+    <th>Full Name</th>
+    <td>FASENERGOMASH Limited Liability Company</td>
+  </tr>
+  <tr>
+    <th>Abbreviated Name</th>
+    <td>FASENERGOMASH LLC.</td>
+  </tr>
+  <tr>
+    <th>OGRN [Primary State Registration Number]</th>
+    <td>1127847246504</td>
+  </tr>
+
+  {% set e = CONTACTS.main.address[0] %}
+  {% set address = e.index + ', ' + e.country +', ' + e.city + ', ' + e.street %}
+
+  <tr>
+    <th>Legal Address</th>
+    <td>{{ address }}</td>
+  </tr>
+  <tr>
+    <th>Physical Address</th>
+    <td>{{ address }}</td>
+  </tr>
+  <tr>
+    <th>INN [Taxpayer Registration Number] / KPP [Registration Reason Code]</th>
+    <td>7814535512 / 781401001</td>
+  </tr>
+  <tr>
+    <th>Telephone</th>
+    <td>+7 (812) 407-37-73</td>
+  </tr>
+  <tr>
+    <th>Bank Account</th>
+    <td>40702810655070004713</td>
+  </tr>
+  <tr>
+    <th>Bank</th>
+    <td>North-West Bank PJSC Sberbank, Saint Petersburg</td>
+  </tr>
+  <tr>
+    <th>Correspondent Account</th>
+    <td>30101810500000000653</td>
+  </tr>
+  <tr>
+    <th>BIK [Russian Central Bank Identifier Code]</th>
+    <td>044030653</td>
+  </tr>
+  <tr>
+    <th>OKPO [All- Russian Classifier of Businesses and Organizations Code]</th>
+    <td>09575788</td>
+  </tr>
+  <tr>
+    <th>OKATO [All- Russian National Administrative -Division Classification Code]</th>
+    <td>40270561000</td>
+  </tr>
+  <tr>
+    <th>OKTMO [All- Russian National Municipal Territories Classification Code]</th>
+    <td>40321000</td>
+  </tr>
+  <tr>
+    <th>OKOGU [All- Russian National Public Authorities Classification Code]</th>
+    <td>4210014</td>
+  </tr>
+  <tr>
+    <th>OKVED [All- Russian National Economic Activity Type Classification Code]</th>
+    <td>29.24.1</td>
+  </tr>
+  <tr>
+    <th>Type of Economic Activity</th>
+    <td>Manufacture of gas generators</td>
+  </tr>
+  <tr>
+    <th>Director General</th>
+    <td>Natalia Rudolfovna Pashkova</td>
+  </tr>
+  <tr>
+    <th>Chief Accountant</th>
+    <td>Alla Anatolievna Kazelina</td>
+  </tr>
+</table>
+{% endblock %}

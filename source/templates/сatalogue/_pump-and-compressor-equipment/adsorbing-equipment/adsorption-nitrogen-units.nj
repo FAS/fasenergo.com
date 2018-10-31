@@ -1,0 +1,28 @@
+---
+title:           Adsorption Nitrogen Units
+contentTitle:    Adsorption Nitrogen Units
+navTitle:        Adsorption Nitrogen Units
+breadcrumbTitle: Adsorption Nitrogen Units
+
+description: Adsorption Nitrogen Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>FASENERGOMASH, LLC is ready to offer its customers commercially available adsorption units, as well as adsorption units designed according to customer’s individual specifications.</p>
+<p>FEM nitrogen units working under the principle of adsorptive air separation are designed to produce up to 10,000 m³/h of nitrogen. The max. purity of nitrogen is 99.9995%.</p>
+<p>Adsorption units can be designed both for use in enclosed spaces and operation in the open air.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/adsorption-nitrogen-units/adsorption-nitrogen-units-fem--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Adsorption Nitrogen Units FEM') }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

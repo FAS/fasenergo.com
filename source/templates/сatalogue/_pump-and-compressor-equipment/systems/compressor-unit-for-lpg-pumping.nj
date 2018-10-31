@@ -1,0 +1,114 @@
+---
+title:           Compressor Unit for LPG Pumping
+contentTitle:    Compressor Unit for LPG Pumping
+navTitle:        Compressor Unit for LPG Pumping
+breadcrumbTitle: Compressor Unit for LPG Pumping
+
+description: Compressor Unit for LPG Pumping.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Package dry-running reciprocating compressor units are used for pumping propane-butane mixtures and ammonia from ship tankers, railway tanks or gas carriers as well as for subsequent degassing of the latter (relief of excess pressure to acceptable values). Operation of equipment using a product containing harmful impurities or water can lead to the compressor unit failure.</p>
+<p>Pumping of liquid through gas pressure drop (gas displacement). FEM compressor units are designed to pump liquefied gases, such as a butane-propane mixture (liquefied petroleum gas or LPG) from one tank to another. Liquefied gases, such as LPG, are stored in sealed pressurized vessels containing both a vapour (gas) and a liquid forms. To perform pumping, the tanks are connected through the pipeline on the liquid phase and through the compressor on the vapour phase. By pumping out, compressing and re-transporting the vapour phase from a tank to be charged to the one to be discharged, the liquid fraction is displaced. The process of gas compression also raises the gas temperature, thereby contributing to the pressure growth in the discharged tank.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-for-lpg-pumping/compressor-unit-fem-for-lpg-pumping--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Unit Components</h2>
+
+<ol>
+
+  <li>
+
+    <p>Dry Running Reciprocating Compressor Unit FEM 491 (basic design, standard configuration) for propane-butane pumping, mounted on a common frame, primed and painted, comprising:</p>
+
+    <ul>
+      <li>Compressor: FEM 491 with 2 cylinders and a simple gland sealing; cylinder and cylinder head are made of cast iron in accordance with ASTMA 536; max. capacity of 58 m³/hour, rated speed of 780 rpm; a 0–25 bar pressure gauge at the compressor inlet and outlet;</li>
+      <li>
+        <p>Other equipment:</p>
+        <ul>
+          <li>FEM liquid phase separator with condensate blowing;</li>
+          <li>Relief valve G 3/4", set pressure – 19 bar;</li>
+          <li>Drive belt with casing;</li>
+          <li>Drive belt washer for motor;</li>
+          <li>Belt protection;</li>
+          <li>Motor 11 kW, EExd IIС T4, 400/690 V, B3 50 Hz, (electric motor with V-belt transmission and protective casing).</li>
+        </ul>
+      </li>
+      <li>
+        <p>General:</p>
+        <ul>
+          <li>Connections: flanges, DN 32.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>Weight: about 400 kg.</p>
+
+  </li>
+
+  <li>
+
+    <p>Four-way valve completed with:</p>
+
+    <ul>
+      <li>Filter and mounting pipeline to fit the FEM 491 compressor.</li>
+    </ul>
+    <p>Flange, DN 32, PN 40 (installed).</p>
+    <p>Weight: 23 kg.</p>
+
+  </li>
+
+  <li>
+
+    <p>Automation set "STANDARD" for the compressor unit (installed) comprising the following basic components:</p>
+
+    <ul>
+      <li>Min. pressure sensor for installation on a compressor unit;</li>
+      <li>Max. pressure sensor for installation on a compressor unit;</li>
+      <li>Separator level control sensor for installation on a compressor unit;</li>
+      <li>Stand for mounting pressure control sensors for installation on a compressor unit.</li>
+    </ul>
+
+    <p>The automation set also includes:</p>
+
+    <ul>
+      <li>Response amplifier for min. and max. gas pressure sensors (2 pcs.) for installation on an electrical control panel;</li>
+      <li>Response amplifier for gas level control sensor for installation on an electrical control panel.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>Electrical control panel for the compressor unit.</p>
+    <p>It features an explosion-proof design. It is configured to start the motor of a compressor unit with a capacity of 11 kW, with a star-delta connection to ensure a smooth starting.</p>
+
+    <p>The electrical control panel is connected to the following sensors:</p>
+
+    <ul>
+      <li>Minimum and maximum gas pressure control;</li>
+      <li>Gas separator level control sensor (the response devices are included in the automation set.</li>
+    </ul>
+
+    <p>The electrical control panel is also equipped with a double switch featuring a control light and sound signal. A motor protection relay completed with a leakage current automatic breaker. The panel casing has a power connector for connecting an external feeder (supply cable) in an explosion-proof design.</p>
+    <p>The control panel incorporates a switching device with a safe load calculator, with compressor protection for input and output pressures as well as for liquid level in the liquid separator (with an alarm indication), with the motor connected supply cable and an explosion-proof plug-and-socket connector. The switching device circuit makes it is possible to connect a remote discrete control (start-stop, discrete signal-dry contact).</p>
+    <p>The control panel is fully assembled, mounted on a common frame and connected.</p>
+
+  </li>
+
+  <li>Earthing device UZA-4K-01.</li>
+
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

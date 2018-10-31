@@ -1,0 +1,141 @@
+{% extends '_layouts/_base.nj' %}
+
+{% block body %}
+{% from '_components/_Nav.nj' import Nav with context %}
+{% from '_components/_Breadcrumb.nj' import Breadcrumb with context %}
+{% from '_components/_Callback.nj' import Callback with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+
+{% set mainLayoutE = CONTACTS.main %}
+{% set mainLayoutPhone = Phone(mainLayoutE.phones[0], showAdd = false) %}
+{% set mainLayoutEmail = Email(mainLayoutE.emails[0]) %}
+
+<div class='Sidebar Wrapper--sidebar h-fixed h-left h-top h-bottom '>
+  <div class='t-secondary h-overflow--auto h-padding h-padding-right+ h-height-1/1'>
+
+    <!-- Header -->
+    <!-- ====== -->
+
+    <header class='Header h-margin-bottom'>
+      <a class='Logo h-border-bottom0' href='{{ localeDir() }}'>
+        <img src='{{ SITE.logo }}' srcset='{{ imageSize(SITE.logo).srcset() }}' alt='{{ SITE.name }}' class='h-align--middle'>
+      </a>
+      <p class='h-text- h-font-weight--light h-margin-top-- h-line-height1.5'>{{ SITE.description }}</p>
+    </header>
+
+    <!--noindex-->
+    <nav class='Nav h-margin-ends+'>
+      {{ Nav(
+        class        = 'o-nav o-nav--stacked h-childs-space-top---',
+        itemsClass   = 'Nav__item',
+        anchorsClass = 'Nav__link h-inline',
+        activeClass  = 'is-active',
+        enableDrawer = true
+      ) }}
+    </nav>
+    <!--/noindex-->
+
+    <aside>
+
+      <p><b class='h-text+'>{{ mainLayoutPhone }}</b></p>
+
+      {{ Callback() }}
+
+      {# @todo Put back `href='/контакты/дилеры'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+      <p><a href='/contact-us' class='js-metrica-where-to-buy Btn o-btn--full Btn- h-text-'>{{ Icon('cart', 'Icon--left') }}Buy Our Products</a></p>
+
+    </aside>
+
+  </div>
+</div>
+
+<!-- Main -->
+<!-- ==== -->
+
+<main class='{{ 'Wrapper--main' if PAGE.applyWrapperMain and PAGE.coverImage }} o-panel__body o-panel' role='main'>
+  <div class='Main {{ 'Wrapper' if PAGE.applyWrapper }} {{ 'Wrapper-v' if PAGE.applyWrapperV }} {{ 'Wrapper--container' if PAGE.applyWrapperContainer }} h-flex-y--center o-panel o-panel__body t-white'>
+    <article class='{{ 'Wrapper--content' if PAGE.applyWrapperContent }} h-1/1 o-panel o-panel__body'>
+
+      {% if PAGE.showBreadcrumb or PAGE.showContentTitle %}
+      <header class='Content-header'>
+
+        {% if PAGE.showBreadcrumb %}
+        {{ Breadcrumb(
+          class           = 'o-breadcrumb o-breadcrumb--rev h-margin-bottom+--',
+          itemsClass      = 'o-breadcrumb__item',
+          anchorsClass    = '',
+          rootItemClass   = '',
+          rootAnchorClass = '',
+          displayLast     = false
+        ) }}
+        {% endif %}
+
+        {% if PAGE.showContentTitle %}
+        <h1 class='Content-title h-margin-bottom+'>{{ PAGE.contentTitle }}</h1>
+        {% endif %}
+
+      </header>
+      {% endif %}
+
+      <div class='Content {{ 's-preformat' if PAGE.applyPreformat }}'>
+        {% block main %}{% endblock %}
+      </div>
+
+    </article>
+  </div>
+</main>
+
+<!-- Footer -->
+<!-- ====== -->
+
+<!--/noindex-->
+<footer class='Footer {{ 'Wrapper--main' if PAGE.applyWrapperMain and PAGE.coverImage }} t-tertiary o-panel__footer'>
+  <div class='Wrapper Wrapper--container h-flex h-flex-x--center h-padding-ends+'>
+    <div class='{{ 'Wrapper--content' if (PAGE.applyWrapperContent or PAGE.forceFooterWrapperContent) }} h-1/1'>
+      <div class='o-grid h-childs-displace+'>
+
+        <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
+          <p>All information provided on the website is for reference only and can never be considered as a public or otherwise offer as determined by the provisions of the Civil Code of the Russian Federation.</p>
+          <p>All materials posted on the website are protected by the copyright law.</p>
+          <p>© 2006 – {{ moment().year() }} FASENERGOMASH, LLC</p>
+        </div>
+
+        <div class='o-grid__item h-1/3 h-align--right'>
+
+          {# @todo Disabled due to https://trello.com/c/vUXuThbW/92-- #}
+          {# <form class='Field-group Field-group- h-margin-bottom h-margin-left--auto' style='max-width: 230px'>
+            {{ Field(
+              class = 'Field- h-flex+',
+              inputClass = 'h-1/1',
+              id = 'mainSearch',
+              name = 'search',
+              label = 'Поиск',
+              displayLabel = false,
+              displayRequiredMark = false,
+              type = 'search',
+              placeholder = 'Что вас интересует?',
+              required = true
+            ) }}
+            <button class='Field__button'>{{ Icon('search') }}</button>
+          </form> #}
+
+          <p class='h-margin-bottom--'><b class='h-text+'>{{ mainLayoutPhone }}</b></p>
+          <p>{{ mainLayoutEmail }}</p>
+
+          {{ SocialUrls() }}
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>
+<!--/noindex-->
+
+{% if PAGE.coverImage %}
+<div class='Cover' style='{{ 'background-image: url(' + urljoin('/', PATH.images, PAGE.coverImage) + ')' }}'></div>
+{% endif %}
+{% endblock %}

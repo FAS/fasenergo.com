@@ -1,0 +1,46 @@
+---
+title:           Silencers for Diesel Generators, Gas-Piston Generators and Industrial IC Engines
+contentTitle:    Silencers for Diesel Generators, Gas-Piston Generators and Industrial IC Engines
+navTitle:        Silencers for Diesel Generators, Gas-Piston Generators and Industrial IC Engines
+breadcrumbTitle: Silencers for Diesel Generators, Gas-Piston Generators and Industrial IC Engines
+
+description: The high level of noise emitted by a generator during its operation due to pulsating engine exhaust can be significantly reduced through application of silencers.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>The high level of noise emitted by a generator during its operation due to pulsating engine exhaust can be significantly reduced through application of silencers.</p>
+<pFASENERGOMASH, LLC has entered a batch production of personally designed silencers for various types of generators and standalone power stations of three types: industrial (9–15 dB), low noise (20–30 dB) and critical (30–45 dB). These silencers make it possible to reduce the noise level within the range featured by the best foreign analogues at a much lower cost.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/silencers-fas--1---front.jpg',
+  alt = 'Silencers FAS',
+  center = true
+) }}
+
+<p>A silencer casing is made of high-carbon steel, while the internal metal parts made of stainless steel are of sufficient thickness. If necessary, the silencer casing can also be manufactured from stainless steel, which becomes relevant when working under high humidity conditions (the exhaust gas temperature below 170 °C contributes to increased condensation).</p>
+
+<p>The silencer design provides for its installation both indoors and outdoors, depending on the generator’s mounting option.</p>
+
+<h2>Testing</h2>
+
+<p>In order to determine the actual level of noise absorption, all FAS products should pass a comprehensive testing. Silencers were tested on a specially designed stand and the noise level was measured with the help of professional equipment. All models were adequately tested, showing results that are superior to those of foreign analogues.</p>
+
+<h2>Principle of Operation and Design of Silencers</h2>
+
+<p>Silencer is a device that, with the help of various dissipators, prevents the passage of a sound wave, but freely transmits the air medium. Silencer design includes two parts: a reflector, which, due to constant changes in pipe cross-section, prevents direct passage of sound waves and partly reflects them back, and a dissipative silencer, which imparts a screw-type rotation to a wave and partly converts the sound energy into the thermal energy due to the friction with the channel’s porous inner surface.
+</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/silencers-fas--1---front-higher.jpg',
+  alt = 'Silencers FAS',
+  center = true
+) }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

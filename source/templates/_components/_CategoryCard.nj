@@ -1,0 +1,101 @@
+{% from '_components/_formatters.nj' import DateEnd with context %}
+
+{##
+ # Display catalog category card
+ #
+ # @param {string} title          Card title
+ # @param {string} [image] = urljoin('/', PATH.images, '/no-photo.png')
+ #                                Preview image for card
+ # @param {string} url            Url to category
+ # @param {'small'|null} [size]   Size of a block
+ # @param {object} [power]        Power of inner products
+ # @param {number} [power.from]   Min power of inner products
+ # @param {number} [power.to]     Max power of inner products
+ # @param {string} [power.units]  Units for power
+ # @param {number} [discount]     Discount for inner products, from 0 to 100
+ # @param {date}   [discountDate] Discount end ISO date for inner products
+ # @param {string} [class]        Class of main wrapper
+ # @param {number} [hLevel = 2]   Heading level of block
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {% call CategoryCard(
+ #     title = 'Test series',
+ #     url = '/catalog/test',
+ #     image = urljoin('/', PATH.images, '/test.png'),
+ #     power = { from: 10, to: 20, units: ' kW' },
+ #     discount = 15
+ #   ) %}
+ #     <p>Test description</p>
+ #   {% endcall %}
+ #}
+{% macro CategoryCard(
+  title,
+  image = urljoin('/', PATH.images, '/no-photo.png'),
+  url,
+  power,
+  size,
+  discount,
+  discountDate,
+  class,
+  hLevel = 2
+) %}
+
+{% set desc = caller() %}
+{% set img = imageSize(image) %}
+
+{% macro MacroPower() %}
+{% if power.from or power.to %}
+<p class='h-text- text-green h-margin-top--'>{{ power.from == power.to and power.from or 'от ' + power.from + ' до ' + power.to }}{{ power.units }}</p>
+{% endif %}
+{% endmacro %}
+
+<article class='{{ class }} {{ 'o-media o-media+' if size != 'small' }} discount-badge discount-badge+ h-margin-bottom'>
+
+  {% if discount and isActiveEvent(discountDate) %}
+  <span class='discount-badge__badge'>
+    <span class='discount-badge__text'>–{{ discount }}%</span>
+    {% if discountDate %}
+    <span class='discount-badge__subtext'>{{ DateEnd(discountDate) }}</span>
+    {% endif %}
+  </span>
+  {% endif %}
+
+  {% if size == 'small' %}
+
+  <a class='h-block h-flex h-flex-y--center h-border-bottom0' href='{{ url }}' style='min-height: 136px'><img class='h-block h-border-r' src='{{ img.src }}' srcset='{{ img.srcset() }}' style='max-height: 136px' alt='{{ title|striptags }}'></a>
+
+  <h{{ hLevel }} class='h-text+ h-margin-top-- h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
+
+  {{ MacroPower() }}
+
+  {% if desc != '' %}
+  <div class='h-margin-top'>{{ desc }}</div>
+  {% endif %}
+
+  {% else %}
+
+  <div class='o-media__aside'>
+    <a class='h-border-bottom0' href='{{ url }}'><img class='h-border-r' src='{{ img.src }}' srcset='{{ img.srcset() }}' width='190' alt='{{ title|striptags }}'></a>
+  </div>
+
+  <div class='o-media__content'>
+
+    <h{{ hLevel }} class='h-margin-top0 h-margin-bottom0'><a class='g-link--inherit' href='{{ url }}'>{{ title }}</a></h{{ hLevel }}>
+
+    {{ MacroPower() }}
+
+    {% if desc != '' %}
+    <div class='h-margin-top'>{{ desc }}</div>
+    {% endif %}
+
+    <a href='{{ url }}' class='Btn h-margin-top'>View Models</a>
+
+  </div>
+
+  {% endif %}
+
+</article>
+
+{% endmacro %}

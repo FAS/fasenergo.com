@@ -1,0 +1,50 @@
+---
+title:           Container Type Evaporative Units
+contentTitle:    Container Type Evaporative Units
+navTitle:        Container Type Evaporative Units
+breadcrumbTitle: Container Type Evaporative Units
+
+description: Container Type Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-k/evaporative-unit-fem-zh-k--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM ZH/K') }}
+
+<h2>Indirect Liquid Heating</h2>
+
+{% set pageEqLiq = [
+  { title: 'Evaporative unit FEM 2500 ZH/K', performance: '2500 kg/hour' },
+  { title: 'Evaporative unit FEM 4000 ZH/K', performance: '4000 kg/hour' },
+  { title: 'Evaporative unit FEM 14000 ZH/K', performance: '14000 kg/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqLiq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

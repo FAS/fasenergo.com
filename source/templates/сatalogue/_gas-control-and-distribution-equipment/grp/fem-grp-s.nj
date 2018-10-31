@@ -1,0 +1,49 @@
+---
+title:           Gas Control & Distribution Unit FEM GRP/S
+contentTitle:    Gas Control & Distribution Unit FEM GRP/S
+navTitle:        FEM GRP/S
+breadcrumbTitle: FEM GRP/S
+
+description: Gas Control & Distribution Unit FEM GRP/S.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A gas control and distribution unit (GRP) or a distributing control station (DCS) is applied in autonomous gas supply systems and is designed for safe operation of the liquefied petroleum gas (propane/butane and mixtures thereof) consumption systems and heating systems.</p>
+<p>A distributing control station of FAS GRP/S type has a basic design and is additionally completed with a gas meter featuring the mass flow rate of 6 m3/hour. A distributing control station is factory-assembled in a steel cabinet. The connection to the station is carried out from the underside of the cabinet using a ¾“ coupling with a pipe conical (R) or cylindrical (G) thread.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/fem-grp-s/gas-control-distribution-unit-fem-grp-s--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>Cabinet size: 500х400х210 mm;</li>
+  <li>Inlet/outlet for liquid phase: ¾“ (R or G type thread);</li>
+  <li>Weight: 18.5 kg;</li>
+  <li>Solenoid valve power supply: 220V/50Hz.</li>
+</ul>
+
+<h2>Principal Components</h2>
+
+<ol>
+  <li>Metal cabinet – 1 pcs.</li>
+  <li>Gas meter – 1 pcs.</li>
+  <li>Coupling – 2 pcs.</li>
+  <li>Ball valve – 2 pcs.</li>
+  <li>Pressure gauge – 1 pcs.</li>
+  <li>Speed valve – 1 pcs.</li>
+  <li>Ermeto T-junction – 3 pcs.</li>
+  <li>Solenoid valve – 1 pcs.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

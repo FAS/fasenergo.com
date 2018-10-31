@@ -1,0 +1,45 @@
+## Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Sublime Text
+*.sublime*
+
+## Node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+node_modules
+npm-debug.log
+
+## Build folder
+build
+
+## JSPM
+jspm_packages
+
+## Temporary folder
+temp
+
+## bat files
+_start.bat
+_install.bat
+_install-full.bat

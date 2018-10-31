@@ -1,0 +1,124 @@
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{##
+ # Display input with label, all necessary attributes, state classes and containers
+ #
+ # @param {string}  id            Unique Input id. camelCase preferred.
+ #                                1. Used to link label to input
+ #                                2. Can be used by JS to access input directly (that's why camelCase preferred)
+ # @param {string}  label         Label of input. For a11y
+ # @param {string}  [name=id]     Input name. Can be non-unique. camelCase preferred.
+ #                                If omitted, `id` will be used instead.
+ #                                1. Used as value name during submitting (that's why camelCase preferred, for JS)
+ #                                2. Can be used to select inputs by name via JS
+ #                                3. If there are few non-unique names, values will be grouped under same name
+ # @param {string}  [placeholder]
+ # @param {string}  [type='text']
+ # @param {string}  [value]       Predefined value of Input. Do not confuse with `placeholder`
+ # @param {number}  [cols]
+ # @param {number}  [rows]
+ # @param {string}  [class]
+ # @param {string}  [style]
+ # @param {string}  [labelClass]
+ # @param {string}  [inputContainerClass]
+ # @param {string}  [inputClass]
+ # @param {boolean} [displayLabel=true]
+ # @param {boolean} [displayRequiredMark=true] Should * be displayed
+ # @param {boolean} [disabled]
+ # @param {boolean} [required]
+ # @param {boolean} [touched]
+ # @param {boolean} [invalid]
+ # @param {string}  [error]
+ #
+ # @return {string} html
+ #
+ # @example
+ #  {{ Field(id = 'fieldName', label = 'label', disabled = true) }}
+ #  {% call Field(name = 'field-name', label = 'Label', type = 'textarea') -%}
+ #    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+ #  {% endcall %}
+ #}
+{% macro Field(
+  id,
+  label,
+  name,
+  placeholder,
+  type = 'text',
+  value,
+  cols,
+  rows,
+  class,
+  style,
+  labelClass,
+  inputContainerClass,
+  inputClass,
+  displayLabel = true,
+  displayRequiredMark = true,
+  disabled,
+  required,
+  touched,
+  invalid,
+  error
+) %}
+{% set name = name or id %}
+{% set fieldId = id + 'Container' %}
+{% set errorId = id + 'Error' %}
+{% set stateClasses = (' is-disabled' if disabled) + (' is-required' if required) + (' is-touched' if touched) + (' is-invalid' if touched and invalid) + (' is-valid' if touched and not invalid) %}
+
+<div id='{{ fieldId }}' class='Field {{ class }}{{ stateClasses }}' style='{{ style }}'>
+
+  {% if displayLabel %}
+  <label class='Field__label {{ labelClass }}' for='{{ id }}'>
+    {{ label }}
+    {% if required and displayRequiredMark %}<span class='Field__required-mark'>*</span>{% endif %}
+  </label>
+  {% endif %}
+
+  <div class='Field__input-container {{ inputContainerClass }}'>
+
+    {% if type == 'textarea' %}
+
+    <textarea
+      type='{{ type }}'
+      id='{{ id }}'
+      name='{{ name }}'
+      {{ 'value="' + value + '"' if value }}
+      {{ 'aria-label="' + label + '"' if not displayLabel }}
+      {{ 'placeholder="' + placeholder + (' *' if required and displayRequiredMark and not displayLabel) + '"' if placeholder }}
+      class='Field__input {{ inputClass }}'
+      {{ 'disabled' if disabled }}
+      {{ 'required' if required }}
+      {{ 'aria-invalid="true"' if touched and invalid }}
+      {{ 'aria-describedBy="' + errorId + '"' if error and touched and invalid }}
+      {{ 'cols="' + cols + '"' if cols }}
+      {{ 'rows="' + rows + '"' if rows }}
+    >{{ caller() if caller and not value else value }}</textarea>
+
+    {% else %}
+
+    <input
+      type='{{ type }}'
+      id='{{ id }}'
+      name='{{ name }}'
+      {{ 'value="' + value + '"' if value }}
+      {{ 'aria-label="' + label + '"' if not displayLabel }}
+      {{ 'placeholder="' + placeholder + (' *' if required and displayRequiredMark and not displayLabel) + '"' if placeholder }}
+      class='Field__input {{ inputClass }}'
+      {{ 'disabled' if disabled }}
+      {{ 'required' if required }}
+      {{ 'aria-invalid="true"' if touched and invalid }}
+      {{ 'aria-describedBy="' + errorId + '"' if error and touched and invalid }}
+    >
+
+    {% endif %}
+
+    <div class='Field__valid-mark'>{{ Icon('check') }}</div>
+
+  </div>
+
+  {% if touched and error %}
+  <div id='{{ errorId }}' class='Field__error'>{{ error }}</div>
+  {% endif %}
+
+</div>
+{% endmacro %}

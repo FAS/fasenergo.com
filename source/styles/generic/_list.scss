@@ -1,0 +1,64 @@
+// stylelint-disable selector-max-type, no-descending-specificity
+
+// =============================================================================
+// ^List
+// =============================================================================
+
+p + ul,
+p + ol { margin-top: - ekzo-space(.5); }
+
+ul,
+ol {
+  $list-padding: ekzo-space();
+
+  list-style-type: none;
+  padding-left: 0;
+
+  > li { margin-left: $list-padding; }
+
+  > li:before {
+    position: absolute;
+
+    margin-left: - $list-padding;
+
+    @include ekzo-theme() { color: ekzo-theme(list-bullet); }
+  }
+
+}
+
+ul {
+
+  > li:before { content: '•'; }
+
+}
+
+ol {
+  counter-reset: ol-lists;
+
+  > li:before {
+    counter-increment: ol-lists;
+    content: counter(ol-lists);
+
+    font-weight: 600;
+  }
+
+}
+
+.#{$ekzo-g-ns}list0,
+%#{$ekzo-g-ns}list0 {
+  list-style: none;
+
+  margin-bottom: 0;
+
+  > li { margin-left: 0; }
+
+  > li:before {
+    content: none;
+    position: inherit;
+
+    margin-left: 0;
+
+    font-weight: inherit;
+  }
+
+}

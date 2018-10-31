@@ -1,0 +1,69 @@
+// stylelint-disable no-descending-specificity
+
+// =============================================================================
+// ^Expand-link
+// =============================================================================
+
+.Expand-link {
+  @extend %#{$ekzo-g-ns}link;
+
+  border-style: dotted;
+
+  @include ekzo-theme() { border-color: ekzo-theme(expand-link-border); }
+
+  &.is-active {
+    border-color: transparent;
+
+    .Expand-link__icon {
+      opacity: 1;
+      transform: rotate(0);
+    }
+
+  }
+
+}
+
+  .Expand-link__icon {
+    @extend %#{$ekzo-h-ns}trans--all;
+
+    opacity: 0;
+    transform: rotate(180deg); // rotate, because original icon faces bottom
+
+    width: 1.5em;
+    height: 1em;
+
+    margin-left: -1.5em;
+  }
+
+// -----------------------------------------------------------------------------
+// Alt version
+// -----------------------------------------------------------------------------
+
+.Expand-link-alt {
+  @extend %#{$ekzo-g-ns}link;
+
+  &,
+  &:hover,
+  &:active { @include ekzo-theme() { border-bottom-color: transparent; } }
+
+  &:hover,
+  &:focus { opacity: .7; }
+
+  &:active,
+  &.is-active { opacity: .9; }
+
+  &.is-active .Expand-link-alt__icon { transform: rotate(-.25turn); }
+
+}
+
+  .Expand-link-alt__icon {
+    @extend %#{$ekzo-h-ns}trans--all;
+
+    top: 0; // override default Icon shift
+
+    padding-left: .5em;
+
+    transform: rotate(.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
+
+    font-size: .5em;
+  }

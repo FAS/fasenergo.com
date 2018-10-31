@@ -1,0 +1,72 @@
+---
+title:           Certificates
+contentTitle:    Certificates
+navTitle:        Certificates
+breadcrumbTitle: Certificates
+
+description: 'Certificates'
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{% macro Document(title, url) %}
+<article class='h-margin-bottom+'>
+  <h2 class='h-h6 h-margin-top0 h-margin-bottom'>
+    {{ Icon('pdf') }}
+    <a href='{{ url }}' target='_blank'>{{ title }}</a>
+  </h2>
+  {{ caller() }}
+</article>
+{% endmacro %}
+
+{% call Document(title = 'CE Certificate', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат CE.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Certificate of Conformity GAZPROMSERT', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ГАЗПРОМСЕРТ.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Certificate of Conformity GOST', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ГОСТ.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Declaration of Conformity TR TS (Technical Regulations of Customs Union)', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Декларация о соответствии ТР ТС.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Refusal Letter on TR TS Certificate', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Отказное письмо по сертификату ТР ТС.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'SRO (Self-Regulatory Organization)', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - СРО.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Annex to SRO', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Приложение к СРО.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = ' Certificate of Conformity ISO (RU)', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Сертификат соответствия ISO.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'Certificate of Conformity ISO (EN)', url = urljoin('/', PATH.docs, '/certs/Fasenergomash - Certificate of conformity ISO.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'License to Use the Certification System Conformity Mark (RU)', url = urljoin('/', PATH.docs, '/certs/Фасэнергомаш - Разрешение на использование знака соответствия.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% call Document(title = 'License to Use the Certification System Conformity Mark (EN)', url = urljoin('/', PATH.docs, '/certs/Fasenergomash - License to use the certification system conformity mark.pdf')) %}
+  {# @todo Add description #}
+{% endcall %}
+
+{% endblock %}

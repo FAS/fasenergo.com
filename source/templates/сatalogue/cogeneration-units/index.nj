@@ -1,0 +1,40 @@
+---
+title:           Cogeneration units
+contentTitle:    Cogeneration units
+navTitle:        Cogeneration units
+breadcrumbTitle: Cogeneration units
+
+description: A cogeneration unit is a solution that allows the use of heat produced during the generator's operation, which otherwise is simply emitted into the air.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p>A cogeneration unit is a solution that allows the use of heat produced during the generator's operation, which otherwise is simply emitted into the air.</p>
+
+<p>The installation is a system of three heat exchange modules. The first module collects the heat of the generator’s exhaust gases and transfers it to the water of the cogeneration unit’s internal circuit. In the second module, the hot water of the generator’s engine cooling system gives off the excess heat. The third module collects all the heat received and transfers it to an external heating circuit. This allows the avoidance of the possible system’s overheating.</p>
+
+<h2>Cogeneration units</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'FAS-50/70M',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-2--front.jpg',
+    url = '/сatalogue/gas-generators/cogeneration-unit-fas-50-70m/',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<p>The use of a cogeneration unit can significantly increase the overall efficiency of a generator. When generating electric power only, gas generators feature an efficiency of about 30%, while the use of expensive imported engines increases their efficiency by a few percent. Meanwhile, the heat is lost with the exhaust gases and through a radiator. A cogeneration unit provides additional 36–40% of the generator’s efficiency in the form of hot water.</p>
+<p>At the end of the process, water with a temperature of 80–85 °C is received, which can be used for heating, hot water supply, industrial use and even for trigeneration. At the same time, heat removal does not affect the operation of a generator itself, since the cogeneration unit has a closed water cooling circuit and an additional radiator with a fan.</p>
+
+<p>When the heat removal is switched off, the temperature of the liquid rises, which opens the thermal rheostat and starts the process of cooling in the radiator. Thus, the cogeneration unit can only operate when it is needed, and will provide additional generator cooling when the heat is not required.</p>
+<p>Cogeneration units for generators with a capacity of at least 40 kW can be produced rather quickly. To do so, the company possesses sufficient experience and ready-made engineering solutions. For a generator with a lower capacity, design and refinement will be required.</p>
+<p>The FAS cogeneration units are used at Gazprom facilities in Russia and Europe.</p>
+{% endblock %}

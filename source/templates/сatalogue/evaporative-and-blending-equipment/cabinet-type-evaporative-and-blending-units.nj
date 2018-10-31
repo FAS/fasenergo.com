@@ -1,0 +1,97 @@
+---
+title:           Cabinet Type Evaporative and Blending Units
+contentTitle:    Cabinet Type Evaporative and Blending Units
+navTitle:        Cabinet Type Evaporative and Blending Units
+breadcrumbTitle: Cabinet Type Evaporative and Blending Units
+
+description: Cabinet Type Evaporative and Blending Units
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-sh/evaporative-and-blending-unit-fem-isu-se-nd-sh--1--front.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-sh/evaporative-and-blending-unit-fem-isu-se-nd-sh--2--front-left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-sh/evaporative-and-blending-unit-fem-isu-se-nd-sh--3--left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-sh/evaporative-and-blending-unit-fem-isu-se-nd-sh--4--right.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-sh/evaporative-and-blending-unit-fem-isu-se-nd-sh--5--front-right.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-and-blending-equipment/isu-zh-nd-sh/evaporative-and-blending-unit-fem-isu-zh-nd-sh--1--front.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-zh-nd-sh/evaporative-and-blending-unit-fem-isu-zh-nd-sh--2--front-left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-zh-nd-sh/evaporative-and-blending-unit-fem-isu-zh-nd-sh--3--left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-zh-nd-sh/evaporative-and-blending-unit-fem-isu-zh-nd-sh--4--right.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-zh-nd-sh/evaporative-and-blending-unit-fem-isu-zh-nd-sh--5--front-right.jpg' }
+] %}
+
+<h2>Indirect Electric Heating</h2>
+
+{{ PhotosPreview(pageEqElPhotos, 'Испарительно-смесительная ФАС ISU/SE/ND/SH', class = 'h-margin-bottom+') }}
+
+{% set pageEqElLow = [
+  { title: 'Evaporative and blending unit FEM 60 ISU/SE/ND/SH', performance: '60 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 300 ISU/SE/ND/SH', performance: '300 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 400 ISU/SE/ND/SH', performance: '400 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 600 ISU/SE/ND/SH', performance: '600 m3/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Low Pressure Models</th>
+    </tr>
+    {% for e in pageEqElLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Indirect Liquid Heating</h2>
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Испарительно-смесительная ФАС ISU/ZH/ND/SH', class = 'h-margin-bottom+') }}
+
+{% set pageEqLiqLow = [
+  { title: 'Evaporative and blending unit FEM 300 ISU/ZH/ND/SH', performance: '300 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 600 ISU/ZH/ND/SH', performance: '600 m3/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Low Pressure Models</th>
+    </tr>
+    {% for e in pageEqLiqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

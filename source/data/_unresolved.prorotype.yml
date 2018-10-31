@@ -1,0 +1,38 @@
+# =========================
+# Not placed enywhere props
+# =========================
+
+# -------------------------
+# For generators
+# -------------------------
+
+{{ id }}:
+
+  specs:
+
+    starter: электростартер
+    operation: standby|prime|continous
+
+
+  alternator:
+    type:
+    model:
+    manufacturer:
+      brand:
+      country:
+    insulation:
+    protection: IP64|IP52|...|false
+
+  controller:
+    type:
+    model:
+    manufacturer:
+      brand:
+      country:
+    specs:
+      controlBlock: LCD-дисплей
+      controlBlockLanguage: Русский
+      automaticTransferSwitch: true
+      automaticTransferSwitchTime: 30 сек
+      autocontrolOfGeneratorsWork: true
+      sync: true|false

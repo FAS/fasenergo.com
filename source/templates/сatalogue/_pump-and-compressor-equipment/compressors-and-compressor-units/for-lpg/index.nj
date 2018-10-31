@@ -1,0 +1,19 @@
+---
+title:           Compressors and Compressor Units For LPG
+contentTitle:    Compressors and Compressor Units For LPG
+navTitle:        Compressors and Compressor Units For LPG
+breadcrumbTitle: For LPG
+
+description: Compressors and Compressor Units For LPG.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,134 @@
+---
+title:           Ring Type Evaporative Units
+contentTitle:    Ring Type Evaporative Units
+navTitle:        Ring Type Evaporative Units
+breadcrumbTitle: Ring Type Evaporative Units
+
+description: Ring Type Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectCircularVaporizingStations(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+<h2>Indirect Electric Heating</h2>
+
+{{ PhotosPreview([
+  { url: 'equipment/evaporative-equipment/se-c/evaporative-unit-fem-se-c--1--front-top.jpg' }
+], 'Ring type evaporative unit FEM SE/C', class = 'h-margin-bottom+') }}
+
+<p>The evaporative unit is designed to evaporate liquefied petroleum gases of propane, butane and their mixtures and supply the vapour phase to consumers.</p>
+<p>One of the many advantages of this evaporative unit, as compared to evaporators and evaporative units of other manufacturers, is its small size design, which in turn saves money and time significantly while designing and installing equipment at the facility. The installation of an evaporative unit takes no more than two hours, from mounting on the neck to commissioning, because there is no need to install an understructure and lay additional pipelines with the necessary shut-off and relief valves for installation, for example as in the cabinet type models.</p>
+<p>According to the customer’s request, the unit can be equipped with a medium or a low pressure regulator with safety/relief and shut-off valves, with speed or check valves, with spark quenchers and insulating flange kits.</p>
+<p>The electrical design of the unit complies with the VDE and ATEX regulations and is approved for installation within the EX II explosion hazardous area.</p>
+<p>The unit’s electrical control panel is located directly in the cavity of the neck’s protective casing.</p>
+
+<h3>Basic Specifications (Low Design)</h3>
+
+<ul>
+<li>LPG evaporation capacity: 100, 150, 200 kg (propane at 1.023 bar).</li>
+<li>Electricity consumption in a switched on mode: 18, 26, 36 kW/400V/50Hz.</li>
+<li>Actual electricity consumption: 110 W per 1 kg of evaporated gas.</li>
+<li>Inlet pressure: maximum allowable pressure in tank.</li>
+<li>Rated pressure: PN25.</li>
+<li>Test pressure: 37.5 bar.</li>
+<li>Operating temperature: -40 C° to +50 C°.</li>
+<li>Connection to discharge gas into tank: M 60x4 fitting.</li>
+<li>Connection to gas carrier on vapour phase: M 60x4 fitting.</li>
+<li>Withdrawal of vapour noncontrolled phase from tank: DN25/PN25 flange.</li>
+<li>Emergency withdrawal of liquid fraction: DN25/PN25 flange.</li>
+<li>Vapour phase withdrawal from evaporative unit: flange from DN25 to DN50 depending on the desired outlet pressure.</li>
+</ul>
+
+<h3>Components</h3>
+
+<ul>
+  <li>Evaporative assembly with a capacity of 100, 150 and 200 kg/hour.</li>
+  <li>Magnetic valve 230V/50Hz on the gas-to-evaporator supply line.</li>
+  <li>Electrical control panel with a possibility of gas temperature adjustment at the evaporator outlet.</li>
+  <li>Manometers with shut-off valves at the unit’s inlet and outlet.</li>
+  <li>Strainer.</li>
+  <li>Liquid separator with an integrated liquid-phase shut-off mechanism to prevent the consumer’s gas pipeline from liquid phase intrusion.</li>
+  <li>Ball valve for olefin sediment discharge from the separator.</li>
+  <li>Evaporator overheat protection sensor.</li>
+  <li>Thermal insulation against tank neck heating.</li>
+  <li>Medium pressure regulator.</li>
+  <li>Low pressure regulator.</li>
+</ul>
+
+<h3>Models</h3>
+
+{{ VaporizersTable(electrical) }}
+
+<p>All designs are without protective casing.</p>
+
+<h3>Additional Options</h3>
+
+<ul>
+  <li>Protective tank neck cover with a lid of stainless steel.</li>
+  <li>Cover cavity lighting.</li>
+  <li>Emergency shutdown button.</li>
+  <li>Additional function of a response device with RS485 interface to integrate into the central control system for object protection and management.</li>
+</ul>
+
+<h2>Indirect Liquid Heating</h2>
+
+{{ PhotosPreview([
+  { url: 'equipment/evaporative-equipment/zh-c/evaporative-unit-fem-zh-c--1--front-top.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-c/evaporative-unit-fem-zh-c--2--front-right-top.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-c/evaporative-unit-fem-zh-c--3--back-right-top.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-c/evaporative-unit-fem-zh-c--4--back-left-top.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-c/evaporative-unit-fem-zh-c--5--top-front.jpg' }
+], 'Ring type evaporative unit FEM ZH/C', class = 'h-margin-bottom+') }}
+
+<p>A distinctive feature of this unit is that it can be controlled without using electricity (basic design).
+<p>The evaporative unit is supplied with a tank neck’s DN 500 lid. When ordering the evaporative unit, a customer should provide a detailed drawing of the mating ring for fixing a gas storage tank’s lid.</p>
+<p>The unit’s basic design includes all the necessary components for an off-line operation.</p>
+
+<h3>Basic Specifications</h3>
+
+<ul>
+  <li>LPG evaporation capacity: 100, 150, 200 kg.</li>
+  <li>Rated pressure for gas/heat carrier: 25/16 bar.</li>
+  <li>Inlet gas pressure: max. 15 bar (gas pressure in tank).</li>
+  <li>Outlet gas pressure: 20 mbar to 10 bar. Please specify the desirable outlet pressure when ordering.</li>
+  <li>The evaporative unit of basic design is supplied with one pressure regulator set to an outlet pressure of 300 mbar, with safety shut-off valves and safety relief valves.</li>
+  <li>Heat carrier temperature at inlet/outlet: 80/60 °C.</li>
+  <li>The required amount of heat carrier for evaporation of 200 kg of propane: 986 L/hour.</li>
+  <li>Maximum heat carrier pressure: 4 bar.</li>
+</ul>
+
+<h3>Components</h3>
+
+<ul>
+  <li>Evaporative assembly with a capacity of 100, 150 and 200 kg/hour.</li>
+  <li>Liquid separator with an integrated mechanical liquid-phase shut-off node to prevent the consumer’s gas pipeline from liquid phase intrusion.</li>
+  <li>Pressure gauges at the unit’s inlet and outlet.</li>
+  <li>Thermal controlled module to monitor the heat carrier temperature and supply gas to the evaporator unit.</li>
+  <li>An interflanged filtering strainer at the unit inlet.</li>
+  <li>A required package of check and shut-off valves.</li>
+</ul>
+
+<h3>Models</h3>
+
+{{ VaporizersTable(liquid) }}
+
+<p>All designs are without protective casing.</p>
+
+<h3>Additional Options</h3>
+
+<ul>
+  <li>Electronic liquid sensor in the separator.</li>
+  <li>Emergency shutdown button completed with a shut-off ball valve on the electric drive at the outlet, after the pressure regulator.</li>
+</ul>
+
+<p>If the above options are used, <strong>a control panel must be installed</strong>.</p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

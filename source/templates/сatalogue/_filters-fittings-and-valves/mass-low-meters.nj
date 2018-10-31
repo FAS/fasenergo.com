@@ -1,0 +1,27 @@
+---
+title:           Mass Flow Meters
+contentTitle:    Mass Flow Meters
+navTitle:        Mass Flow Meters
+breadcrumbTitle: Mass Flow Meters
+
+description: Mass Flow Meters.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>The process of measurement is based on the principle of controlled excitation of Coriolis forces. These forces always arise within a system, in which linear and rotational motions are present simultaneously.</p>
+<p>The measuring system consists of a transducer and a sensor that constitute a single mechanical structure.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/mass-low-meters/mass-low-meters.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,39 @@
+---
+title:           Cabinet Type Gas Control & Distribution Unit FEM GRPSh/2
+contentTitle:    Cabinet Type Gas Control & Distribution Unit FEM GRPSh/2
+navTitle:        FEM GRPSh/2
+breadcrumbTitle: FEM GRPSh/2
+
+description: Cabinet Type Gas Control & Distribution Unit FEM GRPSh/2
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A control and distribution system of FAS units is mounted in a steel galvanized and painted cabinet comprising:</p>
+<p>Gas pressure regulator DN50, PN16 with a safety shut-off valve SAV 8600 for upper and lower shut-off, max. inlet pressure: 16 bar; outlet pressure: 1.5 bar. With a safety bleeder valve 1"NPT. The control and distribution system is equipped with two ball valves DN50 as well as a pressure gauge with an inlet and outlet shut-off valves and a bleed pipe. Inlet: DN50; outlet: DN80.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/fem-grpsh-2/cabinet-type-gas-control-and-distribution-unit-fem-grpsh-2--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Principal Components</h2>
+
+<ol>
+  <li>Steel cabinet: 1,200x600x1,200 mm.</li>
+  <li>Pressure regulator.</li>
+  <li>Pressure gauge and shut-off valve – 2 pcs.</li>
+  <li>Safety relief valve.</li>
+  <li>Ball valve – 4 pcs.</li>
+  <li>Interflanged gaskets.</li>
+  <li>Pressure gauge gaskets.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

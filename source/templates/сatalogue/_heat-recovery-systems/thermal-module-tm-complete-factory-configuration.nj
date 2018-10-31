@@ -1,0 +1,68 @@
+---
+title:           Thermal Module TM (Complete Factory Configuration)
+contentTitle:    Thermal Module TM (Complete Factory Configuration)
+navTitle:        Thermal Module TM (Complete Factory Configuration)
+breadcrumbTitle: Thermal Module TM (Complete Factory Configuration)
+
+description: A thermal module of a complete factory configuration allows the use of the generator’s electric power at its highest efficiency and involves minimum efforts for its installation and commissioning.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>A thermal module of a complete factory configuration allows the use of the generator’s electric power at its highest efficiency and involves minimum efforts for its installation and commissioning.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-fas--1---front-open.jpg',
+  alt = 'Thermal Module FAS',
+  center = true
+) }}
+
+<h2>Advantages of Ordering Heat Recovery Systems with a Complete Factory Configuration:</h2>
+
+<ul>
+  <li>Over fifteen years of experience in the development and implementation of heat recovery systems of any type. Application of the most effective work algorithms;</li>
+  <li>Profound knowledge of hydraulic resistances at all sections of the recovery system pipeline, which allows a precise selection of the required pumping equipment;</li>
+  <li>The installation and commissioning works can be performed simply and conveniently. It is not difficult to connect contours;</li>
+  <li>FASENERGOMASH, LLC provides warranty obligations for the quality operation of the entire system.</li>  
+</ul>  
+
+<h2>Basic Package</h2>
+
+<h3>A complete factory package of a thermal module includes::</h3>
+
+<ul>
+  <li>an exhaust gas heat exchanger (EGE);</li>
+  <li>an antifreeze heat exchanger (AHE);;</li>
+  <li>a controlled switch of the exhaust gas flows;</li>
+  <li>a pipeline along the antifreeze and network water lines;</li>
+  <li>a bypass pipeline with rotary gates;</li>
+  <li>a frame base;</li>
+  <li>a set of control and measuring devices;</li>
+  <li>an automatic control cabinet (TM ACC).</li>     
+</ul> 
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-fas--3--back-open.jpg',
+  alt = 'Thermal Module FAS',
+  center = true
+) }}
+
+<h2>A heat recovery system can be additionally equipped with the following apparatuses:</h2>
+
+<ul>
+  <li>pumps for antifreeze and network water pumping;</li>
+  <li>a protective casing for TM installation outdoors / on a container’s roof;</li>
+  <li>a low-grade heat recovery system;</li>
+  <li>a network heat exchanger;</li>
+  <li>a low noise silencer;</li>
+  <li>a frame base;</li>
+  <li>a flue gas stack.</li>
+</ul> 
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* * The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

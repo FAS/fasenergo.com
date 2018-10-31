@@ -1,0 +1,57 @@
+---
+title:           Reciprocating Compressor Unit FEM 491 for CO2 (8 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 491 for CO2 (8 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 491 for CO2 (8 Nm³/hour)
+breadcrumbTitle: FEM 491
+
+description: Reciprocating Compressor Unit FEM 491 for CO2 (8 Nm³/hour)
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Compressor unit of FEM 491 type, vertical, twin-cylinder, two-stage. Working medium: CO2.</p>
+
+<p>Max. capacity: up to 4–8 Nm³/hour given the following operating parameters:</p>
+
+<ul>
+  <li>Inlet pressure: 0.4–0.9 bar;</li>
+  <li>Outlet pressure: 25 bar;</li>
+  <li>Inlet temperature: 30 °C;</li>
+  <li>Outlet temperature: 60 °C.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-491/compressor-unit-fem-491--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>Support frame;</li>
+  <li>Compressor.;</li>
+  <li>Piping;</li>
+  <li>Electric motor, 5 kW;</li>
+  <li>V-belt transmission;</li>
+  <li>Protective casing;</li>
+  <li>Product cooling device;</li>
+  <li>Electrical control panel outside the explosion hazardous area.</li>
+</ul>
+
+<p>All elements are assembled and painted.</p>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Input: flange DN 32 DIN 2448;</li>
+  <li>Output: flange DN 32 DIN 2448.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

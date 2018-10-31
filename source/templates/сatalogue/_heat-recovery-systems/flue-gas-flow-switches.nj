@@ -1,0 +1,45 @@
+---
+title:           Flue Gas Flow Switches
+contentTitle:    Flue Gas Flow Switches
+navTitle:        Flue Gas Flow Switches
+breadcrumbTitle: Flue Gas Flow Switches
+
+description: FASENERGOMASH, LLC has entered a batch production of airflow switches for flue gas stacks and exhaust gas lines with the medium operating temperature reaching 600 °C.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>FASENERGOMASH, LLC has entered a batch production of airflow switches for flue gas stacks and exhaust gas lines with the medium operating temperature reaching 600 °C. This is generally a three-way valve assembled in a common housing and equipped with an electric single turn actuator (or other mechanism in accordance with the customer’s requirements).</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/flue-gas-flow-switches-fas--1---front.jpg',
+  alt = 'Flue Gas Flow Switches FAS',
+  center = true
+) }}
+
+<h2>Flow Switch Parameters:</h2>
+
+<ul>
+  <li>Standard sizes: DN 100–1000;</li>
+  <li>If necessary, it is possible to manufacture switches for flue gas stacks with non-standard sections;</li>
+  <li>Flanged coupling with the flue gas stack;</li>
+  <li>The airflow switch is not completely impermeable to gas.</li>  
+</ul>
+
+<h2>Gas flow switches manufactured by FASENERGOMASH, LLC can be used in the following media:</h2>
+
+<ul>
+  <li>exhaust gases and smoke;</li>
+  <li>atmospheric air;</li>
+  <li>other non-flammable and non-explosive gases.</li>
+</ul>
+
+<p>If a gas flow switch is mounted on a gas flue with a high operating temperature, it is coated with a special enamel on a silicone-based substrate that withstands a high degree of heating. Besides, a flow switch that works with granular media has been additionally designed.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

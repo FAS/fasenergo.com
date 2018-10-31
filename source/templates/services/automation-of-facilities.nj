@@ -1,0 +1,45 @@
+---
+title:           Automation of Facilities
+contentTitle:    Automation of Facilities
+navTitle:        Automation of Facilities
+breadcrumbTitle: Automation of Facilities
+
+description: Modern gas filling stations, gas dispensing stations and gas pumping stations are impossible without automation systems.
+
+icon:             search
+shortDesc:        'Modern gas filling stations, gas dispensing stations and gas pumping stations are impossible without automation systems.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p><strong>Modern gas filling stations, gas dispensing stations and gas pumping stations are impossible without automation systems:</strong></p>
+<ul>
+  <li>Emergency shutdown systems;</li>
+  <li>Systems of process control automation;</li>
+  <li>Automatic accounting systems.</li>
+</ul>
+<p>Automation of process control objects and emergency shutdown of the gas dispensing and pumping stations provides reliable locking and fast containment of emergency situations.</p>
+<p>In the event of emergency situations, electronic on/off & shut-off valves (electronic valves, solenoid valves) on a gas pipeline shut off quickly ensuring the containment of any deviation from the specified parameters. Works on each automated object are reproduced manually by an operator.</p>
+<p>Modern software products for full or partial automation of the facility are available for customers. FASENERGOMASH, LLC has developed an automated control unit for gas filling stations to conduct automatic accounting and control over the operation of automobile filling stations, LPG cylinder filling stations and other gas distributing facilities.</p>
+<p><strong>Functionality of the Automatic System:</strong></p>
+<ul>
+  <li>Remote control of fuel dispensers, the ability to customize operation of dispensers from other manufacturers.</li>
+  <li>Generation of fiscal checks when selling gas to consumers.</li>
+  <li>Generation of detailed operational reports on the operation of gas filling and pumping stations. </li>
+  <li>Automatic accounting of LPG volume when supplied to tanks.</li>
+  <li>Information about the LPG remaining in tanks.</li>
+  <li>Display of information about the status of tank battery in real time.</li>
+  <li>A possibility of automatic generation of daily reports on the work of operators working at gas filling and pumping stations.</li>
+  <li>Sending all reports to the company office via modern means of communication.</li>
+</ul>
+<p>Central computer of a gas filling station collects operational information in real time and allows, according to pre-programmed control algorithms, to coordinate the operation of the entire gas filling station by one operator.</p>
+<p>Being in the workplace, operator has an opportunity to send control commands to the automation panel, open and shut off ball valves equipped with an electric drive. Pumping units are controlled by an automatic system depending on the operation scenario chosen. This can be filling or emptying of the gas storage tanks on a section with railway overpass and filling stations for gas carriers.</p>
+<p>The system performs automatic control of the pump and compressor equipment. At the same time, the equipment is automatically turned on and off in accordance with the pipeline scheme and the set pressure values at the inlet and outlet of the compressor unit. Pressure is automatically controlled by the system in the following assemblies and blocks:</p>
+<ul>
+  <li>Throughout the tank battery — the pressure is controlled at each tank and at each process section of the pipeline.</li>
+  <li>Process section of the compressor operation.</li>
+  <li>A section of the railway overpass.</li>
+  <li>A section of the household cylinder filling.</li>
+  <li>An assembly of LPG discharge and delivery to gas carriers. The automatic control system records the main technical indications, such as the level of tank filling, pressure, density and temperature of LPG. It is possible to fix the presence of bottom water in the tanks.</li></ul>
+{% endblock %}

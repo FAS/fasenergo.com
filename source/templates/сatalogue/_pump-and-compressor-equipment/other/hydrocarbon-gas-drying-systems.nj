@@ -1,0 +1,38 @@
+---
+title:           Hydrocarbon Gas Drying Systems
+contentTitle:    Hydrocarbon Gas Drying Systems
+navTitle:        Hydrocarbon Gas Drying Systems
+breadcrumbTitle: Hydrocarbon Gas Drying Systems
+
+description: Hydrocarbon Gas Drying Systems.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>FASENERGOMASH, LLC offers a comprehensive approach to drying of hydrocarbon gases with both low and high C3+ content. The main drying technology used by FASENERGOMASH, LLC is the diaphragm technology. It allows drying any hydrocarbon gases without restrictions on the presence of heavy hydrocarbons as well as gases containing sulphur compounds.</p>
+<p>As compared to traditionally used technologies, it is the only technology that allows simultaneous, within one processing unit, dew point temperature reduction for both water and hydrocarbons, including to the Gazprom industry standard requirements 089- 2010 for cold climatic regions at the dried gas pressure of up to 4.0–10.0 MPa. The use of diaphragm gas drying units minimises the capital and operating expenditures for drying.</p>
+<p>Depending on the process scheme, gas can be dried by 15–60 °C.</p>
+<p>If necessary as well as at the customer’s request, glycol dehydration units based on triethylene glycol can be applied. The use of a glycol dehydration unit is recommended when preparing (dehydration only, without correction of the hydrocarbon composition) significant gas volumes that correspond to regulatory requirements (for example, industry standard 089-2010) according to all other indicators, except for water.</p>
+
+<p>The diaphragm technology makes it possible to:</p>
+
+<ul>
+  <li>Dehydrate associated petroleum gas to the requirements allowing its transportation to a gas processing plant (GPP) for further processing;</li>
+  <li>Dehydrate natural gas during its intake from storage facilities and before being transported to consumers;</li>
+  <li>Install diaphragm dehydration systems for hydrocarbon gases instead of (or in addition to) adsorption units for gas drying at GPP;</li>
+  <li>Perform dehydration at gas deposits with falling reservoir pressure instead of using low-temperature separation technology.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/hydrocarbon-gas-drying-systems/hydrocarbon-gas-drying-systems-fem--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

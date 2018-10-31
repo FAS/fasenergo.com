@@ -1,0 +1,34 @@
+{% from '_components/_PostPreview.nj' import PostPreview with context %}
+
+{##
+ # Display news post preview based on content of '/сompany/news' directory
+ #
+ # @param {string}  [path] = ['сompany', 'news']
+ #                                    Path to section from which should be taken posts
+ # @param {number}  [limit]           Mmax posts to display
+ # @param {boolean} [displayCurrent] = true
+ #                                    If current page is a post, should it be displayed
+ # @param {boolean} [displayActivePromos] = true
+ #                                    Should current active promos be displayed
+ #
+ # @return {string} News posts
+ #
+ # @example {{ Posts(limit = 2, displayActivePromos = false) }}
+ #}
+{% macro Posts(path = ['сompany', 'news'], limit, displayCurrent = true, displayActivePromos = true) %}
+{% set posts = sortPostsByDate(getPage(path)|format(PLACEHOLDERS)) %}
+{% set posts = not displayCurrent and rejectCurrentPosts(posts, PAGE) or posts %}
+{% set posts = not displayActivePromos and rejectActivePromos(posts) or posts %}
+{% set posts = limit and _.take(posts, limit) or posts %}
+
+{% for p in posts %}
+{{ PostPreview(
+  title = p.props.contentTitle,
+  excerpt = p.props.excerpt,
+  date = p.props.date,
+  url = p.props.url,
+  image = p.props.image,
+  imageCover = p.props.imageCover if p.props.imageCover == false else true
+) }}
+{% endfor %}
+{% endmacro %}

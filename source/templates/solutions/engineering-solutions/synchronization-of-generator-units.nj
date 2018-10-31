@@ -1,0 +1,60 @@
+---
+title:           Synchronization of Gas Generator Units
+contentTitle:    Synchronization of Gas Generator Units
+navTitle:        Synchronization of Gas Generator Units
+breadcrumbTitle: Synchronization of Gas Generator Units
+
+description: Synchronization of Gas Generator Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>A synchronized generator set is a system of parallel-connected synchronized generators of the same or different capacities that operate simultaneously or alternately through a special unit and a load distribution panel. In synchronization, generators can be installed side by side or at a short distance from each other.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/solutions/synchronization-of-generator-units/synchronization-of-generator-units-fas-vt.jpg',
+  alt = 'Synchronization of Gas Generator Units FAS-VT',
+  caption = 'Synchronized generator set FAS-VT'
+) }}
+
+<p>Grid synchronized generators are effective when electricity consumption varies significantly within a day, a week or a season.</p>
+<h2>Benefits of Parallel-Connected Generators</h2>
+<p>What problems may arise with one generator? It should always work regardless of the actual load, even if the load is less than a quarter of the maximum, for example at night or on weekends. This is very impractical, because with a low load the apparatus unreasonably spends the service hours, consumes more fuel and engine oil. In addition, the repair or maintenance of a single generator means a complete power outage.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/solutions/synchronization-of-generator-units/synchronization-of-generator-units-fas-vr--front-left--inter.jpg',
+  alt = 'Synchronized generator set FAS-VR in a container',
+  caption = 'Synchronized generator set FAS-VR in a container'
+) }}
+
+<p>Given synchronized parallel operation, generators are gradually and automatically put into operation with increasing load and are also gradually phased out when load decreases. With such a scheme of operation during the night or on weekends, one low- power generator can work spending less service hours.</p>
+<h2>Conditions for Synchronization of Generators</h2>
+<p>To successfully synchronize generators and put them into parallel operation, the following conditions must be met:</p>
+<ul>
+  <li>Voltage frequencies of the network and the generator connected thereto must be equal. It depends on the clock frequencies of the apparatus engine;</li>
+  <li>With an excessive frequency difference (more than 0.2 Hz), full synchronization may not be achieved, as there is a possibility of generator not being engaged into synchronism;</li>
+  <li>It is necessary to ensure the identical voltage of all generators. Successful parallel operation can be achieved with only 5–10% of value discrepancy;</li>
+  <li>It is necessary to observe the correct sequential order of generators’ phases in the network.</li>
+</ul>
+<p>The order of phasing generators in and out changes automatically depending on the service life of each of them. Maintenance and repair can be carried out alternately within a working day, reducing the generation by the amount of power of only one generator, and not the entire installation.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/solutions/synchronization-of-generator-units/synchronization-of-generator-units-fas-mp--front-right--inter.jpg',
+  alt = 'Synchronized generator set FAS-MP in a container',
+  caption = 'Synchronized generator set FAS-MP in a container'
+) }}
+
+<h2>Synchronization of Generators at the FASENERGOMASH Power Stations</h2>
+<p>Synchronizing generators for parallel operation is an excellent solution when a high power output is required. FAS generators are produced on the basis of Lancin, YaMZ and MMZ engines with a capacity of up to 315 kW.</p>
+<p>The company also offers its customers 1 MW synchronized generator sets. A synchronized generator set for 1,000 kW is several times cheaper than a single apparatus of the same capacity.</p>
+<p>Of course, the synchronization of gas generator sets has some limitations:</p>
+<ol>
+  <li>The more generators are installed, the more time is required for maintenance;</li>
+  <li>A synchronized generator set occupies more space;</li>
+  <li>At 100% load, a synchronized generator set consumes 5–10% more gas than one generator of high capacity, but with a load reduction of up to 70%, the consumption is reduced to the level of a single generator, or even lower.</li>
+</ol>
+
+{% endblock %}

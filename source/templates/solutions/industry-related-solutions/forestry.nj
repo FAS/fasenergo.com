@@ -1,0 +1,15 @@
+---
+title:           Forestry
+contentTitle:    Forestry
+navTitle:        Forestry
+breadcrumbTitle: Forestry
+
+description: Forestry.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>FASENERGOMASH, LLC offers integrated solutions involving units that are intended to recycle wood waste accompanied by generation of energy from gas-generator (pyrolysis) gas. Our company cooperates with such producers of wood waste boilers as Adaptika and SpetsAvtoSistemy.</p>
+<p>This technology was widely used until 1950s and is currently again in demand. With its help, it is possible to cheaply and reliably supply electricity to remote logging companies and settlements to conduct cheap bulk recycling of wood waste accompanied by generation of electricity.</p>
+{% endblock %}

@@ -1,0 +1,76 @@
+---
+title:           Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752
+contentTitle:    Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752
+navTitle:        FAS-220M №354752 
+breadcrumbTitle: FAS-220M №354752 
+
+description: Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752. 
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Electronic dispenser of FAS-220M type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of additional Coriolis flow meter control panels installed in the dispenser.</p>
+
+<p><strong>With a function of filling household gas cylinders.</strong></p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-fuel-dispensers/fas-220m/electronic-fuel-dispenser-fas-220m--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fas-220m/electronic-fuel-dispenser-fas-220m--2--front--inner.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fas-220m/electronic-fuel-dispenser-fas-220m--3--sides.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Basic Package</h2>
+
+<h3>Casing</h3>
+
+<ul>
+  <li>Stainless steel;</li>
+  <li>Casing model: WIDE MAST.</li>
+</ul>
+
+<h3>Electronic Components</h3>
+
+<ul>
+  <li>Electronic part: ER5 type;</li>
+  <li>Power supply node 230 V AC / 50 Hz;</li>
+  <li>Panel for taking current meter readings in litres and kilograms (integrated LCD display panel);</li>
+  <li>LCD display panel on one side of the dispenser;</li>
+  <li>Control panel for filling household gas cylinders;</li>
+  <li>Rotary switch.</li>
+</ul>
+
+<h3>Hydraulic System PN 25</h3>
+
+<ul>
+  <li>Coriolis mass flow meter (FAS 98650) for liquefied petroleum gas;</li>
+  <li>Vapour phase separator with an integrated fine filter;</li>
+  <li>Differential valve;</li>
+  <li>Check valve;</li>
+  <li>Diaphragm regulator;</li>
+  <li>Two-stage solenoid valve;</li>
+  <li>LPG 19 high-pressure hose with a speed valve as a safety feature, 5 m in length, to refuel cars through a fuelling nozzle of FAS type (Т3 – FAS No. 13039 or R1 – FAS No. 13498);</li>
+  <li>A hose for filling gas cylinders with a clamp for connection to the cylinder’s needle valve (FAS No. 232924);</li>
+  <li>A hose for filling gas cylinders with a clamp for connection to the cylinder’s angle valve (FAS No. 23015);</li>
+  <li>Automatic hose positioning system;</li>
+  <li>Scale platform for filling household gas cylinders;</li>
+  <li>Quick coupling;</li>
+  <li>RegO relief valves, 25 bar;</li>
+  <li>Mounting components, inlet/liquid phase: ball valve 1"NPT IG;</li>
+  <li>Mounting components, outlet/vapour phase: ball valve 3/4"NPT IG.</li>
+</ul>
+
+<p>Weight: 240 kg.</p>
+
+<p>Certification 2.1 EN 10 204.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>19 570 €</p>
+  <p class='h-margin-bottom+'>Delivery terms: 6-10 weeks</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

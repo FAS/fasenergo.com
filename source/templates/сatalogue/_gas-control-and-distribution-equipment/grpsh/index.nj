@@ -1,0 +1,19 @@
+---
+title:           Gas Control & Distribution Units of Cabinet Type (GRPSh)
+contentTitle:    Gas Control & Distribution Units of Cabinet Type (GRPSh)
+navTitle:        Gas Control & Distribution Units of Cabinet Type
+breadcrumbTitle: GRPSh
+
+description: Gas Control & Distribution Units of Cabinet Type (GRPSh).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

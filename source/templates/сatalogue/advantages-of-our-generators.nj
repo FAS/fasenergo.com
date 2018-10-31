@@ -1,0 +1,154 @@
+---
+title:           Advantages of Our Generators
+contentTitle:    Advantages of Our Generators
+navTitle:        Advantages of Our Generators
+breadcrumbTitle: Advantages of Our Generators
+
+description: Advantages of Our Generators.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+{% from '_components/_Images.nj' import Images with context %}
+
+<p>When designing and producing generators, the world experience and state-of-the-art technologies are taken into consideration.</p>
+
+<h2>Adapted to Russian Environmental Conditions</h2>
+
+<p>What are the "Russian" environmental conditions? First of all, these are temperature changes at different times of the day and seasons. The cooling system is designed to work in hot weather for the southern regions of Russia, and the engine preheating system ensures start-up in regions of the Far North at temperatures below -40 °C.</p>
+<p>All generators are excellently adapted for operation under decreased winter pressure of natural gas in main pipelines in contrast to products by other manufacturers.</p>
+
+<h3>Liquid Cooling</h3>
+
+<p>Why is it so important? A liquid-cooled generator can run for days without stopping because it takes more time to heat liquid than air, which allows the generator to be used as the main power supply source.</p>
+<p>The operation of a generator can be stopped only for the purpose of maintenance, but in the majority of cases, such necessity occurs no more than once in 2–3 weeks.</p>
+
+<h3>Automatic Heating System</h3>
+
+<p>When operating in the backup mode, the heating element in the cylinder block keeps the generator motor warm, allowing its quick start even during frosts. This feature is of significant importance for such countries as Russia.</p>
+<p>Users can program the modes and the actuation schedule themselves, as well as cancel the actuation in case of an empty facility and even control the heating process remotely.</p>
+<p>The element warms up well the generator at temperatures not lower than -40 °C. For more severe frosts, it is possible to install a cylinder heating system of higher output and an individual system of oil heating in a crankcase oil pan.</p>
+
+<h2>Controller with a Remote Control Function</h2>
+
+<p>Controller is an important element to be proud of for our company. It automatically reads the engine's parameters, such as temperature and load, and, if necessary, changes the operating mode to protect against overloads.</p>
+
+{# @todo Add photos #}
+{% if ENV.staging or not ENV.production %}
+{{ Images(
+  images = [{
+    src: 'https://placehold.it/1350x700',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  }],
+  caption = 'Описание'
+) }}
+{% endif %}
+
+<p>Controllers support a remote control system. It allows to control generator via a web browser or the Rainbow Plus software. Moreover, such control can be performed from any device. Users can actuate generator, change or program its modes, input and save settings that can later be uploaded to the generator.</p>
+<p>With the help of the controller, generator can send out SMS about the actuation or malfunctions in the network. Besides, when installing a standard modem, phone calls- signals warning about failures or shutdown become available.</p>
+
+<h2>Quick Start</h2>
+
+<p>A special device, an ATS panel, helps to configure the activation at a certain time and automatically turns on the generator when the main power supply network fails.</p>
+<p>The min. time of response to power interruption is 10 seconds. This is very fast.</p>
+
+<h2>Noise- and Heat-Protective Casing</h2>
+
+<p>All FAS generators are supplied with noise-protective casings and thus can be installed near residential objects and within the city limits. The noise level of 8–10 kW generators is no more than 62 dB, and of 28–32 kW generators — about 70 dB, that is, like a usual washing machine.</p>
+<p>In addition, the casing is equipped with heat protection and ventilation. Therefore, it is safe for people and pets.</p>
+<p>It is also worth distinguishing a new casing model called "Turbo". It is constructed of durable, carbon fibre reinforced plastic with a high ingress protection rating of IP 23, which ensures stable, trouble-free operation under all weather conditions. Corrosion free, low noise, and vibration free operation. More than that, all generators have aesthetically nice appearance and can be painted in any colour.</p>
+
+{# @todo Add photos #}
+{% if ENV.staging or not ENV.production %}
+{{ Images(
+  images = [{
+    src: 'https://placehold.it/1350x700',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  }],
+  caption = 'Описание'
+) }}
+{% endif %}
+
+<h2>Synchronisation</h2>
+
+<p>Generators are often unevenly loaded during the day. If you have one plant of high power, then, for a considerable part of the day (for example, at night), it is forced to work at a small load. At the same time, a precious motor resource is consumed, the engine wears out faster, the fuel consumption is not balanced.</p>
+<p>Synchronisation of gas generator units solves these problems. When the load decreases, some generators stop working, while others keep running at almost optimum load. This significantly increases the service life.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/articles/Синхронизированные-газовые-генераторы-ФАС--01.jpg',
+  alt = 'Синхронизация генераторов ФАС'
+) }}
+
+<p>Example 1 We were contacted by a customer with a request to ensure power indicator of 25–30 kW at weekends and 8–12 kW on weekdays. The facility was not connected to the main power supply network, so the gas generator had to be used as the main source of energy.</p>
+
+<p>We supplied two synchronised gas generator units of 15 kW each, working as follows:</p>
+
+<ol>
+  <li>Only one generator was operated continuously. As soon as the load grew above 75% of its power, the second generator wad automatically switched on.</li>
+  <li>Together, the generators produced up to 30 kW. The load was distributed evenly between them.</li>
+  <li>If the load dropped below 40% of the maximum level for each generator, one of them was automatically turned off, while the second continued working.</li>
+</ol>
+
+<p>Example 2 One of our customers had to provide power supply to the production facility with a daily load of at least 200 kW and a night decrease down to 40 kW. In that case, one power station was not enough due to serious power fluctuations and a too low load at night.</p>
+<p>We offered to install ten synchronised gas generators of 21 kW each. In this system, all ten generators work in the daytime, and only two generators continue working at night. daily load of at least 200 kW and a night decrease down to 40 kW. In that case, one power station was not enough due to serious power fluctuations and a too low load at night.</p>
+<p>Such systems of up to 10 generators can be installed in one noise-absorbing container resulting into one power-generating unit.</p>
+<p>Another important thing is that when synchronising, you do not need to completely de- energize the facility in order to perform maintenance of generators. It is enough to disconnect only one generator, which requires attention.</p>
+
+<h2>Wide Range of Accessories</h2>
+
+<p>All of our generators are manufactured in a noise- and heat-protective casing, with an automatic transfer switch (ATS), an automatic engine preheating system, and battery recharging.</p>
+<p>If necessary, a delivery package can include remote controllers, special containers, cogeneration units, synchronisation systems for parallel operation of generators with each other, with the power supply network and other sources.</p>
+
+<h2>Excellent Price/Quality Balance</h2>
+
+<p>When developing a new strategy of enhancing advantages over the Western competitors, such as Generac and SDMO for example, the leadership of FASENERGOMASH, LLC came to a simple, albeit risky, decision — to combine company’s technological developments with Russian engines.</p>
+<p>At first, this decision caused doubts. Not all consumers believe in the “Russian” quality. However, customers later realized that the price-quality ratio is much better if compared to foreign analogues.</p>
+<p>This applies not only to the cost of equipment, but also to repair and maintenance. Russian engines and domestic spare parts make maintenance both cheap and fast. For example, the overhaul of a 150 kW YaMZ engine after the service life is expired or in case of a serious damage costs 100–150 thousand RUB. The repair of any foreign generator will cost much more — around 500 thousand RUB.</p>
+
+<h2>Cost Effectiveness</h2>
+
+<p>Gas-piston stations produced by FASENERGOMASH, LLC feature about 30% of efficiency, and additional 40% of efficiency if combined with a cogeneration unit. These figures put FAS generators on the same level with the leading Western analogues, however at a much lower price.</p>
+<p>For example, the cost of 1 kW per hour produced by FAS generator that works from natural gas is ~2.3 RUB, that is, several times less than if powered by diesel (~11 RUB). In the facilities that do not have centralized gas supply, bottled methane or LPG (liquefied petroleum gas) can be used, which ensures, albeit not so impressive, but still substantial savings.</p>
+<p>Within the framework of the Gazprom programme on Development of the Gas Engine Fuel Market, a series of tests was conducted, the results of which showed that propane- butane driven generator units produced by FASENERGOMASH, LLC are save 1.5 times more costs than gasoline generators do: 10–11 RUB against 15 RUB for 1 kW per hour of electricity. It is especially advantageous to combine FAS generators with a gas heating boiler. In this case, both the generator and the heating system operate from one gas holder.</p>
+
+<h2>Fast Repair and Maintenance</h2>
+
+<p>The VAZ, YMZ and MMZ engines are produced in huge series and are well known in the Russian Federation. It is quite easy to find a specialist who can quickly and cheaply repair such an engine.</p>
+<p>There are many spare parts for these engines, and they are always available. Waiting for the import spare parts for months? This problem does not exist with FAS products.</p>
+<p>Another important advantage is the convenience and safety of maintenance. Many people have faced a problem when to replace or check a spare part, it is necessary to disassemble half of the device or get to hard-to-reach places. To avoid this, all parts of FAS generators that need to be inspected regularly are made easily accessible.</p>
+
+<h2>Cross Functional Application for Any Facilities and Purposes</h2>
+
+<p>FAS generators can operate in any mode, both as permanent and backup sources of energy in private houses, commercial and public facilities, production sites.</p>
+<p>In addition, FAS generators are perfectly suitable for recycling industrial gases and fumes.</p>
+
+<h2>Operation Is Adopted for Any Type of Gas</h2>
+
+<p>It can be stated without exaggeration that FAS generators can operate from virtually any type of gas: natural gas, propane-butane, associated gas, landfill gas, pyrolysis, biogas, etc.</p>
+
+<h2>Environmentally Friendly Design</h2>
+
+<p>The exhaust gases of FAS generators, when operating from natural gas, meet the requirements of Euro-5. This means a minimum emission of carbon monoxide (CO), nitrogen oxides (NOx) and unburned hydrocarbons harmful to plants. This is very important for residential objects, public institutions, recreation centres and in general for any facilities within the city limits.</p>
+<p>In addition to reducing emissions, FASENERGOMASH, LLC experts have developed generators that use gases released into the atmosphere: associated gas, biogas, landfill and pyrolysis gas, industrial gases and vapours.</p>
+<p>Absence of no unpleasant smell is another undoubtedly important advantage as compared to diesel generators.</p></p>
+
+<h2>Safety</h2>
+
+<p>First of all, FAS equipment meets the requirements of European safety standards and has R GOST, Customs Union and European CE certificates. The production and research and development processes are certified according to ISO 9001 standards.</p>
+<p>Secondly, casing of all models features the IP 22–23 ingress protection rating. This means that FAS generators are reliably protected against moisture, snow, dust, direct sunlight and, most importantly, finger penetration.</p>
+<p>Finally, perhaps most significantly, FAS generators are automatically switched off in the event of leakage or a lack of gas, as well as overloads.</p>
+{% endblock %}

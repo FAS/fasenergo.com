@@ -1,0 +1,26 @@
+---
+title:           Delivery
+contentTitle:    Delivery
+navTitle:        Delivery
+breadcrumbTitle: Delivery
+
+description: Delivery from the factory to a facility or distribution centre of a transport company all over Russia.
+
+icon:             flash
+shortDesc:        Delivery from the factory to a facility or distribution centre of a transport company all over Russia.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>For retail customers, the following conditions are valid:</p>
+
+<ol>
+  <li>Within the territory of St. Petersburg and the Leningrad region, the delivery is free.</li>
+  <li>Ex-warehouse (St. Petersburg) delivery to the facilities within the regions of Russia, except for the city of St. Petersburg and the Leningrad region, through a transport company chosen by the customer.</li>
+</ol>
+
+<p>When delivering to the regions, customers can choose one of our partners: Delovye Linii (Business Lines), PEK, AutoTrading, BaltTrade, or offer another transport company.</p>
+<p>If the ordered equipment is available in the warehouse, it is dispatched within 3 working days after payment. After dispatch, the delivery time depends on the distance.</p>
+<p>Terms of delivery, when purchasing from a dealer, must be coordinated with your dealer.</p>
+{% endblock %}

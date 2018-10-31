@@ -1,0 +1,95 @@
+---
+title:               CNG Filling Station Produced by the FAS Company
+contentTitle:        CNG Filling Station Produced by the FAS Company
+navTitle:            CNG Filling Station Produced by the FAS Company
+breadcrumbTitle:     CNG Filling Station Produced by the FAS Company
+
+description: 'In cooperation with global partners, the FAS Company will provide an individual turnkey solution that takes into account the needs of each customer to the fullest.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Effective turnkey solutions of different scales, from a fuel dispenser to a whole car fleet.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--7.jpg' },
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--8.jpg' },
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--9.jpg' }, 
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--10.jpg' },   
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--11.jpg' },
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--12.jpg' } 
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'CNG Filling Station Produced by the FAS Company', class = 'h-margin-bottom+') }}
+
+{% set pageEq = [
+  { title: 'FAS-37/300', pressure1: '1,0-3,0', pressure2: '250', capacity: '70-145' },
+  { title: 'FAS-37/500', pressure1: '1,0-5,0', pressure2: '250', capacity: '55-165' },
+  { title: 'FAS-37/1000', pressure1: '5,0-10,0', pressure2: '250', capacity: '95-185' },
+  { title: 'FAS-37/2000', pressure1: '5,0-20,0', pressure2: '250', capacity: '65-235' },
+  { title: 'FAS-37/37D', pressure1: '20,0-220,0 ', pressure2: '250', capacity: '440 (average)' },
+  { title: 'FAS-55/300', pressure1: '1,0-3,0', pressure2: '250', capacity: '110-215' },
+  { title: 'FAS-55/500', pressure1: '1,0-5,0', pressure2: '250', capacity: '80-245' },
+  { title: 'FAS-55/1000', pressure1: '5,0-10,0', pressure2: '250', capacity: '120-230' },
+  { title: 'FAS-55/2000', pressure1: '5,0-20,0', pressure2: '250', capacity: '95-360' },
+  { title: 'FAS-55/55D', pressure1: '20,0-220,0 ', pressure2: '250', capacity: '815 (average)' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Inlet</th>
+      <th>Outlet</th>
+      <th>Max. Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+     <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.pressure1 }} bar</td>
+      <td class='h-align--center'>{{ e.pressure2 }} bar</td>
+      <td class='h-align--center'>{{ e.capacity }} Nm³/hour</td>  
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p>In cooperation with global partners, the FAS Company will provide an individual turnkey solution that takes into account the needs of each customer to the fullest.</p>
+
+<h2>Design Features</h2>
+<ul>
+  <li>Electrical and electronic connections are combined into a single system.</li>
+  <li>Forced ventilation.</li>
+  <li>Small-size and durable frame structure with handling fasteners.</li>
+  <li>Cooler with a top-positioning design (on the roof), which saves work space.</li>
+  <li>Integrated damping module.</li>
+  <li>Special treatment of external surfaces to increase the service life.</li>
+  <li>Max. noise level of 75 dB (A), with additional silencers (optional) of up to 55 dB (A).</li>
+  <li>Additional door for maximum ease of maintenance.</li>
+  <li>Air intakes with an armoured protective grid.</li>
+  <li>Compressor capacity of 2,500 m³/hour.</li>
+  <li>Significant time saving during the mounting process.</li>
+</ul>
+
+<h2>Specifications</h2>
+<ul>
+  <li>Number of cylinders: 2–3.</li>
+  <li>Control system: LCD-display (pressure, level, temperature).</li>
+  <li>Number of levels: 3–4 (1–2 given an additional station).</li>
+  <li>Inlet pressure: 1–20 bar (20–200 bar for an additional station).</li>
+  <li>Noise level: 85 dB.</li>
+  <li>Outlet pressure: 200–500 bar.</li>
+  <li>Weight: 4,000 kg.</li>
+  <li>Belt-type transmission.</li>
+  <li>Dimensions: 115 x 300 х 250 cm.</li>
+  <li>Rotation speed: 1,000/1,500 min⁻¹.</li>
+</ul>
+{% endblock %}

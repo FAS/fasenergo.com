@@ -1,0 +1,68 @@
+---
+title:           FASENERGOMASH, LLC
+contentTitle:    FASENERGOMASH, LLC
+navTitle:        Company
+breadcrumbTitle: Company
+
+description: LLC "Fasenergomash" is a German-Russian manufacturer and the leader among suppliers of gas equipment for the energy industry in Russia.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
+  src = urljoin('/', PATH.images, '/company/Офис-Фасэнергомаш--05.jpg'),
+  alt = 'Office'
+) }}
+
+<p>FASENERGOMASH, LLC is a German-Russian manufacturer and the leader among suppliers of gas equipment for the energy industry in Russia.</p>
+<p>Our company has been operating on the domestic market since 2010 It is part of the FAS-Russia group of companies.</p>
+<p>FASENERGOMASH, LLC supplies equipment of its own production as well as by the world’s best manufacturers for systems of autonomous and backup gas supply of industrial enterprises, townhouse villages and country houses, gas fuelling and filling stations, and modular boilers.</p>
+<p>Many years of experience and a wide dealer network allow our team to equip power supply facilities of any complexity on a turnkey basis.</p>
+<p>FASENERGOMASH, LLC executes the whole range of works, including pre-project negotiation, development and design, equipment supply, installation, commissioning, registration in the bodies of technical control and warranty service.</p>
+<p>In the regions of Russia, construction and maintenance of autonomous gas supply systems, gas filling stations, modular boilers and other facilities is performed by installation teams of the company's regional offices.</p>
+<p>Own production sites and storage facilities located in St. Petersburg guarantee the rapid production of equipment and delivery anywhere in the world.</p>
+
+<h2>We Offer</h2>
+
+<ul>
+  <li>Gas generators;</li>
+  <li>Evaporative equipment;</li>
+  <li>Evaporative and blending equipment;</li>
+  <li>Pump and compressor equipment;</li>
+  <li>Autonomous gas supply systems;</li>
+  <li>Control and adjustment equipment;</li>
+  <li>Fuel dispensing equipmen;t</li>
+  <li>Control and distribution units;</li>
+  <li>Filters, shut-off, relief and solenoid valves.</li>
+</ul>
+
+<h2>Our Priorities</h2>
+
+<p>The strategy of import substitution is one of the company’s priority activities. Introduction of innovations, design of modern equipment and expansion of the assortment are important components of the FASENERGOMASH, LLC development.</p>
+<p>The development of new equipment for the energy industry is preceded by thorough research work. Combining the experience and knowledge of world-class specialists, taking into account the operating features of products offered by other manufacturers, the designers of the company invent and design new high-quality equipment. Optimization of production processes allows the creation of unique products, using domestic materials and the best German technologies.</p>
+<p>High qualification and extensive experience of specialists ensure the quality of work within the set time limits.</p>
+
+<h2>Company History</h2>
+
+<p>Long-term cooperation with the world-famous German company <a href='https://www.fas.de' target='_blank'>FAS (Flussiggas Anlagen GmbH)</a>,the manufacturer of equipment for liquefied petroleum gases, has determined the key direction of our company's activity.</p>
+<p>Since 2010, FASENERGOMASH, LLC has been developing, manufacturing and supplying gas generators of FAS series with a liquid cooling system.</p>
+<p>Since 2013, more than 500 units of FAS gas-piston power stations of different capacity have been manufactured and delivered to customers.</p>
+<p>In March 2017, the assortment of power equipment was supplemented by a technological novelty — single-phase air-cooled FAS gas generators with a capacity of 5 to 10 kW, which are designed for emergency or backup power supply to private households.</p>
+<p>In July 2017, FASENERGOMASH, LLC started manufacture of new products — evaporative equipment for the energy industry. The model range of the FAS evaporative equipment is favourably characterized by small dimensions, reduced material consumption and low cost. Electric and liquid FAS evaporators and evaporative units are designed to provide consumers with the vapour phase of liquefied petroleum gas and include models with a capacity of 10 to 2,000 kg/hour with the function of automatic gas flow adjustment depending on the consumption rate.</p>
+<p>The company's products are used in various sectors of manufacturing industry, agriculture, cottage housing construction, hotel and restaurant business for energy supply of residential houses, townhouse villages, warehouses, and industrial premises.</p>
+
+<h2>Our Partners</h2>
+
+<p>FASENERGOMASH, LLC is one of the leading business partners for enterprises engaged in the oil and gas, petrochemical and energy sectors.</p>
+<p>The list of our partners and customers includes Gazprom, Gazprom Mezhregiongaz, Lukoil, Rosneft, Tatneft, NGK Slavneft.</p>
+
+<h2>Certificates</h2>
+
+<p>The quality management system of FASENERGOMASH, LLC is certified according to GOST ISO 9001-2011 standard (Certificate of Compliance ST.RU.0001.M0004043, valid until 6 February 2018).</p>
+<p>The products are certified according to the GOST R system (Certificate of Conformity ROSS RU.AG42.H00484, valid until 5 July 2019), EAC (Declaration of Conformity TS No. RU D-RU.AL16.В.29791, valid until 31 January 2019), CE (Certificate of Conformity No. 161299183, valid until 13 September 2019) and GAZPROMCERT (Certificate of Conformity No. GO00.RU.1335.Н00483, valid until 19 February 2020).</p>
+<p>The company's specialists were certified by the Federal Service for the Supervision of Environment, Technology and Nuclear Management (Rostekhnadzor) of the Russian Federation and trained in Germany.</p>
+<p>All certificates received by FASENERGOMASH, LLC are available <a href='/сompany/certificates'>here</a>.</p>
+{% endblock %}

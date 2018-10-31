@@ -1,0 +1,44 @@
+---
+title:           Pump System for LPG Discharging from Railway Tanks or Gas Carriers
+contentTitle:    Pump System for LPG Discharging from Railway Tanks or Gas Carriers
+navTitle:        Pump System for LPG Discharging from Railway Tanks or Gas Carriers
+breadcrumbTitle: Pump System for LPG Discharging from Railway Tanks or Gas Carriers
+
+description: Pump System for LPG Discharging from Railway Tanks or Gas Carriers
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Pump system for LPG discharging from railway tanks or gas carriers equipped with an electrical control panel of explosion-proof design.</p>
+<p>The package unit is mounted on a steel frame and is supplied with all the necessary processing equipment (shut-off and relief valves as well as control-measuring devices) that ensures reliable and safe operation.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--1--front.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--2--front-left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--3--left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--4--back-left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--5--back.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/pump-system-for-lpg-sischarging-from-railway-tanks-or-gas-carriers/pump-system-fem-for-lpg--6--back-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+ <li>Rated capacity: 390 L/min.</li>
+ <li>The installed electric motor can be adapted for both 11 kW at differential pressure of up to 10 bar and 7.5 kW at differential pressure of up to 5 bar.</li>
+ <li>The unit inlet is equipped with an inspection window to control the liquid phase passage.</li>
+ <li>A strainer with a filter element cell size of 0.6 mm to purify gas from mechanical impurities.</li>
+ <li>Unit connection: M 60x4 (left-hand thread) at inlet and DN 50 at outlet.</li>
+ <li>A relief valve for 25 bar is installed to protect the system from overpressure above the permissible limit value.</li>
+ <li>The system is equipped with an electrical control panel featuring a dry-running sensor of the pump unit.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,29 @@
+---
+title:           Installation and Commissioning
+contentTitle:    Installation and Commissioning
+navTitle:        Installation and Commissioning
+breadcrumbTitle: Installation and Commissioning
+
+description: Installation and Commissioning.
+
+icon: skype
+shortDesc: Installation on a turn-key basis or supervised installation, commissioning and construction work.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>If the equipment is purchased from one of our dealers, the installation is usually performed by this dealer as well. In difficult cases, FASENERGOMASH, LLC experts are also engaged into the work.</p>
+<p>If the equipment is purchased from FASENERGOMASH, LLC, our specialists are responsible for the installation and commissioning works, or we can supervise your specialists (supervised installation).</p>
+
+<p>We can provide the following services:</p>
+
+<ol>
+  <li>Commissioning works, if the generator needs to be simply removed from the package and checked;</li>
+  <li>Supervised installation or mounting, if we need to prepare the site, install, connect and run the equipment;</li>
+  <li>Auxiliary works: installation of ventilation, gas supply, gas withdrawal, etc.</li>
+</ol>
+
+<p>The price and the terms depend on the complexity of works.</p>
+<p>The price includes the work of specialists, the cost of materials, and the rental of special equipment for installation and adjustment.</p>
+{% endblock %}

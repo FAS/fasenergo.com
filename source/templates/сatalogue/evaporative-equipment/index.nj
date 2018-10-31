@@ -1,0 +1,90 @@
+---
+title:           Evaporative Equipment for LPG
+contentTitle:    Evaporative Equipment for LPG
+navTitle:        Evaporative Equipment
+breadcrumbTitle: Evaporative Equipment
+
+description: Evaporative Equipment for LPG.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p class='h-margin-bottom+'>For propane-butane and their mixtures. This equipment is used for forced evaporation of liquid phase of the liquefied gas when the natural evaporation in tanks (LPG storage facilities) is not enough.</p>
+
+{% call CategoryCard(
+  title = 'Evaporators',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/evaporative-equipment/evaporators.jpg',
+  url = '/сatalogue/evaporative-equipment/evaporators'
+) %}{% endcall %}
+
+<h2>Evaporative Units</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Cabinet Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/cabinet-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment/cabinet-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Container Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/container-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment/container-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Frame Mounted Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/frame-mounted-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment/frame-mounted-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Ring Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/ring-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment/ring-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Boiler Based Self-Heating Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/boiler-based-self-heating-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment/boiler-based-self-heating-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<p>The German-Russian manufacturer of gas equipment FASENERGOMASH, LLC produces LPG evaporative units for forced evaporation of the liquid phase of propane and propane-butane. The company also produces blending and combined evaporative units intended for using propane-butane mixtures in gas supply systems. Here you can receive detailed information about the FEM evaporative equipment as well as purchase a liquefied gas evaporator.</p>
+
+<h2>FEM Liquefied Gas Evaporators</h2>
+
+<p>The evaporative units from FASENERGOMASH, LLC ensure a steady and adjustable evaporation of liquefied gas at low ambient temperatures without compromising the efficiency and providing a stable gas pressure on the line. The units are equipped in compliance with the standard for the use of equipment in explosive Ex zones of 0–2 categories.</p>
+
+<p>When manufacturing evaporators, the company minimises risks associated with human intervention in the operation of units and assemblies and ensures the automatic operation mode of the apparatus. FEM evaporative units are equipped with an integrated separator device to avoid the deposition of sulphur in units, thereby increasing their reliability and safety.</p>
+
+<p>In addition, ensures rapid installation, maintenance and service of the device. The FEM evaporative units are 80% composed of Russian accessories. The units are easy to operate, reliable and have a three-year factory warranty.</p>
+
+<p>FASENERGOMASH, LLC offers evaporative units for butane and propane-butane at factory prices and directly from a warehouse in St. Petersburg. The range of manufactured products includes liquefied gas evaporators with electric heating and evaporative units with liquid heating. To purchase an evaporator, please sent an inquiry on the website or contact the Commercial Department of FASENERGOMASH, LLC.</p>
+
+<h3>Electric Heated Evaporative Units</h3>
+
+<p>The electric heated FEM evaporators are of small size, easy to install and operate. The electric LPG evaporators from FASENERGOMASH, LLC are represented by the SE product line and have a capacity of 10 to 1,400 kg/hour. Such evaporators are optimal for use in facilities with low and medium consumption of vapour phase of liquefied gas. The electric FEM evaporators are a cost-saving solution. The peak electricity consumption of an evaporator in a switched on mode is only 3 to 216 kW, depending on the unit capacity.</p>
+
+<h3>Liquid Heated Evaporative Units</h3>
+
+<p>Evaporators with liquid heating are an ultimate solution in cases where large volumes of gas vapour phase are needed. The evaporation of liquefied gas in such devices happens due to the thermal energy of hot water. The liquid heated FEM evaporators of ZH model range feature higher output if compared to electric heated evaporators and have a capacity of 200 to 14,000 kg/hour. In addition, they are even more cost-saving than evaporators with electric heating, since they consume much less electricity for operation.</p>
+{% endblock %}

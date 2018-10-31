@@ -1,0 +1,31 @@
+---
+title:           Containers for Generators
+contentTitle:    Containers for Generators
+navTitle:        Containers for Generators
+breadcrumbTitle: Containers for Generators
+
+description: Containers for Generators.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>Generators work under different conditions. Sometimes they need to be installed outdoors under conditions that do not allow the use of a standard protective metal casing. Severe frost, polar night, downpours, heat — the range of these conditions is extremely wide. At the same time, generators require regular maintenance — draining oil, checking plugs, filters, etc. It is convenient to perform these tasks at a comfortable temperature, under a roof, with good lighting.</p>
+<p>Of course, a special structure can be built, such as a utility room with all communications, but it's quite expensive. And then there are situations that require transportation of generator.</p>
+<p>The cheapest and, moreover, the mobile solution is a container equipped with ventilation system, fire and burglar alarm, general and emergency lighting and other systems on customer’s demand.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/solutions/containers-for-generators/containers-for-generators-fasenergomash--front-right.jpg',
+  alt = 'Container FEM',
+  center = true
+) }}
+
+<p>There are no technical restrictions on the use of containers, but there is a cost saving advantage. A 20-foot equipped container costs about 800,000 RUB, and a casing costs 150,000 RUB. The company recommends purchasing a container only when it is really necessary.</p>
+<p>FAS generators can be mounted within a container with a cogeneration unit, a gas purification unit, a system for purification from hydrogen sulphide, or other equipment on request. All connections are made at the factory. Therefore, on the site, it will be required to install the container only and connect it to the electric mains and gas supply, which is much easier in terms of mounting and commissioning.</p>
+
+{# @todo Add photo here when will be avilable #}
+
+<p>The delivery package, terms and price of the container depend on the customer's needs, the number of generators and the conditions of use.</p>
+{% endblock %}

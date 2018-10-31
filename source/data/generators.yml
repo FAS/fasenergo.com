@@ -1,0 +1,5244 @@
+---
+fas-5-1lp-5-kw:
+  slug: fas-5-1lp-5-kw
+  meta:
+    title: Gas Generator FAS-5/1LP (5 kW)
+    description: Gas Generator FAS-5/1LP (5 kW).
+  type: Газовые генераторы
+  article: 430511
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-5/1LP
+  title: Gas Generator <span class='text-red'>FAS-5/1LP</span> (5 kW)
+  price: 158000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 5
+      lpg:
+        max: 5
+    current:
+      _legacy: 21.74
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,5 m³/h * 1 kW
+      lpg: 0,45 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-g390f
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 90
+
+
+fas-5-1lm-5-kw:
+  slug: fas-5-1lm-5-kw
+  meta:
+    title: Gas Generator FAS-5/1LM (5 kW)
+    description: Gas Generator FAS-5/1LM (5 kW).
+  type: Газовые генераторы
+  article: 430501
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-5/1LM
+  title: Gas Generator <span class='text-red'>FAS-5/1LM</span> (5 kW)
+  price: 144000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 5
+      lpg:
+        max: 5
+    current:
+      _legacy: 21.74
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,5 m³/h * 1 kW
+      lpg: 0,45 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-g390f
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 90
+
+
+fas-6-1lp-6-kw:
+  slug: fas-6-1lp-6-kw
+  meta:
+    title: Газовый генератор ФАС-6/1ЛП (6 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 6 кВт, изготавливается в закрытом пластиковом корпусе.
+  type: Газовые генераторы
+  article: 430611
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-6/1ЛП
+  title: Газовый генератор <span class='text-red'>ФАС-6/1ЛП</span> (6 кВт)
+  price: 206000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 6
+      lpg:
+        max: 6
+    current:
+      _legacy: 26.09
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,5 m³/h * 1 kW
+      lpg: 0,45 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-g390f
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 90
+
+
+fas-6-1lm-6-kw:
+  slug: fas-6-1lm-6-kw
+  meta:
+    title: Газовый генератор ФАС-6/1ЛМ (6 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 6 кВт, изготавливается в закрытом металлическом корпусе.
+  type: Газовые генераторы
+  article: 430601
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-6/1ЛМ
+  title: Газовый генератор <span class='text-red'>ФАС-6/1ЛМ</span> (6 кВт)
+  price: 178000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 6
+      lpg:
+        max: 6
+    current:
+      _legacy: 26.09
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,5 m³/h * 1 kW
+      lpg: 0,45 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-g390f
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 90
+
+
+fas-8-1lp-8-kw:
+  slug: fas-8-1lp-8-kw
+  meta:
+    title: Gas Generator FAS-8/1LP (8 kW)
+    description: Gas Generator FAS-8/1LP (8 kW).
+  type: Газовые генераторы
+  article: 430811
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-8/1LP
+  title: Gas Generator <span class='text-red'>FAS-8/1LP</span> (8 kW)
+  price: 227000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 8
+      lpg:
+        max: 8
+    current:
+      _legacy: 34.78
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,45 m³/h * 1 kW
+      lpg: 0,4 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v78f-1
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 125
+
+
+fas-8-1lm-8-kw:
+  slug: fas-8-1lm-8-kw
+  meta:
+    title: Gas Generator FAS-8/1LM (8 kW)
+    description: Gas Generator FAS-8/1LM (8 kW).
+  type: Газовые генераторы
+  article: 430801
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-8/1LM
+  title: Gas Generator <span class='text-red'>FAS-8/1LM</span> (8 kW)
+  price: 211000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled single-phase FAS generators with a rated capacity of 5–15 kW are equipped with the Loncin engine.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 8
+      lpg:
+        max: 8
+    current:
+      _legacy: 34.78
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,45 m³/h * 1 kW
+      lpg: 0,4 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v78f-1
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 125
+
+
+fas-10-1lp-10-kw:
+  slug: fas-10-1lp-10-kw
+  meta:
+    title: Газовый генератор ФАС-10/1ЛП (10 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 10 кВт, изготавливается в закрытом пластиковом корпусе.
+  type: Газовые генераторы
+  article: null # old article is `431011`
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-10/1ЛП
+  title: Газовый генератор <span class='text-red'>ФАС-10/1ЛП</span> (10 кВт)
+  price: 257000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Однофазные генераторы ФАС с воздушным охлаждением мощностью 5-10 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 41.8
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,42 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v78f-1
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 125
+
+
+fas-10-1lm-10-kw:
+  slug: fas-10-1lm-10-kw
+  meta:
+    title: Газовый генератор ФАС-10/1ЛМ (10 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 10 кВт, изготавливается в закрытом металлическом корпусе.
+  type: Газовые генераторы
+  article: null # old article is `431001`
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-10/1ЛМ
+  title: Газовый генератор <span class='text-red'>ФАС-10/1ЛМ</span> (10 кВт)
+  price: 229000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Однофазные генераторы ФАС с воздушным охлаждением мощностью 5-10 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 41.8
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,42 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v78f-1
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    size:
+      length: 1058
+      width: 705
+      height: 620
+    weight: 125
+
+
+fas-13-1lp-13-kw:
+  slug: fas-13-1lp-13-kw
+  meta:
+    title: Газовый генератор ФАС-13/1ЛП (13 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 13 кВт, изготавливается в закрытом пластиковом корпусе.
+  type: Газовые генераторы
+  article: 431011
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-13/1ЛП
+  title: Газовый генератор <span class='text-red'>ФАС-13/1ЛП</span> (13 кВт)
+  price: 320000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Однофазные генераторы ФАС с воздушным охлаждением мощностью 5-15 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 12
+      lpg:
+        max: 13
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,43 m³/h * 1 kW
+      lpg: 0,39 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+fas-13-1lm-13-kw:
+  slug: fas-13-1lm-13-kw
+  meta:
+    title: Газовый генератор ФАС-13/1ЛМ (13 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 13 кВт, изготавливается в закрытом металлическом корпусе.
+  type: Газовые генераторы
+  article: 431001
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-13/1ЛМ
+  title: Газовый генератор <span class='text-red'>ФАС-13/1ЛМ</span> (13 кВт)
+  price: 290000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Однофазные генераторы ФАС с воздушным охлаждением мощностью 5-15 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 12
+      lpg:
+        max: 13
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,43 м³/ч * 1 кВт
+      lpg: 0,39 кг/ч * 1 кВт
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+fas-15-1lp-15-kw:
+  slug: fas-15-1lp-15-kw
+  meta:
+    title: Газовый генератор ФАС-15/1ЛП (15 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 15 кВт, изготавливается в закрытом пластиковом корпусе.
+  type: Газовые генераторы
+  article: 430971
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-15/1ЛП
+  title: Газовый генератор <span class='text-red'>ФАС-15/1ЛП</span> (15 кВт)
+  price: 390000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled three-phase FAS generators with a rated capacity of 15 kW are equipped with the Loncin engines.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 14
+      lpg:
+        max: 15
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,42 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: Enclosed
+    material: Plastic
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+fas-15-1lm-15-kw:
+  slug: fas-15-1lm-15-kw
+  meta:
+    title: Газовый генератор ФАС-15/1ЛМ (15 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» с двигателем Loncin с воздушным охлаждением, мощностью 15 кВт, изготавливается в закрытом металлическом корпусе.
+  type: Газовые генераторы
+  article: 430961
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-15/1ЛМ
+  title: Газовый генератор <span class='text-red'>ФАС-15/1ЛМ</span> (15 кВт)
+  price: 360000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Однофазные генераторы ФАС с воздушным охлаждением мощностью 5-15 кВт оснащены двигателями Loncin.</p>
+    <p>Компания Loncin специализируется на производстве двигателей для генераторов, садовой техники и мотоциклов с 1993 года. С 2013 года двигателями Loncin комплектуют целый ряд моделей мотоциклов BMW, что говорит о высоком  качестве, надежности и соответствии европейским требованиям.</p>
+    <p>Для автономных газовых электрогенераторов компанией были разработаны специальные двухтопливные двигатели, работающие на сжиженном (пропан-бутане) или на природном газе (метане) без дополнительных затрат и переоборудования системы.</p>
+    <p>Генераторы ФАС с воздушным охлаждением дешевле и проще в эксплуатации, чем аналогичные модели с жидкостным охлаждением. Генераторы выпускаются в прочном металлическом / пластиковом корпусе, обеспечивающем повышенное шумопоглощение. Предназначено такое оборудование для аварийного электроснабжения.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 14
+      lpg:
+        max: 15
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,42 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: закрытое
+    material: метал
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+fas-15-3lm-15-kw:
+  slug: fas-15-3lm-15-kw
+  meta:
+    title: Gas Generator FAS-15/3LM (15 kW)
+    description: Gas Generator FAS-15/3LM (15 kW).
+  type: Газовые генераторы
+  article: 431503
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-15/3LM
+  title: Gas Generator <span class='text-red'>FAS-15/3LM</span> (15 kW)
+  price: 365000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 18
+    serviceLife: null
+  desc: |
+    <p>Air-cooled three-phase FAS generators with a rated capacity of 15 kW are equipped with the Loncin engines.</p>
+    <p>Loncin has been focusing on the production of engines for generators, garden machinery and motorcycles since 1993. Since 2013, Loncin engines have been actively used to equip a number of BMW motorcycle models, which indicates their high quality, reliability and compliance with European standards.</p>
+    <p>For the autonomous gas generators, the company has developed special dual-fuel engines operating on liquefied gas (propane-butane) or natural gas (methane) without a necessity to spend additional costs and re-equip the system.</p>
+    <p>Air-cooled FAS generators are cheaper and easier to operate than similar models with liquid cooling. Generators are manufactured in a durable metal/plastic casing, which provides increased noise absorption. Such equipment is intended for emergency capacity supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--2--front-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--3--left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-loncin
+  equipment:
+    AST: false
+    list: null
+    optionsIds:
+      - '6030624'
+      - '6080843'
+      - '7000697'
+      - '7000698'
+      - '7000699'
+  specs:
+    power:
+      ng:
+        max: 15
+      lpg:
+        max: 15
+    current:
+      _legacy: null
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engineId: loncin-lc2v90f
+  enclosure:
+    type: Enclosed
+    material: Metal
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: null
+    size:
+      length: null
+      width: null
+      height: null
+    weight: null
+
+
+
+fas-8-1-vp-8-kw:
+  slug: fas-8-1-vp-8-kw
+  meta:
+    title: Gas Generator FAS-8-1/VP (8 kW)
+    description: Gas Generator FAS-8-1/VP (8 kW).
+  type: Газовые генераторы
+  article: 490801
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-8-1/VP
+  title: Gas Generator <span class='text-red'>FAS-8-1/VP</span> (8 kW)
+  price: 390000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--11.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 8
+      lpg:
+        max: 8
+    current:
+      _legacy: 34.8
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,44 m³/h * 1 kW
+      lpg: 0,39 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 62
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 400
+
+
+
+fas-10-1-vp-10-kw:
+  slug: fas-10-1-vp-10-kw
+  meta:
+    title: Gas Generator FAS-10-1/VP (10 kW)
+    description: Gas Generator FAS-10-1/VP (10 kW).
+  type: Газовые генераторы
+  article: 491001
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-10-1/VP
+  title: Gas Generator <span class='text-red'>FAS-10-1/VP</span> (10 kW)
+  price: 420000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--close--gas-input--11.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,41 m³/h * 1 kW
+      lpg: 0,35 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 62
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 400
+
+
+
+fas-10-3-vp-10-kw:
+  slug: fas-10-3-vp-10-kw
+  meta:
+    title: Gas Generator FAS-10-3/VP (10 kW)
+    description: Gas Generator FAS-10-3/VP (10 kW).
+  type: Газовые генераторы
+  article: 491003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-10-3/VP
+  title: Gas Generator <span class='text-red'>FAS-10-3/VP</span> (10 kW)
+  price: 420000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--close--gas-input--11.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 10
+      lpg:
+        max: 10
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,41 m³/h * 1 kW
+      lpg: 0,35 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 62
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 400
+
+
+
+fas-13-1-vp-13-kw:
+  slug: fas-13-1-vp-13-kw
+  meta:
+    title: Gas Generator FAS-13-1/VP (13 kW)
+    description: Gas Generator FAS-13-1/VP (13 kW).
+  type: Газовые генераторы
+  article: 491301
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-13-1/VP
+  title: Gas Generator <span class='text-red'>FAS-13-1/VP</span> (13 kW)
+  price: 429000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--close--gas-input--11.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 11.5
+      lpg:
+        max: 13
+    current:
+      _legacy: 56.5
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,39 m³/h * 1 kW
+      lpg: 0,31 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 410
+
+
+
+fas-13-3-vp-13-kw:
+  slug: fas-13-3-vp-13-kw
+  meta:
+    title: Gas Generator FAS-13-3/VP (13 kW)
+    description: Gas Generator FAS-13-3/VP (13 kW).
+  type: Газовые генераторы
+  article: 491303
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-13-3/VP
+  title: Gas Generator <span class='text-red'>FAS-13-3/VP</span> (13 kW)
+  price: 429000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--close--gas-input--11.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 12
+      lpg:
+        max: 13
+    current:
+      _legacy: 23.6
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,37 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    size:
+      length: 1321
+      width: 780
+      height: 963
+    weight: 410
+
+
+
+fas-15-1-vr-15-kw:
+  slug: fas-15-1-vr-15-kw
+  meta:
+    title: Gas Generator FAS-15-1/VR (15 kW)
+    description: Gas Generator FAS-15-1/VR (15 kW).
+  type: Газовые генераторы
+  article: 481501
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-15-1/VR
+  title: Gas Generator <span class='text-red'>FAS-15-1/VR</span> (15 kW)
+  price: 521000
+  priceBeforeDiscount: null
+  discount: 10
+  discountDate: '2017-12-29'
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 14.5
+      lpg:
+        max: 15
+    current:
+      _legacy: 65.2
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,45 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 2500
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 67
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-15-3-vr-15-kw:
+  slug: fas-15-3-vr-15-kw
+  meta:
+    title: Gas Generator FAS-15-3/VR (15 kW)
+    description: Gas Generator FAS-15-3/VR (15 kW).
+  type: Газовые генераторы
+  article: 481503
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-15-3/VR 
+  title: Gas Generator <span class='text-red'>FAS-15-3/VR</span> (15 kW)
+  price: 524000
+  priceBeforeDiscount: null
+  discount: 10
+  discountDate: '2017-12-29'
+  availability: available
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 14.5
+      lpg:
+        max: 15
+    current:
+      _legacy: 27.2
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,45 m³/h * 1 kW
+      lpg: 0,38 kg/h * 1 kW
+    operatingSpeed: 2500
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 67
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-18-1-vr-18-kw:
+  slug: fas-18-1-vr-18-kw
+  meta:
+    title: Gas Generator FAS-18-1/VR (18 kW)
+    description: Gas Generator FAS-18-1/VR (18 kW).
+  type: Газовые генераторы
+  article: 481801
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-18-1/VR
+  title: Gas Generator <span class='text-red'>FAS-18-1/VR</span> (18 kW)
+  price: 521000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 17
+      lpg:
+        max: 18
+    current:
+      _legacy: 78.3
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,42 m³/h * 1 kW
+      lpg: 0,36 kg/h * 1 kW
+    operatingSpeed: 2500
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-18-3-vr-18-kw:
+  slug: fas-18-3-vr-18-kw
+  meta:
+    title: Gas Generator FAS-18-3/VR (18 kW)
+    description: Gas Generator FAS-18-3/VR (18 kW).
+  type: Газовые генераторы
+  article: 481803
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-18-3/VR
+  title: Gas Generator <span class='text-red'>FAS-18-3/VR</span> (18 kW)
+  price: 524000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 17
+      lpg:
+        max: 18
+    current:
+      _legacy: 32.6
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,41 m³/h * 1 kW
+      lpg: 0,35 kg/h * 1 kW
+    operatingSpeed: 2500
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-21-1-vp-21-kw:
+  slug: fas-21-1-vp-21-kw
+  meta:
+    title: Gas Generator FAS-21-1/VP (21 kW)
+    description: Gas Generator FAS-21-1/VP (21 kW).
+  type: Газовые генераторы
+  article: 492101
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-21-1/VP
+  title: Gas Generator <span class='text-red'>FAS-21-1/VP</span> (21 kW)
+  price: 533000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--left--open--4.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--panel--5.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--6.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--7.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--close--gas-input--8.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 20
+      lpg:
+        max: 21
+    current:
+      _legacy: 91.3
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,4 m³/h * 1 kW
+      lpg: 0,34 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    size:
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 550
+
+
+
+fas-21-1-vr-21-kw:
+  slug: fas-21-1-vr-21-kw
+  meta:
+    title: Газовый генератор ФАС-21-1/ВР (21 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ВАЗ с ременным приводом и жидкостным охлаждением, мощностью 21 кВт, изготавливается во всепогодном шумозащитном корпусе.
+  type: Газовые генераторы
+  article: 482101
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-21-1/ВР
+  title: Газовый генератор <span class='text-red'>ФАС-21-1/ВР</span> (21 кВт)
+  price: 510000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 20
+      lpg:
+        max: 21
+    current:
+      _legacy: 30
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 2600
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1300
+      width: 820
+      height: 990
+    weight: 520
+
+
+fas-21-3-vr-21-kw:
+  slug: fas-21-3-vr-21-kw
+  meta:
+    title: Gas Generator FAS-21-3/VR (21 kW)
+    description: Gas Generator FAS-21-3/VR (21 kW).
+  type: Газовые генераторы
+  article: 482103
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-21-3/VR
+  title: Gas Generator <span class='text-red'>FAS-21-3/VR</span> (21 kW)
+  price: 511000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main capacity power supply.</p>
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 20
+      lpg:
+        max: 21
+    current:
+      _legacy: 38
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,39 m³/h * 1 kW
+      lpg: 0,33 kg/h * 1 kW
+    operatingSpeed: 2800
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-24-3-vr-24-kw:
+  slug: fas-24-3-vr-24-kw
+  meta:
+    title: Gas Generator FAS-24-3/VR (24 kW)
+    description: Gas Generator FAS-24-3/VR (24 kW).
+  type: Газовые генераторы
+  article: 482403
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-24-3/VR
+  title: Gas Generator <span class='text-red'>FAS-24-3/VR</span> (24 kW)
+  price: 587000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The belt driven FAS-VR generators are equipped with the liquid-cooled engines of VAZ 21083 and VAZ 21213 models, which are the most popular models in the Russian market. Maintenance and purchase of spare parts will not cause difficulties even in remote regions of the country. The model range includes single-phase and three-phase generators with a rated capacity of 15 to 24 kW.</p>
+    <p>The VAZ engines are adapted for operation on both natural and liquefied gas, while their service life is significantly enhanced.</p>
+    <p>The FAS generators of the VR series are small-sized and reliable. They can operate around the clock and are used for both backup and main capacity supply of private houses or small enterprises.</p>
+    <p>The casing is well soundproofed and waterproofed, which allows the open-air installation. Convenient electronic control and a heating system will ensure a quick start of the generator in automatic mode in case of the main capacity power supply.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--3.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--back--closed--5.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--left--closed--6.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--inside--7.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--open--panel--8.jpg
+    - url: equipment/gas-generators/fas-vr/gas-generator-fas-vr--front--close--gas-input--9.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 23
+      lpg:
+        max: 24
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,37 m³/h * 1 kW
+      lpg: 0,31 kg/h * 1 kW
+    operatingSpeed: 2800
+    cooling: null
+  engineId: vaz-21083
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 69
+    size:
+      length: 1486
+      width: 873
+      height: 1142
+    weight: 530
+
+
+
+fas-28-3-vp-28-kw:
+  slug: fas-28-3-vp-28-kw
+  meta:
+    title: Gas Generator FAS-28-3/VP (28 kW)
+    description: Gas Generator FAS-28-3/VP (28 kW).
+  type: Газовые генераторы
+  article: 492803
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-28-3/VP
+  title: Gas Generator <span class='text-red'>FAS-28-3/VP</span> (28 kW)
+  price: 593000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--open--3.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--left--open--4.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--open--panel--5.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--inside--6.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--inside--7.jpg
+    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--close--gas-input--8.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 27
+      lpg:
+        max: 28
+    current:
+      _legacy: 50.7
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,34 m³/h * 1 kW
+      lpg: 0,29 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    size:
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 540
+
+
+
+fas-32-3-vp-32-kw:
+  slug: fas-32-3-vp-32-kw
+  meta:
+    title: Gas Generator FAS-32-3/VP (32 kW)
+    description: Gas Generator FAS-32-3/VP (32 kW).
+  type: Газовые генераторы
+  article: 493203
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-32-3/VP
+  title: Gas Generator <span class='text-red'>FAS-32-3/VP</span> (32 kW)
+  price: 593000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The direct driven FAS generators of VP series are equipped with the liquid-cooled engines of VAZ 2106 and VAZ 21213 models. These engines are manufactured to equip cars of Russian production.</p>
+    <p>The engines are adapted for operation on both natural and liquefied gas. Their service life is significantly enhanced in comparison with gasoline analogues.</p>
+    <p>The FAS-VP series includes single-phase and three-phase models with a capacity of 8 to 32 kW.</p>
+    <p>The use of engine-generator direct torque transmission increases the efficiency, reduces the wear of shafts and bearings and cuts the noise level by 10 dB as compared to belt driven models. The direct driven FAS models have slightly larger dimensions.</p>
+    <p>Thanks to their reliability, long service life and ability to operate round-the-clock for a long time, the FAS generators can be used for the backup and main capacity supply of private houses or industrial enterprises.</p>
+    <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--open--3.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--left--open--4.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--open--panel--5.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--inside--6.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--inside--7.jpg
+    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--close--gas-input--8.jpg
+  videos: null
+  docs: null
+  tags:
+    - серия-вп-вр-вк
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds:
+      - '7000689'
+      - '7000690'
+      - '7000691'
+      - '7000692'
+      - '7000693'
+      - '7000694'
+  specs:
+    power:
+      ng:
+        max: 30
+      lpg:
+        max: 32
+    current:
+      _legacy: 58
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,33 m³/h * 1 kW
+      lpg: 0,27 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 70
+    size:
+      length: 1699
+      width: 933
+      height: 1149
+    weight: 550
+
+
+
+
+fas-40-3-m-40-kw:
+  slug: fas-40-3-m-40-kw
+  meta:
+    title: Gas Generator FAS-40-3/M (40 kW)
+    description: Gas Generator FAS-40-3/M (40 kW).
+  type: Газовые генераторы
+  article: 494003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-40-3/M
+  title: Gas Generator <span class='text-red'>FAS-40-3/M</span> (40 kW)
+  price: 1410000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Powerful industrial FAS generators equipped with MMZ engines are manufactured on the basis of well-proven diesel engines by Minsk Motor Plant, which are adapted for operation on natural and liquefied gas.</p>
+    <p>The MMZ-engine-based three-phase FAS generators can operate at full load without time limits. Therefore, they can be used as backup and main power supply sources.</p>
+    <p>The generators are equipped with an electric starter, an accumulator battery, a mains charger that keeps the accumulator performance for long periods of its inactivity, an automatic transfer switch (ATS), and an automatic voltage and frequency controller.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--01--front-right--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--02--front-right--half-open--03.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--03--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--04--back-top-left.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--05--front-top-right.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--06--front.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--07--front-top.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--08--top-front.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--09--back-top.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--10--back.jpg
+    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--11--front-panel.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-mmz
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds:
+      - '96973'
+      - heat-module-1
+  specs:
+    power:
+      ng:
+        max: 40
+      lpg:
+        max: 40
+    current:
+      _legacy: 72.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,34 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: mmz-246-4
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    size:
+      length: 2507
+      width: 1181
+      height: 1531
+    weight: 1210
+
+
+
+fas-50-3-m-50-kw:
+  slug: fas-50-3-m-50-kw
+  meta:
+    title: Gas Generator FAS-50-3/M (50 kW)
+    description: Gas Generator FAS-50-3/M (50 kW).
+  type: Газовые генераторы
+  article: 495003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-50-3/M
+  title: Gas Generator <span class='text-red'>FAS-50-3/M</span> (50 kW)
+  price: 1420000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Powerful industrial FAS generators equipped with MMZ engines are manufactured on the basis of well-proven diesel engines by Minsk Motor Plant, which are adapted for operation on natural and liquefied gas.</p>
+    <p>The MMZ-engine-based three-phase FAS generators can operate at full load without time limits. Therefore, they can be used as backup and main power supply sources.</p>
+    <p>The generators are equipped with an electric starter, an accumulator battery, a mains charger that keeps the accumulator performance for long periods of its inactivity, an automatic transfer switch (ATS), and an automatic voltage and frequency controller.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front--closed--1.jpg
+      main: true
+    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--back-left--closed--3.jpg
+    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front--closed-electro--4.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-mmz
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds:
+      - '7000683'
+      - '7000684'
+      - '7000685'
+      - '7000686'
+      - '7000687'
+      - '7000688'
+      - heat-module-1
+  specs:
+    power:
+      ng:
+        max: 50
+      lpg:
+        max: 50
+    current:
+      _legacy: 90.6
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,28 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: mmz-246-4
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    size:
+      length: 2507
+      width: 1181
+      height: 1531
+    weight: 1310
+
+
+
+fas-100-3-yp-100-kw:
+  slug: fas-100-3-yp-100-kw
+  meta:
+    title: Gas Generator FAS-100-3/YP (100 kW)
+    description: Gas Generator FAS-100-3/YP (100 kW).
+  type: Газовые генераторы
+  article: 4910003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-100-3/YP
+  title: Gas Generator <span class='text-red'>FAS-100-3/YP</span> (100 kW)
+  price: 2130000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The FAS gas-piston power stations equipped with YaMZ engines are a series of three-phase industrial units with a capacity of 100 to 315 kW. The generators are mounted on a steel frame with damping cushions and are not equipped with a protective casing. Therefore, they should be installed within specially equipped enclosed spaces.</p>
+    <p>YaMZ engine based generators are used for the backup and main power supply of industrial facilities. They are equipped with engines adapted for operation on natural and liquefied gas.</p>
+    <p>Diesel engines of the Yaroslavl Motor Plant were originally designed to fit overweight vehicles. Therefore, they can be operated for a long time at maximum loads. The FAS generators with YaMZ engines are equipped with an electric starter with powerful accumulator battery, an automatic transfer switch (ATS), a liquid crystal display, and an automatic voltage and frequency controller.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--3--back-left.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--4--back.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--5--back-right.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-ymz
+  equipment:
+    AST: null
+    list: >
+      <li>Liquid-cooled YaMZ gas engine</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Single-bearing electric generator of IP23 class</li>
+      <li>Gas powered generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+    optionsIds:
+      - heat-module-2
+  specs:
+    power:
+      ng:
+        max: 100
+      lpg:
+        max: 100
+    current:
+      _legacy: 180
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ymz-238
+  enclosure:
+    type: Open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
+
+
+
+fas-150-3-yp-150-kw:
+  slug: fas-150-3-yp-150-kw
+  meta:
+    title: Gas Generator FAS-150-3/YP (150 kW)
+    description: Gas Generator FAS-150-3/YP (150 kW).
+  type: Газовые генераторы
+  article: 4915003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-150-3/YP
+  title: Gas Generator <span class='text-red'>Gas Generator</span> (150 kW)
+  price: 2200000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The FAS gas-piston power stations equipped with YaMZ engines are a series of three-phase industrial units with a capacity of 100 to 315 kW. The generators are mounted on a steel frame with damping cushions and are not equipped with a protective casing. Therefore, they should be installed within specially equipped enclosed spaces.</p>
+    <p>YaMZ engine based generators are used for the backup and main power supply of industrial facilities. They are equipped with engines adapted for operation on natural and liquefied gas.</p>
+    <p>Diesel engines of the Yaroslavl Motor Plant were originally designed to fit overweight vehicles. Therefore, they can be operated for a long time at maximum loads. The FAS generators with YaMZ engines are equipped with an electric starter with powerful accumulator battery, an automatic transfer switch (ATS), a liquid crystal display, and an automatic voltage and frequency controller.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--2--front-left.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--3--back-left.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--4--back.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--5--back-right.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--6--front-right.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-ymz
+  equipment:
+    AST: null
+    list: >
+      <li>Liquid-cooled YaMZ gas engine</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Single-bearing electric generator of IP23 class</li>
+      <li>Gas powered generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+    optionsIds:
+      - heat-module-2
+  specs:
+    power:
+      ng:
+        max: 150
+      lpg:
+        max: 150
+    current:
+      _legacy: 270
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ymz-238
+  enclosure:
+    type: Open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
+
+
+
+fas-200-3-yp-200-kw:
+  slug: fas-200-3-yp-200-kw
+  meta:
+    title: Газовый генератор ФАС-200-3/ЯП (200 кВт)
+    description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ЯМЗ с жидкостным охлаждением, мощностью 200 кВт, смонтирован на стальной раме.
+  type: Газовые генераторы
+  article: 4920003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-200-3/ЯП
+  title: Газовый генератор <span class='text-red'>ФАС-200-3/ЯП</span> (200 кВт)
+  price: 3900000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанции ФАС на базе двигателей ЯМЗ – серия трехфазных промышленных агрегатов мощностью от 100 до 315 кВт. Генераторы смонтированы на стальной раме с амортизирующими подушками и не имеют защитного кожуха, поэтому устанавливаются в специально оборудованных закрытых помещениях.</p>
+    <p>Генераторы на базе двигателей ЯМЗ используются для резервного и основного электроснабжения промышленных объектов. В них установлены двигатели, адаптированные для работы с природным и сжиженным газом.</p>
+    <p>Дизельные двигатели Ярославского моторного завода изначально разработаны для большегрузных автомобилей, поэтому способны работать долгое время с максимальными нагрузками. Генераторы ФАС на базе двигателей ЯМЗ укомплектованы электростартером с мощным аккумулятором, блоком автоматического ввода резерва (АВР), жидкокристаллическим дисплеем и автоматическим регулятором напряжения и частоты.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front.jpg
+      main: true
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front-right.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--back-right.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--back.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--back-left.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front-left.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front--container.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front--container--open-1.jpg
+    - url: equipment/gas-generators/ФАС-200-3-Р/Газовый-генератор-ФАС-200-3-Р--front--container--open-2.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+      <li>Стальная сварная рама с антивибрационными подушками</li>
+      <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
+      <li>Одноопорный электрогенератор класса IP23</li>
+      <li>Система экстренной остановки ГПУ</li>
+      <li>Автоматический регулятор напряжения и частоты</li>
+      <li>Контроллер нештатной работы генераторной установки</li>
+      <li>Комплект эксплуатационной документации</li>
+      <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-3
+  specs:
+    power:
+      ng:
+        max: 200
+      lpg:
+        max: 200
+    current:
+      _legacy: 360
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-240м
+  enclosure:
+    type: Open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 2900
+      width: 1420
+      height: 1650
+    weight: 2500
+
+
+
+fas-250-3-yp-250-kw:
+  slug: fas-250-3-yp-250-kw
+  meta:
+    title: Газовый генератор ФАС-250-3/ЯП (250 кВт)
+    description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ЯМЗ с жидкостным охлаждением, мощностью 250 кВт, смонтирован на стальной раме.
+  type: Газовые генераторы
+  article: 4925003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-250-3/ЯП
+  title: Газовый генератор <span class='text-red'>ФАС-250-3/ЯП</span> (250 кВт)
+  price: 4000000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Газопоршневые электростанции ФАС на базе двигателей ЯМЗ – серия трехфазных промышленных агрегатов мощностью от 100 до 315 кВт. Генераторы смонтированы на стальной раме с амортизирующими подушками и не имеют защитного кожуха, поэтому устанавливаются в специально оборудованных закрытых помещениях.</p>
+    <p>Генераторы на базе двигателей ЯМЗ используются для резервного и основного электроснабжения промышленных объектов. В них установлены двигатели, адаптированные для работы с природным и сжиженным газом.</p>
+    <p>Дизельные двигатели Ярославского моторного завода изначально разработаны для большегрузных автомобилей, поэтому способны работать долгое время с максимальными нагрузками. Генераторы ФАС на базе двигателей ЯМЗ укомплектованы электростартером с мощным аккумулятором, блоком автоматического ввода резерва (АВР), жидкокристаллическим дисплеем и автоматическим регулятором напряжения и частоты.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front.jpg
+      main: true
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front-right.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--back-right.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--back.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--back-left.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front-left.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front--container.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front--container--open-1.jpg
+    - url: equipment/gas-generators/ФАС-250-3-Р/Газовый-генератор-ФАС-250-3-Р--front--container--open-2.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-ямз
+  equipment:
+    AST: null
+    list: >
+      <li>Газовый двигатель ЯМЗ с жидкостным охлаждением</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+      <li>Стальная сварная рама с антивибрационными подушками</li>
+      <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
+      <li>Одноопорный электрогенератор класса IP23</li>
+      <li>Система экстренной остановки ГПУ</li>
+      <li>Автоматический регулятор напряжения и частоты</li>
+      <li>Контроллер нештатной работы генераторной установки</li>
+      <li>Комплект эксплуатационной документации</li>
+      <li>Гарантийный талон</li>
+    optionsIds:
+      - heat-module-3
+  specs:
+    power:
+      ng:
+        max: 250
+      lpg:
+        max: 250
+    current:
+      _legacy: 452
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ямз-240нм
+  enclosure:
+    type: Open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 3190
+      width: 1420
+      height: 1815
+    weight: 3100
+
+
+
+fas-315-3-yp-315-kw:
+  slug: fas-315-3-yp-315-kw
+  meta:
+    title: Gas Generator FAS-315-3/YP (315 kW)
+    description: Gas Generator FAS-315-3/YP (315 kW).
+  type: Газовые генераторы
+  article: 4931503
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-315-3/YP
+  title: Gas Generator <span class='text-red'>FAS-315-3/YP</span> (315 kW)
+  price: 6400000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The FAS gas-piston power stations equipped with YaMZ engines are a series of three-phase industrial units with a capacity of 100 to 315 kW. The generators are mounted on a steel frame with damping cushions and are not equipped with a protective casing. Therefore, they should be installed within specially equipped enclosed spaces.</p>
+    <p>YaMZ engine based generators are used for the backup and main power supply of industrial facilities. They are equipped with engines adapted for operation on natural and liquefied gas.</p>
+    <p>Diesel engines of the Yaroslavl Motor Plant were originally designed to fit overweight vehicles. Therefore, they can be operated for a long time at maximum loads. The FAS generators with YaMZ engines are equipped with an electric starter with a high-powered accumulator battery, an automatic transfer switch (ATS), a liquid crystal display, and an automatic voltage and frequency controller.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front-right.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back-right.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back-left.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front-left.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container--open-1.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container--open-2.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-ymz
+  equipment:
+    AST: null
+    list: >
+      <li>Liquid-cooled YaMZ gas engine</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Single-bearing electric generator of IP23 class</li>
+      <li>Gas powered generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+    optionsIds:
+      - heat-module-4
+  specs:
+    power:
+      ng:
+        max: 315
+      lpg:
+        max: 315
+    current:
+      _legacy: 570
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: ymz-8503-10
+  enclosure:
+    type: Open
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 90
+    size:
+      length: 3190
+      width: 1420
+      height: 1815
+    weight: 3100
+
+
+cogeneration-unit-fas-50-70m:
+  slug: cogeneration-unit-fas-50-70m
+  meta:
+    title: Cogeneration Unit FAS-50/70M
+    description: Cogeneration Unit FAS-50/70M.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-50/70M
+  title: Cogeneration Unit <span class='text-red'>FAS-50/70M</span>
+  price: 2360000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  # @todo Replace `ФАС-ТМ100` with `<a href='/l/тепловой-модуль-фас-тм100'>ФАС-ТМ100</a>` when https://trello.com/c/EN6aCYtu/112-- will be ready
+  desc: |
+    <p><strong>FAS-50/70M</strong> is a cogeneration unit for simultaneous generation of electrical and thermal energy for residential, industrial and commercial facilities. The unit is a gas-piston power station FAS-TM100.</p>
+    <p>Combined generation of electrical and thermal energy, or cogeneration, is one of the most effective energy-saving technologies. Thermal energy is obtained by utilizing the heat of exhaust gases emitted by internal combustion engines and the cooling liquid of the gas-piston station.</p>
+    <p>The modern cogeneration units driven by gas-piston engines feature up to 85–90% of fuel efficiency. Fuel savings during energy production can reach 40% as compared to the independent generation of the same amount of electric energy (by a power unit) and thermal energy (by a hot-water boiler).</p>
+    <p>The cogeneration unit allows to save on connection to power and heat supply networks, as well as provides energy independence from mains failures and accidents in heat supply systems.</p>
+    <p>When operating a FAS-50/70M unit at 50 kW, a consumer receives 70 kW of thermal output for heating water and process needs.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-1--front.jpg
+      main: true
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--front--open.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--front-left--open.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-1--front-right--open.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back-left.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back--open.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back-right--open.jpg
+  videos: null
+  docs:
+    - title: Scheme FAS-TM100
+      url: http://fasenergo.ru/products/equipment/gas-generators/fas/documents/FAS-TM100.pdf
+  tags:
+    - cogeneration-unit
+    # # @todo Replace `ФАС-ТМ100` with `<a href='/l/тепловой-модуль-фас-тм100'>ФАС-ТМ100</a>` when https://trello.com/c/EN6aCYtu/112-- will be ready
+  equipment:
+    AST: null
+    list: >
+      <li>Gas-piston unit <a href='/продукция/gas-generators/фас-50-3-м-50-квт'>FAS-50-3/M</a></li>
+      <li>Thermal module FAS-TM100</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 50
+      lpg:
+        max: 50
+    _thermalPower: 70
+    current:
+      _legacy: 90.6
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,32 m³/h * 1 kW
+      lpg: 0,28 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: mmz-246-4
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 65
+    size:
+      length: 2507
+      width: 1181
+      height: 2345
+    weight: 1706
+
+
+
+fas-8-1-vt-turbo-8-kw:
+  slug: fas-8-1-vt-turbo-8-kw
+  meta:
+    title: Газовый генератор ФАС-8-1/ВТ ТУРБО (8 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ВАЗ 21067 с жидкостным охлаждением и автозапуском, во всепогодном шумозащитном кожухе ТУРБО от производителя.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-8-1/ВТ
+  title: Газовый генератор <span class='text-red'>ФАС-8-1/ВТ ТУРБО</span> (8 кВт)
+  price: 440000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-8-1/ВП на базе двигателя ВАЗ 21067 с жидкостным охлаждением. Номинальная мощность - 8 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: null
+    list: >
+      <li>Газовый двигатель с жидкостным охлаждением</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+      <li>Стальная сварная рама с антивибрационными подушками</li>
+      <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
+      <li>Двухопорный электрогенератор класса IP23</li>
+      <li>Система экстренной остановки ГГУ</li>
+      <li>Автоматический регулятор напряжения и частоты</li>
+      <li>Контроллер нештатной работы генераторной установки</li>
+      <li>Электрический пульт ручного запуска с измерительными приборами</li>
+      <li>Комплект эксплуатационной документации</li>
+      <li>Гарантийный талон</li>
+      <li>Масло Shell SAE 5W-40</li>
+      <li>Антифриз</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 8
+      lpg:
+        max: 8
+    current:
+      _legacy: 34.8
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    size:
+      length: 1550
+      width: 900
+      height: 1050
+    weight: 372
+
+
+
+fas-10-1-vt-turbo-10-kw:
+  slug: fas-10-1-vt-turbo-10-kw
+  meta:
+    title: Газовый генератор ФАС-10-1/ВТ ТУРБО (10 кВт)
+    description: Однофазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя ВАЗ 21067 с жидкостным охлаждением и автозапуском во всепогодном шумозащитном кожухе ТУРБО от производителя.
+  type: Газовые генераторы
+  article: null
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-10-1/ВТ
+  title: Газовый генератор <span class='text-red'>ФАС-10-1/ВТ ТУРБО</span> (10 кВт)
+  price: 460000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Однофазный газовый генератор ФАС-10-1/ВП на базе двигателя ВАЗ 21067 с жидкостным охлаждением. Номинальная мощность - 10 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: null
+    list: >
+      <li>Газовый двигатель с жидкостным охлаждением</li>
+      <li>Радиатор охлаждения для работы в условиях температуры воздуха до +40С</li>
+      <li>Подогрев двигателя для эксплуатации при температурах до -40С</li>
+      <li>Стальная сварная рама с антивибрационными подушками</li>
+      <li>Электростартер, стартерная батарея, блок зарядки аккумулятора</li>
+      <li>Двухопорный электрогенератор класса IP23</li>
+      <li>Система экстренной остановки ГГУ</li>
+      <li>Автоматический регулятор напряжения и частоты</li>
+      <li>Контроллер нештатной работы генераторной установки</li>
+      <li>Электрический пульт ручного запуска с измерительными приборами</li>
+      <li>Комплект эксплуатационной документации</li>
+      <li>Гарантийный талон</li>
+      <li>Масло Shell SAE 5W-40</li>
+      <li>Антифриз</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 9.5
+      lpg:
+        max: 10
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 220
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 57
+    size:
+      length: 1550
+      width: 900
+      height: 1050
+    weight: 377
+
+
+
+fas-13-1-vt-turbo-13-kw:
+  slug: fas-13-1-vt-turbo-13-kw
+  meta:
+    title: Gas Generator FAS-13-1/VT TURBO (13 kW)
+    description: Gas Generator FAS-13-1/VT TURBO (13 kW).
+  type: Газовые генераторы
+  article: 441301
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-13-1/VT
+  title: Gas Generator <span class='text-red'>FAS-13-1/VT TURBO</span> (13 kW)
+  price: 469000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing generators apparatuses that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 11.5
+      lpg:
+        max: 13
+    current:
+      _legacy: 56.5
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,39 m³/h * 1 kW
+      lpg: 0,31 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 450
+
+
+
+fas-13-3-vt-turbo-13-kw:
+  slug: fas-13-3-vt-turbo-13-kw
+  meta:
+    title: Gas Generator FAS-13-3/VT TURBO (13 kW)
+    description: Gas Generator FAS-13-3/VT TURBO (13 kW).
+  type: Газовые генераторы
+  article: 441303
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-13-3/VT
+  title: Gas Generator <span class='text-red'>FAS-13-3/VT TURBO</span> (13 kW)
+  price: 469000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes generators that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 12
+      lpg:
+        max: 13
+    current:
+      _legacy: 23.6
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,37 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 1500
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 63
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 450
+
+
+
+fas-21-1-vt-turbo-21-kw:
+  slug: fas-21-1-vt-turbo-21-kw
+  meta:
+    title: Gas Generator FAS-21-1/VT TURBO (21 kW)
+    description: Gas Generator FAS-21-1/VT TURBO (21 kW).
+  type: Газовые генераторы
+  article: 442101
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-21-1/VT
+  title: Gas Generator <span class='text-red'>FAS-21-1/VT</span> (21 kW)
+  price: 530000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes generators that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 20
+      lpg:
+        max: 21
+    current:
+      _legacy: 91.3
+      ng: null
+      lpg: null
+    voltage: 230
+    frequency: 50
+    phases: 1
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,4 m³/h * 1 kW
+      lpg: 0,34 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
+
+
+
+fas-21-3-vt-turbo-21-kw:
+  slug: fas-21-3-vt-turbo-21-kw
+  meta:
+    title: Gas Generator FAS-21-3/VT TURBO (21 kW)
+    description: Gas Generator FAS-21-3/VT TURBO (21 kW).
+  type: Газовые генераторы
+  article: 442103
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-21-3/VT
+  title: Gas Generator <span class='text-red'>FAS-21-3/VT TURBO</span> (21 kW)
+  price: 551000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes generators that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 20
+      lpg:
+        max: 21
+    current:
+      _legacy: 38
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,39 m³/h * 1 kW
+      lpg: 0,33 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
+
+
+
+fas-24-3-vt-turbo-24-kw:
+  slug: fas-24-3-vt-turbo-24-kw
+  meta:
+    title: Gas Generator FAS-24-3/VT TURBO (24 kW)
+    description: Gas Generator FAS-24-3/VT TURBO (24 kW).
+  type: Газовые генераторы
+  article: 442403
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-24-3/VT
+  title: Gas Generator <span class='text-red'>FAS-24-3/VT TURBO</span> (24 kW)
+  price: 627000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes apparatuses that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 23
+      lpg:
+        max: 24
+    current:
+      _legacy: 43.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,37 m³/h * 1 kW
+      lpg: 0,31 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
+
+
+fas-28-3-vt-turbo-28-kw:
+  slug: fas-28-3-vt-turbo-28-kw
+  meta:
+    title: Gas Generator FAS-28-3/VT TURBO (28 kW)
+    description:  Gas Generator FAS-28-3/VT TURBO (28 kW).
+  type: Газовые генераторы
+  article: 442803
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-28-3/VT
+  title: Gas Generator <span class='text-red'>FAS-28-3/VT TURBO</span> (28 kW)
+  price: 633000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes generators that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 27
+      lpg:
+        max: 28
+    current:
+      _legacy: 50.7
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,34 m³/h * 1 kW
+      lpg: 0,29 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-2106
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
+
+
+
+fas-32-3-vt-turbo-32-kw:
+  slug: fas-32-3-vt-turbo-32-kw
+  meta:
+    title: Gas Generator FAS-32-3/VT TURBO (32 kW)
+    description: Gas Generator FAS-32-3/VT TURBO (32 kW).
+  type: Газовые генераторы
+  article: 443203
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-32-3/VT
+  title: Gas Generator <span class='text-red'>FAS-32-3/VT TURBO</span> (32 kW)
+  price: 633000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>FAS gas generators of VT series are equipped with VAZ engines and possess all the advantages of generators of other series with similar engines. These generators can be used as a main or a backup source of power supply without any restrictions on operating time.</p>
+    <p>The main difference of the VT series generators is the cylindrical Turbo casing made of special plastic that "blocks" noise inside the device and damps vibration. The noise level of these generators does not exceed 57 dB, which is comparable to the noise of a domestic refrigerator. Therefore, FAS generators in Turbo casing are recognized as the quietest in their class of equipment. They can be used at night in close proximity to residential buildings.</p>
+    <p>The upper part of the casing is easily opened thanks to the lifting mechanism, which makes it convenient to repair and maintain the generator.</p>
+    <p>The model range of FAS gas generators in Turbo casing includes generators that feature a rated capacity of 13 kW and are equipped with VAZ 2106 engines, as well as the models with a rated capacity of 21 to 32 kW and VAZ 21213 engines. All product lines include both single-phase and three-phase generators for industrial applications. Models with a rated capacity of 13 kW are batch produced, while units with a higher output are made to order.</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front--closed.jpg
+      main: true
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--back-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-15-1-vpt--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+  videos: null
+  docs: null
+  tags:
+    - корпус-турбо
+  equipment:
+    AST: true
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds:
+      - '7000689'
+      - '7000690'
+      - '7000691'
+      - '7000692'
+      - '7000693'
+      - '7000694'
+  specs:
+    power:
+      ng:
+        max: 30
+      lpg:
+        max: 32
+    current:
+      _legacy: 58
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,33 m³/h * 1 kW
+      lpg: 0,27 kg/h * 1 kW
+    operatingSpeed: 3000
+    cooling: null
+  engineId: vaz-21213
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1560
+      width: 960
+      height: 1090
+    weight: 490
+
+
+
+fas-15-ozp3-k-15-kw:
+  slug: fas-15-ozp3-k-15-kw
+  meta:
+    title: Газовый генератор ФАС-15-OZP3/K (15 кВт)
+    description: Трехфазный газовый генератор ФАС компании «Фасэнергомаш» на базе двигателя Kubota с жидкостным охлаждением и автоматическим вводом резерва на 15 кВт, в шумопоглощающем кожухе.
+  type: Газовые генераторы
+  article: 48102001
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: ФАС-15-OZP3/K
+  title: Газовый генератор <span class='text-red'>ФАС-15-OZP3/K</span> (15 кВт)
+  price: null
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: discontinued
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>Трехфазный газовый генератор ФАС-15-OZP3/K на базе двигателя Kubota DF972 с жидкостным охлаждением. Номинальная мощность - 15 кВт. Может работать в качестве основного или резервного источника электричества, без ограничений по продолжительности работы при любых погодных условиях и по длительности каждого сеанса работы. Допускается 10% перегрузка от номинальной мощности в течение 1 часа каждые 12 часов работы.</p>
+    <p>Монтируется в закрытом шумопоглощающем корпусе, с возможностью автоматического запуска в случае отключения основной электросети. Двухтопливная система позволяет использовать в качестве топлива сжиженный газ (пропан-бутан) или природный (метан).</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--01--front-right--closed.jpg
+      main: true
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--02--back-right--closed.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--03--left--closed.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--04--back-left-top.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--05--front-right-top.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--06--left.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--07--left-top.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--08--top-left.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--09--right-top.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--10--right.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--11--front--panel.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--12--electrical-equipment--front-top.jpg
+    - url: equipment/gas-generators/ФАС-15-OZP3-K/Газовый-генератор-ФАС-КП--13--engine--front-left.jpg
+  videos: null
+  docs: null
+  tags:
+    - двигатель-kubota
+  equipment:
+    ATS: null
+    list: >
+      <li>Liquid-cooled gas generator</li>
+      <li>Cooling radiator for operation at air temperature of up to +40 °C</li>
+      <li>Automatic transfer switch (ATS)</li>
+      <li>Engine heater for operation at temperature of up to -40 °C</li>
+      <li>Steel welded frame with anti-vibration cushions</li>
+      <li>Electric starter, accumulator starting battery, accumulator battery charging unit</li>
+      <li>Two-bearing electric generator of IP23 class</li>
+      <li>Gas generator emergency stop system</li>
+      <li>Automatic voltage and frequency regulator</li>
+      <li>Emergency mode controller</li>
+      <li>Electric manual activation panel with measuring devices</li>
+      <li>Set of operational documents</li>
+      <li>Warranty certificate</li>
+      <li>Motor oil Shell SAE 5W-40</li>
+      <li>Antifreeze</li>
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 14
+      lpg:
+        max: 15
+    current:
+      _legacy: 21
+      ng: null
+      lpg: null
+    voltage: 380
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: null
+      lpg: null
+    operatingSpeed: null
+    cooling: null
+  engineId: kubota-df972
+  enclosure:
+    type: закрытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 68
+    size:
+      length: 1250
+      width: 720
+      height: 935
+    weight: 345
+
+
+fas-35-3-zr-35-kw:
+  slug: fas-35-3-zr-35-kw
+  meta:
+    title: Gas Generator FAS-35-3/ZR (35 kW)
+    description: Gas Generator FAS-35-3/ZR (35 kW).
+  type: Газовые генераторы
+  article: 483503
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-35-3/ZR
+  title: Gas Generator <span class='text-red'>FAS-35-3/ZR</span> (35 kW)
+  price: 960000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The three-phase FAS generators are equipped with the engines produced by the Zavolzhsky Motor Plant. The plant focuses on the production of engines for SUVs, pick-up trucks and other all-wheel drive vehicles manufactured worldwide. Gasoline car engines with microprocessor control are adapted for operation on natural and liquefied gas.</p>
+    <p>FAS gas generators with ZMZ engines can be used for backup and main power supply purposes and are designed for one-year round-the-clock operation at a nominal load.</p>
+    <p>The equipment is manufactured in a closed noise-absorbing casing with a liquid crystal display and can be equipped with an automatic transfer switch (ATS).</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-right.jpg
+      main: true
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-top--hood.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-left-top--hood.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--back-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--back-left-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--back-right-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-right-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-left-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-top--open.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-zmz-409
+  equipment:
+    AST: true
+    list: null
+    optionsIds: null
+  specs:
+    power:
+      ng:
+        max: 35
+      lpg:
+        max: 35
+    current:
+      _legacy: 63.4
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,35 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 2900
+    cooling: liquid
+  engineId: zmz-409
+  enclosure:
+    type: Enclosed
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 66
+    size:
+      length: 1800
+      width: 1050
+      height: 1250
+    weight: 710
+
+
+fas-40-3-zr-40-kw:
+  slug: fas-40-3-zr-40-kw
+  meta:
+    title: Gas Generator FAS-40-3/ZR (40 kW)
+    description: Gas Generator FAS-40-3/ZR (40 kW).
+  type: Газовые генераторы
+  article: 484003
+  manufacturer:
+    brand: Фасэнергомаш
+    country: Россия
+  series: null
+  model: FAS-40-3/ZR
+  title: Gas Generator <span class='text-red'>FAS-40-3/ZR</span> (40 kW)
+  price: 960000
+  priceBeforeDiscount: null
+  discount: null
+  discountDate: null
+  availability: preorder
+  warranty:
+    delivery: 24
+    installation: 24
+    serviceLife: null
+  desc: |
+    <p>The three-phase FAS generators are equipped with the engines produced by the Zavolzhsky Motor Plant. The plant focuses on the production of engines for SUVs, pick-up trucks and other all-wheel drive vehicles manufactured worldwide. Gasoline car engines with microprocessor control are adapted for operation on natural and liquefied gas.</p>
+    <p>FAS gas generators with ZMZ engines can be used for backup and main power supply purposes and are designed for one-year round-the-clock operation at a nominal load.</p>
+    <p>The equipment is manufactured in a closed noise-absorbing casing with a liquid crystal display and can be equipped with an automatic transfer switch (ATS).</p>
+  features: null
+  photos:
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-right.jpg
+      main: true
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-top--hood.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-left-top--hood.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--back-top--open.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--back-left-top--open.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--back-right-top--open.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-right-top--open.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-left-top--open.jpg
+    - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-top--open.jpg
+  videos: null
+  docs: null
+  tags:
+    - engine-zmz-409
+  equipment:
+    AST: true
+    list: null
+    optionsIds:
+      - '7000696'
+  specs:
+    power:
+      ng:
+        max: 40
+      lpg:
+        max: 40
+    current:
+      _legacy: 72.5
+      ng: null
+      lpg: null
+    voltage: 400
+    frequency: 50
+    phases: 3
+    phi: null
+    circuitBreaker: null
+    consumption:
+      ng:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+      lpg:
+        idling: null
+        quarter: null
+        half: null
+        nominal: null
+        max: null
+    fuel:
+      ng: 0,35 m³/h * 1 kW
+      lpg: 0,3 kg/h * 1 kW
+    operatingSpeed: 2900
+    cooling: liquid
+  engineId: zmz-409
+  enclosure:
+    type: закрытое
+    material: null
+    coating: null
+    thermalInsulation: null
+    protection: null
+    ventilation: null
+    lock: null
+    removablePanels: null
+    noise: 66
+    size:
+      length: 1800
+      width: 1050
+      height: 1250
+    weight: 710

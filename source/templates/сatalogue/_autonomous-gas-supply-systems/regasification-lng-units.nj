@@ -1,0 +1,244 @@
+---
+title:               Regasification LNG Units
+contentTitle:        Regasification LNG Units
+navTitle:            Regasification LNG Units
+breadcrumbTitle:     Regasification LNG Units
+
+description: Regasification LNG Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>In cooperation with its partners, the FAS Company offers high-quality regasification systems on a turnkey basis consisting of an LNG storage tank and an evaporator. A wide range of capacities, small-size frame structure and a high degree of prefabrication make it possible to ensure gas supply in the shortest possible time and with a small amount of construction works required.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/autonomous-gas-supply-systems/regasification-lng-units/regasification-lng-units-1.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/regasification-lng-units/regasification-lng-units-2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Regasification LNG Units', class = 'h-margin-bottom+') }}
+
+
+<p><strong>The following options are available:</strong></p>
+
+<ul>
+  <li>LNG storage tanks / tank-containers with a capacity of 8–63 m³ (larger tanks are available for customized manufacture);</li>
+  <li>The evaporator capacity is up to 1,350 Nm³/hour.</li>
+</ul>
+
+<p>Each unit can be equipped with one or more tanks and evaporators, depending on the requirements for consumption and the required fuel load. Besides, possible regional standards should be also taken into account, for example, bringing the regasified LNG to a certain temperature and imparting odour to LNG.</p>
+
+<p>Atmospheric evaporators are relatively simple heat exchangers with a wide range of applications. They vaporize the liquefied gas using the heat of the surrounding air. Atmospheric evaporators comprise no moving parts and, after installation and adjustment, require almost no maintenance.</p>
+
+<p>The only disadvantage of atmospheric evaporators is the tendency to frosting, which causes a decrease in performance. Therefore, when designing, it is desirable to calculate the performance value with some margin. At a lack of space, customers can choose tanks of vertical (usually horizontal) design.</p>
+
+<h2>Regasification Units of Mobile Design</h2>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/autonomous-gas-supply-systems/regasification-lng-units/regasification-lng-units-3.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/regasification-lng-units/regasification-lng-units-4.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/regasification-lng-units/regasification-lng-units-5.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Regasification LNG Units', class = 'h-margin-bottom+') }}
+
+{% set pageEq = [
+  { title: 'FAS 20', volume: '21 m³', evaporator: '1+1', potok: 300 },
+  { title: 'FAS 30', volume: '32 m³', evaporator: '1+1', potok: 500 },
+  { title: 'FAS 40', volume: '41 m³', evaporator: '1+1', potok: 720 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Tank Volume</th>
+      <th>Number of Evaporators</th>
+      <th>Evaporator Capacity (On-time: 4 Days/96 Hours)</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+     <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.evaporator }}</td>
+      <td class='h-align--center'>{{ e.potok }} m³/hour</td>  
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p>Regasification units are usually supplied for fixed-site use (in a vertical or horizontal design). However, mobile solutions are convenient for many facilities, for example a SKID tank-container in conjunction with a mobile evaporator (LNG SAT BLOCK).</p>
+
+<p><strong>Advantages:</strong></p>
+<ul>
+  <li>fast commissioning;</li>
+  <li>minimal preparatory works;</li>
+  <li>optimal amount of investment;</li>
+  <li>an easily to assemble design.</li>
+</ul>
+
+<p>Mobile units are perfectly suitable for emergency gas supply systems. They are easy to transport, mount, and operate. LNG is delivered in tank-containers by any means of transport. Empty containers are sent back to the fuel supplier.</p>
+
+<h3>What is FAS LNG SAT BLOCK?</h3>
+
+<p>The LNG SAT BLOCK unit is designed and manufactured according to the PLUG‘N‘PLAY principle.</p>
+
+<p>The main application is the temporary supply of natural gas from municipal and industrial operators. The advantage of this solution is the lack of costs and time required for the construction and installation works. The main components — evaporators and tank-containers — are manufactured in the form of a skid, which makes it possible to transport them by publicly accessible vehicles and mount on the foundation without any specific difficulties.</p>
+
+<p><strong>As a rule, the LNG SAT BLOCK system consists of the following basic components:</strong></p>
+
+<ul>
+  <li>an evaporator (1+1), adapted to climatic conditions, with a capacity of up to 900 Nm³/h;</li>
+  <li>a gas storage tank in the form of a tank-container with a capacity of up to 40 m³ (a single-block design is possible);</li>
+  <li>a control and distribution system with an in-line heater.</li>
+</ul>
+
+<h3>Specifications</h3>
+
+<strong>Horizontal LNG Storage Tank</strong>
+
+{% set pageEq = [
+  { rezervuar: 'ABC', volume: '21 m³', pressure: 11 },
+  { rezervuar: 'ABC', volume: '32 m³', pressure: 11 },
+  { rezervuar: 'ABC', volume: '41 m³', pressure: 11 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Storage Tank</th>
+      <th>Volume</th>
+      <th>Max. Pressure</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.rezervuar }}</td>
+      <td class='h-align--center'>{{ e.volume }}</td>
+      <td class='h-align--center'>{{ e.pressure }} bar</td>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<strong>Specifications of Evaporative Unit</strong>
+
+{% set pageEq = [
+  { title: '20 FT', surface: '173', power: '5', time: '24', evaporator: '1+1' },
+  { title: '30 FT', surface: '303', power: '10', time: '24', evaporator: '1+1' },
+  { title: '40 FT', surface: '432', power: '15', time: '24', evaporator: '1+1' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Evaporative Unit</th>
+      <th>Surface</th>
+      <th>Heating Power</th>
+      <th>Working Hours per Day</th>
+      <th>Number of Evaporators</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.surface }} m²</td>
+      <td class='h-align--center'>{{ e.power }} kW</td>
+      <td class='h-align--center'>{{ e.time }}</td>      
+      <td class='h-align--center'>{{ e.evaporator }}</td>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<strong>Evaporator Capacity (On-time: 2 Days/48 Hours)</strong>
+
+{% set pageEq = [
+  { title: '20 FT', potok: '360' },
+  { title: '30 FT', potok: '610' },
+  { title: '40 FT', potok: '870' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Evaporative Unit</th>
+      <th>Rated Gas Flow</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.potok }} m³/hour</td>  
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+
+<strong>Evaporator Capacity (On-time: 4 Days/96 Hours)</strong>
+
+{% set pageEq = [
+  { title: '20 FT', potok: '300' },
+  { title: '30 FT', potok: '500' },
+  { title: '40 FT', potok: '720' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Evaporative Unit</th>
+      <th>Rated Gas Flow</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.potok }} m³/hour</td>      
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<strong>Evaporator Capacity (On-time: 7 Days/168 Hours)</strong>
+
+{% set pageEq = [
+  { title: '20 FT', potok: '250' },
+  { title: '30 FT', potok: '430' },
+  { title: '40 FT', potok: '600' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Evaporative Unit</th>
+      <th>Rated Gas Flow</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--center'>{{ e.title }}</td>
+      <td class='h-align--center'>{{ e.potok }} m³/hour</td>  
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

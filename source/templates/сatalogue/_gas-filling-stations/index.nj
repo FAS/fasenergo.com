@@ -1,0 +1,101 @@
+---
+title:           'Gas Filling Stations'
+contentTitle:    Gas Filling Stations
+navTitle:        Gas Filling Stations
+breadcrumbTitle: Gas Filling Stations
+
+description: Gas Filling Stations.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{% call CategoryCard(
+  title = 'Gas Filling Stations',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-stations.jpg',
+  url = '/сatalogue/gas-filling-stations/gas-filling-stations'
+) %}{% endcall %}
+
+{% call CategoryCard(
+  title = 'LNG & LNG-CNG Filling Stations from FAS Company',
+  hLevel = 2,
+  image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--1.jpg',
+  url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company'
+) %}{% endcall %}
+
+<h2>Electrical Control Panels</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'FEM 22.7112',
+    hLevel = 4,
+    url = '/сatalogue/gas-filling-stations/electrical-control-panels/fem-22-7112',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  
+  {% call CategoryCard(
+    title = 'FEM 22.561',
+    hLevel = 4,
+    url = '/сatalogue/gas-filling-stations/electrical-control-panels/fem-22-561',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<p>FASENERGOMASH, LLC is one of the leaders in the manufacture of equipment for gas filling stations in Russia. The company is engaged in the manufacture, installation, and commissioning of equipment for gas filling stations. The production line includes both complex solutions (plug-and-produce and modular gas filling stations) and individual equipment units for gas filling stations.</p>
+
+<p>Our company offers for purchase the following equipment:</p>
+
+<ul>
+  <li>Fuel dispensing equipment: fuel dispensers assembled both in Russia by FASENERGOMASH, LLC and in Germany by Flussiggas Anlagen GmbH (FAS);</li>
+  <li>Pump units;</li>
+  <li>LPG gas holders (storage tanks for propane and propane-butane);</li>
+  <li>On/off and shut-off valves of all standard sizes.</li>
+</ul>
+
+<p>All types of equipment are delivered from the company's warehouse in St. Petersburg.</p>
+
+<h2>Designing and Construction of Plug and Produce and Modular Gas Filling Stations</h2>
+
+<p>FASENERGOMASH, LLC designs, selects and delivers equipment as well as constructs gas filling stations intended to refuel motor vehicles and gas cylinders with liquefied propane and propane-butane on a turn-key basis in all regions of the Russian Federation.</p>
+
+<h3>Designing of Gas Filling Stations</h3>
+
+<p>Experts from FASENERGOMASH, LLC will perform all necessary calculations to compile project documentation, select the necessary equipment, develop functional specifications and finally compile the project documentation.</p>
+
+<h3>Selection and Delivery of Equipment for Gas Filling Stations</h3>
+
+<p>The total cost of a gas filling station depends on the equipment it is completed with. The equipment package for a gas filling station comprises:</p>
+
+<ul>
+  <li>underground and aboveground tanks (holders) to store liquefied gas;</li>
+  <li>pumps and compressors to pump fuel;</li>
+  <li>fuel dispensers;</li>
+  <li>LPG pipelines;</li>
+  <li>on/off and shut-off valves;</li>
+  <li>accounting and control systems;</li>
+  <li>safety control systems;</li>
+  <li>service equipment.</li>
+</ul>
+
+<p>The volume and quantity of gas tanks are calculated based on the customer's requirements and reference documentation.</p>
+<p>We offer to purchase underground and aboveground tanks produced by Faskhimmash, which are manufactured in Russia in compliance with the German FAS Company’s technology. The tanks optimally combine European quality with competitive prices and are perfectly adapted to Russian climatic conditions.</p>
+<p>The required capacity of pumps and compressors depends on the as filling station load. When completing gas filling stations, we offer the pump and compressor equipment manufactured by Faskhimmash and American company Corken. For example, we offer to use a vortex pump FD-150 to complete a car gas filling station equipped with 1–2 fuelling nozzles, and high-performance vane pumps Z-2000 and Z-3500 to complete stations with high throughput.</p>
+<p>Fuel dispensers with an accounting system are an important component of any gas filling station. We offer fuel dispensers FASENERGOMASH manufactured in compliance with German technologies as well as FAS fuel dispensers well-known on the Russian market.</p>
+<p>The safety and reliability of the entire system largely depends on the quality of fittings, shut-off valves and other components. Equipment by such manufacturers as RegO, Corken, and FAS have proved to be excellent.</p>
+<p>As an auxiliary and service equipment, we offer pump and compressor units to pump liquefied gas from road tankers that are not equipped with their own pumps and to purge the system with nitrogen during repair works.</p>
+
+<h3>Earth, Construction and Mounting Works</h3>
+
+<p>FASENERGOMASH, LLC carries out a full complex of earth, construction and mounting works when building a gas filling station. The range of services includes the excavation of pits for underground reservoirs, the construction of premises for various purposes in accordance with in-house and customer projects, the installation, commissioning and adjustment of equipment. The result is a plug-and-produce gas filling station.</p>
+
+<h3>Container Type Gas Filling Stations</h3>
+
+<p>For remote routes as well as for temporary and under-construction objects, we offer gas filling stations of container type. They are fully completed with all necessary equipment and can be quickly delivered to the construction site, installed and put into operation.</p>
+{% endblock %}

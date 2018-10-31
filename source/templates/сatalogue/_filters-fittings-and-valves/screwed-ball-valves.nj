@@ -1,0 +1,35 @@
+---
+title:           Screwed Ball Valves
+contentTitle:    Screwed Ball Valves
+navTitle:        Screwed Ball Valves
+breadcrumbTitle: Screwed Ball Valves
+
+description: Screwed Ball Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Screwed ball valves are used as shut-off valves in pipeline sections, as well as in unit elements with a working medium of natural, liquefied petroleum and other gases.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/screwed-ball-valves/screwed-ball-valves.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>Design pressure RP40;</li>
+  <li>Nominal diameter DN10–DN50, ¼“–2“;</li>
+  <li>Stainless steel casing 1.4308;</li>
+  <li>Universal shaft seal.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

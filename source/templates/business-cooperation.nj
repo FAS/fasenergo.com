@@ -1,0 +1,68 @@
+---
+title:           Business Cooperation
+contentTitle:    Business Cooperation
+navTitle:        Business Cooperation
+breadcrumbTitle: Business Cooperation
+
+description: Business Cooperation
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+
+{% set pageE = CONTACTS.departments.dealers %}
+{% set pagePhone = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+
+<p>FAS partners receive a possibility to sell our equipment and provide related services, such as full and supervised installation, commissioning, maintenance and repair.</p>
+<p>Our company currently cooperates with dozens of dealers within the regions of the Russian Federation and abroad. As a rule, these are companies engaged in the supply and maintenance of generators and emergency/backup power supply sources, gas equipment, as well as oilfield service and construction organizations from the power engineering sector.</p>
+<p>However, good partners are never too much.</p>
+
+<h2>Training</h2>
+
+<p>Every two months, and sometimes more often, we conduct training courses. The programme provides knowledge on the design of generators, instructions on their connection, adjustment and maintenance, as well as specific features of operation. All trainees receive a certificate with the right to install, maintain and repair generators manufactured by our company.</p>
+<p>The training course is free, except for transportation and accommodation costs, which should be paid by a trainee.</p>
+
+<h2>Advantages of Cooperation with Our Company</h2>
+
+<p>Currently, the Russian market is mainly occupied by generators of foreign origin, so let us talk about our advantages in comparison with foreign suppliers.</p>
+
+<p>There is a number of them:</p>
+
+<ol>
+  <li>We do not require our partners to buy out equipment in advance and store it at the corporate facilities. You can simply take a generator from our warehouse after you receive payment from the customer. Such policy saves significantly your money and ensures release of funds.</li>
+  <li>Fast delivery of goods to any place within the European part of Russia in 3–5 days in contrast to a long delivery from abroad.</li>
+  <li>You do not need to buy and store spare parts and consumables. They can be purchased easily at literally any car dealer.</li>
+  <li>We do not set any sales volume requirements for new dealers, which makes a cooperation with our company very convenient. If you sell just three generators — no problem. It’s OK, since there are different regions, seasons and situations.</li>
+  <li>The above mentioned training courses.</li>
+</ol>
+
+<h2>Terms of Business Cooperation</h2>
+
+<p>Most significantly:</p>
+
+<ol>
+  <li>The commission rate is determined individually during the contract negotiations.</li>
+  <li>We do not set a minimum sales volume, however the discount rate depends on the volume.</li>
+</ol>
+
+<p>To receive more information about the cooperation terms and rewards, please contact our Business Cooperation Department: {{ pagePhone }}, {{ pageEmail }}.</p>
+
+<h2>Pricing Policy and Contract Protection</h2>
+
+<p>Our company follows two important rules:</p>
+
+<ol>
+  <li>Within Russia, you can not sell our products at the prices lower than the established minimum resale prices. Price dumping is forbidden.</li>
+  <li>In the event of interesting long-term projects, we provide the so-called contract protection, under which our partner receives a preferential delivery right, while our company controls the whole process to prevent dumping from the side of other dealers.</li>
+</ol>
+
+<p>What is the purpose of these rules? This is a certain guarantee that all sellers, including our company, work in equal conditions. Any customer applying to FASENERGOMASH, LLC directly will receive the same prices as offered by our dealers. However, our company is located far away, while dealers are nearby. It will always be more convenient for customers to buying products and order maintenance services at our partners. Therefore, we almost always send buyers to a regional dealer, with a rare exception, when the project is very complicated.</p>
+
+<h2>Regional Warehouse</h2>
+
+<p>Active dealers receive an opportunity to create a local temporary storage warehouse. Our company ensures the availability of top-selling models of generators and spare parts at this warehouse.</p>
+<p>This provides additional benefits to our partners, such as acceleration of sales and servicing as well as a good attitude of grateful customers. Besides, there is no need to invest in pre-purchase.</p>
+{% endblock %}

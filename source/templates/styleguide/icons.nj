@@ -1,0 +1,42 @@
+---
+title:           Icons
+contentTitle:    Icons
+navTitle:        Icons
+breadcrumbTitle: Icons
+
+description: Icons
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Example.nj' import Example with context %}
+
+{% call Example() -%}
+{% raw %}{{ Icon('phone', 'Icon--left') }}
+{{ Icon('cart', 'Icon--left') }}
+{{ Icon('search', 'Icon--left') }}
+{{ Icon('check', 'Icon--left') }}
+{{ Icon('vent', 'Icon--left') }}
+{{ Icon('flash', 'Icon--left') }}
+{{ Icon('skype', 'Icon--left') }}
+{{ Icon('x', 'Icon--left') }}
+{{ Icon('dir-right', 'Icon--left') }}
+{{ Icon('pdf', 'Icon--left') }}
+{{ Icon('check-o', 'Icon--left') }}
+{{ Icon('clock', 'Icon--left') }}
+{{ Icon('delivery', 'Icon--left') }}
+{{ Icon('gift', 'Icon--left') }}
+{{ Icon('star', 'Icon--left') }}
+{{ Icon('x-o', 'Icon--left') }}
+{{ Icon('linkedin', 'Icon--left') }}
+{{ Icon('twitter', 'Icon--left') }}
+{{ Icon('vk', 'Icon--left') }}
+{{ Icon('facebook', 'Icon--left') }}
+{{ Icon('google-plus', 'Icon--left') }}{% endraw %}
+{% endcall %}
+
+{% endblock %}

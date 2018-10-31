@@ -1,0 +1,93 @@
+---
+title:           CNG Dispensers Produced by the FAS Company
+contentTitle:    CNG Dispensers Produced by the FAS Company
+navTitle:        CNG Dispensers Produced by the FAS Company
+breadcrumbTitle: CNG Dispensers Produced by the FAS Company
+
+description: 'CNG dispensers can be manufactured and supplied with different types of fuelling nozzles.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [ 
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--6.jpg' }  
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>CNG dispensers are intended for refuelling passenger cars, trucks and buses and are available in a large number of designs: 1- and 2-hose systems with a various number of pressure levels.</p>
+
+{% set pageEq = [
+  { title: 'FAS-E30-CNG-R-11-F', hose: '1', counter: 1, pressure: 1, display: 1 },
+  { title: 'FAS-E30-CNG-R-12-F', hose: '1', counter: 1, pressure: 2, display: 1 },
+  { title: 'FAS-E30-CNG-R-13-F', hose: '1', counter: 1, pressure: 3, display: 1 },
+  { title: 'FAS-E30-CNG-R-11', hose: '1', counter: 1, pressure: 1, display: 2 },
+  { title: 'FAS-E30-CNG-R-12', hose: '1', counter: 1, pressure: 2, display: 2 },
+  { title: 'FAS-E30-CNG-R-13', hose: '1', counter: 1, pressure: 3, display: 2 },
+  { title: 'FAS-E30-CNG-R-21', hose: '2', counter: 2, pressure: 1, display: 2 },
+  { title: 'FAS-E30-CNG-R-22', hose: '2', counter: 2, pressure: 2, display: 2 },
+  { title: 'FAS-E30-CNG-R-23', hose: '2', counter: 2, pressure: 3, display: 2 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Model</th>
+      <th>Hoses</th>
+      <th>Mass Flow Meter</th>
+      <th>Number of Pressure Levels</th>
+      <th>Display</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.hose }}</td>
+      <td class='h-align--right'>{{ e.counter }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td class='h-align--right'>{{ e.display }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Design Features</h2>
+<ul>
+  <li>Operation from CNG or biogas.</li>
+  <li>High filling rate (up to 80 kg/min).</li>
+  <li>Compliance with the OIML R319 standards.</li>
+  <li>Implementation in compliance with ATEX PED.</li>
+  <li>IFSF-LON communication protocol.</li>
+  <li>SPS control via Modbus.</li>
+  <li>Optional: remote monitoring via an additional controller.</li>
+</ul>
+
+<h2>Electronic Components</h2>
+<ul>
+  <li>Operation from CNG or biogas.</li>
+  <li>System self-test.</li>
+  <li>Logging the history of recent operations (150) and errors (250).</li>
+  <li>Easy maintenance due to a modular-type design.</li>
+  <li>Adder for the number of deliveries, including deliveries in kilograms or litres.</li>
+  <li>Start/Stop button.</li>
+  <li>Visual operation status indicator.</li>
+  <li>Adjustment of filling pressure depending on temperature.</li>
+</ul>
+
+<h2>Hydraulics</h2>
+<ul>
+  <li>Reliable mass flow meter (up to 80 kg/min).</li>
+  <li>Gas filter to ensure the purity of fuel.</li>
+  <li>Adjustment of inlet pressure (up to three levels).</li>
+  <li>NGVl connection (NGV 2 is optional) to refuel vehicles and buses.</li>
+  <li>High-pressure hoses with quick couplings.</li>
+  <li>Hose pressure control gauges.</li>
+  <li>Relief valves to ensure safe operation.</li>
+</ul>
+{% endblock %}

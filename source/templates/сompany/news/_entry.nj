@@ -1,0 +1,48 @@
+{% extends '_layouts/_main.nj' %}
+
+{{ config('PAGE', {
+  og: {
+    type: 'article'
+  }
+}) }}
+
+{% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_SocialShare.nj' import SocialShare with context %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
+
+<div typeof='NewsArticle' class='s-post'>
+  <meta property='headline' content='{{ PAGE.contentTitle }}'>
+  <meta property='description' content='{{ PAGE.excerpt|striptags }}'>
+  {# @Todo this has to be improved, since Google asks for width and height properties #}
+  <meta property='image' content='{{ PAGE.image }}'>
+  <meta property='publisher' resource='#this'>
+  <meta property='mainEntityOfPage' typeof='WebPage' content='{{ urljoin(SITE.homepage, localeDir(), PAGE.url) }}'/>
+  <meta property='dateModified' content='{{ PAGE.date }}'>
+  <meta property='author' resource='#this'>
+
+  <footer class='h-opacity--60 h-bleed-top h-margin-bottom+'>
+    <time datetime='{{ PAGE.date }}' property='datePublished' content='{{ PAGE.date }}'>{{ moment(PAGE.date).format('DD.MM.YYYY') }}</time>
+  </footer>
+
+  {% block post %}{% endblock %}
+
+  {{ SocialShare() }}
+
+</div>
+
+<hr>
+
+<aside>
+  <h2>Будьте в курсе последних новостей</h2>
+  {{ SubscribeForm(name = 'Подписка на новости') }}
+</aside>
+
+<hr>
+
+<aside>
+  <h2>Свежие новости</h2>
+  {{ Posts(limit = 2, displayCurrent = false) }}
+</aside>
+{% endblock %}

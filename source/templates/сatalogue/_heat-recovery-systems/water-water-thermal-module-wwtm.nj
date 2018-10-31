@@ -1,0 +1,28 @@
+---
+title:           Water-Water Thermal Module (WWTM)
+contentTitle:    Water-Water Thermal Module (WWTM)
+navTitle:        Water-Water Thermal Module (WWTM)
+breadcrumbTitle: Water-Water Thermal Module (WWTM)
+
+description: WWTM is a water-water thermal module. This type of thermal modules is designed to recover the antifreeze heat.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>WWTM is a water-water thermal module. This type of thermal modules is designed to recover the antifreeze heat. It consists, as a rule, of a heat exchanger mounted single frame, a set of control and measuring devices, piping, and fittings.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-blue-fas--2---front.jpg',
+  alt = 'Thermal Module FAS',
+  center = true
+) }}
+
+<p>In the majority of cases, WWTM is used in the systems, which do not require the exhaust gas recovery. Therefore, the basic package includes only a simplified control cabinet. Sometimes, when designing projects, the gas recovery lines are equipped with a recuperative heat exchanger, which converts the exhaust heat into the warmed air heat, instead of a WWTM. FASENERGOMASH, LLC has developed several such facilities and gained invaluable experience in designing corresponding systems.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

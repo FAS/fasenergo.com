@@ -1,0 +1,96 @@
+---
+title:           Modular Process System of the Pump-Counting Unit
+contentTitle:    Modular Process System of the Pump-Counting Unit
+navTitle:        Modular Process System of the Pump-Counting Unit
+breadcrumbTitle: Modular Process System of the Pump-Counting Unit
+
+description: Modular Process System of the Pump-Counting Unit
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A modular process system of the pump-counting unit with a capacity of 490 litres/minute manufactured by FASENERGOMASH, LLC.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--1--front.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--2--front-left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--3--left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--4--back-left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--5--back.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/modular-process-system-of-the-pump-counting-unit/modular-process-system-of-the-pump-counting-unit-fem--6--back-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>System Components</h2>
+
+<ol>
+  <li>FAS – LG pump. The pump is completed with an explosion-proof motor of 11.0 kW, 400/690 V, 50 Hz, E Exe II T3, max. capacity of 490 L/min at a differential pressure of 5 bar, max. differential pressure of 10.5 bar, is mounted on a common steel frame, primed and painted.</li>
+
+  <li>
+
+    <p>FAS pump manifold system. Input: Flange DN80 (completed with a mating flange). Output: Flange DN80 (completed with a mating flange). Comprising:</p>
+
+    <p>Discharge line DN80 completed with:</p>
+
+    <ul>
+      <li>Pressure gauge with a shut-off valve;</li>
+      <li>Back-draft damper DN80;</li>
+      <li>Ball valve DN80.</li>
+    </ul>
+
+    <p>Stabilizing line DN80 completed with:</p>
+
+    <ul>
+      <li>Strainer DN80;</li>
+      <li>Inspection window DN80 (visual flow control device);</li>
+      <li>Ball valve DN80;</li>
+      <li>Pressure gauge with a shut-off valve;</li>
+      <li>Relief valve;</li>
+      <li>Angle bleeder valve;</li>
+      <li>Dry-running sensor.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>LPG mass counting unit, 2", PN25, completed with:</p>
+
+    <ul>
+      <li>Gas separator with a fine filter;</li>
+      <li>Special mass counter to measure mass and volume;</li>
+      <li>Differential valve;</li>
+      <li>Input 2";</li>
+      <li>Output 2”;</li>
+      <li>Rated capacity: 490 L/min.</li>
+    </ul>
+  </li>
+
+  <li>
+
+    <p>Electronic counting device consists of:</p>
+
+    <ul>
+      <li>Power supply unit 20–55VAC / 16–62VDC;</li>
+      <li>Digital display;</li>
+      <li>ON/OFF unit;</li>
+      <li>Amplifier for the product movement control sensor;</li>
+      <li>Vapour phase return line DN20 with a ball valve and flange fitting M 60x4, left-hand.</li>
+    </ul>
+
+  </li>
+
+  <li>Electrical control panel for mounting in an explosion hazardous area (a power connector of explosion-proof design for connecting an external feeder is mounted on the panel casing). The system for automatic heating of electrical control panel and pump casing intended for operation in low-temperature regions.</li>
+
+</ol>
+
+<p>The modular process system is factory-assembled and frame-mounted, primed, and painted.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

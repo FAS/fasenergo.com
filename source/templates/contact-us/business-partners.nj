@@ -1,0 +1,227 @@
+---
+title:           Business Partners
+contentTitle:    Business Partners
+navTitle:        Business Partners
+breadcrumbTitle: Business Partners
+
+description: Business Partners
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Saint Petersburg</h2>
+    <ul>
+      <li><strong>FASENERGOMASH, LLC<br><span class='h-text-'>{{ SITE.description }}</span></strong></li>
+      <li>
+        {{ Dealer(
+          name = 'Odissey Group, LLC',
+          address = 'Business Centre Antares Office 301, bldg. 83, block 3, Savushkin Street, 197374, St. Petersburg, Russian Federation',
+          phones = [{ country: '8', city: '800', tel: ['511', '63', '45'], noParentheses: true }]
+        ) }}
+      </li>
+      <li>Gazovoz-M, LLC</li>
+      <li>Kompania Gruppa Yug, LLC</li>
+      <li>Artprom, LLC</li>
+      <li>Group of Companies “Atis”</li>
+      <li>Tekhnogazstroy, LLC</li>
+      <li>
+        {{ Dealer(
+          name = 'ANZBERK, LLC',
+          address = 'Bldg. 4, Vsevolod Vishnevskiy Street, 197136, St. Petersburg, Russian Federation',
+          phones = [{ country: '7', city: '812', tel: ['234', '01', '20'] }],
+          email = 'mail@anzberk.com'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Moscow</h2>
+    <ul>
+      <li>PromGazStroy, LLC<br><span class='h-text-'>Systems of autonomous gas and power supply</span></li>
+      <li>ENERGOPROF, LLC</li>
+      <li>VS-Electro</li>
+      <li>Profenergorezerv</li>
+      <li>VSE GENERATORI</li>
+      <li>YuTA-AvtoGaz, LLC</li>
+      <li>Bazis Group, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Yekaterinburg</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'GK “Effektivnye Tekhnologii”, LLC',
+          address = 'Bldg. 7, Schorsa Street, Yekaterinburg, Russian Federation',
+          phones = [
+            { country: '7', city: '804', tel: ['333', '96', '00'], add: '504'},
+            { country: '7', city: '343', tel: ['226', '04', '92'] },
+            { country: '7', city: '343', tel: ['311', '01', '93'] }
+          ],
+          email = 'office@eftechno.ru',
+          url = 'http://eftechno.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Ivanovo</h2>
+    <ul>
+      <li>Goluboe Toplivo, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Irkutsk</h2>
+    <ul>
+      <li>Tekhnologii Gazosnabzhenia, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Kazan</h2>
+    <ul>
+      <li>1VAT</li>
+      <li>Krialenergostroy Plant, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Kirov</h2>
+    <ul>
+      <li>Kirovavtogaz, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Kostroma</h2>
+    <ul>
+      <li>Goluboe Toplivo, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Krasnodar</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'GK “KlimatEnergoStroy”',
+          address = '150/11, Borodinskaya Street, Krasnodar, Russian Federation',
+          phones = [{ country: '7', city: '988', tel: ['602', '47', '27'] }],
+          email = 'gpu@kes-group.com',
+          url = 'http://fasenergo-kes.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Нижний Новгород</h2>
+    <ul>
+      <li>FASKHIMMASH, LLC</li>
+      <li>
+        {{ Dealer(
+          name = 'Stroyindustria, LLC',
+          address = 'pomPZ, bldg. 12a, Lenin Avenue, Nizhny Novgorod, Russian Federation',
+          phones = [
+            { country: '7', city: '831', tel: ['281', '78', '20'] },
+            { country: '7', city: '831', tel: ['415', '87', '72'] }
+          ],
+          email = 'info@wattnn.ru',
+          url = 'http://wattnn.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Rostov-on-Don</h2>
+    <ul>
+      <li>Avangard ED, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Samara</h2>
+    <ul>
+      <li>GTS-Avtonom, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Ufa</h2>
+    <ul>
+      <li>AVERS TEKHNO, LLC</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Yaroslavl</h2>
+    <ul>
+      <li>Goluboe Toplivo, LLC</li>
+    </ul>
+  </article>
+
+</div>
+
+<hr class='h-margin-bottom'>
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Almaty, Kazakhstan</h2>
+    <ul>
+      <li>KazGerm-Servis, LLP</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Karaganda, Kazakhstan</h2>
+    <ul>
+      <li>TeploGazStroy, LLP</li>
+    </ul>
+  </article>
+
+</div>
+{% endblock %}

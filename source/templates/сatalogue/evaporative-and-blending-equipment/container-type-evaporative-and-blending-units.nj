@@ -1,0 +1,120 @@
+---
+title:           Container Type Evaporative and Blending Units
+contentTitle:    Container Type Evaporative and Blending Units
+navTitle:        Container Type Evaporative and Blending Units
+breadcrumbTitle: Container Type Evaporative and Blending Units
+
+description: Container Type Evaporative and Blending Units
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-k/evaporative-and-blending-unit-fem-isu-se-nd-k--1--front.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-k/evaporative-and-blending-unit-fem-isu-se-nd-k--2--front-left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-k/evaporative-and-blending-unit-fem-isu-se-nd-k--3--left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-k/evaporative-and-blending-unit-fem-isu-se-nd-k--4--right.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-nd-k/evaporative-and-blending-unit-fem-isu-se-nd-k--5--front-right.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/isu-se-vd-k/evaporative-and-blending-unit-fem-isu-se-vd-k--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative and blending unit FEM ISU/SE/VD/K') }}
+
+<h2>Indirect Electric Heating</h2>
+
+{% set pageEqElLow = [
+  { title: 'Evaporative and blending unit FEM 1200 ISU/SE/ND/K', performance: '1200 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 2400 ISU/SE/ND/K', performance: '2400 m3/hour' }
+] %}
+{% set pageEqElHigh = [
+  { title: 'Evaporative and blending unit FEM 1200 ISU/SE/VD/K', performance: '1200 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 2400 ISU/SE/VD/K', performance: '2400 m3/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Low Pressure Models</th>
+    </tr>
+    {% for e in pageEqElLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>High Pressure Models</th>
+    </tr>
+    {% for e in pageEqElLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Indirect Liquid Heating</h2>
+
+{% set pageEqLiqLow = [
+  { title: 'Evaporative and blending unit FEM 1200 ISU/ZH/ND/K', performance: '1200 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 2400 ISU/ZH/ND/K', performance: '2400 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 4800 ISU/ZH/ND/K', performance: '4800 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 9600 ISU/ZH/ND/K', performance: '9600 m3/hour' }
+] %}
+{% set pageEqLiqHigh = [
+  { title: 'Evaporative and blending unit FEM 1200 ISU/ZH/VD/K', performance: '1200 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 2400 ISU/ZH/VD/K', performance: '2400 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 4800 ISU/ZH/VD/K', performance: '4800 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 9600 ISU/ZH/VD/K', performance: '9600 m3/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Low Pressure Models</th>
+    </tr>
+    {% for e in pageEqLiqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>High Pressure Models</th>
+    </tr>
+    {% for e in pageEqLiqHigh %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

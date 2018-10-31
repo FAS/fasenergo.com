@@ -1,0 +1,140 @@
+---
+title:               Cryogenic LNG Storage Tanks
+contentTitle:        Cryogenic LNG Storage Tanks
+navTitle:            Cryogenic LNG Storage Tanks
+breadcrumbTitle:     Cryogenic LNG Storage Tanks
+
+description: Cryogenic LNG Storage Tanks.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>The FAS Company manufactures vertical and horizontal LNG storage tanks with an operating volume of 3 to 350 m³.</p>
+
+<p><strong>For fixed-site storage tanks:</strong></p>
+<ul>
+  <li>Vertical design: 3–63 m³;</li>
+  <li>Horizontal design: 5–350 m³.</li>
+</ul>
+
+<p><strong>For mobile storage tanks:</strong></p>
+<ul>
+  <li>Container-type design;</li>
+  <li>20, 30 and 40-foot containers;</li>
+  <li>Containers of 1СС-1ВВ-1АА type.</li>
+</ul>
+
+<h2>Fixed-site FAS LNG Storage Tanks</h2>
+
+<h3>Design Features:</h3>
+
+<ul>
+  <li>The manufacture is certified in compliance with the EU Pressure Equipment Directive (PED) 2014/68/EU, EN 13458 — Annex C, and AD2000, ASME (USTAMP) and GOST standards;</li>
+  <li>Seismic resistance in compliance with Eurocode 3;</li>
+  <li>The tank design is optimized for transportation and storage;</li>
+  <li>High-quality protective coating based on modern polymeric materials;</li>
+  <li>Multi-stage quality control with the application of X-ray techniques, dye penetration and magnetic particle tests.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/autonomous-gas-supply-systems/cryogenic-lng-storage-tanks/cryogenic-lng-storage-tanks-1.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/cryogenic-lng-storage-tanks/cryogenic-lng-storage-tanks-2.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/cryogenic-lng-storage-tanks/cryogenic-lng-storage-tanks-3.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Cryogenic LNG Storage Tanks', class = 'h-margin-bottom+') }}
+
+{% set pageEq = [
+  { title: 'FAS 3', volume: '3 m³', length: 3423, width: 2114, height: 2114 },
+  { title: 'FAS 6', volume: '6 m³', length: 5115, width: 2370, height: 2540 },
+  { title: 'FAS 10', volume: '10 m³', length: 6420, width: 2540, height: 2500 },
+  { title: 'FAS 16', volume: '16 m³', length: 7150, width: 3410, height: 3310 },
+  { title: 'FAS 22', volume: '22 m³', length: 8350, width: 3410, height: 3310 },
+  { title: 'FAS 32', volume: '32 m³', length: 9580, width: 3050, height: 3000 },
+  { title: 'FAS 53', volume: '53 m³', length: 16500, width: 3050, height: 3000 },
+  { title: 'FAS 63', volume: '63 m³', length: 16500, width: 3050, height: 3000 }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Volume</th>
+      <th>Length</th>
+      <th>Width</th>
+      <th>Height</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.volume }}</td>
+      <td class='h-align--right'>{{ e.length }} mm</td>
+      <td class='h-align--right'>{{ e.width }} mm</td>
+      <td class='h-align--right'>{{ e.height }} mm</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3>Specifications:</h3>
+
+<ul>
+  <li>Design code: EN 13458 — Annex C, ASME (U STAMP) and GOST standards;</li>
+  <li>Operating pressure: 5–37 bar (MAWP);</li>
+  <li>Design temperature: +50 / -196 °C.;</li>  
+  <li>Ambient temperature: -50 / +50 °C;</li>
+  <li>Container material: the inner part is made of stainless steel; the outer part is made of steel, stainless steel or aluminium;</li>
+  <li>X-ray control: depending on the design;</li>
+  <li>Dye penetration test: depending on the design;</li>
+  <li>Insulation: vacuum, perlite insulation.</li>
+</ul>
+
+<h2>Mobile FAS LNG Storage Tanks</h2>
+
+<h3>Design Features</h3>
+
+<ul>
+<li>ISO 1161: Specification of corner and intermediate fittings.;</li>
+<li>ISO 668: Classification, dimensions and ratings;</li>
+<li>ISO 6346: Coding, identification and marking;</li>
+<li>ISO 830: Vocabulary of freight containers;</li>
+<li>ISO 1496/3: Specification of freight containers;</li>
+<li>ASME: The American Society of Mechanical Engineers / Class VIII Rev;</li>
+<li>IMDG: The International Maritime Dangerous Goods Code;</li>
+<li>CSC: The International Convention on the Safe Transport of Containers;</li>
+<li>IRTU: The International Road Transport Union;</li>
+<li>IRU: The International Union of Railways.</li>
+</ul>
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/autonomous-gas-supply-systems/cryogenic-lng-storage-tanks/cryogenic-lng-storage-tanks-4.jpg' },
+  { url: 'equipment/autonomous-gas-supply-systems/cryogenic-lng-storage-tanks/cryogenic-lng-storage-tanks-5.jpg' }
+] %}
+{{ PhotosPreview(pageEqPhotos, 'Cryogenic LNG Storage Tanks', class = 'h-margin-bottom+') }}
+
+<h3>Specifications:</h3>
+
+<ul>
+  <li>Design code: EN 13530 – ADR – RID – ADN – IMDG – UIC – CSC – TC – TIR;</li>
+  <liContainer type: 1СС-1ВВ-1АА;</li>
+  <li>Design testing: Bureau Veritas, Lloyd’s Register;</li>
+  <li>Design temperature: +50 / -196 °C;</li>
+  <li>Container size: 20, 30 and 40-foot containers;</li>
+  <li>Operating pressure: 8-16 bar (MAWP);</li>
+  <li>Design temperature: +50 / -196 °C;</li>
+  <li>Ambient temperature: -50 / +50 °C;</li>
+  <li>Container material: the inner part is made of stainless steel; the outer part is made of steel, stainless steel or aluminium;</li>
+  <li>X-ray control: depending on the design;</li>
+  <li>Dye penetration test: depending on the design;</li>
+  <li>Insulation: vacuum, perlite insulation.</li>
+</ul>
+{% endblock %}

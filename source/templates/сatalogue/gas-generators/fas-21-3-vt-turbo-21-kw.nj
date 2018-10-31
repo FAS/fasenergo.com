@@ -1,0 +1,7 @@
+---
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - fas-21-3-vt-turbo-21-kw
+---
+
+{% extends './_generator.nj' %}

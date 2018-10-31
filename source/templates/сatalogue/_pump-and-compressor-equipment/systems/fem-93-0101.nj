@@ -1,0 +1,69 @@
+---
+title:           Pump Unit №93.0101
+contentTitle:    Pump Unit №93.0101
+navTitle:        FEM №93.0101
+breadcrumbTitle: FEM №93.0101
+
+description: Pump Unit №93.0101.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>A modular process system of FAS type No. 93.0101 designed to pump liquefied propane/butane gas based on the FAS FD-150 pumping unit, configured to be connected to one aboveground tank and a fuel dispenser. This pumping unit can be installed and used within the system of fuel dispensers at a gas filling station. The modular-type pumping unit of FAS type No. 93.0101 is a gas pump with a shut-off valve connection. The pump system is configured to pump 85 litres of liquefied gas per minute at a differential pressure of 10.5 bar under 2,880 rpm.</p>
+<p>Fuel dispensers and gas holding reservoirs are not included into the basic delivery package and are purchased separately.</p>
+
+<h2>Basic Package</h2>
+
+<ul>
+
+  <li>
+
+    <p>FD-150 type pumping unit for propane/butane with multifunction gland sealing:</p>
+
+    <ul>
+      <li>Rated capacity: 85 L/min, at a differential pressure of 10.5 bar under 2,880 rpm;</li>
+      <li>Input: DN 40, PN 40, DIN 2635;</li>
+      <li>Output: DN 25, PN 40, DIN 2635.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>Explosion-proof electric motor:</p>
+
+    <ul>
+      <li>Power: 5 kW;</li>
+      <li>Rated voltage: 230/400 V;</li>
+      <li>Frequency: 50 Hz;</li>
+      <li>Ingress protection: IP 55;</li>
+      <li>Explosion protection: EEx e II T3;</li>
+      <li>Speed: 2,850 rpm;</li>
+      <li>Coupling;</li>
+      <li>Protective casing.</li>
+    </ul>
+
+  </li>
+
+  <li>Liquid phase inlet DN50 with a ball valve DN50;</li>
+  <li>Liquid phase outlet DN25 with a ball valve DN25 and a check valve;</li>
+  <li>By-pass pipe with a valve FAS No. 19333;</li>
+  <li>By-pass pipe outlet with a ball valve DN25 on the tank connection line;</li>
+  <li>Vapour phase pipe with a ball valve DN20 on the tank connection line;</li>
+  <li>Vapour phase compensating pipe assembly DN20 with a filling coupling M 60x4.0, left-hand, with a protective cover;</li>
+  <li>Filling pipe DN50 with a ball valve DN50, a check valve and a screwed coupling M 60x4, left-hand, with a protective cover;</li>
+  <li>Strainer DN50 on a suction pipe;</li>
+  <li>Shut-off, relief and control valves made in accordance with existing regulations;</li>
+  <li>Instrumentation and monitoring equipment;</li>
+  <li>Discharge system of “Candle” type.</li>
+
+</ul>
+
+<p>Assembled on a common frame, primed and painted.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>392 000 rub.</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

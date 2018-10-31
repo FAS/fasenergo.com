@@ -1,0 +1,61 @@
+---
+title:           Frame Mounted Type Evaporative Units
+contentTitle:    Frame Mounted Type Evaporative Units
+navTitle:        Frame Mounted Type Evaporative Units
+breadcrumbTitle: Frame Mounted Type Evaporative Units
+
+description: Испарительные установки СУГ на раме от «Фасэнергомаш»
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>These types of evaporative units are supplied without any casing. The structure is completely mounted on a frame and is ready for operation.</p>
+<p>The frame assemblages of the evaporative units can be installed in appropriate buildings or vented containers, which ensures mobility of an evaporative unit.</p>
+<p>The frame is designed according to the customer's request.</p>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--3--front-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/R') }}
+
+<h2>Indirect Electric Heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{% set pageEqEl = [
+  { title: 'Evaporative unit FEM 900 SE/R', performance: '900 kg/hour' },
+  { title: 'Evaporative unit FEM 1200 SE/R', performance: '1200 kg/hour' },
+  { title: 'Evaporative unit FEM 1400 SE/R', performance: '1400 kg/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

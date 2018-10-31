@@ -1,0 +1,81 @@
+---
+title:           Pump Unit №93.0211
+contentTitle:    Pump Unit №93.0211
+navTitle:        FEM №93.0211
+breadcrumbTitle: FEM №93.0211
+
+description: Pump Unit №93.0211.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  {
+    url: 'equipment/pump-and-compressor-equipment/pump-unit-fem-№93.0211/pump-unit-fem-№93.0211--for-gasholder--9-2-m3--sh.svg',
+    alt: PAGE.contentTitle + ', drawing for 9.2 m3 tanks'
+  },
+  {
+    url: 'equipment/pump-and-compressor-equipment/pump-unit-fem-№93.0211/pump-unit-fem-№93.0211--for-gasholder-20-m3--sh.svg',
+    alt: PAGE.contentTitle + ', drawing for tanks with a volume of 9.2 m3'
+  }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>A modular process system of FEM type designed to pump liquefied propane/butane gases based on a FEM NZ 36-8 open-vortex pump, configured to be connected to two aboveground tanks and a fuel dispenser. These modular pumping units are used for proper operation of fuel dispensers within the system of gas filling stations. The FEM 93.0211 pump can be installed and connected to two aboveground tanks and a fuel dispenser. The gas pumping unit of FEM type No. 93.0211 features a rated capacity of 100 litres per minute at a differential pressure of 14 bar and under 1,500 rpm.</p>
+
+<h2>Basic Package</h2>
+
+<ul>
+
+  <li>
+
+    <p>NZ 36-8 type pumping unit for propane/butane with multifunction gland sealing:</p>
+
+    <ul>
+      <li>Rated capacity: 100 L/min, at a differential pressure of 14.0 bar under 1,500 rpm.;</li>
+      <li>Input: DN 65, PN 40, DIN 2635;</li>
+      <li>Output: DN 32, PN 40, DIN 2635.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>Explosion-proof electric motor:</p>
+
+    <ul>
+      <li>Power: 5 kW.;</li>
+      <li>Rated voltage: 230/400 V;</li>
+      <li>Frequency: 50 Hz;</li>
+      <li>Ingress protection: IP 55;</li>
+      <li>Explosion protection: EEx e II T3;</li>
+      <li>Speed: 1,500 rpm.;</li>
+      <li>Coupling;</li>
+      <li>Protective casing.</li>
+    </ul>
+
+  </li>
+  <li>Liquid phase inlet DN50 with a ball valve DN50;</li>
+  <li>Liquid phase outlet DN25 with a ball valve DN25 and a check valve;</li>
+  <li>By-pass pipe with a valve FEM No. 19333;</li>
+  <li>By-pass pipe outlet with a ball valve DN25 on the tank connection line;</li>
+  <li>Vapour phase pipe with a ball valve DN20 on the tank connection line;</li>
+  <li>Vapour phase compensating pipe assembly DN20 with a filling coupling M 60x4.0, left-hand, with a protective cover;</li>
+  <li>Filling pipe DN50 with a ball valve DN50, a check valve and a screwed coupling M 60x4, left-hand, with a protective cover;</li>
+  <li>Strainer DN50 on a suction pipe;</li>
+  <li>Process piping with shut-off and control valves;</li>
+  <li>Instrumentation and monitoring equipment;</li>
+  <li>Discharge system of “Candle” type.</li>
+</ul>
+
+<p>Assembled on a common frame, primed and painted.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>535 000 rub</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

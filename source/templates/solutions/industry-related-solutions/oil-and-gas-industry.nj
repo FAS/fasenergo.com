@@ -1,0 +1,38 @@
+---
+title:           Oil and Gas Industry
+contentTitle:    Oil and Gas Industry
+navTitle:        Oil and Gas Industry
+breadcrumbTitle: Oil and Gas Industry
+
+description: Oil and Gas Industry.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<h2>Gas Producing and Transportation Sector</h2>
+
+<p>FASENERGOMASH, LLC offers solutions that can be used in the extraction, transportation and distribution of gas. The company participates in the Gazprom programme for the introduction of compressed methane as fuel for motor vehicles.</p>
+<p>FAS generators are installed at gas distribution stations as backup sources of power supply, as well as for autonomous power supply at low pressure gas wells and stations of pipeline cathodic protection from the Black Sea to the Arctic islands.</p>
+<p>At the gas production sites, FAS units operate via pressure reducing regulators and with installations for gas treatment and purification from dripping inclusions of gas condensate and water vapour. At the same time, FAS units can be synchronized with the power mains and other sources.</p>
+<p>When working from a gas pipeline, FAS generators are connected via pressure reducing nodes. When working as part of independent power supply stations for cathodic protection of pipelines, FAS units operate in parallel with solar modules, wind-energy plants and accumulators within the blocks of independent electric supply provided by the Nippom Company and blocks of cathodic protection provided by the CIT-ES Company.</p>
+
+<h2>Oil Producing Industry</h2>
+
+<p>For oil producing companies, FASENERGOMASH, LLC offers solutions that make it possible to arrange power supply to remote production sites at a low cost, along with the full utilization of associated petroleum gas. This allows to reduce or even avoid the import of fuel for diesel generators.</p>
+<p>Solutions with low-capacity gas generators are effective for recovery of associated gas in small volumes for small oil producing companies, for exploratory wells with low yield, for wells in trial operation, where it is not possible to organize a large-scale system for gathering, transporting and processing associated gas. Generators are connected at the oil and associated gas separation sites after oil and gas separators through gas treatment units consisting of pressure control units and centrifugal drip condensate and moisture filters or to the already existing more powerful associated gas treatment units of well-known Russian manufacturers. In those sites, where there are no associated gas treatment units, FASENERGOMASH, LLC can supply its own inexpensive treatment blocks.</p>
+<p>It is efficient to use FAS generators in fields with high viscosity of oil, where the gas yield is insufficient to install expensive powerful gas treatment, transportation and processing systems, but the total gas yield is sufficient for the operation of stations. FASENERGOMASH, LLC can estimate the consumption of each associated gas composition and the generated power. As a rule, to generate 100 kW of electricity, from 15 to 35 m³ of gas per hour are required depending on the content of higher calorific ethane, propane, butane, or, conversely, ballasting gases. Unlike expensive foreign generators driven by turbocharged engines, featuring a reduction in power when operating from associated gas, FAS units are produced based on Russian engines adapted to a more caloric mixture.</p>
+<p>For oil deposits with the content of hydrogen sulphide in associated gas, our company can supply stations with gas purification units or work with the existing systems for purification from hydrogen sulphide.</p>
+
+<h2>Fuel Infrastructure</h2>
+
+<p>FAS generators working from propane-butane can be used for backup power supply of gas stations in remote areas, where there are interruptions in the power mains, at the fuel storage facilities and autonomous gas filling compressor stations, permanently installed and mobile.</p>
+<p>FASENERGOMASH, LLC considers participation in programmes for gasoline and oil fumes recovery to be extremely important for reducing emissions into the atmosphere at oil and fuel storages and gasoline stations. FAS units, working with inflatable gas holders, allow to balance the flows of gas-vapour mixture when charging tanks, thus reducing gasoline losses for evaporation. When loading a tank, saturated vapours are forced into the soft gas holder with gradual exhaustion of its content in the gas generator. Due to serious changes in the concentration of gasoline vapours at different air temperatures, generators are supplied with an automatic mixture-formation system of the world's leading manufacturers. This makes it possible to regulate the consumption of the gas-vapour mixture and to prevent both the emission of unburned fuel and a significant power loss when using low-enriched mixtures at low temperature.</p>
+<p>In addition to the environmental benefits, such system is simply effective. In the event of mains failure, FAS generators continue to operate from gasoline vapours stored in an inflatable gas holder.</p>
+
+<h2>Coal Industry</h2>
+
+<p>FAS generators were once successfully tested for operation from coalmine methane. This solution avoids cost-consuming efforts aimed at bringing the gas concentration to a 100% level and instead insures operation at any methane concentration starting from 7%. At a low methane concentration of <7%, generators can work with rotary-filtration machines.</p>
+<p>For example, in Kuzbass, FAS generators are already working from the coal bed methane. When equipping the unit with an automatic mixture-formation system, it can then be operated from a methane-vapour mixture of used mines or from the enriched ventilation mixture of working mines.</p>
+<p>In addition, FAS generators can work with coal gasification plants. Such plants are already used in the remote areas located far from centralized power supply networks. It is important to note that, according to Russian legislation, these facilities are related to the renewable energy sources.</p>
+{% endblock %}

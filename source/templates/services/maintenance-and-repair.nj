@@ -1,0 +1,46 @@
+---
+title:           Maintenance and Repair
+contentTitle:    Maintenance and Repair
+navTitle:        Maintenance and Repair
+breadcrumbTitle: Maintenance and Repair
+
+description: Maintenance and Repair.
+
+icon:             vent
+shortDesc:        Free warranty servicing, consultations, repair and supply of spare parts.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+
+{% set pageE = CONTACTS.departments.support %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+
+<h2>Warranty Coverage</h2>
+
+<p>The warranty is valid for 18 months from the date of installation, but not more than 24 months from the date of delivery, or 3,000 hours for generators with a capacity of up to 50 kW and 5,000 hours for generators with capacities > 100 kW.</p>
+<p>A detailed description is in the section <a href='/сatalogue/warranty'>«Warranty»</a>.</p>
+
+<h2>Non-Warranty Repair and Maintenance</h2>
+
+<p>If a repair/maintenance service is needed after expiration of warranty, you can contact your dealer, from which the equipment was purchased, or apply directly to our company.</p>
+
+<p>The sequence of actions is as follows:</p>
+
+<ol>
+  <li>An enquiry is sent indicating the problem, model and number of the generator.</li>
+  <li>An employee of the Service Department contacts you, clarifies the problem by phone and, if necessary, sends a specialist to perform diagnostics.</li>
+  <liAfter diagnostics, we agree on the terms and cost of the repair works.</li>
+  <li>Afterwards, the repair is carried out.</li>
+</ol>
+
+<p>After repair, you receive a new warranty, the terms of which are determined depending on the type of repair. As a rule, it is valid for at least 6 months.</p>
+<p>The cost of repair includes spare parts and time for the delivery of spare parts, the transportation services and the work of a specialist. Rates for the main types of repair services are available at the Service Department: {{ pagePhone1 }}, {{ pageEmail }}.</p>
+
+<h2>Delivery of Spare Parts</h2>
+<p>So far, all spare parts are stored in our warehouse in St. Petersburg, Russian Federation. To place an order, please contact the Service Department: {{ pagePhone1 }}, {{ pageEmail }}.</p>
+<p>If you apply in written, please do not forget to specify the model of generator and the list of necessary spare parts.</p>
+{% endblock %}

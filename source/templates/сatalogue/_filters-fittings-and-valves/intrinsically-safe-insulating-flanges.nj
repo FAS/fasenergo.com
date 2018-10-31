@@ -1,0 +1,37 @@
+---
+title:           Intrinsically Safe Insulating Flanges
+contentTitle:    Intrinsically Safe Insulating Flanges
+navTitle:        Intrinsically Safe Insulating Flanges
+breadcrumbTitle: Intrinsically Safe Insulating Flanges
+
+description: Intrinsically Safe Insulating Flanges.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Intrinsically safe insulating flanges serve as a protection for underground tanks against the occurrence of undesirable potentials that lead to a deterioration in the efficiency of anodic cathodic protection.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/intrinsically-safe-insulating-flanges/intrinsically-safe-insulating-flanges.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Intrinsically Safe Insulating Flanges') }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>Design pressure PN40;</li>
+  <li>Nominal diameter DN15–DN200;</li>
+  <li>Steel casing;</li>
+  <li>Flanges in compliance with DIN 2635;</li>
+  <li>Class of intrinsic safety: up to 100 kA;</li>
+  <li>Mounting in explosion hazardous area: Exll.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

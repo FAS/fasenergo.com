@@ -1,0 +1,56 @@
+---
+title:           Reciprocating Compressor Unit FEM 891 for Propylene (294 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 891 for Propylene (294 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 891 for Propylene (294 Nm³/hour)
+breadcrumbTitle: FEM 891
+
+description: Reciprocating Compressor Unit FEM 891 for Propylene (294 Nm³/hour)
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A reciprocating compressor unit FEM 891 of enhanced capacity, fully assembled, designed to transfer propylene from sea tankers, railway cisterns, etc.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-891/compressor-unit-fem-891--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>Compressor of FEM type, ТHG601ВT4, 400/690 V, B3, 50 Hz.ВT4, 400/690 V, B3, 50 Hz., horizontal.</li>
+  <li>Number of cylinders: 2</li>
+  <li>Triple guide rod sealing.</li>
+  <li>Connection junction: 2", flange.</li>
+  <li>Max. capacity: 294 Nm³/hour; speed: 900 rpm.</li>
+  <li>2 pressure gauges of 0–25 bar; liquid separator DN50, PN25.</li>
+  <li>With a drain valve for condensate.</li>
+  <li>Relief valve: 19 bar.</li>
+  <li>Filtering strainer DN80, PN40.</li>
+  <li>Drive belt tension device.</li>
+  <li>Drive belt with protective casing.</li>
+  <li>Motor ЕЕхеIIT3, 400/690 V, B3, 58 kW, 50 Hz.</li>
+  <li>Piping; mounting on a common frame with a compulsory priming and varnishing.</li>
+  <li>All valves have an acceptance certificate 3.1B or 2.1 in compliance with the</li>
+  <li>European Standards 10 204 (DIN 50.049-3.1B).</li>
+</ul>
+
+<p>Weight: ~1,600 kg.</p>
+
+<h2>Design Features</h2>
+
+<ul>
+  <li>Enhanced capacity;</li>
+  <li>Reduced vertical vibration due to the lack of vertically moving masses;</li>
+  <li>Balanced horizontal vibration due to the horizontal arrangement of the phase opposition moving pistons.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

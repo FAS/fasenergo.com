@@ -1,0 +1,37 @@
+---
+title:           Boiler Based Self-Heating Type Evaporative Units
+contentTitle:    Boiler Based Self-Heating Type Evaporative Units
+navTitle:        Boiler Based Self-Heating Type Evaporative Units
+breadcrumbTitle: Boiler Based Self-Heating Type Evaporative Units
+
+description: Boiler Based Self-Heating Type Evaporative Units
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>Combined evaporative units for liquefied petroleum gases. Designed in a steel painted container. The unit is divided into two isolated sections.</p>
+<p>The first section hosts an LPG evaporator with all relevant isolation as well as devices for monitoring the operation of the evaporator.</p>
+<p>In the second section, there is a ground-type gas boiler with all the accompanying piping (heat carrier). The electrical control panel is also located in the second section. Both sections of the container are equipped with daylight fluorescent lamps.</p>
+<p>The second section of the container is equipped with a gas leakage sensor. If the gas concentration level in the room reaches 40% of the maximum permissible norm, the power supply of the control system is switched off automatically (except for the lighting of both sections) and further operation of the unit is blocked.</p>
+<p>The unit can be restarted only after elimination of the gas leakage causes. The unit is delivered to the buyer with an emptied heat carrier system. The user undertakes to properly select the heat carrier in compliance with the freezing temperature parameters. The manufacturer recommends to use the ethylene glycol component with concentration to the minimum limit temperature in the winter period of the user’s region.</p>
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-a-k/evaporative-unit-fem-zh-a-k--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM ZH/A/K') }}
+
+<h2>Indirect Liquid Heating</h2>
+
+<ul>
+  <li>Boiler based self-heating function.</li>
+</ul>
+
+{{ VaporizersTable(selectVaporizingStationsWithSelfHeating(VAPORIZERS)) }}
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,284 @@
+---
+title:           LNG Filling Station Produced by the FAS Company
+contentTitle:    LNG Filling Station Produced by the FAS Company
+navTitle:        LNG Filling Station Produced by the FAS Company
+breadcrumbTitle: LNG Filling Station Produced by the FAS Company
+
+description: 'The filling station is a factory product of an increased degree of completion, which includes all basic components for the safe reception, storage and refuelling with automatic control of all production processes.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--1.jpg' },
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--3.jpg' },
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--4.jpg' }, 
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--5.jpg' }  
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<h2>Filling Station</h2>
+<p><strong>The LNG filling station is designed for the following purposes:</strong></p>
+<ul>
+  <li>Reception and storage of the liquefied natural gas (LNG);</li>
+  <li>Raising the pressure of liquid LNG up to 5–8 bar;</li>
+  <li>Refuelling of vehicles through an LNG fuel dispenser.</li>
+</ul>
+<p>The filling station is a factory product of an increased degree of completion, which includes all basic components for the safe reception, storage and refuelling with automatic control of all production processes.</p>
+<p>It should be noted that this offer refers to the category of budget solutions. A number of technical details and elements can complement or simplify the concept of this filling station. The feasibility of concept changes is determined by the existing infrastructure in the place of operation.</p>
+
+<h2>LNG Storage Tank</h2>
+
+<h3>General Information</h3>
+
+<ul>
+  <li>Type: vacuum insulation, vertical design;</li>
+  <li>Design Code: EN13458-2.;</li>
+  <li>Product: LNG;</li>
+  <li>Directive: 014/68/EU European;</li>
+  <li>Technical regulations: CE.</li>  
+</ul>
+
+
+<h3>Inner Tank</h3>
+
+<ul>
+  <li>Volume: 50,000 litres.</li>
+  <li>Net volume: 47,000 litres.</li>
+  <li>Gas Space: %95 @ MAWP.</li>
+  <li>Max. pressure: 12 barg (Maximum Allowable Working Pressure).</li>
+  <li>Design pressure: 13 barg.</li>
+  <li>Design temperature: -196 °C / +49 °C.</li>
+  <li>Material: SS 1,4306 and 1,4307 or equivalent.</li>
+  <li>Radiographic testing: %100.</li>
+</ul>
+
+<h3>Outer Tank</h3>
+
+<ul>
+  <li>Design pressure: 1 barg;</li>
+  <li>Design temperature: -40 °C / +50 °C;</li>
+  <li>Material: Carbon Steel P355NL1;</li>
+  <li>Insulation type: Perlite + vacuum;</li>
+  <li>Perlite density: 90–100 kg/m³.</li>  
+</ul>
+
+<h2>Description of the LNG Refuelling Process</h2>
+
+<p>A cryogenic submersible pump pumps cold LNG from a tank to a fuel dispenser. The level of LNG contained in the storage tank is constantly maintained as saturated.</p>
+<p>Thus, LNG (saturated) can be used for all available vehicles powered from LNG.</p>
+
+<p>With the help of a gas dispenser, LNG enters the vehicle’s fuel tank. Please note that a detailed coordination of the desired equipment design is required.</p>
+
+<h2>LNG Line</h2>
+
+<h3>LNG Submersible Pump Unit</h3>
+
+<p>It serves to feed LNG from a fixed-site storage tank to a fuel dispenser. In addition to the cryostat and the submersible pump, this pump unit also includes all the components required for work with LNG, for safety and reliability.</p>
+
+<p><strong>Specifications:</strong></p>
+
+<ul>
+  <li>Electric motor: works with a frequency converter and inside an LNG storage tank with vacuum insulation.</li>
+  <li>Medium: LNG.</li>
+  <li>Max. suction pressure: 25 bar.</li>
+  <li>Number of levels: 2 levels.</li>
+  <li>Nominal product flow: up to 430 L/min.</li>
+  <li>Differential pressure (max.): up to 12 bar.</li>
+  <li>Pump speed: up to 6,000 rpm (at 104 Hz).</li>
+  <li>Engine mounted: 12.6 kW, 6,000 rpm, 400 V, 2P, 104 Hz.</li>
+  <li>ATEX certificate (for use with a frequency converter in a control cabinet).</li>
+</ul>  
+
+<p><strong>The pump is mounted on a painted steel frame and includes the following basic components:</strong></p>
+<ul>
+  <li>Vacuum-isolated cryogenic tank.</li>
+  <li>Cryogenic pneumatically operated valve on the suction pipeline DN 50 Herose.</li>
+  <li>Cryogenic pneumatically operated valve on the return line DN 32 Herose.</li>
+  <li>Cryogenic pneumatically operated valve on the pressure line DN 25 HEROSE.</li>
+  <li>Cryogenic pneumatically operated valve on the saturation line DN 25 Herose.</li>
+  <li>Cryogenic pneumatically operated valve on the gas back flow line DN 15 Herose.</li>
+  <li>Cryogenic pneumatically operated valve on the bypass line DN 25 Herose.</li>
+  <li>Flexible hoses on the suction, return and ventilation lines.</li>
+  <li>PT100 temperature sensor on the suction line.</li>
+  <li>PT100 temperature sensor on the return line.</li>
+  <li>PT100 temperature sensor on the electrical interface to monitor and detect leakages.</li>
+  <li>Electrical connection to the gas sealing system.</li>
+  <li>Pipelines for connecting the LNG storage tank with vacuum insulation.</li>
+  <li>Suction line filter.</li>
+  <li>Explosion-proof terminal box, Atex.</li>
+  <li>Pressure gauge with a manual shut-off valve.</li>
+  <li>Valves for liquid and gas draw off on an isolated tank.</li>
+  <li>Three-way valve and 2 Herose relief valves, set pressure = 20 bar.</li>
+  <li>Pressure transducer on the delivery line.</li>
+  <li>Insulated suction line with a relief valve.</li>
+  <li>Insulated return line with a relief valve.</li>
+  <li>Insulated discharge line.</li>
+  <li>Insulated saturation line with a relief valve.</li>
+  <li>Insulated gas return line with a relief valve.</li>
+  <li>Insulated bypass line with a relief valve.</li>
+  <li>Valves and other components for the dispensing system.</li>
+</ul>
+
+<p><strong>Certificates:</strong></p>
+<ul>
+<li>Directive 2014/34 / ЕС - Atex - Ex II 2G d IIA T4</li>
+</ul>
+
+<p><strong>Notes:</strong></p>
+<p>The LNG pump is controlled by means of a programmable logic controller (PLC) installed on the main load distribution panel (not included in the delivery package)..</p>
+
+<h3>Saturation Evaporator</h3>
+
+<p>The saturation evaporator is used to heat the LNG fed from the storage tank and return it back partially to the tank. The other part is combined with the LNG fed to the fuel dispenser. By raising the temperature, LNG reaches a saturated state and can be used for all conventional LNG vehicles.</p>
+
+<p><strong>Specifications:</strong></p>
+
+<ul>
+  <li>Material: Al 6060.</li>
+  <li>Contact area: XXX m².</li>
+  <li>Design pressure: 40 bar.</li>
+  <li>Design temperature: -196 °C / +60 °C.</li>
+  <li>Dimensions: W x D x H mm.</li>
+  <li>Certificates: 2014/68 / UE Directive – PED.</li>
+</ul>
+
+<h3>LNG Fuel Dispenser</h3>
+
+<ul>
+ <li>LNG at 8 bar, -130°.</li>
+ <li>EU Declaration of Conformity and ATEX.</li>
+ <li>MID Certificate – EU Type Approval (NMi).</li>
+ <li>Max. flow rate: 100 kg/min.</li>
+ <li>Mass flow meter Micro Motion Elite CMF100, OIML R81 and R117-1 Certificate, LNG error: 0.35%.</li>
+ <li>Mass flow meter Micro Motion Elite CMF050, OIML R81 and R117-1 Certificate, BOG error: 0.35%.</li>
+ <li>Computer EAS2, OIML R81, R117-1 and R139 Certificate (NMi). Modbus meter-computer communication. EAS1 protocol. Modbus PLC communication for reading the error history. Display for indicating price (______/kg), mass (kg) and total value (_________). Logging of 150 fillings and 250 errors.</li>
+ <li>Rated voltage: 230 V AC, 50 Hz, 300 W.</li>
+ <li>Ingress protection rating: IP54.</li>
+ <li>Stainless steel casing, primed and painted.</li>
+ <li>Automatic cooling, filling and bypass processes.</li>
+ <li>Measurement of filling pressure and temperature.</li>
+ <li>Filling hose 1", with a quick coupling and protection against burns.</li>
+ <li>Return hose ½", with a quick coupling and protection against burns.</li>
+ <li>JC Carter or Macrotech clamps.</li>
+ <li>Configurable button such as Totmann and delivery indicator.</li>
+ <li>Emergency shutdown button.</li>
+ <li>Terminal block ground.</li>
+</ul>
+
+<p><strong>Options:</strong></p>
+
+<ul>
+  <li>MODULE D MID Certificate and Declaration of Conformity.</li>
+  <li>EAS2 LON MODULE of communication with IFSF-LON protocol.</li>
+  <li>ATEX BOX KIT EAS2 ExnA E30 LNG adapted for installation in ATEX Zone 2.</li>
+  <li>Quick coupling LNG1" ANSI 300 PN 40 15 KN.</li>
+  <li>Quick coupling LNG1/2" ANSI 300 PN 40 15 KN.</li>
+  <li>Mounting, commissioning, training.</li>
+</ul>
+
+<h2>Electrical Control and Automation Panel</h2>
+
+<p>One of the core functions performed by the electrical control panel is to control the manufacturing parameters of the pump unit during all processes. If any emergency situations, the automatic system immediately stops the pump.</p>
+
+<h3>Basic Components of the Electrical Control Panel</h3>
+
+<ul>
+  <li>LCD panel to monitor all parameters of the filling process and pump status. It is also used to modify manufacturing parameters.</li>
+  <li>PLC Schneider.</li>
+  <li>Pump On/Off button.</li>
+  <li>Parameter control lamps.</li>
+  <li>Emergency shutdown button.</li>
+  <li>Sound alarm.</li>
+  <li>Engine thermal protection.</li>
+  <li>Terminals for connecting external control buttons (if necessary).</li>
+</ul>
+
+<p><strong>The electrical control panel design provides for constant monitoring of temperature and pressure of the entire system:</strong></p> 
+
+<ul>
+  <li>PT100 pump temperature, PT100 pump’s vacuum jacket leakage, PT100 dry run protection, high pressure control.</li>
+  <li>The electrical control panel design provides for communication with peripheral devices for monitoring the state of the gas fed from the evaporator.</li>
+  <li>The electrical control panel ensures a possibility of automatic pump cooling (on-off).</li>
+</ul>
+
+<p>The electrical control panel can be mounted directly on the frame of the pumping unit or placed in another suitable place.</p>
+
+<h2>Commercial Offer</h2>
+
+<p>The commercial offer is formulated in accordance with the FAS terms and conditions of manufacture and delivery and represents an initial budgetary quote as a platform for further discussions.</p>
+
+<p>The drawings and description provided together with the commercial offer are preliminary and subject to modifications.</p>
+
+<p>All station elements marked as optional are not included in the declared value.</p>
+
+<h3>Pricing Conditions</h3>
+
+<ul>
+  <li>Budgetary value is provided in EURO (€) under EXW-Salzgitter terms of delivery;</li>
+  <li>Standard packaging for standard road delivery.</li>
+</ul>
+
+<h3>The Price Does Not Include</h3> 
+
+<ul>
+  <li>Pipelines between the filling station and a fuel dispenser (dispensers);</li>
+  <li>Cabling between the filling station and a fuel dispenser (dispensers);</li>
+  <li>Any components or services that are not reflected in this offer.</li>
+</ul>
+
+<h3>Approval Documents</h3>
+
+<ul>
+  <li>Pressure Equipment Directive (PED) 2014/68/EU;</li>
+  <li>Machinery Directive (MD) 2006/42/EC;</li>
+  <li>Low Voltage Directive (LVD) 2014/35/U;</li>
+  <li>ATEX Directive 2014/34/U.</li>
+</ul>
+
+<h3>Additional Services</h3>
+
+<ul>
+  <li>Design work: available by agreement.</li>
+  <li>Mounting and commissioning work: available by agreement.</li>
+  <li>Supervised mounting: available by agreement.</li>
+  <li>ATEX Directive 2014/34/U.</li>
+</ul>
+
+
+<h3>Documents</h3>
+
+<ul>
+  <li>Dimensional drawings for each position from the initial commercial offer.</li>
+  <li>P&ID process diagram.</li>
+  <li>Operation manual.</li>
+  <li>FAS quality certificate.</li>
+</ul>
+
+<h3>Commercial Offer Validity</h3>
+
+<p>20 weeks from the date of order/payment/technical approval.</p>
+
+<h3>Brief Specification</h3>
+
+<ul>
+  <li>Storage tank, 50 m³.</li>
+  <li>Low pressure pump unit.</li>
+  <li>Low pressure evaporative unit.</li>
+  <li>LNG dispenser.</li>
+  <li>Electrical control and automation panel.</li>
+  <li>VENT evaporator (optional).</li>
+  <li>LIN cooling module (optional).</li>
+
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>550 000 €</p>
+  <p class='h-margin-bottom+'>Delivery terms: 20 weeks</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

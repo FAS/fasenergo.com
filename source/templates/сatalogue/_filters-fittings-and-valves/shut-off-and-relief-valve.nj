@@ -1,0 +1,60 @@
+---
+title:           Shut-off and Relief Valves
+contentTitle:    Shut-off and Relief Valves
+navTitle:        Shut-off and Relief Valves
+breadcrumbTitle: Shut-off and Relief Valves
+
+description: Shut-off and Relief Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/shut-off-and-relief-valve/shut-off-and-relief-valve.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+{% set pageEq = [
+  { title: 'Double steel coupling ASTM 105, 3/4" NPT IG, length – 51 mm.' },
+  { title: 'Steel coupling ASTM 105, 1-1/4" NPT IG, PN40, length – 33 mm, with 3.1 В certificate, in compliance with the European standards EN 10204.' },
+  { title: 'Steel coupling ASTM 105, 2" NPT IG, PN40, length – 43 mm, with 3.1 В certificate, in compliance with the European standards EN 10204.' },
+  { title: 'Fill-up valve 1 3/4" ACME x 1 1/4" NPT, RegO 7579CТ type, with a dual check plate and a plastic cap, two-piece casing, CE marking according to DGRL 97/23/EG.' },
+  { title: 'Relief valve with M 45x2 metric thread, RegO type for check device CD45, M 45x2 metric, preset pressure – 14.8 bar, with the 2.2 EN 10 204 certificate in compliance with DGRL 97/23/EG.' },
+  { title: 'Relief valve with M 45x2 metric thread, RegO type for check device CD45, M 45x2 metric, preset pressure – 15.6 bar, with the 2.2 EN 10 204 certificate in compliance with DGRL 97/23/EG.' },
+  { title: 'Check device, M 45x2 metric, CD 45 type, for relief valve RS3145, with sealing. Important: the check device should be ordered together with CD45-8 sealing, with the
+2.2 EN 10 204 certificate, in compliance with DGRL 97/23/EG.' },
+  { title: 'CD45-8 sealing for relief valve RS3145.' },
+  { title: 'Angle valve, PN25 bar, tank connection 3/4" NPT AG, Rego type: 009101DK17.8.' },
+  { title: 'Overflow pipe for angle valves of Rego type: 000906 – 1,000 mm.' },
+  { title: 'Pressure gauge with a tube spring, casing diameter 50 or 63 mm G 1/4", 0–25 bar, bottom connection, marking at 15.6 bar, accuracy class CI. 2.5.' },
+  { title: 'Level gauge of Junior type, for vertical mounting, tank diameter: 1,200 mm, stem length: 1,160 mm, for PS/PO tanks, with a 2.2 certificate in compliance with EN 10 204 (DIN 50.049-2.2).' },
+  { title: 'Level gauge of Junior type, for vertical mounting, tank diameter: 1,600 mm, stem length: 1,361 mm, for tanks, with a 2.2B certificate in compliance with EN 10 204 (DIN 50.049-2.2).' },
+  { title: 'Angle valve with a speed valve of RegO 7550 PX type, PN25, made of brass, connection 3/4" NPT AG, outlet 3/4" NPT IG.' },
+  { title: 'Level gauge of Junior type, for vertical mounting, tank diameter: 1,200 mm, stem length: 773 mm, for tanks, with a 2.2B certificate in compliance with EN 10 204 (DIN 50.049-2.2).' },
+  { title: 'Level gauge of Junior type, for vertical mounting, tank diameter: 1,600 mm, stem length:969 mm, for tanks, with a 2.1B certificate in compliance with EN 10 204 (DIN 50.049-2.2).' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

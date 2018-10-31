@@ -1,0 +1,86 @@
+---
+title:           Production
+contentTitle:    Production
+navTitle:        Production
+breadcrumbTitle: Production
+
+description: Производство компании «Фасэнергомаш».
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Images.nj' import Images with context %}
+
+{% set pagePhone = Phone(CONTACTS.departments.sales.phones[0]) %}
+
+<h2>Structure of Manufacturing Facilities</h2>
+
+<p>The manufacturing facilities include a workshop, two testing sites and two warehouses for finished products and for components and spare parts.</p>
+<p>The <strong>workshop</strong> is fitted with modern equipment for assembling, testing and setting-up of generators. All processes can be inspected personally during a special tour to the manufacturing facilities.</p>
+
+{# @todo фотографии цеха #}
+{% if ENV.staging or not ENV.production %}
+{{ Images(
+  images = [{
+      src: 'https://placehold.it/1350x700',
+      alt: 'Описание картинки'
+    },{
+      src: 'https://placehold.it/1350x450',
+      alt: 'Описание картинки'
+    },{
+      src: 'https://placehold.it/1350x450',
+      alt: 'Описание картинки'
+    }]
+) }}
+{% endif %}
+
+<p>The <strong>testing sites </strong> are used for individual testing of low-power generators of up to 32 kW and gas-piston units of higher capacity. All equipment is checked here before its handover and dispatch. What is of major importance, all modes are checked under the maximum possible loads.</p>
+
+{# @todo фотографии площадок и испытаний #}
+{% if ENV.staging or not ENV.production %}
+{{ Images(
+  images = [{
+      src: 'https://placehold.it/1350x700',
+      alt: 'Описание картинки'
+    },{
+      src: 'https://placehold.it/1350x450',
+      alt: 'Описание картинки'
+    }]
+) }}
+{% endif %}
+
+<p>All new developments are also tested here, for example, thermal (cogeneration) modules and network synchronization systems.</p>
+<p>The acceptance of generators before their batch production is carried out by the <strong>Independent Quality Control Department</strong>. The check is carried out in accordance with the standards of the European CE Certificate. All operating modes under increased load and with temperature differences are tested.</p>
+
+<h2>Capacity and Terms of Production</h2>
+
+<p>At the moment, FASENERGOMASH, LLC can produce about 100 gas-piston stations with a capacity of up to 50 kW per month.</p>
+<p>Stations with a capacity over 100 kW are made to order only and during the time period from 4 weeks to several months, depending on the workload of production.</p>
+<p>Generators from 8 kW to 50 kW, as a rule, are in stock in St. Petersburg. Part is stored in warehouses in Krasnodar, Yekaterinburg, Chelyabinsk, Kazan and Novosibirsk.</p>
+<p>If the capacity of 50–100 kW is required, such systems can be assembled as a synchronized generator group of 2–3 generators with a capacity of up to 50 kW.</p>
+
+<h2>In-House Design Department</h2>
+
+<p>The decision to create a personal design department was made in 2014, when the company leadership realized the necessity to stop using the old FAS designs. Competitors and technologies are developing, and we need to improve the consumer-oriented and technical characteristics of the equipment, adapt it to the needs and standards of the Western European market and various industries.</p>
+<p>The new design department conducts tests to improve the efficiency and profitability of generators, designs synchronization blocks with different power supply sources, adapt to non-standard gases (fuel) and power networks.</p>
+<p>The experts of this department managed to create a unique for Russia cogeneration (thermal) module and the systems for gas-powering of engines, the in-house technologies for adapting internal combustion engines to operation from gas, as well as the remote control software.</p>
+
+<p><a href='/сatalogue/advantages-of-our-generators'>Read more about our generators</a></p>
+<p><a href='/solutions'>Read about industry related solutions</a></p>
+
+<h2>Development Plans</h2>
+
+<p>The main direction of development for now involves industrial gas-piston units and creation/enhancement of industry related solutions.</p>
+<p>The batch production of gas-piston stations based on YaMZ engines with a capacity of 100 to 315 kW has already been launched. This allows the assemblage of synchronized high-power units of up to 2 MW.</p>
+<p>In 2017, the company started selling air-cooled generators with a capacity of 5 and 10 kW for private houses. They are excellent for emergency and backup power supply.</p>
+<p>The service schedules increasing system for oil refuelling under conditions of impossibility to regularly carry out maintenance has also been launched into production.</p>
+
+<h2>Tour to Production Facilities</h2>
+
+<p>The production facilities are located on the outskirts of St. Petersburg in the settlement of Lakhta, not far from the high-rise building hosting the headquarters of Gazpromneft.</p>
+<p>The facility can be reached by car or by public transport. If going by car, use the following address in navigator: Litera A, bldg. 10, Krasnykh Partizan Street, Settlement of Lakhta, 194044, St. Petersburg. Parking is available nearby and in the territory of the production facility.</p>
+<p>Take bus No. 101 from the "Staraya derevnya" subway station or bus No. K 405, shuttle bus No. 210 and any shuttle bus going to the settlement of Sestroretsk from the "Chernaya rechka” subway station.</p>
+<p>The first part of the tour is the most demonstrative and interesting. You will see our generators when in use, moreover, operating in different modes. The second part is theoretical. You will learn about the design and engineering solutions, the right places and ways of correct application of our generators, as well as the ways to connect and maintain them. After the tour, experts of our company will answers all possible questions.</p>
+<p>It is better to inform us about your visit in advance. Call the Sales Department: {{ pagePhone }}.</p>
+{% endblock %}

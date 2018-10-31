@@ -1,0 +1,162 @@
+---
+title:           Gas Pressure Regulators RegO
+contentTitle:    Gas Pressure Regulators RegO
+navTitle:        RegO
+breadcrumbTitle: RegO
+
+description: Gas Pressure Regulators RegO (11-160 kg/hour).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-158.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-158--scheme.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-597fc.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego--597fc--scheme.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-lv404b.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-lv4403.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-lv5503b-h20.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-lv5503b-h20--scheme.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-rego/gas-pressure-regulator-rego-lv5503h820.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Gas Pressure Regulators RegO') }}
+
+{% set pageEq = [
+  {
+    title: 'Regulator&nbsp;RegO&nbsp;1588 ML',
+    performance: '160 kg/hour',
+    pressure: 'Inlet pressure 25 bar Outlet pressure 25 bar',
+    connection: 'Inlet POL Outlet IG G ¾"',
+    weight: '1,3&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;1586 ML',
+    performance: '160 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '¾" NPT',
+    weight: '1,4&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;1588 MH',
+    performance: '160 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '1" NPT',
+    weight: '1,3&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO1584 ML</a>',
+    performance: '80 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '½" NPT',
+    weight: '0,9&nbsp;kg'
+  }, {
+    title: 'Regulator RegO&nbsp;1584 MH',
+    performance: '80 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4-8.5 bar',
+    connection: '½" NPT',
+    weight: '0,9&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO 597FC',
+    performance: '&nbsp;77 kg/hour&nbsp;',
+    pressure: 'Outlet nominal pressure 0.7–6.9 bar',
+    connection: 'Inlet ¼" NPT Outlet ¼" NPT',
+    weight: null
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;AA1586 ML',
+    performance: '70 m³/hour&nbsp;NH<sub>3</sub>',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '¾" NPT',
+    weight: '1,4&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO LV5503H820',
+    performance: 'up to 50 kg/hour',
+    pressure: 'Outlet pressure from 28 to 70 mbar',
+    connection: 'Inlet ¾ NPT IG Outlet 1" NPT IG',
+    weight: null
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;AA1584 ML',
+    performance: '45 m³/hour&nbsp;NH<sub>3</sub>',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '½" NPT',
+    weight: '0,7 kg<strong>&nbsp;</strong>'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;LV5503B4-H20',
+    performance: '34 kg/hour',
+    pressure: 'Outlet pressure 50 mbar',
+    connection: 'Inlet ½" NPT IG Outlet ¾" NPT IG',
+    weight: null
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;LV5503B6-H20',
+    performance: '34 kg/hour',
+    pressure: 'Outlet pressure 90 mbar',
+    connection: 'Inlet ¾" NPT IG Outlet ¾" NPT IG',
+    weight: null
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;AA1582 ML',
+    performance: '22 m³/hour&nbsp;NH<sub>3</sub>',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.4–3.5 bar',
+    connection: '¼" NPT',
+    weight: '0,7 kg<strong>&nbsp;</strong>'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;AA1582 MW',
+    performance: '20 m³/hour&nbsp;NH<sub>3</sub>',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 0.2–1.7 bar',
+    connection: '¼" NPT',
+    weight: '0,7&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;LV4403 B46',
+    performance: '20 kg/hour',
+    pressure: 'Inlet pressure up to 2.5 bar Outlet pressure 50 mbar',
+    connection: 'Inlet ½" NPT Outlet ¾" NPT',
+    weight: '1,3&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;LV4403 B4',
+    performance: '12 kg/hour',
+    pressure: 'Inlet pressure up to 2.5 bar Outlet pressure 50 mbar',
+    connection: 'Inlet ½" NPT Outlet ½" NPT',
+    weight: '1,3&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO LV404B4',
+    performance: '11 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 25–50 mbar',
+    connection: 'Inlet ¼" NPT Outlet ½" NPT',
+    weight: '1,6&nbsp;kg'
+  }, {
+    title: 'Regulator&nbsp;RegO&nbsp;LV404B46',
+    performance: '11 kg/hour',
+    pressure: 'Inlet pressure up to 16 bar Outlet pressure 25–50 mbar',
+    connection: 'NPT Outlet ¾" NPT',
+    weight: '1,6&nbsp;kg'
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>Pressure</th>
+      <th>Connection</th>
+      <th>Weight</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td>{{ e.connection }}</td>
+      <td class='h-align--right'>{{ e.weight }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

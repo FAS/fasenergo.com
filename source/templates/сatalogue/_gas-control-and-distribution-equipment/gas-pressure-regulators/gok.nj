@@ -1,0 +1,135 @@
+---
+title:           Gas Pressure Regulators GOK
+contentTitle:    Gas Pressure Regulators GOK
+navTitle:        GOK
+breadcrumbTitle: GOK
+
+description: Gas Pressure Regulators GOK (10-100 kg/hour).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok-052.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok-0524.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok-pn.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok-pn-4.jpg' },
+  { url: 'equipment/gas-control-and-distribution-equipment/regulators-gok/gas-pressure-regulator-gok-pn-25.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Gas Pressure Regulators GOK') }}
+
+{% set pageEq = [
+  {
+    title: 'Medium pressure<br>regulator',
+    performance: '100&nbsp;kg/hour',
+    pressure: 'Inlet pressure 25 bar<br> Outlet pressure 2.5 bar',
+    connection: 'Inlet POL&nbsp;<br> Outlet IG G ¾"',
+    weight: null
+  }, {
+    title: 'Regulator,<br>low pressure,<br>for indoor units ‘f',   
+    performance: 'Up to 1 bar – 100 kg/hour<br> Up to 2.5 bar – 85 kg/hour', 
+    pressure: 'Inlet pressure 0 5–2.5 bar<br> Outlet pressure 50 mbar',
+    connection: 'Inlet IG G1 Outlet<br> IG G1',
+    weight: null
+  }, {
+    title: 'Regulator,<br>medium pressure<br>(I stage),<br>with DIN-DVGW approval',
+    performance: 'up to 60 kg/hour',
+    pressure: 'Inlet pressure up to 25 bar<br> Outlet pressure 0.7–2 bar',
+    connection: '',
+    weight: '3,3&nbsp;kg'
+  }, {
+    title: 'Pressure regulator<br>PN 4, low pressure<br>(II stage)',
+    performance: '60&nbsp;kg/hour',
+    pressure: 'Inlet pressure 0.5–2.5 bar<br> Outlet pressure 50 mbar',
+    connection: 'Inlet G ¾" IG<br> Outlet G ¾" IG',
+    weight: '2,4&nbsp;kg'
+  }, {
+    title: 'Medium pressure regulator',
+    performance: '60&nbsp;kg/hour',
+    pressure: 'Inlet pressure up to 25 bar<br> Outlet pressure 0 7–2.0 bar,&nbsp;<br> set for 0.8 bar',
+    connection: '-',
+    weight: null
+  }, {
+    title: 'Set of regulators<br>GOK type',
+    performance: '20-60&nbsp;kg/hour',
+    pressure: 'I stage:<br> Outlet pressure 1.5 bar;&nbsp;<br> II stage:<br> Inlet pressure up to 1.5 bar<br> Outlet pressure 50 mbar',
+    connection: 'I stage:&nbsp;<br> POL x G ¾ I<br> II stage:&nbsp;<br> G 1 I x G 1 I',
+    weight: null
+  }, {
+    title: 'Pressure regulator<br>PN 2.5, low pressure<br>(II stage)',
+    performance: '24&nbsp;kg/hour',
+    pressure: 'Inlet pressure 0.5–2.5 bar<br> Outlet pressure 50 mbar',
+    connection: 'Inlet G ¾" IG<br> Outlet G ¾" IG',
+    weight: '2&nbsp;kg'
+  }, {
+    title: 'Pressure regulator,<br>2-stage, combined',
+    performance: 'up to 24 kg/hour',
+    pressure: 'Inlet pressure up to 25 bar<br> Outlet pressure 50 mbar',
+    connection: 'Inlet POL<br> Outlet G 1" IG',
+    weight: null
+  }, {
+    title: 'Regulator,<br>medium pressure<br>(I stage),<br>with DIN-DVGW approval',
+    performance: 'up to&nbsp;24&nbsp;kg/hour',
+    pressure: 'Inlet pressure up to 25 bar<br> Outlet pressure 2 bar',
+    connection: 'Inlet POL<br> Outlet G ½" IG',
+    weight: '3,1&nbsp;kg'
+  }, {
+    title: 'Regulator,<br>medium pressure<br>(I stage),<br>with DIN-DVGW approval',
+    performance: 'up to&nbsp;24&nbsp;kg/hour',
+    pressure: 'Inlet pressure up to 25 bar<br> Outlet pressure 0.7 bar',
+    connection: 'Inlet POL<br> Outlet G ½" IG',
+    weight: '2,6&nbsp;kg'
+  }, {
+    title: 'Pressure regulator<br>PN 2.5, low pressure&nbsp;<br>(II stage)',
+    performance: '12&nbsp;kg/hour',
+    pressure: 'Inlet pressure 0.5–2.5 bar<br> Outlet pressure 50 mbar',
+    connection: 'Вход&nbsp;G ½"&nbsp;IG<br> Выход&nbsp;G&nbsp;½"&nbsp;IG',
+    weight: '1,7&nbsp;kg'
+  }, {
+    title: 'Regulator<br>with DIN-DVGW<br>approval and<br> with additional protection<br>"Е" against icing',
+    performance: 'up to 12&nbsp;kg/hour',
+    pressure: 'Inlet pressure 25 bar<br> Outlet pressure 50 mbar',
+    connection: 'Inlet POL<br> Outlet G ½" IG',
+    weight: '2,9&nbsp;kg'
+  }, {
+    title: 'Medium pressure regulator',
+    performance: '10&nbsp;kg/hour',
+    pressure: 'Inlet pressure 0.7 bar<br> Max. allowable<br> pressure 25 bar',
+    connection: 'Inlet POL with<br> a coupling nut<br> Outlet<br> &nbsp;POL x 1/2" G IG',
+    weight: '1,25&nbsp;kg'
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>Pressure</th>
+      <th>Connection</th>
+      <th>Weight</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.pressure }}</td>
+      <td>{{ e.connection }}</td>
+      <td class='h-align--right'>{{ e.weight }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

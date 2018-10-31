@@ -1,0 +1,43 @@
+---
+title:           Gas Check Valves for Self- Priming Units
+contentTitle:    Gas Check Valves for Self- Priming Units
+navTitle:        Gas Check Valves for Self- Priming Units
+breadcrumbTitle: Gas Check Valves for Self- Priming Units
+
+description: Gas Check Valves for Self- Priming Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Bottom check valves are located inside a tank on the suction pipeline and are designed to prevent the suction pipeline from being emptied in the event of pump stop and a long station downtime.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/gas-check-valves-for-self-priming-units/gas-check-valves-for-self-priming-units--1.jpg' },
+  { url: 'equipment/filters-fittings-and-valves/gas-check-valves-for-self-priming-units/gas-check-valves-for-self-priming-units--2.jpg' },
+  { url: 'equipment/filters-fittings-and-valves/gas-check-valves-for-self-priming-units/gas-check-valves-for-self-priming-units--3--scheme-1.jpg' },
+  { url: 'equipment/filters-fittings-and-valves/gas-check-valves-for-self-priming-units/gas-check-valves-for-self-priming-units--4--scheme-2.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Components</h2>
+
+<ol>
+  <li>Sealing;</li>
+  <li>Casing;</li>
+  <li>Seat;</li>
+  <li>Diaphragm frame;</li>
+  <li>Diaphragm;</li>
+  <li>Screw;</li>
+  <li>Screw;</li>
+  <li>Nut;</li>
+  <li>Nut.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

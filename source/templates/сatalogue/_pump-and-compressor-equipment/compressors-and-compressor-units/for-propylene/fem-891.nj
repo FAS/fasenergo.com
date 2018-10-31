@@ -1,0 +1,79 @@
+---
+title:           Reciprocating Compressor Unit FEM 891 for Propylene (100 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 891 for Propylene (100 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 891 for Propylene (100 Nm³/hour)
+breadcrumbTitle: FEM 891
+
+description: Reciprocating Compressor Unit FEM 891 for Propylene (100 Nm³/hour)
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A dry running reciprocating compressor unit FEM 891 designed to pump propylene.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-891/compressor-unit-fem-891--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Work Process Related Parameters</h2>
+
+<ul>
+  <li>Suction pipe pressure: 0.1 bar (excessive);</li>
+  <li>Suction pipe temperature: -5 °C;</li>
+  <li>Delivery pipe pressure: 19 bar (excessive);</li>
+  <li>Gas outlet temperature: 90 °C;</li>
+  <li>Rated capacity: 100 Nm³/hour at compressor shaft speed of 725 rpm;</li>
+  <li>The allowable range of compressor shaft speed: 650–825 rpm.</li>
+</ul>
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>
+    <p>Compressor of FEM type, model T791:</p>
+    <ul>
+      <li>Design: vertical;</li>
+      <li>Type of cooling: air;</li>
+      <li>Type of compression: two-stage;</li>
+      <li>Type of lubrication: dry (lubricants do not communicate with the pumped product);</li>
+      <li>Type of guide rod sealing: triple with a possibility of purging;</li>
+      <li>Type of O-ring sealing: special design.</li>
+    </ul>
+  </li>
+  <li>Liquid separator on the suction pipe, protects suction pipeline from liquid intrusion;</li>
+  <li>Electric motor, 18.5 kW, EExe II CT3, 400/690 V, B3, 50 Hz;</li>
+  <li>V-belt transmission system with protective casing. The system reduces the compressor unit’s electric motor shaft speed from 1,500 rpm to 725 rpm at the current frequency of 50 Hz;</li>
+  <li>The suction/delivery pipe is equipped with necessary fitting to connect the instrumentation and control devices and automatic equipment (the min/max pressure sensor is provided optionally);</li>
+  <li>The suction/delivery pipe is equipped with pressure gauges to visualise the parameters of work process;</li>
+  <li>The delivery pipe is equipped with a relief valve of the bar adjustment area;</li>
+  <li>The compressor unit is completed with a double switch to start and stop the electric motor;</li>
+  <li>The compressor unit is completed with an anti-vibration system.</li>
+</ul>
+
+<p>The compressor unit is factory-assembled on a frame, primed, and painted.</p>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Inlet: flange DN50 (completed with mating flanges);</li>
+  <li>Outlet: flange DN50 (completed with mating flanges).</li>
+</ul>
+
+<h2>Set of Documents</h2>
+
+<ul>
+  <li>Declaration of Conformity ТР / ТС 010/2011 On Safety of Machinery and Equipment;</li>
+  <li>Declaration of Conformity ТР / ТС 020/2011 On Electromagnetic Compatibility of Technical Means;</li>
+  <li>Operation manual in Russian;</li>
+  <li>Vibration Passport indicating the compressor vibration level at the control points of measurement during factory testing.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

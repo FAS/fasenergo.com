@@ -1,0 +1,78 @@
+---
+title:           Pump Unit №93.0111
+contentTitle:    Pump Unit №93.0111
+navTitle:        FEM №93.0111
+breadcrumbTitle: FEM №93.0111
+
+description: Pump Unit №93.0111
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  {
+    url: 'equipment/pump-and-compressor-equipment/pump-unit-fem-№93.0111/pump-unit-fem-№93.0111--sh.svg',
+    alt: PAGE.contentTitle + ', drawing'
+  }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>A modular pump system of FEM type No. 93.0111 designed to pump liquefied propane/butane gas based on a FEM NZ 36-8 open-vortex pump, configured to be connected to one aboveground tank. These pumping units are used within the liquefied gas pumping systems at gas filling stations. The pumping unit of FEM type No. 93.0111 is configured to be installed together with a fuel dispenser and one aboveground liquefied gas storage tank.</p>
+<p>The rated capacity of the pump system designed to pump liquefied gas makes 100 L/min given the differential pressure of 14 bar at 1,500 rpm.</p>
+
+<h2>Basic Package</h2>
+
+<ul>
+
+  <li>
+
+    <p>NZ 36-8 type pumping unit for propane/butane with multifunction gland sealing:</p>
+
+    <ul>
+      <li>Rated capacity: 100 L/min, at a differential pressure of 14.0 bar under 1,500 rpm;</li>
+      <li>Input: DN 65, PN 40, DIN 2635;</li>
+      <li>Output: DN 32, PN 40, DIN 2635.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>Explosion-proof electric motor:</p>
+
+    <ul>
+      <li>Power: 5 kW;</li>
+      <li>Rated voltage: 230/400 V;</li>
+      <li>Frequency: 50 Hz;</li>
+      <li>Ingress protection: IP 55;</li>
+      <li>Explosion protection: EEx e II T3;</li>
+      <li>Speed: 1,500 rpm.;</li>
+      <li>Coupling;</li>
+      <li>Protective casing.</li>
+    </ul>
+
+  </li>
+
+  <li>Liquid phase inlet DN50 with a ball valve DN50;</li>
+  <li>Liquid phase outlet DN25 with a ball valve DN25 and a check valve;</li>
+  <li>By-pass pipe with a valve FEM №19333;</li>
+  <li>By-pass pipe outlet with a ball valve DN25;</li>
+  <li>Fuel dispenser-to-tank discharge pipe for vapour phase with a ball valve DN20 on the tank connection line, with a vapour phase compensating pipe assembly DN20 and a filling coupling M 60x4.0, left-hand, with a protective cover;</li>
+  <li>Filling pipe DN50 with a ball valve DN50, a check valve and a screwed coupling M 60x4, left-hand, with a protective cover;</li>
+  <li>Strainer DN50 at the pumping unit inlet;</li>
+  <li>Process piping with shut-off and control valves;</li>
+  <li>Instrumentation and monitoring equipment;</li>
+  <li>Discharge system of “Candle” type.</li>
+</ul>
+
+<p>Assembled on a common frame, primed and painted.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>503 600 rub.</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

@@ -1,0 +1,213 @@
+---
+url: /
+
+title:           German-Russian Manufacturer of Gas Equipment Fasenergomash
+contentTitle:    German-Russian Manufacturer of Gas&nbsp;Equipment
+navTitle:        Home
+breadcrumbTitle: Home
+
+description: LLC "Fasenergomash" is a German-Russian manufacturer and the leader among suppliers of gas equipment for the energy industry in Russia.
+
+class:                     p-index
+applyWrapper:              false
+applyWrapperV:             false
+applyWrapperContainer:     false
+applyWrapperContent:       false
+forceFooterWrapperContent: true
+applyPreformat:            false
+showBreadcrumb:            false
+showContentTitle:          false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
+{% set pageContainerClass = 'Wrapper Wrapper--container' %}
+{% set pageContentClass = 'Wrapper--content h-margin-sides--auto' %}
+{% set pageSectionTopWrapper = 'h-padding-top++--' %}
+{% set pageSectionBottomWrapper = 'h-padding-bottom++' %}
+
+<header
+  class='Shade t-quaternary h-padding-top+ h-bg--cover h-bg--center'
+  style='background-image: url({{ urljoin('/', PATH.images, '/hero.jpg') }})'
+>
+  <div class='{{ pageContainerClass }}'>
+    <div class='{{ pageContentClass }}'>
+
+      <h1 class='Shade__title h-h2 h-margin-bottom+--'>{{ PAGE.contentTitle }}</h1>
+
+      {# @todo https://www.meistertask.com/app/task/tuHtLJ86/novye-dannye-dlia-bloka-s-tsyframy-na-glavnoi #}
+      {# <ul class='Shade__text o-grid h-flex-x--between h-3/4@lap g-list0 h-padding-bottom++--'>
+        <li class='o-grid__item h-flex'>
+          <span class='h-h2 h-line-height1.3 h-padding-right--'>14</span>
+          <span class='h-text+ h-margin-top--'>собственных<br> разработок</span>
+        </li>
+        <li class='o-grid__item h-flex'>
+          <span class='h-h2 h-line-height1.3 h-padding-right--'>1568</span>
+          <span class='h-text+ h-margin-top--'>произведенных<br> генераторов</span>
+        </li>
+        <li class='o-grid__item h-flex'>
+          <span class='h-h2 h-line-height1.3 h-padding-right--'>582</span>
+          <span class='h-text+ h-margin-top--'>поставки</span>
+        </li>
+      </ul> #}
+
+      <div class='h-bleed-sides h-bleed-sides+@lap'>
+        <div class='o-grid h-childs-displace h-margin-top+++ h-padding-bottom++'>
+
+          {% macro Item(title, url, buttonLabel, buttonClass) %}
+          <article class='o-grid__item h-1/3'>
+            <div class='Shade__block o-panel o-panel--max t-secondary h-border-r h-padding+--'>
+              <div class='h-text- o-panel__body'>
+                <h2 class='h-h4'>{{ title }}</h2>
+                {{ caller() }}
+              </div>
+              <div class='o-panel__footer h-margin-top'>
+                <a href='{{ url }}' class='Btn {{ buttonClass }} Btn--wide-'>{{ buttonLabel }}</a>
+              </div>
+            </div>
+          </article>
+          {% endmacro %}
+
+          {% call Item(
+            title = 'Gas Equipment',
+            url = '/сatalogue',
+            buttonLabel = 'Catalogue',
+            buttonClass = 'Btn--primary'
+          ) %}
+            <p>Manufacture of gas generators, evaporative, pump-and-compressor and fuel-dispensing equipment.</p>
+          {% endcall %}
+
+          {% call Item(
+            title = 'Solutions',
+            url = '/solutions',
+            buttonLabel = 'Read More',
+            buttonClass = 'Btn--solid'
+          ) %}
+            <p>Engineering and industry business solutions for various facilities and use conditions.</p>
+          {% endcall %}
+
+          {% call Item(
+            title = 'Services',
+            url = '/services',
+            buttonLabel = 'Read More',
+            buttonClass = 'Btn--solid'
+          ) %}
+            <p>Maintenance service, installation and commissioning.</p>
+          {% endcall %}
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
+  <div class='{{ pageContentClass }}'>
+
+    <h2 class='h-margin-bottom+ h-color--secondary'>News</h2>
+
+    {{ Promos() }}
+    {{ Posts(limit = 2, displayActivePromos = false) }}
+
+    <p><a href='/company/news' class='Btn'>Read All</a></p>
+
+  </div>
+</section>
+
+<section class='t-quaternary'>
+  <div class='{{ pageContainerClass }}'>
+    <div class='{{ pageContentClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }} h-text+'>
+      <div class='Wrapper--content-text'>
+
+        <h2 class='h-margin-bottom+'>Business Cooperation</h2>
+
+        <p>Our partners receive an opportunity to sell our products and render related services.</p>
+
+        <p>Advantages of business cooperation with us:</p>
+
+        <ul class='h-childs-space-top--'>
+          <li>We do not require our partners to buy out equipment and spare parts in advance and store them at the corporate facilities;</li>
+          <li>Active business partners are provided with regional warehouses at our expenses;</li>
+          <li>Delivery to most parts of the world;</li>
+          <li>Absence of strict requirements to the volume of sales;</li>
+          <li>Free staff training;</li>
+          <li>Contract protection against dumping.</li>
+        </ul>
+
+        <p class='h-margin-top+'><a href='/business-cooperation' class='Btn h-text++'>Business Cooperation Strategy</a></p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
+  <div class='{{ pageContentClass }}'>
+
+    <h2 class='h-padding-bottom-- h-margin-bottom+ h-color--secondary'>Key Points About Our Generators</h2>
+
+    {% set pageAboutGensGridClass = 'o-grid h-childs-displace+++' %}
+    {% set pageAboutGensItemClass = 'o-grid__item h-1/2' %}
+
+    <ul class='{{ pageAboutGensGridClass }} g-list0 h-childs-margin-bottom+--'>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Adapted to Extreme Weather Conditions</h3>
+        <p>The equipment is adapted to high humidity, snowfalls and extreme temperatures of -50 С° to +40 С°. Programmable operating modes and a 10-second automatic activation in case of blackout.</p>
+      </li>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Safety</h3>
+        <p>The equipment complies with the European safety requirements and Russian GOST standards. Casing with IP 22–23 protection against moisture, snow and dust as well as finger protection. Automatic shutdown in case of overloads, leakage or lack of gas.</p>
+      </li>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Synchronisation</h3>
+        <p>Substantial enhancement of resource volume and service life; a possibility to maintain generators without deenergization.</p>
+      </li>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Cost Effectiveness</h3>
+        <p>The best price-quality ratio in the market, high efficiency, time and cost saving repair, spare parts are available at any time.</p>
+      </li>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Wide Range of Component Parts and Functions</h3>
+        <p>Noise- and heat-protective casing, automatic activation, heating and recharging, remote controllers with SMS alerts, setting and storing of modes.</p>
+      </li>
+      <li class='{{ pageAboutGensItemClass }}'>
+        <h3 class='h-h4 h-h3@lap'>Cross Functional Application for Any Facilities and Purposes</h3>
+        <p>Permanent and backup sources of energy for any facility—from a private house to a large factory. Utilization of industrial gases and vapors. Operation is adopted for almost any type of gas.</p>
+      </li>
+    </ul>
+
+    <div class='{{ pageAboutGensGridClass }} h-margin-top-- h-flex-y--center'>
+      <div class='{{ pageAboutGensItemClass }}'>
+        <a href='/сatalogue/gas-generators' class='Btn Btn--primary Btn+ Btn--wide@lap h-text++'>Select a Generator</a>
+      </div>
+      <div class='{{ pageAboutGensItemClass }}'>
+        <a href='/сatalogue/преимущества-наших-генераторов' class='h-text++'>Read More About Our Generators</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+{# @todo Update SEO-text and enable #}
+
+{# <section style='background-color: #f5f5f5;'>
+  <div class='{{ pageContainerClass }} Wrapper-v {{ pageSectionTopWrapper }}'>
+    <div class='{{ pageContentClass }}'>
+
+      <h2 class='h-margin-bottom+ h-color--secondary'>О газовых генераторах FAS</h2>
+
+      <p>Немецкая компания FAS – признанный мировой лидер по производству промышленного оборудования для сжиженных газов. Этот статус – результат многолетней планомерной работы по совершенствованию самих изделий и клиентского сервиса. На российском рынке компания с 1996 года.</p>
+      <p>В 2010 году в Санкт-Петербурге начала работу компания «Фасэнергомаш». Она входит в группу компаний FAS-Россия и производит газовые генераторы на базе российских двигателей ВАЗ-21083 и ММЗ. Продукция компании используется для энергоснабжения жилых домов, коттеджных поселков, складов, производственных помещений и поставляется не только в регионы РФ, но и в страны СНГ и ближнего зарубежья.</p>
+      <p>Конструкторы группы компании FAS Россия первыми на российском рынке освоили производство генераторов с жидкостной системой охлаждения по цене генераторов, оборудованных воздушными системами.</p>
+      <p>Долгое время недорогой сегмент генераторных установок ассоциировался с моделями, оснащенными воздушной системой охлаждения. Но система воздушного охлаждения имеет очень серьезное ограничение, не позволяющее использовать электрогенераторы в режиме постоянной эксплуатации – это необходимость регулярных технологических останов с целью исключения перегрева двигателя. Электрогенераторы ФАС благодаря жидкостному охлаждению двигателя могут использоваться в режиме постоянного источника электроснабжения, а необходимость остановок определяется лишь требованием регламента сервисного обслуживания электроагрегата (замена масла, технологических жидкостей и пр.). Данные установки так же могут использоваться как источник электроснабжения собственных нужд стационарных и модульных котельных, работая на том же виде топлива, тем самым значительно снижая затраты на электроэнергию самой котельной.</p>
+      <p>Генераторы серии ФАС полностью адаптированы к суровым российским условиям эксплуатации. Они работают как на сжиженном пропан-бутане, так и на природном газе, легко запускаются на морозе и, в отличие от лучших образцов импортных аналогов, обеспечивают устойчивую подачу электроэнергии даже при давлении топливного газа ниже 10 мбар, что случается при низких температурах российской зимы.</p>
+
+    </div>
+  </div>
+</section> #}
+{% endblock %}

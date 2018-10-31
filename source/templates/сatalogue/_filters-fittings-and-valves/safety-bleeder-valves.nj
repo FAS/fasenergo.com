@@ -1,0 +1,27 @@
+---
+title:           Safety Bleeder Valves
+contentTitle:    Safety Bleeder Valves
+navTitle:        Safety Bleeder Valves
+breadcrumbTitle: Safety Bleeder Valves
+
+description: Safety Bleeder Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Safety bleeder valve, 1"NPT, PN16, G1"; servo drive casing of GGG40, DIN 1693; max. preset pressure – 9.5 bar, setting range from 0.2 to 9.5 bar; mass flow rate at 0.4 bar – 45 m3/hour, at 8 bar – 680 m3/hour; nozzle DN (free diameter) – 15 mm.</p>
+
+{# @todo Missing image #}
+{# {% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/safety-bleeder-valves' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }} #}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* * The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

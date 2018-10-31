@@ -1,0 +1,28 @@
+---
+title:           Water-Gas Thermal Module (WGTM)
+contentTitle:    Water-Gas Thermal Module (WGTM)
+navTitle:        Water-Gas Thermal Module (WGTM)
+breadcrumbTitle: Water-Gas Thermal Module (WGTM)
+
+description: WGTM is a thermal module for heat recovery of flue (exhaust) gases. This apparatus consists of a heat recovery boiler mounted on a single frame with a flow switch and a bypass pipeline that removes exhaust gases.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>WGTM is a thermal module for heat recovery of flue (exhaust) gases. This apparatus consists of a heat recovery boiler mounted on a single frame with a flow switch and a bypass pipeline that removes exhaust gases. At the customer's request, the system can be additionally equipped with a set of control and measuring devices, a silencer and a control cabinet.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-blue-fas--1---front.jpg',
+  alt = 'Thermal Module FAS',
+  center = true
+) }}
+
+<p>The thermal module can also be used separately when designing cogeneration units located at different levels (floors) within one energy hub building. In this case, the module is installed at a higher level than the generator. Besides, the WGTM and WWTM division is used for the installation of cogeneration units of a modular or block design.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

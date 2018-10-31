@@ -1,0 +1,39 @@
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{##
+ # Displays list of social urls, optionally as inline icons
+ #
+ # @param {bool}   [asIcons] = true Should display links as icons
+ # @param {string} [class]          Class for main wrapper
+ # @param {string} [itemsClass]     Class for each item
+ # @param {string} [anchorsClass]   Class for each anchor
+ # @param {string} [iconsClass]     Class for icons
+ #
+ # @return {string} List of urls in form of `<ul>`
+ #
+ # @example {{ SocialUrls(asIcons = true) }}
+ #}
+{% macro SocialUrls(asIcons = true, class, itemsClass, anchorsClass, iconsClass) %}
+<ul class='{{ class }} {{ 'g-list0 h-inline-block h-align--middle' if asIcons }}'>
+
+  {% macro Item(name, iconName, url, asIcon = asIcons, itemClass = itemsClass, anchorClass = anchorsClass, iconClass = iconsClass) %}
+    <li class='{{ itemClass }} {{ 'Icon--right h-inline-block' if asIcons }}'>
+      <a href='{{ url }}'
+        class='{{ anchorClass }} h-border-bottom0'
+        aria-label='{{ name }}'
+        target='_blank'>
+        {% if asIcon %}
+        <span aria-hidden='true'>{{ Icon(iconName, class = iconClass) }}</span>
+        {% else %}
+        {{ name }}
+        {% endif %}
+      </a>
+    </li>
+  {% endmacro %}
+
+  {# @todo It should iterate upon SOCIAL data #}
+  {{ Item('Вконтакте', 'vk', SOCIAL.vk.url) }}
+  {{ Item('Facebook', 'facebook', SOCIAL.facebook.url) }}
+
+</ul>
+{% endmacro %}

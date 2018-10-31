@@ -1,0 +1,74 @@
+---
+title:           Oil and Gas Filtering Strainers
+contentTitle:    Oil and Gas Filtering Strainers
+navTitle:        Oil and Gas Filtering Strainers
+breadcrumbTitle: Oil and Gas Filtering Strainers
+
+description: Oil and Gas Filtering Strainers.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A filtering strainer is applied in the oil and gas industry and is designed to protect (oil) pipeline devices and equipment by cleaning the pumped liquid from mechanical impurities and foreign bodies.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/oil-and-gas-filtering-strainers/oil-and-gas-filtering-strainers.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'oil-and-gas-filtering-strainers') }}
+
+{% set pageEq = [
+  { title: 'Filtering strainer DN15, PN40. Steel casting casing GS-C 25, length 130 mm, with flanges DIN 2635, filter element cell size 0.6 mm, filter element screen made of stainless steel, with a 3.1B certificate, in compliance with EN 10 204 (50.049-3.1B).' },
+  { title: 'Filtering strainer DN20, PN40. Steel casting casing GS-C 25, length 150 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal wire filter (stainless steel), cell size 0.6 mm, with a 3.1B acceptance certificate, in compliance with EN 10 204' },
+  { title: 'Filtering strainer DN25, PN40. Steel casting casing GS-C 25, length 160 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal wire filter (stainless steel), cell size 0.6 mm, with a 3.1B acceptance certificate, in compliance with the European standards EN 10 204 (50.049-3.1B).' },
+  { title: 'Filtering strainer DN32, PN40. Steel casting casing GS-C 25, length 180 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal wire filter (stainless steel), cell size 0.6 mm, with a 3.1B acceptance certificate, in compliance with the European standards EN 10 204 (50.049-3.1B).' },
+  { title: 'Filtering strainer DN40, PN40. Steel casting casing GS-C 25, length 200 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal wire filter, cell size 0.6 mm, with a 3.1B acceptance certificate, in compliance with EN 10204, CE marking according to DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN50, PN40. Steel casting casing GS-C 25, length 230 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire mesh, cell size 0.6 mm, with a 3.1B acceptance certificate, in compliance with standards EN 10 204.' },
+  { title: 'Filtering strainer DN65, PN25/40. Steel casting casing GS-C 25, length 290 mm, Y- shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire, cell size 1.2 mm, with an acceptance certificate.' },
+  { title: 'Filtering strainer DN80, PN40. With a flanged coupling in compliance with DIN 2635, steel casting casing GS-C 25, length 310 mm, Y-shape, max. operating pressure 40 bar, internal filtering element made of stainless steel wire mesh, cell size 1.2 mm, with a 2.2 certificate, in compliance with the European standards EN 10 204' },
+  { title: 'Filtering strainer DN100, PN40. With a flanged coupling in compliance with DIN 2635, steel casting casing GS-C 25, max. operating pressure 40 bar, internal filtering element made of stainless steel wire mesh, cell size 1.2 mm.' },
+  { title: 'Filtering strainer DN125, PN40. Steel casting casing GS-C 25, length 400 mm, flanged couplings in compliance with DIN 2635, cell size 1.2 mm, filtering element made of stainless steel.' },
+  { title: 'Filtering strainer DN150, PN40. Steel casting casing GS-C 25, length 480 mm, Y- shape, flanged couplings in compliance with DIN 2635, filtering element made of stainless steel, filtering cell size 1.2 mm, with a 3.1B acceptance certificate, in compliance with standards EN 10 204 CE marking according to DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN20, PN40. Steel casting casing GS-C 25, length 150 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire, cell size 0.25 mm. 3.1B acceptance certificate, in compliance with EN 10 204' },
+  { title: 'Filtering strainer DN25, PN40. Steel casting casing GS-C 25, length 160 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire, cell size 0.25 mm. 3.1B acceptance certificate, in compliance with EN 10 204.' },
+  { title: 'Filtering strainer DN32, PN40. Steel casting casing GS-C 25, length 180 mm.' },
+  { title: 'Y-shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire mesh with a fine filter, cell size 0.25 mm. 3.1B acceptance certificate, in compliance with EN 10204 CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN40, PN40. Steel casting casing GS-C 25, length 200 mm.' },
+  { title: 'Y-shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire with a fine filter, cell size 0.25 mm. 3.1B acceptance certificate, in compliance with EN 10204 CE marking according to DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN50, PN40. Steel casting casing GS-C 25, length 230 mm, Y-shape, flanged couplings in compliance with DIN 2635, filtering element made of stainless steel, filtering cell size 0.25 mm, with a 3.1B acceptance certificate, in compliance with standards EN 10204 CE marking according to DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN65, PN40. Steel casting casing GS-C 25, length 290 mm, Y-shape, flanged coupling in compliance with DIN 2635, filtering element made of stainless steel, filtering cell size 0.25 mm, with a 3.1B acceptance certificate, in compliance with the European standards EN 10204 CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN80, PN40. Steel casting casing GS-C 25, length 310 mm, Y-shape with flanged couplings in compliance with DIN 2635, internal fine filter made of stainless steel, cell size 0.25 mm. 3.1B certificate, in compliance with EN 10204 CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN100, PN40. Steel casting casing GS-C 25, length 350 mm, Y- shape with flanged couplings in compliance with DIN 2635, internal filtering element made of stainless steel wire with a fine filter, cell size 0.25 mm. 3.1B acceptance certificate in compliance with EN 10204 CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Filtering strainer DN125, PN40. Steel casting casing GS-C 25, length 400 mm, with flanges in compliance with DIN 2635, filtering element made of stainless steel, cell size 0.25 mm.' },
+  { title: 'Filtering strainer DN150, PN40. Steel casting casing GS-C 25, length: 480 mm, Y- shape with flanged couplings in compliance with DIN 2635, filtering screen made of stainless steel, filtering cell size 0.25 mm, with a 3.1B certificate, EN 10 204 (50.049- 3.1B).' },
+  { title: 'Filtering strainer. 1 ½” NPT, PN40, designed with screwed coupling, steel casting casing, GS-C25, steel wire mesh, cell size 0.5 mm.' },
+  { title: 'Filtering strainer PN40, interflanged design, small-size shape in compliance with DIN 3202, cylindrical casing with 2 screwed plugs ¼“ NPT, casing made of P265 GH (1.0425), cell size 1 mm, CE marking in compliance with 97/23/СЕ.' },
+  { title: 'Fine filter PN25, for steady-state systems, in compliance with AD requirements and TRB, with a 3.1B certificate EN 10 204 (DIN 50.049-3.1В) and TÜV acceptance.' },
+  { title: 'Filters are designed in in-line shape, flanges are in compliance with DIN 2635, PN40. Filtering element consists of a stainless steel screen, which is in compliance with DIN 4189, with a cell size of 0.125 mm. Filtering element meets the recommendations of the manufacturers of pumps and meters. The open filtering surface 5 times exceeds the cross sectional area of the pipeline. The locking cover includes an 1/2" NPT IG assembly with a plug.' },
+  { title: 'Filtering strainer for liquefied petroleum gases, PN40, flanged coupling is in compliance with DIN 2635, steel casting casing GS-C25, stainless steel filtering element.' },
+  { title: 'Filtering strainer for liquefied petroleum gases, NPT, PN40, Y-shape design with a screwed coupling, stainless steel filtering element.'}
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH,LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

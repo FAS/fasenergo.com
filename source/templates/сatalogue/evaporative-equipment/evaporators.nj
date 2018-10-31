@@ -1,0 +1,63 @@
+---
+title:           Electric Heated Evaporative Units
+contentTitle:    Evaporators
+navTitle:        Evaporators
+breadcrumbTitle: Evaporators
+
+description: Electric Heated Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>The SE type electric evaporators produced by the Russian company FASENERGOMASH, LLC are designed for propane, butane and their mixtures (S) and feature indirect electric heating (E). The figure following the series abbreviation means the model number in the FEM catalogue.</p>
+
+{# @todo Missing Испарители 40-300SE renders #}
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--3--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--3--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--4--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--5--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--6--front-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporators FEM SE 10-40') }}
+
+<h2>Indirect electric heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{{ VaporizersTable(selectVaporizers(VAPORIZERS)) }}
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+
+<hr>
+
+<The FEM SE electric evaporators and evaporative units are designed to provide consumers with the vapour phase of liquefied petroleum gas (LPG) and include models with a capacity of 10 to 2,000 kg/hour with the function of automatic gas flow adjustment depending on the consumption rate. This function allows a significant reduction in the energy consumption for evaporation purposes.</p>
+<p>The FEM SE evaporative units are easy to operate and highly reliable. The FASENERGOMASH, LLC experts have thoroughly studied the properties of liquefied petroleum gases, identified the features of using evaporative units in different climatic zones, collected data on shortcomings and typical faults of equipment offered by other manufacturers, and subsequently designed and manufactured a new evaporator, which is simple in operation and reliable.</p>
+
+<p>In spite of the fact that FASENERGOMASH, LLC is a young developing company, it has united under the same roof the experienced professionals who manufacture and operate evaporative units all over the world. Such an approach made it possible to integrate more than twenty years of experience, thus minimising the influence of human facto, providing an automatic mode that does not require manual adjustments, trying and testing the operation of equipment in explosive Ex zones of 0–2 categories, as well as solving a number of technical issues, comprising:</p>
+
+<ul>
+  <li>sticking of solenoid valves;</li>
+  <li>intrusion of resins or sulphur inside the filter of control elements;</li>
+  <li>deformation of diaphragms of the control elements and safety shut-off valves;</li>
+  <li>freezing of control elements;</li>
+  <li>freezing of moisture in the filter installed in the front part of the evaporator;</li>
+  <li>failure of control boards due to voltage surges;</li>
+  <li>burnout of heating elements and thermal shut-off valves.</li>
+</ul>
+
+<p>All the above measures have made it possible to create reliable, easy-to-use and inexpensive evaporators and evaporative units of high quality that feature a warranty period for three years or 25,000 operating hours.</p>
+<p>In addition to standard models, an evaporator or an evaporative unit of the required capacity with any set of functions for control and transmission of information can be manufactured under an individual order.</p>
+{% endblock %}

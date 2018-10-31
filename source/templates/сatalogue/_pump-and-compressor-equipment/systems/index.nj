@@ -1,0 +1,19 @@
+---
+title:           Pump & Compressor Systems
+contentTitle:    Pump & Compressor Systems
+navTitle:        Pump & Compressor Systems
+breadcrumbTitle: Systems
+
+description: Pump & Compressor Systems.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

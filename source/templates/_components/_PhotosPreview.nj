@@ -1,0 +1,60 @@
+{% from '_components/_Image.nj' import Image with context %}
+
+{##
+ # Display photos previwer with thumbnails switcher
+ #
+ # @param {object[]} photos          Array of Object, one for each photo
+ # @param {string}   photos.url      Photo url
+ # @param {string}   photos.alt      Photo alt
+ # @param {string}   [alt]           Alt to fallback in case no photo alt provided
+ # @param {string}   [imagesPath] = urljoin('/', PATH.images)
+ #                                   Default path to images root
+ # @param {string}   [class]         Class for main wrapper
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {{ PhotosPreview(gen.photos, gen.title|striptags) }}
+ #}
+{% macro PhotosPreview(photos, alt, imagesPath = urljoin('/', PATH.images), class) %}
+<div class='js-photos-block {{ class }} h-align--center'>
+
+  <div class='js-photos-block__main'>
+    {% set photoUrl = urljoin(imagesPath, '/', photos[0].url) %}
+
+    {{ Image(
+      src = photoUrl,
+      alt = photos[0].alt or alt,
+      class = 'h-margin-ends0',
+      linkStyle = 'height: 600px',
+      imgClass = 'h-height-1/1 h-margin-bottom0',
+      imgStyle = 'object-fit: contain;'
+    ) }}
+  </div>
+
+  {% if photos.length > 1 %}
+  <div class='js-photos-block__thumbs'>
+
+    {% for photo in photos %}
+    {% set photoUrl = urljoin(imagesPath, photo.url) %}
+    {% set alt = photo.alt or alt %}
+    {% set srcset = imageSize(photoUrl).srcset() %}
+
+    {% if loop.index > 1 %}
+    {{ Image(
+      src = photoUrl,
+      alt = alt,
+      class = 'h-none'
+    ) }}
+    {% endif %}
+
+    <a class='Thumb-link {{ 'is-active' if loop.index == 1 }}' href='{{ photoUrl }}' data-srcset='{{ srcset }}'>
+      <img class='h-align--middle' src='{{ photoUrl }}' srcset='{{ srcset }}' height='80' alt='{{ alt }}'>
+    </a>
+    {% endfor %}
+
+  </div>
+  {% endif %}
+
+</div>
+{% endmacro %}

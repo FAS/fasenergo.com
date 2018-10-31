@@ -1,0 +1,56 @@
+---
+title:           Inspection Windows
+contentTitle:    Inspection Windows
+navTitle:        Inspection Windows
+breadcrumbTitle: Inspection Windows
+
+description: Inspection Windows.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Inspection windows are designed for visual control of liquid flow.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/inspection-windows/inspection-windows.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Inspection Windows') }}
+
+{% set pageEq = [
+  { title: 'Inspection window DN15, PN40, with a flanged coupling DIN 2635, steel casting casing GS-C 25 with two opposite glasses DIN 7080, length – 130 mm, acceptance certificate DIN 50049-3.1 B. CE marking – DGRL 97/23/EG.' },
+  { title: 'Inspection window DN20, PN40, with a flanged coupling DIN 2635, steel casting casing GS-C 25 with two opposite glasses DIN 7080, length – 150 mm. Acceptance certificate DIN 50049-3.1 B. CE marking – DGRL 97/23/EG.' },
+  { title: 'Inspection window for overflow DN25, PN40, with flanged couplings in compliance with DIN 2635, GS-C 25 casing in compliance with the 3.1B acceptance certificate. Acceptance certificate DIN 50049-3.1 B. CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Inspection window DN32, PN40, with flanged couplings in compliance with DIN 2635, GS-C 25 casing in compliance with the 3.1B acceptance certificate. Acceptance certificate DIN 50049-3.1 B. CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Inspection window DN40, PN40, with flanged couplings in compliance with DIN 2635, GS-C 25 casing in compliance with the 3.1B acceptance certificate. Acceptance certificate DIN 50049-3.1 B. CE marking in compliance with DGRL 97/23/EG.' },
+  { title: 'Inspection window DN50, PN40, with flanged couplings in compliance with DIN 2635, steel casting casing GS-C 25 with two opposite borosilicate glasses DIN 7080, length – 230 mm.' },
+  { title: 'Inspection window DN65, PN40, with flanged couplings DIN 2635, GS-C 25 casing with the 3.1B acceptance certificate, in compliance with the European standards EN 10204 (DIN 50.049-3.1B).' },
+  { title: 'Inspection window for overflow DN80, PN40, with flanged couplings DIN 2635, GS- C 25 casing with the 3.1B acceptance certificate, in compliance with the European standards EN 10204 (DIN 50.049-3.1B).' },
+  { title: 'Inspection window for LPG overflow DN100, PN25, flanged coupling DIN 2635, PN25, casing GS-C 25 – CE-DGRL 97/23/EG.' },
+  { title: 'Inspection window DN125, PN25, glasses PN25, with a flanged coupling PN40 in compliance with DIN 2635, GS-C 25 casing, length – 400 mm, with the 3.1B acceptance certificate, in compliance with EN 10204 (DIN 50.049-3.1B).' },
+  { title: 'Inspection window for overflow DN150, PN25, with flanged couplings in compliance with DIN 2635, GS-C 25 casing, length – 480 mm, with the 3.1B acceptance certificate, in compliance with EN 10204 (DIN 50.049-3.1B).' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

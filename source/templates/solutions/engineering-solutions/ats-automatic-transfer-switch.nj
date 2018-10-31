@@ -1,0 +1,41 @@
+---
+title:           'ATS: Automatic Transfer Switch for Generators'
+contentTitle:    'ATS: Automatic Transfer Switch for Generators'
+navTitle:        ATS
+breadcrumbTitle: ATS
+
+description: Automatic Transfer Switch for Generators.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>All FAS generators are equipped with automatic transfer switches (ATS), which allow them to be used as a backup power source.</p>
+
+{# @todo This is, probably, not most accurate image, since it shows control shield #}
+{{ Image(
+  src = '/' + PATH.images + '/solutions/ats/ats-fasenergomash--front-right.jpg',
+  alt = 'ATS: Automatic Transfer Switch for Generators',
+  height = '600px',
+  center = true
+) }}
+
+<p>The switch is connected to the mains and the generator control system. In the event of a power failure or a drop in voltage below the critical level at least at one phase, the ATS unit waits for a few seconds and, in the absence of mains power supply, starts the generator by switching the power supply source from the mains to the backup one.</p>
+<p>The ATS unit then monitors the mains status and, in case of its recovery, switches the load from the generator back to the mains. At the same time, the generator continues to run without load for some time to be sure of the final mains recovery and for proper cooling and then stops.</p>
+<p>When using synchronized generator sets operating in parallel, the ATS unit is applied for the entire synchronized set and is connected to the load distribution panel between the generators and the synchronization system.</p>
+
+{# @todo This is, probably, not most accurate image, since it shows control shield #}
+{{ Image(
+  src = '/' + PATH.images + '/solutions/ats/ats-fasenergomash--front--open.jpg',
+  alt = 'ATS: Automatic Transfer Switch for Generators',
+  height = '600px',
+  center = true
+) }}
+
+<p>It is sometimes necessary to ensure alternate operation of generators. In this case, the company can supply a special unit, which will include ATS according to a programmed schedule (on the controller). This makes it possible to spend evenly the generators' service hours and extend their service life.</p>
+
+{# @todo Add photo when will be available #}
+{# фото/картинки #}
+{% endblock %}

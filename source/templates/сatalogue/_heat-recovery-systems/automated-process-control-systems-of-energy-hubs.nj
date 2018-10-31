@@ -1,0 +1,62 @@
+---
+title:           Automated Process Control Systems of Energy Hubs. Automated Control Systems (ACS)
+contentTitle:    Automated Process Control Systems of Energy Hubs. Automated Control Systems (ACS)
+navTitle:        Automated Process Control Systems of Energy Hubs. Automated Control Systems (ACS)
+breadcrumbTitle: Automated Process Control Systems of Energy Hubs. Automated Control Systems (ACS)
+
+description: The design of equipment manufactured by FASENERGOMASH, LLC, in the vast majority, provides for the mechanisms that require manipulation.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>The design of equipment manufactured by FASENERGOMASH, LLC, in the vast majority, provides for the mechanisms that require manipulation. In order for them to receive the necessary signals, the in-house designers use special controllers that receive data from the sensors. In addition, the company develops its own schemes and algorithms for operation of the manufactured equipment. This means that the automatic control system goes together with the equipment and is included into the delivery package.</p>
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/heat-recovery-systems/automated-control-systems-acs-fas--1---front-left.jpg',
+  alt = 'Automated Process Control Systems of Energy Hubs FAS',
+  center = true
+) }}
+
+<p>For many years of manufacturing equipment for the industry of power engineering and small-scale power generation, the experts from FASENERGOMASH, LLC have managed to create and implement unique developments that allow the manufacture of the most complex equipment, the automation of any technological processes, achieving the highest accuracy and quality of operation of both automatic lines and energy hubs.</p>
+
+<p>Not so long ago, the company has come to a decision not to delegate any assembly works to third parties, but instead to personally conduct the entire cycle from development to assembly and testing of control automation equipment within its production facilities.</p>
+
+<h2>Fields of Expertise</h2>
+
+<p>FASENERGOMASH, LLC can currently offer automation of processes in the following areas:</p>
+
+<h3>1. Heat recovery system (HRS) control cabinets including foreign analogues</h3>
+
+<p>The company has started developing the heat recovery systems more than 10 years ago. Even then, the delivery package of such equipment included the thermal module (TM) control cabinet. Over the time, the company has managed to develop optimal solutions for equipment management and implement them in the design of modern control cabinets that are included in the current delivery package for heat recovery boilers, heat recovery systems and complex thermal modules. The experience of combining several process units into one circuit and creating a single system based thereon with a built-in emergency cooler and supply of generated heat to a consumer has been gained. The company has accumulated a wealth of experience in designing automatic systems for imported heat recovery systems as well as for the systems that were previously used at other sites. In addition, in recent years, the company’s professionals have been actively engaged in modernisation of existing heat recovery systems with the finalisation of a heat carrier movement control system.</p>
+
+<h3>2. Control Cabinets for Standalone Generators of Various Types and Power Stations</h3>
+
+<p>Most often, electric generator is supplied completed with such control cabinets or panels. However, the FASENERGOMASH, LLC experts have developed solutions for such systems, the basic delivery package of which does not include a control cabinet. The company has accumulated a considerable experience in automating the management of both diesel and gas power stations of many domestic and foreign manufacturers and has mastered the principles of fuel assemblies operation. Given the established close contacts with manufacturers of modern controllers, the company is ready to manufacture any control cabinets within a competitive price range.</p>
+
+<h3>3. Cabinets That Allow Parallel Connection of Diesel and Gas-Piston Power Stations, Including Their Joint Operation Within a Single Circuit</h3>
+
+<p>Such equipment is very similar to the standard control panels for standalone systems. To implement such a control cabinet, it is necessary to add some functionality to the algorithm of operation and apply controllers with appropriate configuration.</p>
+
+<h3>4. Control Cabinets for Parallel Operation of Standalone Power Stations of Various Types with an External Power Network in Different Modes</h3>
+
+<p>This equipment is designed to provide control over the parallel operation of a standalone power station and an external power network. As a rule, they are installed in order to prevent the electric power produced by an electric generator from flowing into the external network.</p>
+
+<h3>5. Automatic Transfer Switch (ATS) Providing Start-up of a Standalone Generator and Its Operation when the Facility Is Disconnected from an External Power Network</h3>
+
+<p>This type of equipment is installed to ensure the timely phasing in of backup/emergency generator units. The core dedication of such ATSs, in contrast to standard ones, is to start the backup generators and ensure their normal operation during disconnection of the mains power supply sources. Depending on the tasks assigned, the company is ready to produce ATSs of various types: both systems that send a triggering signal to a control cabinet and systems that independently start generators and control their operation.</p>
+
+<h3>6. Integrated Automated Process Control Systems (APCS) of Thermal Power Plants (TPPs) of Various Types, Including Those Using SCADA-Systems</h3>
+
+<p>These systems can include automatic control panels regulating the operation of the entire energy hub. Often, in addition to a direct control over a generator unit, their functions include control over the operation of a boiler and monitoring the parameters of all equipment involved in the room. When designing and installing a SCADA system, the company provides a possibility of controlling the power system by an operator and uses a human-machine interface (HMI), offering a fully automated command and control centre equipped with an industrial PC.</p>
+
+<h2>Our Advantages</h2>
+
+<p>The correct operation of an automatic system basically depends on the algorithm of actions that was developed during its creation. Other aspects are also important, but to a less extent. The FASENERGOMASH, LLC employees specialize primarily in small- scale power generation, which allows the company to design and implement thermal and electric networks, complete them with cogeneration equipment, and install peripheral units of in-house production. The company experts are well aware of all operation processes featured by each energy hub element and can fine-tune both any separate mechanism and the entire system. The company uses the entire accumulated experience and in-house developments to create effective, high-quality and cost saving systems and units.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

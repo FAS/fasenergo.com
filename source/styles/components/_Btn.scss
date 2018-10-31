@@ -1,0 +1,155 @@
+// =============================================================================
+// ^BUTTON
+// =============================================================================
+
+.Btn {
+  @extend .#{$ekzo-o-ns}btn;
+
+  padding-top:    ekzo-em(ekzo-space(.5));
+  padding-bottom: ekzo-em(ekzo-space(.5));
+  padding-right:  1em;
+  padding-left:   1em;
+
+  @include ekzo-theme() { border-color: ekzo-theme(btn-border); }
+
+  border-width: 1px;
+  border-radius: ekzo-border-radius('');
+
+  text-align: center;
+  cursor: pointer;
+
+  &:focus {
+    // Remove browsers' focus styling. Focused state
+    // will be displayed based on custom styles below
+    outline: 0;
+  }
+
+  &:disabled {
+    opacity: .5;
+    cursor: default;
+  }
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-hover);
+        background-color: ekzo-theme(btn-hover-bg);
+        border-color: transparent;
+      }
+    }
+
+    &:active,
+    &.is-active {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-hover);
+        background-color: ekzo-theme(btn-active-bg);
+        border-color: transparent;
+      }
+    }
+
+  }
+
+}
+
+.Btn--solid {
+  @include ekzo-theme() {
+    color: ekzo-theme(btn-solid);
+    background-color: ekzo-theme(btn-solid-bg);
+    border-color: transparent;
+  }
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-solid-hover);
+        background-color: ekzo-theme(btn-solid-hover-bg);
+        border-color: transparent;
+      }
+    }
+
+    &:active {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-solid-hover);
+        background-color: ekzo-theme(btn-solid-active-bg);
+        border-color: transparent;
+      }
+    }
+
+  }
+
+}
+
+.Btn--primary {
+  border-width: 1px;
+
+  @include ekzo-theme() {
+    color: ekzo-theme(btn-primary);
+    background-color: ekzo-theme(btn-primary-bg);
+    border-color: transparent;
+  }
+
+  &:not(:disabled) {
+
+    &:hover,
+    &:focus {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-primary-hover);
+        background-color: ekzo-theme(btn-primary-hover-bg);
+        border-color: transparent;
+      }
+    }
+
+    &:active {
+      @include ekzo-theme() {
+        color: ekzo-theme(btn-primary-hover);
+        background-color: ekzo-theme(btn-primary-active-bg);
+        border-color: transparent;
+      }
+    }
+
+  }
+
+}
+
+// -----------------------------------------------------------------------------
+// Sizes
+// -----------------------------------------------------------------------------
+
+@mixin ekzo-buttons-sizes ($postfix: '') {
+
+  .Btn-#{$postfix} {
+    padding-top:    ekzo-em(ekzo-space(.5) / 3);
+    padding-bottom: ekzo-em(ekzo-space(.5) / 3);
+    padding-right:  .8em;
+    padding-left:   .8em;
+  }
+
+  .Btn\+#{$postfix} {
+    padding-top:    ekzo-em(ekzo-space(1) * .74);
+    padding-bottom: ekzo-em(ekzo-space(1) * .74);
+    padding-right:  2.5em;
+    padding-left:   2.5em;
+  }
+
+  // ----
+  // Wide version of button
+
+  .Btn--wide#{$postfix} {
+    padding-right: 3em;
+    padding-left:  3em;
+  }
+
+  .Btn--wide-#{$postfix} {
+    padding-right: 1.5em;
+    padding-left:  1.5em;
+  }
+
+}
+
+@include ekzo-for-each-breakpoint($matches: $ekzo-responsive-buttons-breakpoints, $include-self: true) {
+  @include ekzo-buttons-sizes($postfix: ekzo-temp());
+}

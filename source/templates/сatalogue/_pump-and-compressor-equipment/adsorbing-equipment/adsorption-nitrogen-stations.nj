@@ -1,0 +1,27 @@
+---
+title:           Adsorption Nitrogen Stations
+contentTitle:    Adsorption Nitrogen Stations
+navTitle:        Adsorption Nitrogen Stations
+breadcrumbTitle: Adsorption Nitrogen Stations
+
+description: Adsorption Nitrogen Stations.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Adsorption nitrogen stations are produced by FASENERGOMASH, LLC on the basis of standard 40 or 20 HQ containers, and can also be manufactured in block-modules of required size and configuration. Adsorption nitrogen stations have all the advantages of adsorption units and can be transported by all types of land and marine transport. The nitrogen stations are inwardly equipped with automatic ventilation, heating, fire fighting, security and fire alarm systems, as well as internal and emergency lighting.</p>
+<p>The nitrogen producing adsorption stations are completed with compressor and air conditioning equipment by the world's leading manufacturers.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/adsorption-nitrogen-stations/adsorption-nitrogen-stations-fem--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Adsorption Nitrogen Stations FEM') }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,28 @@
+---
+title:           Agriculture
+contentTitle:    Agriculture
+navTitle:        Agriculture
+breadcrumbTitle: Agriculture
+
+description: Agriculture.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>FAS generators are successfully used in complexes for the use and production of biogas from manure and agricultural waste.</p>
+<p>Evobios Company is a constant partner of FASENERGOMASH, LLC for regional biogas projects. The company also cooperates with such companies as Energorezhim, Gildia M and Fluid-Biogas.</p>
+<p>It also participates in the projects of the Swiss company FDC Engineering AG, which introduces serial biogas plants in Europe.</p>
+
+<h2>Energy and Heat Supply of Greenhouses</h2>
+
+<p>FAS units participate in the projects for power and heat supply of greenhouse farms. The exhaust gases of generators working from methane are considered to be the most environmentally friendly, and thus can be supplied to greenhouses after purification in a catalytic converter, diluted with ventilation air to the desired concentration.</p>
+<p>Therefore, FASENERGOMASH, LLC can simultaneously generate a) energy to illuminate the greenhouses; b) heat of the exhaust gases; and c) carbon dioxide to accelerate growth.</p>
+
+<h2>Electric Supply of Livestock, Poultry and Fish Farms</h2>
+
+<p>FAS generators can be used for backup and permanent power supply of livestock, poultry and fish farms.</p>
+<p>For example, livestock farms require reliable power supply to avoid interruptions in the process of mechanical milking. Any delay can lead to a decrease in milk yield.</p>
+<p>Poultry production requires a reliable ventilation system to prevent overheating of avian cages.</p>
+<p>In fish farms, the use of generators with cogeneration modules is effective, when the heat emitted is used to heat swimming pools with fish to accelerate the growth and maturation processes.</p>
+{% endblock %}

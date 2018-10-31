@@ -1,0 +1,44 @@
+.page-product-menu {
+
+  li + li:before {
+    display: inline-block;
+    content: '/';
+
+    opacity: .5;
+    width: auto;
+
+    @extend .h-text-;
+
+    padding: 0 ekzo-space(.5);
+  }
+
+  a {
+    border-bottom-color: transparent;
+
+    &:hover,
+    &:focus { border-bottom-color: inherit; }
+
+  }
+
+}
+
+.Thumb-link {
+	@extend .h-trans--all\+;
+
+  display: inline-block;
+
+  opacity: .5;
+
+  border-width: 3px;
+  border-color: transparent;
+  border-radius: ekzo-border-radius('');
+
+	margin: ekzo-space(2) ekzo-space(.5) 0;
+
+  &.is-active,
+  &:hover,
+  &:focus { opacity: 1; }
+
+  &.is-active { border-color: #58a4d8; }
+
+}

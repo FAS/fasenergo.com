@@ -1,0 +1,52 @@
+---
+title:           Reciprocating Compressor Unit FEM 891 for Hydrogen (300 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 891 for Hydrogen (300 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 891 for Hydrogen (300 Nm³/hour)
+breadcrumbTitle: FEM 891
+
+description: Reciprocating Compressor Unit FEM 891 for Hydrogen (300 Nm³/hour).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A dry running reciprocating compressor unit of 891 type designed to pump hydrogen.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-891/compressor-unit-fem-891--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Work Process Related Parameters</h2>
+
+<ul>
+  <li>Suction pipe pressure: 1 bar;</li>
+  <li>Suction pipe temperature: 20 °C;</li>
+  <li>Delivery pipe pressure: 4 bar;</li>
+  <li>Rated capacity: 250–300 Nm³/hour.</li>
+</ul>
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>A FEM type dry running compressor — T891 with triple guide rod sealing, with a possibility of purging the intermediate sealing, with a special covering of piston rings Alloy-50, with a special type of O-ring sealing and additional treatment of cylinder surface;</li>
+  <li>Electric motor, 30 kW, EExе II ВT4, 400/690 V, B3, 50 Hz.T4, 400/690 V, B3, 50 Hz;</li>
+  <li>V-belt transmission with protective casing.</li>
+</ul>
+
+<p>The compressor unit is factory-assembled on one frame, primed, and painted.</p>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Inlet: flange DN50.</li>
+  <li>Outlet: flange DN50.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,59 @@
+---
+title:           Cabinet Type Evaporative Units
+contentTitle:    Cabinet Type Evaporative Units
+navTitle:        Cabinet Type Evaporative Units
+breadcrumbTitle: Cabinet Type Evaporative Units
+
+description: Cabinet Type Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--3--right.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--3--right.jpg' }
+] %}
+
+<h2>Indirect Electric Heating</h2>
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/SH', class = 'h-margin-bottom+') }}
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{{ VaporizersTable(electrical) }}
+
+<h2>Indirect Liquid Heating</h2>
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM ZH/SH', class = 'h-margin-bottom+') }}
+
+{{ VaporizersTable(liquid) }}
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

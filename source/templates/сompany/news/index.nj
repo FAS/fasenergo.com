@@ -1,0 +1,27 @@
+---
+title:           News
+contentTitle:    News
+navTitle:        News
+breadcrumbTitle: News
+
+description: News.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+{% from '_components/_SubscribeForm.nj' import SubscribeForm with context %}
+
+<aside>
+  <h2>Be updated with the latest news</h2>
+  {{ SubscribeForm(name = 'Subscribe') }}
+</aside>
+
+<hr>
+
+{{ Promos() }}
+
+{{ Posts(displayActivePromos = false) }}
+{% endblock %}

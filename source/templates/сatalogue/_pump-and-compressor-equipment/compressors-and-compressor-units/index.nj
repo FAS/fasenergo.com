@@ -1,0 +1,19 @@
+---
+title:           Compressors and Compressor Units
+contentTitle:    Compressors and Compressor Units
+navTitle:        Compressors and Compressor Units
+breadcrumbTitle: Compressors and Compressor Units
+
+description: Compressors and Compressor Units
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

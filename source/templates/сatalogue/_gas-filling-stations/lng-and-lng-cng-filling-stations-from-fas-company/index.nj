@@ -1,0 +1,162 @@
+---
+title:           LNG & LNG-CNG Filling Stations from FAS Company
+contentTitle:    LNG & LNG-CNG Filling Stations from FAS Company
+navTitle:        LNG & LNG-CNG Filling Stations from FAS Company
+breadcrumbTitle: LNG & LNG-CNG Filling Stations from FAS Company
+
+description: 'The rapid development of the natural gas industry has been reflected in the company’s KNOW-HOW and made it possible to expand the range of products with modern high-performance LNG and LNG-CNG filling stations.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p class='h-margin-bottom+'>The LPG equipment installed in thousands of fuel and energy sector facilities throughout the world has been long considered by the FAS Company as its primary area of production. In company possesses a wealth of experience that allows the implementation of projects of any complexity. The rapid development of the natural gas industry has been reflected in the company’s KNOW-HOW and made it possible to expand the range of products with modern high-performance LNG and LNG-CNG filling stations.</p>
+
+<h2>Filling Stations</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'LNG Filling Station',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--1.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-filling-station-produced-by-the-fas-company',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+{% call CategoryCard(
+    title = 'LNG-CNG Filling Station',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--1.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-cng-filling-station-produced-by-the-fas-company',    
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'CNG Filling Station',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--7.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/cng-filling-station-produced-by-the-fas-company',    
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Combined LNG & LNG-CNG Filling Station',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--2.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/combined-lng-and-lng-cng-filling-stations-produced-by-the-fas-company',    
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<h2>Fuel Dispensers</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'LNG Fuel Dispensers',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--5.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-dispensers-produced-by-the-fas-company',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'CNG Fuel Dispensers',
+    hLevel = 3,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--6.jpg',
+    url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/cng-dispensers-produced-by-the-fas-company',    
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<h2>FAS Company — Development Strategy</h2>
+
+<p>Traditionally, FAS is considered to be the flagship in the production of equipment for liquefied natural gas. Since 1975, FAS company occupies a leading position among suppliers of LPG equipment. The introduction of modern technologies, the commitment to the philosophy of continuous development and a wide range of partners worldwide provide an opportunity to enter the LNG market with modern and effective solutions that meet the needs of the vast majority of customers in all corners of the world.</p>
+
+
+<h3>Many Years of Experience in LNG, CNG and LPG Technologies</h3>
+
+<ul>
+  <li>Over 2,000 LNG facilities;</li>
+  <li>Experience in LNG transportation systems;</li>
+  <li>40 years of experience in oil and gas activities in various regions of the world.</li>
+</ul>
+
+<h2>Filling Stations</h2>
+
+<h3>Types of Filling Stations</h3>
+
+<ul>
+  <li>Filling station adapted for liquefied natural gas (LNG);</li>
+  <li>Filling station adapted for liquefied compressed natural gas (LNG-CNG);</li>
+  <li>Combined LNG and LNG-CNG filling station.</li>
+</ul>
+
+<p>For many years of work in the market of equipment for liquefied natural gas, FAS Company has installed thousands of gas filling stations of varying complexity. The richest experience and a wide range of designs allow finding the best solution in the shortest possible time.</p>
+
+<p>A typical LNG filling station consists of various components, such as an LNG storage tank, special cryogenic pumps, dispensers, and other assemblies that ensure safe operation.</p>
+
+<p>The construction of combined LNG and LNG-CNG filling stations is more economically feasible. They feature a high-pressure cryogenic pump that brings the pressure of liquefied natural gas to 250–300 bar and transports it to a high-pressure evaporator, in which the process of regasification takes place. The high-pressure gas in a gaseous state is then injected into storage tanks.</p>
+
+<h3>Benefits of a Combined Gas Filling Station</h3>
+
+<ul>
+  <li>Increase in sales;</li>
+  <li>Attractiveness to a wide range of consumers;</li>
+  <li>Maximum efficiency of transport operation;</li>
+  <li>Reduction of the BOIL OFF effect.</li>
+</ul>
+
+<p>A combined filling station has the most cross functional design and can fuel vehicles that are powered by both LNG and CNG.</p>
+<p>A combined gas filling station consists of two separate gas supply lines using the same LNG storage tank. One line is intended for refuelling of vehicles operating from LNG. Natural gas in a liquid state is pumped to a fuel dispenser and delivered to a vehicle under pressure of 5–8 bar. The second line is intended for refuelling of vehicles with CNG. In this case, a special pump raises the pressure in the system up to 250–300 bar and transports liquefied natural gas to a high-pressure evaporator, in which the liquefied gas is converted to the vapour phase.</p>
+
+<p>At this stage, the natural gas is in a gaseous state under a pressure of 250–300 bar. After the high-pressure evaporator, the gas is directed to a gas dispenser and discharged to consumers. A combined filling station can be equipped with additional high-pressure storage tanks.</p> 
+
+<h3>Filling Stations Produced by the FAS Company</h3>
+
+<p>The FAS Company supplies not only equipment packages, but also individual components, such as LNG storage tanks, fuel dispensers, and evaporators. A wide network of regional offices worldwide allows the provision of highly qualified 24/7 technical servicing of filling stations.</p>
+
+
+<h2>Fuel Dispensers</h2>
+
+<h3>CNG Fuel Dispensers</h3>
+
+<p>The FAS Company supplies all types of natural gas dispensers.</p>
+
+<p>CNG dispensers for refuelling of passenger vehicles, trucks or buses feature a large number of designs. Customers can choose between one or two-hose systems with 1–3 pressure levels.</p>
+
+<p><strong>Design Features</strong></p>
+
+<ul>
+  <li>Operation from CNG or biogas;</li>
+  <li>High filling rate (up to 80 kg/min);</li>
+  <li>Compliance with the OIML R319 standards;</li>
+  <li>Implementation in compliance with ATEX PED;</li>
+  <li>IFSF-LON communication protocol;</li>
+  <li>SPS control via Modbus;</li>
+  <li>Optional: remote monitoring via an additional controller.</li>   
+</ul>
+
+<h3>LNG Fuel Dispensers</h3>
+
+<p>LNG fuel dispensers feature a different principle of operation, since the gas has a low temperature and requires maintenance of a constant temperature, pressure and density. Depending on the type of dispenser, the gas volume can be accounted on the return line.</p>
+
+<p>LNG dispensers can be manufactured and supplied with different types of fuelling nozzles.</p> 
+
+<p><strong>Design Features:</strong></p>
+<ul>
+  <li>Implementation in compliance with the applicable European directives, including ATEX;</li>
+  <li>European Measuring Instrument Certificate (Measuring Instruments Directive, MID);</li>
+  <li>Information processing via the MODBUS protocol;</li>
+  <li>Logging of the last 150 operations and 250 errors;</li>
+  <li>High pressure hose completed with a quick coupling;</li>
+  <li>Graphic display showing the price per kilogram, the filled weight, and the total amount of refuelling;</li>
+  <li>The maximum filling rate is 100 kg/min;</li>
+  <li>Automatic control over cooling, filling, purging by means of pneumatic valves.</li>     
+</ul>
+{% endblock %}

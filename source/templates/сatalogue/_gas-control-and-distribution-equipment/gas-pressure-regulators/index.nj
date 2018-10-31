@@ -1,0 +1,19 @@
+---
+title:           Gas Pressure Regulators
+contentTitle:    Gas Pressure Regulators
+navTitle:        Pressure Regulators
+breadcrumbTitle: Gas Pressure Regulators
+
+description: Gas Pressure Regulators.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

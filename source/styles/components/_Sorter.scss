@@ -1,0 +1,43 @@
+// stylelint-disable no-descending-specificity, selector-max-specificity
+
+// =============================================================================
+// ^Sorter
+// =============================================================================
+
+.Sorter { cursor: pointer; }
+
+  .Sorter__input {
+    display: none;
+
+    &:checked ~ .Sorter__label { border-bottom: 0; }
+
+    &[data-order='asc']:checked ~ .Sorter__icon,
+    &[data-order='desc']:checked ~ .Sorter__icon {
+      display: inline-block;
+    }
+
+    &[data-order='desc']:checked ~ .Sorter__icon {
+      transform: rotate(.25turn);
+    }
+
+  }
+
+  .Sorter__label {
+    @extend %g-link;
+
+    border-style: dashed;
+  }
+
+  .Sorter__icon {
+    @extend %#{$ekzo-h-ns}trans--all\+;
+
+    display: none;
+
+    top: 0; // override default Icon shift
+
+    padding-left: .5em;
+
+    transform: rotate(-.25turn); // We're rotatin it, because in origin it's `dir-right`, facing right icon
+
+    font-size: .6em;
+  }

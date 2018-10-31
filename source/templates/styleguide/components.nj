@@ -1,0 +1,395 @@
+---
+title:           Components
+contentTitle:    Components
+navTitle:        Components
+breadcrumbTitle: Components
+
+description: Components
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Example.nj' import Example with context %}
+
+{% call Example(title = 'Кнопки') -%}
+<p>
+  <a class='Btn' href='#'>Стандартная</a>
+  <a class='Btn Btn--primary' href='#'>Основная</a>
+  <a class='Btn Btn--solid' href='#'>Сплошная</a>
+</p>
+<p>
+  <button class='Btn' disabled>Стандартная отключенная</button>
+  <button class='Btn Btn--primary' disabled>Основная отключенная</button>
+  <button class='Btn Btn--solid' disabled>Сплошная отключенная</button>
+</p>
+<p>
+  <a class='Btn Btn-' href='#'>Маленькая</a>
+  <a class='Btn' href='#'>Стандартная</a>
+  <a class='Btn Btn+' href='#'>Большая</a>
+</p>
+<p>
+  <a class='Btn Btn--wide' href='#'>Широкая</a>
+  <a class='Btn Btn--wide-' href='#'>Менее широкая</a>
+</p>
+<p>
+  <a class='Btn o-btn--full' href='#'>Во всю длину</a>
+</p>
+{% endcall %}
+
+{% call Example(title = 'Рамка') -%}
+<div class='Box h-padding'>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptas fugiat voluptates labore, excepturi, ullam, cum exercitationem nobis, dignissimos laudantium natus.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, labore!</p>
+</div>
+{% endcall %}
+
+{% call Example(title = 'Цитата') -%}
+{% raw %}{% from '_components/_Blockquote.nj' import Blockquote with context %}
+
+{% call Blockquote() %}
+  <p>Содержимое цитаты, в том числе с <b>любыми</b> <i>html</i> тэгами.</p>
+  <p><strong>Тщательный подбор и тестирование комплектующих</strong> российского и импортного производства позволил отказаться от зачастую неоправданно дорогих брендов в пользу более экономичных вариантов, обладающих сходными характеристиками. Это существенно снизило себестоимость производства без снижения качества.</p>
+{% endcall %}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Иллюстрация') -%}
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
+  src = 'https://placehold.it/1350x550',
+  caption = 'Тестирование двигателей на производстве',
+  alt = 'Описание картинки',
+  width = '600px'
+) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Расположение иллюстраций') -%}
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
+  src = 'https://placehold.it/250x150',
+  caption = 'Подпись картинки',
+  alt = 'Описание картинки',
+  position = 'left'
+) }}{% endraw %}
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+{% raw %}{% from '_components/_Image.nj' import Image with context %}
+
+{{ Image(
+  src = 'https://placehold.it/250x150',
+  alt = 'Описание картинки',
+  position = 'right'
+) }}{% endraw %}
+
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+{% endcall %}
+
+{% call Example(title = 'Набор иллюстраций') -%}
+{% raw %}{% from '_components/_Images.nj' import Images with context %}
+
+{{ Images(
+  images = [{
+    src: 'https://placehold.it/1350x700',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  },{
+    src: 'https://placehold.it/1350x450',
+    alt: 'Описание картинки'
+  }],
+  caption = 'Проект синхронизации газовых генераторных установок'
+) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Разворачиваемый блок') -%}
+{% raw %}{% from '_components/_Icon.nj' import Icon with context %}
+
+<div class='js-expand__scope'>
+  <button class='Btn js-expand' data-expand-scope='.js-expand__scope'>Нажми меня</button>
+  <p class='js-expand__target' style='display: none'>Содержимое</p>
+</div>
+
+<hr class='h-bleed-sides+'>
+
+<div class='js-expand__scope'>
+  <button class='Expand-link js-expand' data-expand-scope='.js-expand__scope'>
+    {{ Icon('arrow-up', class = 'Expand-link__icon') }}Нажми меня
+  </button>
+  <p class='js-expand__target' style='display: none'>Содержимое</p>
+</div>
+
+<hr class='h-bleed-sides+'>
+
+<div class='js-expand__scope'>
+  <button class='Expand-link-alt js-expand' data-expand-scope='.js-expand__scope'>
+    Нажми меня {{ Icon('dir-right', class = 'Expand-link-alt__icon') }}
+  </button>
+  <p class='js-expand__target' style='display: none'>Содержимое</p>
+</div>{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Выпадающее меню') -%}
+{% raw %}<div class='js-expand__scope'>
+  <button class='Expand-link-alt js-expand' data-expand-scope='.js-expand__scope'>
+    Нажми меня {{ Icon('dir-right', class = 'Expand-link-alt__icon') }}
+  </button>
+  <div class='Dropdown js-expand__target' style='display: none'>
+    <p>Содержимое</p>
+  </div>
+</div>{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Социальные ссылки') -%}
+{% raw %}{% from '_components/_SocialUrls.nj' import SocialUrls with context %}
+
+{{ SocialUrls() }}
+<hr>
+{{ SocialUrls(asIcons = false) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Социальный шеринг') -%}
+{% raw %}{% from '_components/_SocialShare.nj' import SocialShare with context %}
+
+{{ SocialShare() }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Превью новости') -%}
+{% raw %}{% from '_components/_PostPreview.nj' import PostPreview with context %}
+
+{{ PostPreview(
+  title = 'Очень очень длинный и странный заголовок новости написан здесь',
+  excerpt = 'Описание новости',
+  date = '2017-04-25T11:00:00',
+  url = '#'
+) }}
+{{ PostPreview(
+  title = 'Очень очень длинный и странный заголовок новости написан здесь',
+  excerpt = 'Описание новости',
+  date = '2017-04-25T11:00:00',
+  url = '#',
+  image = 'https://placehold.it/1350x550'
+) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Превью акции') -%}
+{% raw %}{% from '_components/_PromoPreview.nj' import PromoPreview with context %}
+
+{{ PromoPreview(
+  title = 'Очень очень длинный и странный заголовок акции написан здесь',
+  excerpt = 'Описание акции',
+  date = '2017-04-25T11:00:00',
+  url = '#'
+) }}
+{{ PromoPreview(
+  title = 'Очень очень длинный и странный заголовок акции написан здесь',
+  excerpt = 'Описание акции',
+  date = '2017-04-25T11:00:00',
+  url = '#',
+  image = 'https://placehold.it/1350x550'
+) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Новости') -%}
+{% raw %}{% from '_components/_Posts.nj' import Posts with context %}
+
+{{ Posts() }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Акции') -%}
+{% raw %}{% from '_components/_Promos.nj' import Promos with context %}
+
+{{ Promos(displayInactivePromos = true) }}{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Чекбоксы') -%}
+{% raw %}{% from '_components/_Checkbox.nj' import Checkbox with context %}
+
+<div class='h-childs-space-left--'>
+  {{ Checkbox(
+    id = 'filterEngineBrandLoncin',
+    name = 'engineBrand',
+    value = 'LONCIN',
+    inputClass = 'h-margin-right---',
+    label = 'LONCIN',
+    checked = true
+  ) }}
+  {{ Checkbox(
+    id = 'filterEngineBrandZMZ',
+    name = 'engineBrand',
+    value = 'ZMZ',
+    inputClass = 'h-margin-right---',
+    label = 'ZMZ'
+  ) }}
+</div>{% endraw %}
+{% endcall %}
+
+{% call Example(title = 'Сортеры') -%}
+{% raw %}{# Note that order switch won't work without JavaScript #}
+
+{% from '_components/_Sorter.nj' import Sorter with context %}
+
+<div class='h-childs-space-left--'>
+  {{ Sorter(
+    id = 'sortByPower',
+    name = 'sort',
+    value = 'byPower',
+    label = 'по мощности',
+    checked = true
+  ) }}
+  {{ Sorter(
+    id = 'sortByPrice',
+    name = 'sort',
+    value = 'byPrice',
+    label = 'по цене'
+  ) }}
+</div>{% endraw %}
+{% endcall %}
+
+
+
+{% call Example(title = 'Форма') -%}
+{% raw %}{% from '_components/_Field.nj' import Field with context %}
+
+<form class='o-grid h-childs-displace'>
+
+  <h4 class='o-grid__item h-1/1 h-margin-top0'>Input</h4>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(class = 'Field-',  id = 'smallInl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
+    {{ Field(id = 'standardInl', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный') }}
+    {{ Field(id = 'standardInlReq', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', required = true) }}
+    {{ Field(id = 'standard', label = 'Стандарнтный') }}
+    {{ Field(id = 'standardWValue', label = 'Со значением', value = 'Lorem Ipsum') }}
+    {{ Field(id = 'standardWPh', label = 'С плейсхолдером', placeholder = 'Placeholder') }}
+
+    {{ Field(id = 'standardReq', label = 'Стандарнтный', required = true) }}
+    {{ Field(id = 'standardReqWValue', label = 'Со значением', value = 'Lorem Ipsum', required = true) }}
+    {{ Field(id = 'standardReqWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(class = 'Field-',  id = 'smallInlI', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
+    {{ Field(id = 'standardInlI', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true) }}
+    {{ Field(id = 'standardInlIReq', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, invalid = true, required = true) }}
+    {{ Field(id = 'standardI', label = 'Стандарнтный', touched = true, invalid = true) }}
+    {{ Field(id = 'standardIWValue', label = 'Со значением', value = 'Lorem Ipsum', touched = true, invalid = true) }}
+    {{ Field(id = 'standardIWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true, invalid = true) }}
+
+    {{ Field(id = 'standardReqI', label = 'Стандартное', required = true, touched = true, invalid = true) }}
+    {{ Field(id = 'standardReqIWValue', label = 'Со значением', value = 'Lorem Ipsum', required = true, touched = true, invalid = true) }}
+    {{ Field(id = 'standardReqIWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true, invalid = true, error = 'Текст ошибки') }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(class = 'Field-',  id = 'smallInlV', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
+    {{ Field(id = 'standardInlV', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true) }}
+    {{ Field(id = 'standardInlVReq', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', touched = true, required = true) }}
+    {{ Field(id = 'standardV', label = 'Стандарнтный', touched = true) }}
+    {{ Field(id = 'standardVWValue', label = 'Со значением', value = 'Lorem Ipsum', touched = true) }}
+    {{ Field(id = 'standardVWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', touched = true) }}
+
+    {{ Field(id = 'standardReqV', label = 'Стандартное', required = true, touched = true) }}
+    {{ Field(id = 'standardReqVWValue', label = 'Со значением', value = 'Lorem Ipsum', required = true, touched = true) }}
+    {{ Field(id = 'standardReqVWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, touched = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(class = 'Field-',  id = 'smallInlD', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
+    {{ Field(id = 'standardInlD', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true) }}
+    {{ Field(id = 'standardInlDReq', label = 'Однострочный стандарнтный', displayLabel = false, placeholder = 'Однострочный', disabled = true, required = true) }}
+    {{ Field(id = 'standardD', label = 'Стандарнтный', disabled = true) }}
+    {{ Field(id = 'standardDWValue', label = 'Со значением', value = 'Lorem Ipsum', disabled = true) }}
+    {{ Field(id = 'standardDWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', disabled = true) }}
+
+    {{ Field(id = 'standardReqD', label = 'Стандарнтный', required = true, disabled = true) }}
+    {{ Field(id = 'standardReqDWValue', label = 'Со значением', value = 'Lorem Ipsum', required = true, disabled = true) }}
+    {{ Field(id = 'standardReqDWPh', label = 'С плейсхолдером', placeholder = 'Placeholder', required = true, disabled = true) }}
+
+  </div>
+
+  <h4 class='o-grid__item h-1/1'>Textarea</h4>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(id = 'textarea', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5) }}
+    {% call Field(id = 'textareaWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5) }}
+
+    {{ Field(id = 'textareaReq', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true) }}
+    {% call Field(id = 'textareaReqWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaReqWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+   {{ Field(id = 'textareaI', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, touched = true, invalid = true) }}
+   {% call Field(id = 'textareaIWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, touched = true, invalid = true) -%}
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   {% endcall %}
+   {{ Field(id = 'textareaIWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, touched = true, invalid = true) }}
+   {{ Field(id = 'textareaReqI', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, touched = true, invalid = true) }}
+   {% call Field(id = 'textareaReqIWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, touched = true, invalid = true) -%}
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   {% endcall %}
+   {{ Field(id = 'textareaReqIWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, touched = true, invalid = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(id = 'textareaV', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, touched = true) }}
+    {% call Field(id = 'textareaVWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, touched = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaVWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, touched = true) }}
+    {{ Field(id = 'textareaReqV', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, touched = true) }}
+    {% call Field(id = 'textareaReqVWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, touched = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaReqVWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, touched = true) }}
+
+  </div>
+
+  <div class='o-grid__item h-1/4 h-childs-space-top'>
+
+    {{ Field(id = 'textareaD', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, disabled = true) }}
+    {% call Field(id = 'textareaDWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, disabled = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaDWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, disabled = true) }}
+    {{ Field(id = 'textareaReqD', label = 'Стандартная', type = 'textarea', cols = 20, rows = 5, required = true, disabled = true) }}
+    {% call Field(id = 'textareaReqDWValue', label = 'Со значением', type = 'textarea', cols = 20, rows = 5, required = true, disabled = true) -%}
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    {% endcall %}
+    {{ Field(id = 'textareaReqDWPh', label = 'С плейсхолдером', type = 'textarea', placeholder = 'Placeholder', cols = 20, rows = 5, required = true, disabled = true) }}
+
+  </div>
+
+  <div class='h-margin-top+'>
+    <button class='Btn Btn--solid'>Отправить</button>
+    <button class='Btn'>Отменить</button>
+  </div>
+
+</form>{% endraw %}
+{% endcall %}
+
+{% endblock %}

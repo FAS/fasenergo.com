@@ -1,0 +1,136 @@
+---
+title:           Gas Filling Stations
+contentTitle:    Gas Filling Stations
+navTitle:        Gas Filling Stations
+breadcrumbTitle: Gas Filling Stations
+
+designription: Gas filling stations adapted for operation with underground and aboveground tanks.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Gas filling stations adapted for operation with underground and aboveground tanks.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--7.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--8.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--9.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--10.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--11.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--12.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--1.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--2.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--3.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--4.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--5.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--6.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<h2>Modular Process Systems for Aboveground Storage Tanks</h2>
+
+{% set pageEq = [
+  { art: '93.0101', design: 'For connecting<br> to 1 storage tank', pump: 'FD-150', trk: 'Centre', price: '453 000' },
+  { art: '93.0201', design: 'Right-hand design<br>for connecting<br> to 2 storage tanks', pump: 'FD-150', trk: 'Centre', price: '482 000' },
+  { art: '93.0171', design: 'For connecting<br> to 1 storage tank', pump: 'EPNZ-100', trk: 'Centre', price: '473 000' },
+  { art: '93.0171', design: 'For connecting<br> to 1 storage tank', pump: 'EPNZ-100', trk: 'Left', price: '473 000' },
+  { art: '93.0171', design: 'For connecting<br> to 1 storage tank', pump: 'EPNZ-100', trk: 'Right', price: '473 000' },
+  { art: '93.0271', design: 'Right-hand design<br>for connecting<br> to 2 storage tanks', pump: 'EPNZ-100', trk: 'Left', price: '504 000' },
+  { art: '93.0271', design: 'Left-hand design<br>for connecting<br> to 2 storage tanks', pump: 'EPNZ-100', trk: 'Right', price: '504 000' },
+  { art: '93.0271', design: 'Left-hand design<br>for connecting<br> to 2 storage tanks', pump: 'EPNZ-100', trk: 'Centre', price: '504 000' },
+  { art: '93.0271', design: 'Right-hand design<br>for connecting<br> to 2 storage tanks', pump: 'EPNZ-100', trk: 'Centre', price: '504 000' },
+  { art: '93.0111', design: 'For connecting<br> to 1 storage tank', pump: 'FAS NZ 36-8', trk: 'Centre', price: '620 000' },
+  { art: '93.0211', design: 'for connecting<br> to 2 storage tanks', pump: 'FAS NZ 36-8', trk: 'Right', price: '650 000' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Exterior Design</th>
+      <th>Pump-based</th>
+      <th>Fuel Dispenser Positioning</th>
+      <th>Price</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--left'>{{ e.art }}</td>
+      <td class='h-align--left'>{{ e.design }}</td>
+      <td class='h-align--left'>{{ e.pump }}</td>
+      <td class='h-align--left'>{{ e.trk }}</td>
+      <td class='h-align--left'>{{ e.price }} ₽</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Modular Process Systems for Underground Storage Tanks</h2>
+
+{% set pageEq = [
+  { art: '93.1101', design: 'For connecting<br> to 1 storage tank', pump: 'FD-150', trk: 'Centre', price: '551 000' },
+  { art: '93.1201', design: 'Right-hand design<br>for connecting<br> to 2 storage tanks', pump: 'FD-150', trk: 'Centre', price: '551 000' },
+  { art: '93.1171', design: 'For connecting<br> to 1 storage tank', pump: 'EPNZ-100', trk: 'Centre', price: '548 000' },
+  { art: '93.1271', design: 'Right-hand design<br>for connecting<br> to 2 storage tanks', pump: 'EPNZ-100', trk: 'Left', price: '568 000' },
+  { art: '93.1121', design: 'For connecting<br> to 1 storage tank', pump: 'FAS AP-36-8', trk: 'Centre', price: '618 000' },
+  { art: '93.1221', design: 'for connecting<br> to 2 storage tanks', pump: 'FAS AP-36-8', trk: 'Left', price: '638 000' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Exterior Design</th>
+      <th>Pump-based</th>
+      <th>Fuel Dispenser Positioning</th>
+      <th>Price</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td class='h-align--left'>{{ e.art }}</td>
+      <td class='h-align--left'>{{ e.design }}</td>
+      <td class='h-align--left'>{{ e.pump }}</td>
+      <td class='h-align--left'>{{ e.trk }}</td>
+      <td class='h-align--left'>{{ e.price }} ₽</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The price of a modular process system does not include fuel dispensers.</i></p>
+<p class='h-text-'><i>** The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+
+<hr>
+
+<P>FASENERGOMASH, LLC designs and manufactures on a turnkey basis gas filling stations of any complexity, including roadside service facilities and gas filling stations for motor transport enterprises.</P>
+<P>Our specialists will develop an optimal facility construction project, select the necessary equipment, carry out the earth, construction, mounting and commissioning works.</P>
+<P>FASENERGOMASH, LLC has extensive experience in supplying gas dispensers, pump units, electrical control and automation panels, storage tanks for liquefied petroleum gas throughout Russia, neighbouring countries and beyond.</P>
+<P>Specialists of our company are ready to install and mount tanks, reservoirs, process pipelines, modular process systems with pumping units, safety and security systems, connect and adjust fuel dispensers, as well as perform earth works to settle underground storage tanks. Besides, our company refits the existing gas filling stations and supplies spare parts.</P>
+<P>FASENERGOMASH, LLC experts can select, install, mount and connect modular gas filling stations, fuel dispensers with the function of filling household gas cylinders, backup power supply systems completed with Russian gas generators.</P>
+<P>FASENERGOMASH, LLC has all necessary licenses, permits and certificates to work with gas equipment.</P>
+
+<h2>Basic Package</h2>
+
+<ol>
+  <li>One to four tanks with a rated volume of 8,000, 10,000, and 20,000 litres. All tanks and vessels have a special anti-corrosion coating. To install underground tanks, an anodic-cathodic protection is also included in the delivery package.</li>
+  <li>A gas filling station can be equipped with fuel and gas dispensers completed with one or two hoses.</li>
+  <li>The delivery package of a gas filling station includes a self-priming unit for gas supply from underground tanks with a capacity of 100 litres per minute, with a gas lifting depth of about 4 metres and a differential pressure of 14 bar. A set of shut-off and relief valves from American or European manufacturers.</li>
+  <li>A remote explosion-proof electrical control panel or an electrical control panel for installation outside the explosion hazardous area.</li>
+  <li>Our company can provide an automated LPG transfer control system for a gas filling station.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+{% endblock %}

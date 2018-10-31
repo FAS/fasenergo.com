@@ -1,0 +1,43 @@
+---
+title:           Air Separation Units
+contentTitle:    Air Separation Units
+navTitle:        Air Separation Units
+breadcrumbTitle: Air Separation Units
+
+description: Air Separation Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>FASENERGOMASH, LLC is engaged in manufacture, supply, commissioning and a full list of maintenance services of such in-demand equipment as air separation units to produce nitrogen and oxygen. These systems are widely used in a variety of fields:</p>
+
+<ul>
+  <li>Oil and gas, chemical, petrochemical and oil refining industries;</li>
+  <li>Electronics and power engineering;</li>
+  <li>Metallurgy;</li>
+  <li>Construction;</li>
+  <li>At the enterprises engaged in wholesale of industrial gases.</li>
+</ul>
+
+<p>The air separation unit allows to produce oxygen or nitrogen in the gaseous state, depending on the customer needs.</p>
+
+<p>The FASENERGOMASH, LLC experts use the state-of-the-art technologies and quality components to manufacture air separation units. Thus, it becomes possible to ensure the safety of personnel and to achieve high purity of the resulting gases:</p>
+
+<ul>
+  <li>Nitrogen: 99.9995%;</li>
+  <li>Oxygen: 99%.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/air-separation-units/air-separation-units-fem--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Air Separation Units FEM', class = 'h-margin-bottom+') }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

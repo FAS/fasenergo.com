@@ -1,0 +1,43 @@
+---
+title:           Key Points About Our Services
+contentTitle:    Key Points About Our Services
+navTitle:        Services
+breadcrumbTitle: Services
+
+description: Key Points About Our Services LLC "Fasenergomash".
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{% set pageE = CONTACTS.departments.sales %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+
+<p>We perform all types of necessary work related to the equipment and maintenance of the facility, such as design, feasibility study, finalization and approval, delivery, installation and construction work, commissioning, maintenance and repair.</p>
+{# @todo Put back `href='/контакты/дилеры'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+<p>If you are interested in any of the above services, please contact the dealer, who sold the equipment to you, any dealer in your region or our Sales Department: {{ pagePhone1 }}, {{ pageEmail }}.</p>
+
+<div>
+  <ul class='o-grid g-list0 h-childs-displace+ h-childs-margin-top+-- h-margin-top+'>
+    {% for slug, service in getPage(PAGE.breadcrumb) %}
+    <li class='o-grid__item h-1/2'>
+      <div class='o-media o-media+'>
+        {# @todo Icons disabled on production because of https://trello.com/c/2WulTBD4/78-- #}
+        {% if ENV.staging or not ENV.production %}
+        <div class='o-media__aside h-text--em++ h-opacity--20'>{{ Icon(service.props.icon, class = 'o-svg-icon--fixed') }}</div>
+        {% endif %}
+        <div class='o-media__content'>
+          <h3 class='h-h4 h-h3@lap h-margin-top0 h-margin-bottom'><a href='{{ service.props.url }}'>{{ service.props.navTitle }}</a></h3>
+          <p>{{ service.props.shortDesc }}</p>
+          <p class='h-bleed-top--'><a href='{{ service.props.url }}'>Read More</a></p>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}

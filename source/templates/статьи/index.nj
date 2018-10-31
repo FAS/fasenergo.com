@@ -1,0 +1,16 @@
+---
+title:           Статьи
+contentTitle:    Статьи
+navTitle:        Статьи
+breadcrumbTitle: Статьи
+
+description: Статьи
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Posts.nj' import Posts with context %}
+
+{{ Posts(path = 'статьи') }}
+{% endblock %}

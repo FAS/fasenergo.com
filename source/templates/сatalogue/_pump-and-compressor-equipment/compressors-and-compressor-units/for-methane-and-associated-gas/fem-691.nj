@@ -1,0 +1,59 @@
+---
+title:           Reciprocating Compressor Unit FEM 691 for Methane (110 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 691 for Methane (110 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 691 for Methane (110 Nm³/hour)
+breadcrumbTitle: FEM 691
+
+description: Reciprocating Compressor Unit FEM 691 for Methane (110 Nm³/hour).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A factory-assembled compressor unit FEM 691 designed to raise pressure in the natural gas pipeline.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-691/compressor-unit-fem-691--front-left-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Work Process Related Parameters</h2>
+
+<ul>
+  <li>Compressor inlet pressure: 0.8 bar;</li>
+  <li>Compressor outlet pressure: 6 bar;</li>
+  <li>Gas inlet temperature: +20 °C;</li>
+  <li>Gas outlet temperature: 133°C;</li>
+  <li>Rated capacity: 110 Nm³/hour at shaft speed of 725 rpm;</li>
+</ul>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Inlet: flange DN40 (completed with a mating flange);</li>
+  <li>Outlet: flange DN40 (completed with a mating flange).</li>
+</ul>
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>A twin-cylinder dry-running compressor FEM D691 with double sealing;</li>
+  <li>Guide rod;</li>
+  <li>Cylinder and cylinder head: ASTMA 536;</li>
+  <li>Electric motor, 10 kW, EExe II T3, 400/690 V, B3, 50 Hz;</li>
+  <li>V-belt transmission completed with protective casing;</li>
+  <li>Relief valve 1/2" NPT AG, set pressure ___ bar.;</li>
+  <li>WIKA pressure gauges at the compressor’s inlet and outlet;</li>
+  <li>Piping system is completed with a number of connectors for various devices;</li>
+  <li>Instrumentation and control devices and automatic equipment are purchased at an additional cost.</li>
+</ul>
+
+<p>All equipment is assembled on a common reinforced frame, primed and painted.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

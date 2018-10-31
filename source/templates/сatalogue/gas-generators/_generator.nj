@@ -1,0 +1,403 @@
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Discount.nj' import Discount with context %}
+{% from '_components/_formatters.nj' import PowersList, Price, DateEnd with context %}
+
+{% if not PAGE.props.generatorId %}{{ warn('No generator id provided in `generatorId` of page Matter data') }}{% endif %}
+{% set gen = selectGenerator(GENERATORS, PAGE.props.generatorId) %}
+{% if not gen %}{{ warn('Not found generator with specified id `' + PAGE.props.generatorId + '` in `generatorId` of page Matter data') }}{% endif %}
+
+{% set specs = gen.specs %}
+{% set enclosure = gen.enclosure %}
+
+{% set warrantyFromInstallation = gen.warranty.installation  %}
+{% set warrantyServiceLife = gen.warranty.serviceLife %}
+{% set currentPrice = getGeneratorCurrentPrice(gen) %}
+{% set currentPriceFormatted = Price(currentPrice) %}
+{% set isDiscontinued = generatorIsDiscontinued(gen) %}
+{% set isAvailable = generatorIsAvailable(gen) %}
+{% set powers = getGeneratorMaxPowers(gen) %}
+{% set powersList = PowersList(powers) %}
+{% set phasesWord = specs.phases and phasesToWord(specs.phases) %}
+{% set engine = selectEngine(ENGINES, gen.engineId) %}
+{% set engineTitle = getEngineTitle(engine) %}
+{% set size = getGeneratorSize(gen) %}
+{% set equipmentList = gen.equipment.list %}
+{% set mainPhoto = getGeneratorMainPhoto(gen).url %}
+{% set mainPhotoUrl = urljoin('/', PATH.images, (mainPhoto or 'no-photo.png')) %}
+{% set options = getGeneratorOptions(gen, GENERATORS_OPTIONS) %}
+
+<div vocab='http://schema.org/' typeof='Product'>
+  <meta property='brand' content='{{ gen.manufacturer.brand }}'>
+  <meta property='manufacturer' content='{{ gen.manufacturer.brand }}'>
+  <meta property='name' content='{{ gen.title|striptags }}'>
+  {% if mainPhoto %}
+  <meta property='image' content='{{ mainPhotoUrl }}'>
+  {% endif %}
+
+  {% if gen.article %}
+  <p class='h-bleed-top+ h-padding-top-- h-text- h-margin-bottom+--'>
+    <span class='text-green'>Product code:</span>
+    <span property='mpn'>{{ gen.article }}</span>
+  </p>
+  {% endif %}
+
+  <header property='offers' typeof='Offer' class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
+    <meta property='priceCurrency' content='RUB' />
+
+    <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
+      <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
+        <img src='{{ mainPhotoUrl }}' srcset='{{ imageSize(mainPhotoUrl).srcset() }}' alt='{{ gen.title|striptags }}'>
+      </a>
+    </div>
+
+    <div class='o-grid__item h-4/9 h-2/3@lap'>
+      <div class='o-grid h-flex-y--center h-childs-displace'>
+
+        <div class='o-grid__item h-1/1 h-1/2@lap h-order--last h-order--first@lap h-align--center h-margin-top+ h-margin-top0@lap'>
+          <ul class='h-inline-block h-align--left g-list0 h-text-'>
+            {# <li class='text-red'>
+              <span class='h-float--left'>{{ Icon('gift') }}</span>
+              <span class='h-block h-margin-left+--'>Комплект автоматики (АВР)<br> в подарок!</span>
+            </li> #}
+            {% if warrantyFromInstallation or warrantyServiceLife %}
+            <li>
+              <span class='h-float--left'>{{ Icon('star') }}</span>
+              <span class='h-block h-margin-left+--'>
+                Guarantee {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['month', 'month', 'months']) }}
+                {% if warrantyServiceLife %}
+                <br>
+                <small>Моторесурс: {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}</small>
+                {% endif %}
+              </span>
+            </li>
+            {% endif %}
+            <li>
+              <span class='h-float--left'>{{ Icon('delivery') }}</span>
+              <span class='h-block h-margin-left+--'><a href='/services/delivery'>Delivery to most parts of the world</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class='o-grid__item h-1/1 h-1/2@lap h-align--center'>
+          <div class='h-margin-sides--auto' style='max-width: 261px'>
+
+            {% if not isDiscontinued %}
+            <meta property='price' content='{{ currentPrice }}'>
+            {% if gen.discount and isActiveEvent(gen.discountDate) %}
+            {{ Discount(
+              price = currentPrice,
+              priceBeforeDiscount = getGeneratorOriginalPrice(gen),
+              discount = gen.discount,
+              class = 'h-margin-bottom--',
+              priceClass = 'text-green h-h3'
+            ) }}
+            {% if gen.discountDate %}
+            <p class='h-text- h-margin-bottom--'><i>{{ DateEnd(gen.discountDate, 'Акция до ') }}</i></p>
+            {% endif %}
+            {% else %}
+            <p {% if currentPrice %}aria-label='Цена: {{ currentPriceFormatted }}'{% endif %}
+              class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
+            >
+              {% if currentPrice %}
+              {{ currentPriceFormatted}}
+              {% else %}
+              цена по запросу
+              {% endif %}
+            </p>
+            {% endif %}
+            {% endif %}
+
+            {% if isDiscontinued %}
+            <p class='h-text+ h-marg1in-bottom-- h-text--nowrap'>
+              <link property='availability' href='http://schema.org/Discontinued'/>
+              {{ Icon('x-o', class = 'text-red h-text h-align--middle Icon--left') }}<span class='h-align--middle'>снят с производства</span>
+            </p>
+            {% elif isAvailable %}
+            <p class='h-text- h-margin1-bottom-- h-text--nowrap'>
+              <link property='availability' href='http://schema.org/InStock'/>
+              {{ Icon('check-o', class = 'text-green h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>Available</span>
+            </p>
+            {% else %}
+            <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
+              <link property='availability' href='http://schema.org/PreOrder'/>
+              {{ Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>Made to order</span>
+            </p>
+            {% endif %}
+
+            {% if not isDiscontinued %}
+            <link property='url' href='/contact-us#order'>
+
+            <button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-order Btn Btn+ h-text+ Btn--primary o-btn--full h-text--caps'>PLACE AN ORDER</button>
+            <p class='h-margin-top-- h-margin-bottom0'>or <a class='js-metrica-ask-question' href='/contact-us'>Ask a Question</a></p>
+            {% endif %}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  <nav class='Box h-padding-- h-margin-bottom+--'>
+    <ul class='page-product-menu o-nav h-childs-margin-top0 h-text--caps h-text-'>
+      {% if gen.desc or equipmentList %}<li><a class='js-smooth-jump' href='#general'>DESCRIPTION</a></li>{% endif %}
+      {% if specs or enclosure %}<li><a class='js-smooth-jump' href='#details'>SPECIFICATIONS</a></li>{% endif %}
+      <li><a class='js-smooth-jump' href='#options'>OPTIONS</a></li>
+      {% if gen.photos %}<li><a class='js-smooth-jump' href='#photos'>PHOTO</a></li>{% endif %}
+      {% if gen.videos %}<li><a class='js-smooth-jump' href='#video'>VIDEO</a></li>{% endif %}
+    </ul>
+  </nav>
+
+  <div id='general' class='o-grid h-childs-displace+--'>
+
+    <aside class='o-grid__item h-1/1 {{ 'h-1/4@lap' if gen.desc or equipmentList }} h-align--center h-text-'>
+      <ul class='g-list0 o-nav o-nav--pack h-flex-rows--start h-childs-displace-- {{ 'h-childs-displace0@lap' if gen.desc or equipmentList }} h-margin-bottom h-childs-margin-top-- h-bleed-top--'>
+        {% set class = 'h-border-r h-padding-- h-flex h-flex-y--center h-flex-x--center h-height-1/1' %}
+
+        {% if powers %}
+        <li class='{{ 'h-1/1@lap' if gen.desc or equipmentList }}'>
+          <div class='wrap-green {{ class }}'><p>capacity:<br> <b class='h-font-size--h2 h-line-height--h2'>{{ powersList }} kW</b></p></div>
+        </li>
+        {% endif %}
+
+        {% if specs._thermalPower %}
+        <li class='{{ 'h-1/1@lap' if gen.desc or equipmentList }}'>
+          <div class='wrap-red {{ class }}'><p>thermal output:<br> <b class='h-font-size--h2 h-line-height--h2'>{{ specs._thermalPower }} kW</b></p></div>
+        </li>
+        {% endif %}
+
+        {% if specs.voltage or specs.phases %}
+        <li>
+          <div class='wrap-blue {{ class }}'>
+            <p>{% if specs.voltage %}<b>{{ specs.voltage }}</b> V{% endif %}{% if specs.voltage and specs.phases %}&nbsp;&nbsp;<span class='dim'>|</span>&nbsp;&nbsp;{% endif %}{% if specs.phases %}<b>{{ phasesWord }}</b>{% endif %}</p>
+          </div>
+        </li>
+        {% endif %}
+
+        {% if engine %}
+        <li><div class='wrap-blue {{ class }}'><p>engine: <b>{{ engineTitle }}</b></p></div></li>
+        {% endif %}
+
+        {% for fuel, fuelConsumption in specs.fuel %}
+        {% if fuelConsumption %}
+        <li><div class='wrap-blue {{ class }}'><p>consumption ({{ fuelTypeToWord(fuel) }}):<br> <b>{{ fuelConsumption }}</b></p></div></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </aside>
+
+    {% if gen.desc or equipmentList %}
+    <section class='o-grid__item h-1/1 h-3/4@lap'>
+
+      <div property='description'>{{ gen.desc|safe }}</div>
+
+      {% if equipmentList %}
+      <h2 class='h-h5 h-margin-ends'><b>Basic Package</b></h2>
+      <ul>{{ equipmentList|safe }}</ul>
+      {% endif %}
+
+    </section>
+    {% endif %}
+
+  </div>
+
+  {% if specs or enclosure %}
+  <section id='details' class='details o-clearfix'>
+
+    <h2 class='h-margin-bottom0'>Specifications</h2>
+
+    <section class='o-grid h-childs-displace+'>
+
+      <div class='o-grid__item h-1/2'>
+
+        <h3 class='h-h5'>Installation:</h3>
+
+        <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
+          {% if powers %}<tr><th class='h-text--'>Capacity (NG/LPG)</th><td>{{ powersList }} <span class='h-text--'>kW</span></td></tr>{% endif %}
+          {% if specs.voltage %}<tr><th class='h-text--'>Rated voltage</th><td>{{ specs.voltage }} <span class='h-text--'>V</span></td></tr>{% endif %}
+          {% if specs.phases %}<tr><th class='h-text--'>Number of phases</th><td>{{ phasesWord }}</td></tr>{% endif %}
+          {% if specs.current._legacy %}<tr><th class='h-text--'>Rated current</th><td>{{ numbro(specs.current._legacy).format() }} <span class='h-text--'>A</span></td></tr>{% endif %}
+          {% if enclosure.noise %}<tr><th class='h-text--'>Noise level</th><td>{{ enclosure.noise }} <span class='h-text--'>dB</span></td></tr>{% endif %}
+          <tr><th class='h-text--'>Type of engine starter</th><td>Electric starter</td></tr>
+          <tr><th class='h-text--'>Time of non-stop operation</th><td>Round-the-clock</td></tr>
+          {% if enclosure.type %}<tr><th class='h-text--'>Exterior design</th><td>{{ enclosure.type|capitalize }}</td></tr>{% endif %}
+          {% if enclosure.material %}<tr><th class='h-text--'>Material of construction</th><td>{{ enclosure.material|capitalize }}</td></tr>{% endif %}
+        </table>
+
+        {% if size or enclosure.weight %}
+        <h3 class='h-h5'>Dimensions & Weight:</h3>
+
+        <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
+          {% if size %}<tr><th class='h-text--'>Dimensions</th><td>{{ size }} <span class='h-text--'>mm</span></td></tr>{% endif %}
+          {% if enclosure.weight %}<tr><th class='h-text--'>Weight</th><td>{{ enclosure.weight }} <span class='h-text--'>kg</span></td></tr>{% endif %}
+        </table> 
+        {% endif %}
+
+      </div>
+
+      <div class='o-grid__item h-1/2'>
+
+        <h3 class='h-h5'>Engine:</h3>
+
+        <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
+          {% if engine %}<tr><th class='h-text--'>Model</th><td>{{ engineTitle }}</td></tr>{% endif %}
+          {% if engine.cooling %}<tr><th class='h-text--'>Type of cooling</th><td>{{ coolingToWord(engine.cooling)|capitalize }}</td></tr>{% endif %}
+          {% if specs.operatingSpeed %}<tr><th class='h-text--'>Operating speed</th><td>{{ specs.operatingSpeed }}</td></tr>{% endif %}
+        </table>
+
+        <h3 class='h-h5'>Additional Data:</h3>
+
+        <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
+          <tr><th class='h-text--'>Control unit</th><td>LCD-display</td></tr>
+          <tr><th class='h-text--'>Control unit language</th><td>English</td></tr>
+          <tr><th class='h-text--'>Automatic transfer switch (ATS)</th><td>{{ 'Yes' if gen.equipment.AST else 'No' }}</td></tr>
+          <tr><th class='h-text--'>Load transfer time</th><td>7 <span class='h-text--'>sek</span></td></tr>
+          <tr><th class='h-text--'>Self-testing system</th><td>Yes</td></tr>
+          {# @todo Hidden until information will be clarified #}
+          {# <tr><th class='h-text--'>Синхронизация</th><td>До 20 генераторов</td></tr> #}
+        </table>
+
+      </div>
+
+    </section>
+
+  </section>
+  {% endif %}
+
+  <section id='options' class='o-clearfix'>
+
+    <h2>Options</h2>
+
+    <div class='o-grid h-childs-displace+'>
+
+      {% macro _Solution(title, url, image, class, hLevel = 3) %}
+      <article class='o-grid__item h-1/4'>
+
+        {% if image %}
+        <p>
+          <a href='{{ url }}' class='js-metrica-product-click-solution g-link0 h-border-bottom0'>
+            <img src='{{ image }}' srcset='{{ imageSize(image).srcset() }}' alt='{{ title }}' style='max-height: 95px;'>
+          </a>
+        </p>
+        {% endif %}
+
+        <p><a href='{{ url }}' class='js-metrica-product-click-solution h-h6'>{{ title }}</a></p>
+
+      </article>
+      {% endmacro %}
+
+      {{ _Solution(
+        title = 'Synchronisation',
+        url = '/solutions/engineering-solutions/synchronization-of-generator-units',
+        image = '/' + PATH.images + '/solutions/synchronization-of-generator-units/synchronization-of-generator-units-fas-mp--front-right--inter.jpg'
+      ) }}
+
+      {{ _Solution(
+        title = 'Cogeneration',
+        url = '/сatalogue/когенерационные-установки',
+        image = '/' + PATH.images + '/equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-2--front.jpg'
+      ) }}
+
+      {{ _Solution(
+        title = 'Container',
+        url = '/solutions/engineering-solutions/containers-for-generators',
+        image = '/' + PATH.images + '/solutions/containers-for-generators/containers-for-generators-fasenergomash--front-right.jpg'
+      ) }}
+
+      {% if not gen.equipment.AST %}
+      {{ _Solution(
+        title = 'АВР',
+        url = '/solutions/engineering-solutions/ats-automatic-transfer-switch',
+        image = '/' + PATH.images + '/solutions/ats/ats-fasenergomash--front-right.jpg'
+      ) }}
+      {% endif %}
+
+    </div>
+
+    {% if options %}
+    <ul class='h-margin-top'>
+      {% for e in options %}
+      <li>
+        <p>{{ e.title }} — {{ Price(e.price) }}</p>
+        {% if e.description %}
+        <p class='h-text- h-bleed-top--'>{{ e.description }}</p>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+  </section>
+
+  {% if gen.photos %}
+  <section id='photos' class='o-clearfix'>
+
+    <h2>PHOTO</h2>
+
+    {{ PhotosPreview(gen.photos, gen.title|striptags) }}
+
+  </section>
+  {% endif %}
+
+  {% if gen.videos %}
+  <section id='video'>
+
+    <h2>VIDEO</h2>
+
+    {% for videoSrc in gen.videos %}
+    <div class='o-aspect-ratio o-aspect-ratio16:9'>
+      <iframe class='o-aspect-ratio__content' src='{{ videoSrc }}' allowfullscreen></iframe>
+    </div>
+    {% endfor %}
+
+  </section>
+  {% endif %}
+
+</div>
+
+{##################################
+ # Other generators in this series
+ ##################################}
+
+{% set gens = selectGenerators(GENERATORS) %}
+{% set gens = filterWithBrands(gens, gen.manufacturer.brand) %}
+{% set gens = filterWithTags(gens, gen.tags) %}
+{% set gens = rejectWithId(gens, gen.slug) %}
+{% set randomGens = _.sampleSize(gens, 6) %}
+{% set randomGens = sortGeneratorsByPower(randomGens) %}
+
+{% if randomGens.length > 0 %}
+<hr>
+
+<aside>
+
+  <h2>Other Models of This Series</h2>
+
+  <div class='o-grid h-childs-displace+'>
+
+    {% for g in randomGens %}
+    {# @todo `'/' + ` was removed from section before `g.slug` because we now always adding trailing slash to main url
+     #       However we have to account for situation when someone will forget to add trailing slash.
+     #       Also, `url-joiner()` might fix that issue.
+     #}
+    {{ ProductCardVert(
+      url = '/сatalogue/газовые-генераторы/' + g.slug,
+      image = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url,
+      model = g.model,
+      powers = getGeneratorMaxPowers(g),
+      engineCooling = selectEngine(ENGINES, g.engineId).cooling
+    ) }}
+    {% endfor %}
+
+  </div>
+
+</aside>
+{% endif %}
+
+{% endblock %}

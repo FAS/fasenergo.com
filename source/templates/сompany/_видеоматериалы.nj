@@ -1,0 +1,15 @@
+---
+title:           Видеоматериалы
+contentTitle:    Видеоматериалы
+navTitle:        Видеоматериалы
+breadcrumbTitle: Видеоматериалы
+
+description: Видеоматериалы
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<p><i>Раздел в разработке</i></p>
+{% endblock %}

@@ -1,0 +1,80 @@
+---
+title:           Blending Units
+contentTitle:    Blending Units
+navTitle:        Blending Units
+breadcrumbTitle: Blending Units
+
+description: Blending units are designed to produce an LPG-air mixture to enrich gas to the required level.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Blending units are designed to produce an LPG-air mixture to enrich gas to the required level.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/evaporative-and-blending-equipment/su/blending-unit-fem-su--1--front.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/su/blending-unit-fem-su--2--front-left.jpg' },
+  { url: 'equipment/evaporative-and-blending-equipment/su/blending-unit-fem-su--3--front-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Blending unit FEM SU', class = 'h-margin-bottom++') }}
+
+{% set pageEqLow = [
+  { title: 'Blending unit FEM 150 SU/ND', performance: '150 m3/hour' },
+  { title: 'Blending unit FEM 300 SU/ND', performance: '300 m3/hour' },
+  { title: 'Blending unit FEM 490 SU/ND', performance: '490 m3/hour' },
+  { title: 'Blending unit FEM 600 SU/ND', performance: '600 m3/hour' },
+  { title: 'Blending unit FEM 1200 SU/ND', performance: '1200 m3/hour' },
+  { title: 'Blending unit FEM 2400 SU/ND', performance: '2400 m3/hour' },
+  { title: 'Blending unit FEM 4800 SU/ND', performance: '4800 m3/hour' },
+  { title: 'Blending unit FEM 9600 SU/ND', performance: '9600 m3/hour' }
+] %}
+{% set pageEqHigh = [
+  { title: 'Blending unit FEM 150 SU/VD', performance: '150 m3/hour' },
+  { title: 'Blending unit FEM 300 SU/VD', performance: '300 m3/hour' },
+  { title: 'Blending unit FEM 490 SU/VD', performance: '490 m3/hour' },
+  { title: 'Blending unit FEM 600 SU/VD', performance: '600 m3/hour' },
+  { title: 'Blending unit FEM 1200 SU/VD', performance: '1200 m3/hour' },
+  { title: 'Blending unit FEM 2400 SU/VD', performance: '2400 m3/hour' },
+  { title: 'Blending unit FEM 4800 SU/VD', performance: '4800 m3/hour' },
+  { title: 'Blending unit FEM 9600 SU/VD', performance: '9600 m3/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>Low Pressure Models</th>
+    </tr>
+    {% for e in pageEqLow %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+    <tr class='h-text- h-font-weight--bold h-align--center'>
+      <th colspan='3'>High Pressure Models</th>
+    </tr>
+    {% for e in pageEqHigh %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{% endblock %}

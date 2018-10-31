@@ -1,0 +1,77 @@
+{##
+ # Display subscribe form. Works via mailchimp API
+ #
+ # @param {string} [name]                           Form name which will be passed to Mailchimp.
+ #                                                  Useful for pages with few signup forms on single page
+ # @param {string} [listId=MAILCHIMP.lists.testers] List id to which should be made post. See in List settings
+ # @param {string} [account=MAILCHIMP.account]      Account name to which should be made post
+ #                                                  See first segment in Mailchimp url
+ # @param {string} [accountId=MAILCHIMP.accountId]  Accound id to which should be made post
+ #                                                  See in List -> Embedded  -> Embedded -> `action` attribute
+ # @param {string} [class]                          Class of form
+ # @param {string} [fieldClass]                     Class of field (wrapper for input and label)
+ # @param {string} [labelClass]                     Class of label
+ # @param {string} [btnClass]                       Class of button
+ # @param {string} [inputContainerClass]            Class of input wrapper
+ # @param {string} [inputClass]                     Class of input
+ #
+ # @return {string} HTML with form
+ #
+ # @example
+ #   {{ SubscribeForm(list = '0e5589489b') }}
+ #}
+{# @todo put in `list` proper list name #}
+{% macro SubscribeForm(
+    name,
+    listId = MAILCHIMP.listsIds.subscribers,
+    account = MAILCHIMP.account,
+    accountId = MAILCHIMP.accountId,
+    class,
+    fieldClass,
+    inputClass,
+    btnClass
+) %}
+<form
+  class='{{ class }} js-mc-subscribe-form h-margin-bottom'
+  style='max-width: 420px;'
+  action='https://{{account}}.us11.list-manage.com/subscribe/post?u={{accountId}}&amp;id={{listId}}'
+  method='post'
+>
+
+  <div class='{{ fieldClass }} Field h-margin-bottom'>
+    <input
+      name='EMAIL'
+      type='email'
+      id='mc-email'
+      class='{{ inputClass }} Field__input'
+      placeholder='Enter your e-mail address to subscribe'
+      aria-label='Введите адрес электронной почты, чтобы подписаться на новостную рассылку'
+    >
+    <label class='Field__notification' for='mc-email'></label>
+  </div>
+
+  {# Post signup form location #}
+  <input name='FORM_LOC' type='text' value='{{ urljoin(SITE.homepage, PAGE.url) }}' class='h-none'>
+
+  {% if name %}
+  <input name='FORM_NAME' type='text' value='{{ name }}' class='h-none'>
+  {% endif %}
+
+  {# Add subscriber to Groups/Подписки/Новости #}
+  <input name='group[14545][1]' id='mce-group[14545]-14545-0' type='checkbox' value='1' checked class='h-none'>
+
+  {##
+   # This is for robots. Here is what Mailchimp says:
+   # > Real people should not fill this in and expect good things - do not remove this or risk form bot signups
+   #}
+  <input name='b_{{ accountId }}_{{ listId }}' type='text' tabindex='-1' value='' style='position: absolute; left: -5000px;'>
+
+  <button class='js-metrica-subscribe-news {{ btnClass }} Btn Btn+ Btn--solid' type='submit'>Subscribe</button>
+
+  <div class='js-mc-subscribe-form__success h-margin-bottom' style='display: none'>
+    <p class='h-h3'>Спасибо за подписку!</p>
+    <p>На вашу почту отправлено письмо для подтверждения. Пожалуйста, <strong>перейдите по ссылке в письме, чтобы подтвердить подписку</strong>.</p>
+  </div>
+
+</form>
+{% endmacro %}

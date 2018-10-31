@@ -1,0 +1,41 @@
+---
+title:           City and Municipal Infrastructure
+contentTitle:    City and Municipal Infrastructure
+navTitle:        City and Municipal Infrastructure
+breadcrumbTitle: City and Municipal Infrastructure
+
+description: City and Municipal Infrastructure.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>In this area, FAS units are used for permanent and backup power supply of gas boilers, gas distributing stations, pumping stations for water supply or sewerage, emergency and backup power supply of the 1st category facilities (hospitals, high-rise buildings, large concert complexes, and museums).</p>
+<p>The cost of power generation by FAS units constitutes 2 RUB/kW-hour. This solves the problem of power supply at the facilities with unreliable mains, expensive electricity or electricity transmission lines difficult to be installed or extended.</p>
+<p>At the facilities, which are still not connected to the mains natural gas, the use of compressed methane in cylinders with a pressure of 20 MPa (200 atmospheres) is a profitable solution. As a rule, 1 m³ of gas in these cylinders costs 12.5 RUB, which is only twice as expensive as gas in a pipe, but at the same time it is two times cheaper than diesel fuel.</p>
+<p>At the facilities, in which liquefied petroleum gas (propane-butane) is used for heating and utility purposes and there are difficulties with electricity supply, propane-butane generators are more profitable than diesel ones. In addition, the use of gas instead of diesel virtually eliminates thievery: it is quite easy to drain diesel fuel in contrast with gas.</p>
+
+<h2>Energy Supply in the Northern Regions</h2>
+
+<p>In remote settlements of the North, where the diesel generators are often used for heating and power supply, the use of liquefied petroleum gas (propane-butane) for heating and power generation ensures significant benefits. First, gas heating boilers feature a higher efficiency of 93–98% as compared to 80–88% in diesel boilers. Secondly, gas is in general cheaper than diesel.</p>
+
+<h2>Recovery of Landfill Gas</h2>
+
+<p>FASENERGOMASH, LLC participates in projects for the recovery of landfill gas on landfills for solid domestic wastes in the regions of Russia and the neighbouring countries.</p>
+<p>Landfill gas is released into specially drilled wells and is put into generators after its purification. Instead of throwing huge amounts of gas into the atmosphere, stench, discontent of local residents and environmentalists' protests, it is possible to receive electricity, sometimes even under special green pricing, along with neat picturesque hills covered with green grass. Previously, only imported stations were used in such projects, while the FAS units featuring the same efficiency are much cheaper.</p>
+
+<h2>Waste Management</h2>
+
+<p>This project is implemented jointly with the “Bezopasnye Tekhnologii” Company and other manufacturers of equipment for waste recycling with the release of pyrolysis gases.</p>
+<p>Such equipment is used for the processing of polyethylene, rubber, used engine oils, waste of paint and varnish industry, oily sludges and drilling fluids. In total, 1 ton of waste can be processed into 500 kg of liquid heating fuel and up to 350 cubic metres of caloric gas, from which up to 1.5 mW of electricity can be generated. With the statistics available in our country, in the general mass of solid household waste, such high-calorific waste accounts for about 10%. Installations for waste pyrolysis are increasingly being used for landfill waste. However, if produced synthetic fuels and carbon residue are used, the generated gas is usually burned. FASENERGOMASH, LLC proposes not to waste huge volumes of energy carriers, but instead to convert them into electricity, and, when installing cogeneration modules, to receive additionally the same amount of heat.</p>
+
+<h2>Plasma-Based Waste Recycling</h2>
+
+<p>The issue of thermal burning of solid domestic waste without sorting out the high-calorie fractions has been recently addressed quite often. A pressing problem is that waste burning plants emit dioxins, which worsens the environmental situation around and leads to an increased risk of cancer.</p>
+<p>This problem has a solution, which consists in development of high-temperature plasma-based waste burning plants. In some projects of these plants, for example, offered by the "RusEcoEnergo” Company, FAS generators consume low-calorie combustible gases and compensate for the energy expenditures.</p>
+
+<h2>Sewage Drain Treatment</h2>
+
+<p>In cooperation with the Evobios Company, FASENERGOMASH, LLC experts have introduced generators in the process of sludge treatment accompanied by the generation of energy from the gas produced.</p>
+<p>This technology helps not only to solve the environmental problem of sewage sludge utilization, but also to produce electricity from it.</p>
+{% endblock %}

@@ -1,0 +1,39 @@
+---
+title:           Flue Gas Stacks
+contentTitle:    Flue Gas Stacks
+navTitle:        Flue Gas Stacks
+breadcrumbTitle: Flue Gas Stacks
+
+description: FASENERGOMASH, LLC is engaged in development and manufacture of flue gas stacks that are used when removing exhaust gases from diesel or gas-fired electric generators and industrial IC engines.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Image.nj' import Image with context %}
+
+<p>FASENERGOMASH, LLC is engaged in development and manufacture of flue gas stacks that are used when removing exhaust gases from diesel or gas-fired electric generators and industrial IC engines. When designing, our specialists conduct structural integrity and stack draft analyses and, if necessary, calculate the environmental compliance parameters.</p>
+
+<h2>Design Options:</h2>
+
+<h3>The main types of flue gas stacks manufactured by FASENERGOMASH, LLC:</h3>
+
+<ul>
+  <li><strong>Metal flue gas stacks of column type (self-supporting).</strong> This design allows installation of stacks without using any reinforcing elements, such as guylines or trusses. The stack stands firm perfectly without any additional support being a kind of column with outer shells as bearing elements. The stack flue is made of stainless steel and mounted within the shell. Between the outer walls of the flue and the inner wall of the shell, there is an insulation layer. This design is easy to install and maintain, but it has a slightly higher cost as compared to other types of flue gas stacks. To ensure maximum stability, a mast is often installed next to the stack and attached thereto.</li>
+  <li><strong>Self-supporting flue gas stacks on a truss structure.</strong> This design involves one or more flue gas stacks assembled on a supporting frame made of metal trusses. This version provides for the production of internal stack flues made of stainless steel, which are then covered with a layer of insulation and protected with a shell. Mounting of flue gas stacks on the supporting trusses is a bit more difficult. However, this structure is more profitable.</li>
+  <li><strong>Multi-flue self-supporting flue gas stacks (multi-bore).</strong>In fact, these are the same column-type flue gas stacks, in which several stainless steel smoke flues can be installed within one outer shell.</li>
+</ul>
+<p>Choosing one of the options depends primarily on the diameter of the generator’s flue gas stack and on the generator height. Comprehensive development of documents provides for the study of all possible design options for the fume collecting systems and the selection of the best one.</p>
+
+<h3>Regardless of their type, the FASENERGOMASH flue gas stacks possess the following distinctive features:</h3>
+
+<ul>
+  <li>The gas-vent flues are made of the 2 mm thick stainless steel;</li>
+  <li>All flues have either flanged or welded coupling at the site of structure mounting;</li>
+  <li>Flue sections are manufactured in such a way that there are no problems with road transportation.</li>
+</ul>
+
+<p>If necessary, the flue gas stacks produced by FASENERGOMASH, LLC can be completed with additional equipment: maintenance grounds, flashing beacons, explosive valves, ladders, automatic dump valves and the like.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+{% endblock %}

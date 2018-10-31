@@ -1,0 +1,101 @@
+---
+title:           Self-Priming Pump Units
+contentTitle:    Self-Priming Pump Units
+navTitle:        Self-Priming Pump Units
+breadcrumbTitle: Self-Priming Pump Units
+
+description: Self-Priming Pump Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_DropShower.nj' import DropShower with context %}
+
+<p>A packaged self-priming unit with a self-priming pump designed to deliver propane/butane from underground tanks to consumers.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/self-priming-pump-units/self-priming-pump-units-fem--front-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, 'Self-Priming Pump Units FEM') }}
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Outlet to consumer: flange DN32;</li>
+  <li>Tank: flange DN50;</li>
+  <li>By-pass pipeline: flange DN25.</li>
+</ul>
+
+<h2>General Information</h2>
+
+<ul>
+  <li>To protect the pump from dry running, the unit is equipped with an submersible sensor and a converter;</li>
+  <li>To ensure optimal performance of the unit, a check valve must be installed at the suction pipe inlet;</li>
+  <li>All fittings are mounted on a common frame, primed and painted;</li>
+  <li>The equipment has a three year warranty, with the exception of rubbing and wearable during the use materials..</li>
+</ul>
+
+{% set pageEq = [
+  {
+    title: 'Self-priming unit FEM 50',
+    performance: 50,
+    maxPrimingDepth: 3,
+    equipment: [
+      'Self-priming open-vortex pumping unit FAS 50 L5M, with electric motor 5 kW, 400/690 V, 50 Hz, EEx e II T3, with coupling, protective casing, mounted on a common frame, primed, inlet DN65, outlet DN32, capacity up to 50 L/min, max. differential pressure up to 14 bar.',
+      'PC-unit for vapour phase separation consisting of the following principal components: gas separator, pressure gauge and shut-off valve, inlet DN32, outlet to consumers DN32 with a ball valve DN32, RP40 and a check valve DN32, RP40, bypass valve 1";',
+      'Differential valve 1", pipeline with a diffuser DN25;',
+      'Filtering strainer DN50 at the inlet;',
+      'Inspection window DN50 at the inlet.'
+    ]
+  },
+  {
+    title: 'Self-priming unit FEM 100',
+    performance: 100,
+    maxPrimingDepth: 5,
+    equipment: [
+      'Self-priming open-vortex pumping unit FAS 100 L5M, with electric motor 6.8 kW, 400/690 V, 50 Hz, EEx e II T3, with coupling, protective casing, mounted on a common frame, primed, inlet DN65, outlet DN32, capacity up to 100 L/min, max. differential pressure up to 14 bar.',
+      'PC-unit for vapour phase separation consisting of the following principal components: gas separator, pressure gauge and shut-off valve, inlet DN32, outlet to consumers DN32 with a ball valve DN32, RP40 and a check valve DN32, RP40, bypass valve 1";',
+      'Differential valve 1", pipeline with a diffuser DN25;',
+      'Filtering strainer DN50 at the inlet;',
+      'Inspection window DN50 at the inlet.'
+    ]
+  }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>Max. Suction Depth</th>
+      <th>Basic Package</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}&nbsp;l/min</td>
+      <td class='h-align--right'>{{ e.maxPrimingDepth }}&nbsp;m</td>
+      <td>
+        {% if e.equipment %}
+        {% call DropShower(label = 'Basic Package', class = 'h-text-') %}
+          <ul class='h-childs-space-top0'>
+            {% for eq in e.equipment %}<li>{{ eq }}</li>{% endfor %}
+          </ul>
+        {% endcall %}
+        {% endif %}
+      </td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

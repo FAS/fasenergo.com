@@ -1,0 +1,27 @@
+---
+title:           Compressor Unit FEM 491 for Propane-Butane (60 m³/hour)
+contentTitle:    Compressor Unit FEM 491 for Propane-Butane (60 m³/hour)
+navTitle:        Compressor Unit FEM 491 for Propane-Butane (60 m³/hour)
+breadcrumbTitle: Compressor Unit FEM 491
+
+description: Compressor Unit FEM 491 for Propane-Butane (60 m³/hour)
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Compressor unit FEM 491 is designed to pump propane/butane, mounted on a common frame, primed, and painted, features a rated capacity up to 60 m3/hour.</p>
+<p>It is completed with a liquid separator, 10 kW electric motor, protective casing, V-belt transmission, pressure gauges on the delivery and suction pipes, and a relief valve. Fitting: flanges DN32.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-491/compressor-unit-fem-491--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

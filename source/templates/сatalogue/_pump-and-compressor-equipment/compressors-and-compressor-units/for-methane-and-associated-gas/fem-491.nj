@@ -1,0 +1,58 @@
+---
+title:           Reciprocating Compressor Unit FEM 491 for Methane and Associated Gas (60 m³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 491 for Methane and Associated Gas (60 m³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 491 for Methane and Associated Gas (60 m³/hour)
+breadcrumbTitle: FEM 491
+
+description: Reciprocating Compressor Unit FEM 491 for Methane and Associated Gas (60 m³/hour).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A dry running reciprocating compressor unit of 491 type for natural gas based on a vertical single-stage compressor FEM — D491.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-491/compressor-unit-fem-491--front-right-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>
+    <p>Compressor of FEM type, model D491:</p>
+    <ul>
+      <li>Design: vertical;</li>
+      <li>Type of compression: single-stage;</li>
+      <li>Type of lubrication: dry;</li>
+      <li>Number of working cylinders: 2;</li>
+      <li>Type of guide rod sealing: double;</li>
+      <li>Geometric volume displaced by pistons at shaft speed of 825 rpm: 60 m³/hour.;</li>
+      <li>The compressor’s inlet and outlet are equipped with pressure gauges.</li>
+    </ul>
+  </li>
+  <li>Electric motor, EExe II T3, 400/690 V B3, 10 kW, 50 Hz;</li>
+  <li>V-belt transmission with protective casing;</li>
+  <li>Relief valve on the delivery pipe;</li>
+  <li>Reinforced support frame of the compressor unit.</li>
+</ul>
+
+<p>Weight: ~400 kg.</p>
+<p>Mounted on a common frame, primed and painted.</p>
+<p><strong>The compressor unit can be additionally completed with instrumentation and control devices and automatic equipment.</strong></p>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Inlet: flange DN32;</li>
+  <li>Outlet: flange DN32.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

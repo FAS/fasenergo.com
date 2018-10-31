@@ -1,0 +1,28 @@
+---
+title:           Safety Relief Valves
+contentTitle:    Safety Relief Valves
+navTitle:        Safety Relief Valves
+breadcrumbTitle: Safety Relief Valves
+
+description: Safety Relief Valves.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Safety relief valves for low flow rates (SRV for gas leakage) are installed at the outlet of a control and distribution unit to prevent triggering of a safety valve under condition of small leakage at the executive element of a control device and at zero flow rate.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/safety-relief-valves/safety-relief-valves-155D.jpg' },
+  { url: 'equipment/filters-fittings-and-valves/safety-relief-valves/safety-relief-valves-275D.jpg' },
+  { url: 'equipment/filters-fittings-and-valves/safety-relief-valves/safety-relief-valves-285D.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

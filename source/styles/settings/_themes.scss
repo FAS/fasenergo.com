@@ -1,0 +1,245 @@
+// =============================================================================
+// ^SETTING.THEMES
+// =============================================================================
+
+$ekzo-colors: (
+  primary:       #ef4324,
+  secondary:     kotsu-theme-color(),
+  tertiary:      #4e5b69,
+  quaternary:    #1e272f,
+  white:         #fff,
+  cascade:       #8db0ab,
+  warn:          #e44225,
+  skype:         #29ace3
+);
+
+@include ekzo-extend-themes(base, (
+
+  // -----------------------------------------------------------------------------
+  // Background
+  // -----------------------------------------------------------------------------
+
+  bg:                    ekzo-color(white),
+
+  // -----------------------------------------------------------------------------
+  // Text
+  // -----------------------------------------------------------------------------
+
+  text:                   ekzo-color(secondary),
+
+  // -----------------------------------------------------------------------------
+  // Links
+  // -----------------------------------------------------------------------------
+
+  links:                  ekzo-color(tertiary),
+  links-border:           rgba(ekzo-color(tertiary), .5),
+  links-hover:            null,
+  links-hover-border:     currentColor,
+  links-active-border:    currentColor,
+
+  expand-link-border:     rgba(ekzo-color(tertiary), .65),
+
+  // -----------------------------------------------------------------------------
+  // Headings
+  // -----------------------------------------------------------------------------
+
+  headings:               null,
+  extra-headings:         null,
+
+  // -----------------------------------------------------------------------------
+  // Selection
+  // -----------------------------------------------------------------------------
+
+  selection:              ekzo-color(white),
+  selection-bg:           adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
+
+  // -----------------------------------------------------------------------------
+  // List
+  // -----------------------------------------------------------------------------
+
+  list-bullet:           ekzo-color(tertiary),
+
+  // -----------------------------------------------------------------------------
+  // Code
+  // -----------------------------------------------------------------------------
+
+  code:                  ekzo-shade(ekzo-color(white), 10),
+  code-bg:               ekzo-color(secondary),
+
+  // -----------------------------------------------------------------------------
+  // Forms
+  // -----------------------------------------------------------------------------
+
+  forms:                  ekzo-color(secondary),
+  forms-placeholder:      rgba(ekzo-color(secondary), .8),
+  forms-border:           rgba(ekzo-color(secondary), .25),
+  forms-bg:               ekzo-color(white),
+  forms-focus-border:     rgba(ekzo-color(secondary), .55),
+
+  forms-valid:            ekzo-color(secondary),
+  forms-valid-border:     ekzo-color(tertiary),
+
+  forms-invalid:          ekzo-color(warn),
+  forms-invalid-border:   adjust-color(ekzo-color(warn), $lightness: 17),
+
+  // -----------------------------------------------------------------------------
+  // Table
+  // -----------------------------------------------------------------------------
+
+  table-border:           ekzo-tint(ekzo-color(secondary), 88),
+
+  // -----------------------------------------------------------------------------
+  // Horizontal line
+  // -----------------------------------------------------------------------------
+
+  hr:                     rgba(ekzo-color(secondary), .12),
+
+  // -----------------------------------------------------------------------------
+  // Buttons
+  // -----------------------------------------------------------------------------
+
+  btn:                    ekzo-color(tertiary),
+  btn-bg:                 transparent,
+  btn-border:             currentColor,
+  btn-hover:              ekzo-color(white),
+  btn-hover-bg:           adjust-color(ekzo-color(tertiary), $saturation: -5, $lightness: 9),
+  btn-active-bg:          adjust-color(ekzo-color(tertiary), $saturation: -3, $lightness: -7),
+
+  btn-solid:              ekzo-color(white),
+  btn-solid-bg:           ekzo-color(tertiary),
+  btn-solid-hover:        ekzo-color(white),
+  btn-solid-hover-bg:     adjust-color(ekzo-color(tertiary), $saturation: -5, $lightness: 9),
+  btn-solid-active-bg:    adjust-color(ekzo-color(tertiary), $saturation: -3, $lightness: -7),
+
+  btn-primary:              ekzo-color(white),
+  btn-primary-bg:           adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
+  btn-primary-hover:        ekzo-color(white),
+  btn-primary-hover-bg:     adjust-color(ekzo-color(tertiary), $saturation: -5, $lightness: 9),
+  btn-primary-active-bg:    adjust-color(ekzo-color(tertiary), $saturation: -3, $lightness: -7),
+
+  // -----------------------------------------------------------------------------
+  // Breadcrumb
+  // -----------------------------------------------------------------------------
+
+  breadcrumb-links:      ekzo-color(tertiary),
+  breadcrumb-delimiters: rgba(ekzo-color(secondary), .25),
+
+  // -----------------------------------------------------------------------------
+  // Cover
+  // -----------------------------------------------------------------------------
+
+  cover-overlay:         rgba(ekzo-color(secondary), .75),
+
+  // -----------------------------------------------------------------------------
+  // Lead-block
+  // -----------------------------------------------------------------------------
+
+  lead-block-value-bg:      ekzo-color(secondary),
+  lead-block-value-bg-glow: rgba(ekzo-color(white), .3),
+
+  lead-block-generator-box:    ekzo-color(tertiary),
+  lead-block-generator-wire-1: #2561bb,
+  lead-block-generator-wire-2: #ea4324,
+  lead-block-generator-tube:   ekzo-color(tertiary),
+  lead-block-generator-vent:   #caced1,
+
+  // -----------------------------------------------------------------------------
+  // Drawer
+  // -----------------------------------------------------------------------------
+
+  drawer-bg:      #24292f,
+  drawer-overlay: rgba(#252f38, .7),
+
+  // -----------------------------------------------------------------------------
+  // Dropdown
+  // -----------------------------------------------------------------------------
+
+  dropdown-bg-color:   ekzo-color(white),
+  dropdown-box-shadow: 0 5px 30px rgba(#252f38,.2),
+
+  // -----------------------------------------------------------------------------
+  // Box
+  // -----------------------------------------------------------------------------
+
+  box-border: ekzo-tint(ekzo-color(secondary), 88),
+
+  // -----------------------------------------------------------------------------
+  // Nav
+  // -----------------------------------------------------------------------------
+
+  nav-item-active: ekzo-color(primary),
+  nav-item-hover-border: rgba(ekzo-color(primary), .4),
+  nav-item-h: ekzo-color(white),
+  nav-item-h-hover-border: rgba(ekzo-color(white), .4),
+))
+
+@include ekzo-extend-themes(white, (
+  bg:             ekzo-color(white),
+
+  headings-h1:    ekzo-color(secondary),
+  headings:       ekzo-color(tertiary),
+
+  btn:            ekzo-color(tertiary),
+  btn-hover:      ekzo-color(white),
+
+  btn-solid:      ekzo-color(white),
+
+  btn-primary:    ekzo-color(white),
+))
+
+@include ekzo-extend-themes(secondary, (
+  bg:                  ekzo-color(secondary),
+
+  text:                ekzo-color(white),
+
+  links:               ekzo-color(cascade),
+  links-border:        transparent,
+  links-hover-border:  rgba(ekzo-color(cascade), .4),
+  links-active-border: currentColor,
+
+  btn:                 ekzo-color(cascade),
+  btn-border:          currentColor,
+  btn-hover:           ekzo-color(secondary),
+  btn-hover-bg:        ekzo-color(cascade),
+  btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
+
+  btn-primary-bg:      adjust-color(ekzo-color(primary), $saturation: 0, $lightness: 7),
+
+  btn-solid:           ekzo-color(white),
+  btn-solid-bg:        ekzo-color(tertiary),
+  btn-solid-hover:     ekzo-color(white),
+  btn-solid-hover-bg:  adjust-color(ekzo-color(tertiary), $saturation: -8, $lightness: 11),
+  btn-solid-active-bg: adjust-color(ekzo-color(tertiary), $lightness: -2),
+))
+
+@include ekzo-extend-themes(tertiary, (
+  bg:                 ekzo-color(tertiary),
+
+  text:               ekzo-color(white),
+
+  links:              ekzo-color(white),
+  links-border:       rgba(ekzo-color(white), .25),
+
+  forms:                  ekzo-color(white),
+  forms-placeholder:      rgba(ekzo-color(white), .8),
+  forms-border:           adjust-color(ekzo-color(tertiary), $saturation: -6, $lightness: 16),
+  forms-bg:               adjust-color(ekzo-color(tertiary), $saturation: -2, $lightness: -3),
+))
+
+@include ekzo-extend-themes(quaternary, (
+  bg:                 ekzo-color(quaternary),
+
+  text:               ekzo-color(white),
+
+  links:               ekzo-color(white),
+  links-border:        rgba(ekzo-color(white), .4),
+
+  btn:                 ekzo-color(cascade),
+  btn-border:          currentColor,
+  btn-hover:           ekzo-color(secondary),
+  btn-hover-bg:        ekzo-color(cascade),
+  btn-active-bg:       adjust-color(ekzo-color(cascade), $saturation: -5, $lightness: -14),
+
+  headings:           ekzo-color(white),
+  headings-h1:        ekzo-color(white),
+))

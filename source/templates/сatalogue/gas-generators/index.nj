@@ -1,0 +1,209 @@
+---
+title:           Gas Generators
+contentTitle:    Gas Generators
+navTitle:        Gas Generators
+breadcrumbTitle: Gas Generators
+
+description: Gas Generators
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_ProductCard.nj' import ProductCard with context %}
+{% from '_components/_Field.nj' import Field with context %}
+{% from '_components/_Icon.nj' import Icon with context %}
+{% from '_components/_SolutionPreview.nj' import SolutionPreview with context %}
+{% from '_components/_CatalogFilter.nj' import CatalogFilter with context %}
+{% from '_components/_Promos.nj' import Promos with context %}
+
+{% set generators = selectGenerators(GENERATORS) %}
+{% set generators = filterWithBrands(generators, 'Фасэнергомаш') %}
+{% set generators = sortGeneratorsByPower(generators) %}
+
+{# @todo Emable anchors when relevant pages will be ready #}
+<p>By using the catalogue, you can select a generator, find detailed information about each model (including photos, specifications, related documents, supplies, etc.), send a request and ask questions.</p>
+<p>Our models are equipped with an automatic transfer switch (ATS) and assembled into synchronized complexes comprising up to 30 generators of increased capacity and reliability.</p>
+
+<aside class='h-margin-top+'>
+  {{ Promos() }}
+</aside>
+
+{{ CatalogFilter() }}
+
+<div id='js-catalog' class='Box'>
+  {% for g in generators %}
+  {% set engine = selectEngine(ENGINES, g.engineId) %}
+  {% set engineCooling = engine.cooling %}
+
+  {{ ProductCard(
+    url = urljoin(PAGE.url, '/', g.slug),
+    photo = urljoin('/', PATH.images, getGeneratorMainPhoto(g).url),
+    title = g.title,
+    model = g.model,
+    power = getGeneratorHighestPower(g),
+    price = getGeneratorCurrentPrice(g),
+    priceBeforeDiscount = getGeneratorOriginalPrice(g),
+    discount = g.discount,
+    discountDate = g.discountDate,
+    engineTitle = getEngineTitle(engine),
+    engineBrand = engine.manufacturer.brand,
+    engineCooling = coolingToWord(engineCooling),
+    mode = engineCooling == 'air' and 'резервный' or 'основной',
+    noise = g.enclosure.noise,
+    phases = g.specs.phases,
+    equipment = g.equipment.list,
+    warrantyFromInstallation = g.warranty.installation,
+    warrantyServiceLife = g.warranty.serviceLife,
+    linksClass = 'js-metrica-gensets-click-genset-card'
+  ) }}
+  {% endfor %}
+</div>
+
+<button id='js-catalog-show-all-btn' class='Btn o-btn--full Btn+ Btn--wide Btn--primary h-text++ h-margin-top h-align--center'>
+  Show more models (<span id='js-catalog-show-all-btn__items'></span>)
+</button>
+
+<aside>
+
+  <h2>
+    Haven’t found a suitable generator in the offered model range?<br>
+    Order a customized solution
+  </h2>
+  <p>We can assemble a generator according to your technical requirements: with the necessary engine, equipment and capacity.</p>
+  <p>Contact us. Our experts will come to your site, make calculations and provide a relevant commercial offer.</p>
+
+  <a href='/contact-us' class='js-metrica-contact-us Btn Btn+ Btn--wide+'>Contact us</a>
+
+  {# @todo Enable when Bitrix integration will be ready #}
+  {# <form class='h-margin-top+ h-childs-space-top Wrapper--readable h-margin-left0'>
+    {{ Field(
+      id = 'contactName',
+      name = 'name',
+      label = 'Имя',
+      displayLabel = false,
+      placeholder = 'Как вас зовут?',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactPhoneOrEmail',
+      name = 'phoneOrEmail',
+      label = 'Телефон или электронная почта',
+      displayLabel = false,
+      placeholder = 'Телефон или электронная почта',
+      required = true,
+      style = 'max-width: 300px'
+    ) }}
+    {{ Field(
+      id = 'contactMessage',
+      name = 'message',
+      type = 'textarea',
+      label = 'Сообщение',
+      displayLabel = false,
+      placeholder = 'Сообщение'
+    ) }}
+    <button class='Btn Btn--primary Btn--wide'>Отправить</button>
+  </form> #}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  {% call SolutionPreview(
+    title = 'Synchronization of Generator Units',
+    linkLabel = 'Read more about synchronization of generator sets',
+    url = '/solutions/engineering-solutions/synchronization-of-generator-units',
+    image = '/' + PATH.images + '/solutions/synchronization-of-generator-units/synchronization-of-generator-units-fas-mp--front-right--inter.jpg'
+  ) %}
+    <p>A parallel-operated generator system, which makes it possible to distribute the load and use the engine service life efficiently, as well as to disconnect part of generators for maintenance or repair without interrupting the supply of electricity.</p>
+    <p>This can be a great solution if the energy consumption at the site changes significantly during the day, week or even the season, or if you need high capacity at a reasonable price.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Cogeneration Unit for Generators',
+    linkLabel = 'Read more about cogeneration',
+    url = '/сatalogue/cogeneration-units',
+    image = '/' + PATH.images + '/equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-2--front.jpg'
+  ) %}
+    <p>The cogeneration unit uses the heat produced by generator, which is otherwise released into the air, and transforms it into hot water.</p>
+    <p>The heated water is transferred to a heating system, a hot water supply system or is used for trigeneration, which finally increases the overall generator efficiency by 36–40%.</p>
+  {% endcall %}
+
+  <hr>
+
+  {% call SolutionPreview(
+    title = 'Containers for Generators',
+    linkLabel = 'Read more about cogeneration',
+    url = '/solutions/engineering-solutions/containers-for-generators',
+    image = '/' + PATH.images + '/solutions/containers-for-generators/containers-for-generators-fasenergomash--front-right.jpg'
+  ) %}
+    <p>Generators are sometimes operated in difficult conditions, such as a heat of + 40 °C or an equivalent frost, a downpour or a sandstorm.</p>
+    <p>Our solution is a special container equipped with ventilation, alarm, lighting and other necessary systems.</p>
+    <p>A container is cheaper than a utility room or a building with similar utility systems.</p>
+  {% endcall %}
+
+</aside>
+
+<hr>
+
+<aside>
+
+  <h2>Useful Information About Our Products</h2>
+
+  <div class='o-grid h-childs-displace++ h-text+'>
+    {# @todo Enable Icons when they will be available #}
+    {# @todo Enable links, when pages for them will be available #}
+    <div class='o-grid__item h-1/2'>
+      <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Отзывы покупателей</a></li> #}
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/сatalogue/преимущества-наших-генераторов'>Advantages of our generators</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/сatalogue/результаты-испытаний'>Testing results</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/сatalogue/гарантия'>Guarantee</a></li>
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}
+          <p class='h-margin-bottom--'><a href='#'>Главное о газовых генераторах</a></p>
+          <p class='h-text-'>Преимущества,&nbsp;особенности, сравнение&nbsp;с&nbsp;дизельными и бензиновыми</p>
+        </li> #}
+      </ul>
+    </div>
+    <div class='o-grid__item h-1/2'>
+      <ul class='{# g-list0 o-iconic-list #} h-childs-space-top+--'>
+        {# @todo Put back `href='/контакты/дилеры'` when https://trello.com/c/VohIaOK7/173-- will be ready #}
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/контакты'>Sales outlets</a></li>
+        {# <li>{{ Icon('skype', class = 'o-iconic-list__icon') }}<a href='#'>Как выбрать генератор?</a></li> #}
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/services'>Services</a></li>
+        <li>{# {{ Icon('skype', class = 'o-iconic-list__icon') }} #}<a href='/solutions'>Solutions</a></li>
+      </ul>
+    </div>
+  </div>
+
+</aside>
+  
+<hr>
+
+<p>Modern FAS gas generators have been developed by engineers working in FASENERGOMASH, LLC with the use of advanced German technologies. The heart of the units are the engines of Russian and foreign production adapted for operation on liquefied natural gas. FASENERGOMASH, LLC offers gas generators for various needs and in several modifications directly from the manufacturer.</p>
+
+<h2>Gas Generators for Residential Use</h2>
+
+<p>The German-Russian manufacturer of gas power stations FASENERGOMASH, LLC produces small and medium-sized generators for the electrification of small residential buildings, such as private houses, cottages and country houses. Such devices are delivered from a warehouse in a protective casing, which allows to place the Power Station out of doors. The protective casing also significantly reduces the noise level generated by the equipment. The company produces gas generators with the air and liquid cooling systems. Generator sets are equipped with controllers that support remote control and monitoring from any mobile device. They can send On/Off SMS as well as messages about gas generator malfunctioning. A special ATS panel allows setting the switch-on hours.</p>
+
+<h3>Air-Cooled Generators</h3>
+
+<p>Gas-piston power stations with air cooling based on Loncin engines are much cheaper and easier to operate as compared to the majority of world analogues. Such equipment has sufficient capacity in the emergency mode to supply power to houses, small public and commercial facilities, as well as production sites. Air-cooled generators can operate for up to eight hours without terminating the cycle. They have a simple design, are light and absolutely safe in operation.</p>
+
+<h3>Liquid-Cooled Generators</h3>
+
+<p>FASENERGOMASH, LLC also offers innovative gas-fired power generators with a liquid cooling system.</p>
+<p>One of the main advantages of the FAS liquid-cooled gas generators is the availability of the automatic transfer switch (ATS) and autorun systems in the factory configuration. The liquid-cooled generators can operate around the clock as the main power source. The operation of such a generator must be stopped only for the period of its maintenance.</p>
+<p>All power stations with liquid cooling have an electronic control module and programmable heating. The generators are absolutely safe and ready for use under European operating conditions. The generators are protected from possible pressure drops in gas pipelines, unstable gas quality and extreme outdoor temperatures.</p>
+
+<h2>Industrial Gas Generators</h2>
+
+<p>FASENERGOMASH, LLC manufactures and sells the liquid-cooled industrial gas power stations with a capacity of at least 50 kW. Such power stations have all the advantages of household gas generators, including the ATS and autorun systems. In addition, it is possible to synchronize several generators into a single system, which often turns out to be a much more profitable solution in comparison with the purchase of a single high-power generator.</p>
+<p>The purchase of household and industrial FAS gas generators can be focused on the model range, which includes single-phase and three-phase products with a wide power range from 5 kW to 315 kW.</p>
+<p>Experts of FASENERGOMASH, LLC consult on the selection and use of gas equipment. The company also performs professional installation and commissioning of FAS gas generators.</p>
+{% endblock %}

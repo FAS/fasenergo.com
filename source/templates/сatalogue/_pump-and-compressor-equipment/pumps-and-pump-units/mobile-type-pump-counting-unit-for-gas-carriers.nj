@@ -1,0 +1,76 @@
+---
+title:           Mobile Type Pump-Counting Unit for Gas Carriers
+contentTitle:    Mobile Type Pump-Counting Unit for Gas Carriers
+navTitle:        Mobile Type Pump-Counting Unit for Gas Carriers
+breadcrumbTitle: Mobile Type Pump-Counting Unit for Gas Carriers
+
+description: Mobile Type Pump-Counting Unit for Gas Carriers
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Mobile type pump-counting unit for gas carriers with a capacity of 90 to 490 L/min.</p>
+<p>A comprehensive open dialogue with leading gas companies and manufacturers of gas carrying trucks from various European countries has become the key factor of development success. The result of this activity is a new measuring unit that meets all modern requirements of users and manufacturers of gas carriers.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/mobile-type-pump-counting-unit-for-gas-carriers/mobile-type-pump-counting-unit-fem-for-gas-carriers--1--front.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/mobile-type-pump-counting-unit-for-gas-carriers/mobile-type-pump-counting-unit-fem-for-gas-carriers--2--front-left.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/mobile-type-pump-counting-unit-for-gas-carriers/mobile-type-pump-counting-unit-fem-for-gas-carriers--3--front-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Unit Features</h2>
+
+<ol>
+
+  <li>
+
+    <p>Mechanic part:</p>
+
+    <ul>
+      <li>A possibility to change the direction of product movement (90° or 180°);</li>
+      <li>A possibility to subsequently outfit the unit with the pre-set function;</li>
+      <li>A small-sized design that saves space when being mounted on a gas carrier;</li>
+      <li>Absence of an external power supply unit; all electronic components are placed within one Exd-type casing;</li>
+      <li>Mass flow meter of specific design.</li>
+    </ul>
+
+  </li>
+
+  <li>
+
+    <p>Electronic part:</p>
+
+    <ul>
+      <li>Electronic register of explosion-proof design;</li>
+      <li>Data transfer via M0DBUS interface;</li>
+      <li>Optional display of readings: in kilograms and/or litres;</li>
+      <li>Measurement and display of product density (if necessary).</li>
+    </ul>
+
+  </li>
+
+</ol>
+
+<h2>Functionality</h2>
+
+<ul>
+  <li>Discharge of gas in kilograms;</li>
+  <li>Discharge of gas in litres;</li>
+  <li>Record and display the current density data;</li>
+  <li>Record and display the current temperature data;</li>
+  <li>Print one-time delivery notes indicating weight, volume, density and temperature;</li>
+  <li>Print combined delivery notes for 24 hours;</li>
+  <li>The delivery package includes a printer that can be placed in the driver's cab to print delivery notes when discharging gas.</li>
+</ul>
+
+<p>The unit is supplied with a MID certificate and in compliance with the ATEX and Directive 97/23/EC requirements for pressure equipment. The unit is fully protected against any fraud actions.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

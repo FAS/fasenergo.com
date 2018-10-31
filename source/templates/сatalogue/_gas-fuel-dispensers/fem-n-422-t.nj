@@ -1,0 +1,90 @@
+---
+title:           Electronic Fuel Dispenser FEM N/422/T
+contentTitle:    Electronic Fuel Dispenser FEM N/422/T
+navTitle:        FEM N/422/T
+breadcrumbTitle: FEM N/422/T
+
+description: Electronic Fuel Dispenser FEM N/422/T.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Electronic fuel dispenser of FEM 400 type, with 2 fuelling hoses (located on the diagonal sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--2--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--3--left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--4--front-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--5--back.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--6--back-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--7--right.jpg' },    
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--8--back-right.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Information on the Display Panel</h2>
+
+<ul>
+  <li>Price per litre;</li>
+  <li>Number of dispensed litres;</li>
+  <li>Total cost.</li>
+</ul>
+<p>Additional information data (when switching the display): summing data on the number of dispensed litres.</p>
+
+<h2>Casing Design</h2>
+
+<ul>
+  <li>Stainless steel;</li>
+  <li>RAL colour as specified by the customer.</li>
+</ul>
+
+<h2>Electronic Components</h2>
+
+<ul>
+<li>Electronic components are manufactured by FASENERGOMASH, LLC (Russia);</li>
+<li>Power supply node 230 V AC / 50 Hz;</li>
+<li>Panel for taking meter readings in litres and kilograms;</li>
+<li>One LCD display panel;</li>
+<li>Rotary switch;</li>
+<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2.0 protocols; self-contained operation without a cash system.</li>
+<li>Operation simultaneously with level gauges (if an electrical control panel is available);</li>
+<li>Operation simultaneously with a pump (if an electrical control panel is available);</li>
+<li>Operation simultaneously with solenoid valves (if an electrical control panel is available).</li>
+</ul>
+
+<h2>Hydraulic System PN 25</h2>
+
+<ul>
+<li>Two turbine meters for liquefied petroleum gas, 5–50 L/min.;</li>
+<li>Vapour phase separator;</li>
+<li>Differential valve;</li>
+<li>Two high-pressure hoses, 5 m in length each;</li>
+<li>Quick coupling on the hose;</li>
+<li>ReGo relief valves, actuation pressure: 25 bar;</li>
+<li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
+<li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
+<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
+<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+</ul>
+
+<h2>Additional Equipment for an Extra Charge</h2>
+
+<ul>
+<li>Electrical heating of electronic components;</li>
+<li>Dielectric flanges for installation of underground pipelines;</li>
+<li>Two-stage solenoid valve.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>480 000 ₽</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+<p></p>
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

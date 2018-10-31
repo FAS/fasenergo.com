@@ -1,0 +1,7 @@
+---
+getPropsMethod: getGeneratorPageProps
+getPropsMethodArguments:
+  - fas-13-3-vp-13-kw
+---
+
+{% extends './_generator.nj' %}

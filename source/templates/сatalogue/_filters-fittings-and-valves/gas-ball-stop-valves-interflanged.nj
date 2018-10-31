@@ -1,0 +1,36 @@
+---
+title:           Gas Ball Stop Valves (Interflanged)
+contentTitle:    Gas Ball Stop Valves (Interflanged)
+navTitle:        Gas Ball Stop Valves (Interflanged)
+breadcrumbTitle: Gas Ball Stop Valves (Interflanged)
+
+description: Gas Ball Stop Valves (Interflanged).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Ball stop valves are designed for mounting between two flanges in compliance with DIN 2635 on pipelines with an operating medium of natural, liquefied petroleum or other gases.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/filters-fittings-and-valves/gas-ball-stop-valves-interflanged/gas-ball-stop-valves-interflanged.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Specifications</h2>
+
+<ul>
+  <li>Design pressure RP40;</li>
+  <li>Nominal diameter DN15–DN200;</li>
+  <li>Steel casing 1.0619;</li>
+  <li>Stainless steel ball 1.4308;</li>
+  <li>Universal shaft seal.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* * The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

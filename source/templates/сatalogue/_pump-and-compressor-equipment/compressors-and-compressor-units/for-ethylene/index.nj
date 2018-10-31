@@ -1,0 +1,19 @@
+---
+title:           Compressors and Compressor Units For Ethylene
+contentTitle:    Compressors and Compressor Units For Ethylene
+navTitle:        Compressors and Compressor Units For Ethylene
+breadcrumbTitle: For Ethylene
+
+description: Compressors and Compressor Units For Ethylene.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

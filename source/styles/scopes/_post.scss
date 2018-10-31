@@ -1,0 +1,31 @@
+// stylelint-disable declaration-no-important, selector-max-compound-selectors
+// @note We need `!important` here to properly redefine helpers in this layer
+
+// =============================================================================
+// ^User content
+// =============================================================================
+
+.#{$ekzo-s-ns}post {
+
+  hr {
+    @include ekzo-font-size(h2, headings)
+
+    @include ekzo-theme() { color: ekzo-theme(text); }
+
+    text-align: center;
+    letter-spacing: .5em;
+
+    margin-top: ekzo-space(2);
+    margin-bottom: ekzo-space(2);
+
+    border: 0;
+
+    &:after {
+      content: '...';
+      position: relative;
+      top: - ekzo-space(1.5);
+    }
+
+  }
+
+}

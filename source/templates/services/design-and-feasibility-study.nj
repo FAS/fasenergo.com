@@ -1,0 +1,20 @@
+---
+title:           Design and Feasibility Study
+contentTitle:    Design and Feasibility Study
+navTitle:        Design and Feasibility Study
+breadcrumbTitle: Design and Feasibility Study
+
+description: Design and Feasibility Study
+
+icon:             search
+shortDesc:        Company experts think over engineering and design solutions, calculate economics for client’s business plan, provide consultations.
+
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>Design and feasibility study are required when our generators are incorporated into a complex system on a large facility or within an <a href='/solutions'>industry solution</a>. For example, within a project on development of a gas distribution station, a hospital or an office centre. In this case, we advise an engineer and an architect of the facility and, if required, participate in the design.</p>
+<p>We can also help with calculations to conduct a feasibility study and a create a business plan, which require information on generation of electricity and fuel costs, agreeing on the parameters of emissions of harmful substances and gases. We have a vast experience in this sphere gained from the previously implemented projects and industry related solutions.</p>
+<p>An owner of a residential house or a small facility, as a rule, does not need such services, because everything is limited to a typical solution.</p>
+{% endblock %}

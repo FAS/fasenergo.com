@@ -1,0 +1,119 @@
+{% from '_components/_Icon.nj' import Icon with context %}
+
+{##
+ # Display email anchor based on contacts data
+ #
+ # @param {pbject} data   Complex object with email data. See source/data/contacts.coffee
+ # @param {string} [class] CSS class for anchor
+ #
+ # @return {string} Email inside anchor
+ #
+ # @example {{ Email(CONTACTS.departments.sales.emails[0]) }}
+ #}
+{%- macro Email(data) -%}
+  {% if not data %}
+  {{ warn('[Email] undefined provided, while object with email expected') }}
+  {% endif %}
+
+  {% set macroEmail = data.value[0] + '@' + data.value[1] %}
+
+  <a class='{{ class }}' href='mailto:{{ macroEmail }}'>{{ macroEmail }}</a>
+{%- endmacro -%}
+
+{##
+ # Display skype from contacts data
+ #
+ # @param {pbject} data       Complex object with email data. See source/data/contacts.coffee
+ # @param {string} [class]    CSS classes of anchor
+ # @param {bool}   [showIcon] Should skype icon be shown in front
+ #
+ # @return {string} Skype inside anchor
+ #
+ # @example {{ Skype(CONTACTS.departments.sales.skypes[0]) }}
+ #}
+{%- macro Skype(data, class, showIcon) -%}
+  {% if not data %}
+  {{ warn('[Skype] undefined provided, while object with skype expected') }}
+  {% endif %}
+
+  {% set macroSkype = data.value %}
+
+  <a class='{{ class }} g-link--inherit' href='skype:{{ macroSkype }}?call'>{{ Icon('skype', class = 'Icon--left') if showIcon }} <span>{{ macroSkype }}</span></a>
+{%- endmacro -%}
+
+{##
+ # Display phone number from contacts data
+ #
+ # @param {object}   data                 Complex object with phone data. @see source/data/contacts.coffee
+ # @param {string}   data.country         Country code
+ # @param {string}   data.city            City code
+ # @param {string[]} data.tel             Phone number in form of ['xxx', 'xx', 'xx']
+ # @param {string}   [data.add]           Add code
+ # @param {boolean}  [data.noParentheses] Should city code be wrapped in parentheses
+ # @param {boolean}  [data.track]         Should phone number be replaced and tracked with Mango Call Tracker
+ # @param {string}   [class]              CSS class for anchor
+ # @param {string}   [addClass]           CSS class for span with 'доб. ' part
+ # @param {boolean}  [showCountry = true] Should + with country code be shown
+ # @param {boolean}  [showAdd = true]     Should 'доб. ' part be shown (if add info exists)
+ # @param {boolean}  [plain]              Should number be displayed in plain format
+ #
+ # @return {string} Phone number inside anchor
+ #
+ # @example {{ Phone(CONTACTS.departments.sales.phones[0]) }}
+ #}
+{%- macro Phone(data, class, addClass, showCountry = true, showAdd = true, plain) -%}
+  {% if not data %}
+  {{ warn('[Phone] undefined provided, while object with phone expected') }}
+  {% endif %}
+
+  {% set showAdd = data.add and showAdd %}
+
+  {% set rawPhone = '+' + data.country + data.city + data.tel[0] + data.tel[1] + data.tel[2] %}
+  {% set macroCity = ('(' if not data.noParentheses) + data.city + (')' if not data.noParentheses) %}
+  {% set macroCountry = '+' + data.country + '&nbsp;' if showCountry %}
+  {% set macroPhone = macroCountry + macroCity + '&nbsp;' + data.tel[0] + '-' + data.tel[1] + '-' + data.tel[2] %}
+  {% set macroAdd = '&nbsp;доб.&nbsp;' + data.add%}
+
+  {%- if plain -%}
+  {{ macroPhone }}{{ macroAdd if showAdd }}
+  {%- else -%}
+  <a href='tel:{{ rawPhone }}' class='{{ class }} {{ 'js-track-call' if data.track }} g-link--inherit h-text--nowrap'>{{ macroPhone }}</a>{% if showAdd %}<span class='{{ addClass }}'>{{ macroAdd }}</span>{% endif %}
+  {%- endif -%}
+{%- endmacro -%}
+
+{##
+ # Output powers of product as inline list
+ # @param {number[]} powers Array of product powers (ng, lpg)
+ # @return {string} Powers as a list
+ # @example {{ PowersList([12, 15]) }} -> '12/15'
+ #}
+{%- macro PowersList(powers) -%}
+  {%- for p in powers -%}
+    {{ numbro(p).format() }}{{ '/' if not loop.last }}
+  {%- endfor -%}
+{%- endmacro -%}
+
+{##
+ # Output price as shorthand value
+ # @param {number}   price    Price to be formatted
+ # @param {currency} currency Сode as per ISO 4217
+ # @return {string} Formatted price
+ # @example {{ Price(126000) }} -> '126 000 RUB'
+ #}
+{%- macro Price(price, currency = 'RUB') -%}
+  {%- if currency == 'EUR' -%}
+    {{ _.replace(numbro(price).formatCurrency('0,0.[00] $'), 'RUB.', ' €') }}
+  {%- else -%}
+    {{ _.replace(numbro(price).formatCurrency('3 a'), 'RUB.', ' ' + price|plural(['RUB', 'RUB', 'RUB'])) }}
+  {%- endif -%}
+{%- endmacro -%}
+
+{##
+ # Output date in specific format
+ # @param {number} date Valid ISO date
+ # @return {string} Formatted date
+ # @example {{ DateEnd(2017-12-29) }} -> 'До 29 дек.'
+ #}
+{%- macro DateEnd(date, message = 'До ') -%}
+  {{ message }}{{ moment(date).format('DD MMM') }}
+{%- endmacro -%}

@@ -1,0 +1,153 @@
+{% from '_components/_DropShower.nj' import DropShower with context %}
+{% from '_components/_Discount.nj' import Discount with context %}
+{% from '_components/_formatters.nj' import Price with context %}
+
+{##
+ # Display product card
+ #
+ # @param {string} url                        Root-relative URL to product
+ # @param {string} [photo]                    Root-relative URL to product image
+ # @param {string} title                      Product title
+ # @param {string} model                      Product model
+ # @param {number} power                      Product max power
+ # @param {number} [price]                    Product current price
+ # @param {number} [priceBeforeDiscount]      Product price which were before discount
+ # @param {number} [discount]                 Product current discount
+ # @param {number} [discountDate]             Product current discount end date
+ # @param {string} engineTitle                Product's engine title
+ # @param {string} engineBrand                Product's engine brand
+ # @param {string} engineCooling              Product's engine cooling type
+ # @param {string} mode                       Product working mode
+ # @param {number} noise                      Product noise level
+ # @param {number} phases                     Product phases
+ # @param {string} [equipment]                Product's equipment
+ # @param {number} [warrantyFromInstallation] Product warranty from installation
+ # @param {number} [warrantyServiceLife]      Product warranty service life
+ # @param {string} [class]                    Class for main wrapper
+ # @param {string} [linksClass]               Links class
+ #
+ # @return {string} HTML
+ #
+ # @example
+ #   {{ ProductCard(
+ #     url = urljoin(PAGE.url, '/', g.slug),
+ #     photo = urljoin('/', PATH.images, getGeneratorMainPhoto(g).url),
+ #     title = g.title,
+ #     model = g.model,
+ #     power = getGeneratorHighestPower(g),
+ #     price = getGeneratorCurrentPrice(g),
+ #     engineTitle = getEngineTitle(engine),
+ #     engineBrand = engine.manufacturer.brand,
+ #     engineCooling = engineCooling,
+ #     mode = engineCooling == 'air' and 'резервный' or 'основной',
+ #     noise = g.enclosure.noise,
+ #     phases = g.specs.phases,
+ #     equipment = g.equipment.list,
+ #     warrantyFromInstallation = g.warranty.installation,
+ #     warrantyServiceLife = g.warranty.serviceLife
+ #   ) }}
+ #}
+{% macro ProductCard(
+  url,
+  photo = urljoin('/', PATH.images, '/no-photo.png'),
+  title,
+  model,
+  power,
+  price,
+  priceBeforeDiscount,
+  discount,
+  discountDate,
+  engineTitle,
+  engineBrand,
+  engineCooling,
+  mode,
+  noise,
+  phases,
+  equipment,
+  warrantyFromInstallation,
+  warrantyServiceLife,
+  class,
+  linksClass
+) %}
+{% set priceFormatted = Price(price) %}
+
+<article
+  class='{{ class }} js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
+  data-product='{{ {
+    power: power,
+    price: price,
+    discount: discount if isActiveEvent(discountDate),
+    engineBrand: engineBrand,
+    mode: mode,
+    noise: noise,
+    phases: phases
+  }|dump }}'
+>
+  <div class=' o-grid h-childs-displace+'>
+
+    <div class='o-grid__item h-2/7'>
+      <a href='{{ url }}' class='{{ linksClass }} h-border-bottom0'><img src='{{ photo }}' srcset='{{ imageSize(photo).srcset() }}' alt='{{ title|striptags }}'></a>
+    </div>
+
+    <div class='o-grid__item h-3/7'>
+      <h2 class='h-h3 h-margin-top0 h-margin-bottom'><a href='{{ url }}' class='{{ linksClass }}'>{{ model }}</a></h2>
+      <p>
+        Capacity: <strong>{{ power }} kW</strong><br>
+        Number of phases: {{ phases }}<br>
+        Type of cooling: {{ engineCooling }}<br>
+        Engine: {{ engineTitle }}
+      </p>
+    </div>
+
+    <div class='o-grid__item h-2/7'>
+
+      {% if price %}
+
+      {# @todo Temporary fix for numbro issue with lack of space before RUB #}
+      {% if discount and isActiveEvent(discountDate) %}
+      {{ Discount(
+        price = price,
+        priceBeforeDiscount = priceBeforeDiscount,
+        discount = discount,
+        class = 'h-margin-bottom',
+        priceClass = 'h-h5',
+        columnOptims = true
+      ) }}
+      {% else %}
+      <p aria-label='Цена: {{ priceFormatted }}' class='h-h5'>
+        {{ priceFormatted }}
+      </p>
+      {% endif %}
+
+      {% else %}
+
+      <p class='h-h5'>цена по запросу</p>
+
+      {% endif %}
+
+      {% if equipment %}
+      {% call DropShower(label = 'Price includes:', class = 'h-margin-bottom h-text- h-opacity50') %}
+        <ul class='h-childs-space-top0'>
+          {{ equipment }}
+        </ul>
+      {% endcall %}
+      {% endif %}
+
+      {% if warrantyFromInstallation or warrantyServiceLife %}
+      <p class='h-text-'>
+        Warranty Period:
+        {% if warrantyFromInstallation %}
+        {{ numbro(warrantyFromInstallation).format() }} {{ warrantyFromInstallation|plural(['month', 'month', 'months']) }}
+        {%- if warrantyServiceLife %},<br>{% endif %}
+        {% endif %}
+        {% if warrantyServiceLife %}
+        {{ numbro(warrantyServiceLife).format() }} {{ warrantyServiceLife|plural(['моточас', 'моточаса', 'моточасов']) }}
+        {% endif %}
+      </p>
+      {% endif %}
+
+    </div>
+
+  </div>
+</article>
+{% endmacro %}

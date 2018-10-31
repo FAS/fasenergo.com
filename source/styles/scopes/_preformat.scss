@@ -1,0 +1,50 @@
+// stylelint-disable declaration-no-important, selector-max-compound-selectors
+// @note We need `!important` here to properly redefine helpers in this layer
+
+// =============================================================================
+// ^User content
+// =============================================================================
+
+.#{$ekzo-s-ns}preformat {
+
+  h1,
+  h2 {
+    margin-top: ekzo-space(3);
+    margin-bottom: ekzo-space(1.5);
+  }
+
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: ekzo-space(2.5);
+    margin-bottom: ekzo-space(2);
+  }
+
+  ul,
+  ol {
+
+    > li + li { margin-top: ekzo-space(.5); }
+
+  }
+
+  hr {
+    margin-top:    ekzo-space(4);
+    margin-bottom: ekzo-space(4) - ekzo-units($ekzo-hr-height, unit(ekzo-space()));
+  }
+
+  img { border-radius: ekzo-border-radius(''); }
+
+  > p,
+  > blockquote,
+  > ul,
+  > ol,
+  > dl,
+  > h1,
+  > h2,
+  > h3,
+  > h4,
+  > h5,
+  > h6 { @extend .Wrapper--content-text; }
+
+}

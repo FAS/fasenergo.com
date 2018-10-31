@@ -1,0 +1,50 @@
+---
+title:           Cabinet Type Pump-Counting Unit
+contentTitle:    Cabinet Type Pump-Counting Unit
+navTitle:        Cabinet Type Pump-Counting Unit
+breadcrumbTitle: Cabinet Type Pump-Counting Unit
+
+description: Cabinet Type Pump-Counting Unit.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/cabinet-type-pump-counting-unit/cabinet-type-pump-counting-unit-fem--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Work Process Related Parameters</h2>
+
+<ul>
+  <li>Pressure: PN25;</li>
+  <li>Max. capacity: 220 L/min.;</li>
+  <li>Connection: inlet and outlet fitting DN50, M 60x4, left-hand;</li>
+  <li>Cabinet type design, dimensions: 1,200 x 1,400 x 500 mm.</li>
+</ul>
+
+<h2>Principal Components of the Unit</h2>
+
+<ol>
+  <li>Vane-type pumping unit, left-hand rotation, with motor of 5 kW, 400/600V, 50 Hz, E Exe II T3, with a capacity of 220 L/min.;</li>
+  <li>Mass and volumetric sensor - flow meter FEM-100LKG, with an integrated Coriolis processor for converting electronics installed on the sensor, aluminium connection box, without screw connections, DN25 PN40 connection, medium contacting elements made of stainless steel, permissible medium temperature -50 to +125 °C;</li>
+  <li>Converting electronics with a possibility of multiple changes in flow and density settings. Casing IP 67, aluminium casting, epoxy coating.</li>
+  <li>Channel A: analogue 4–20 mA signal 'active', hard;</li>
+  <li>Channel B: frequency output 'active', 0–10 kHz, scalable;</li>
+  <li>Channel C: RS 485 Modbus-signal, for direct connection to a Modbus system unit;</li>
+  <li>Filtering strainer on the pipe that supplies LPG to pump;</li>
+  <li>Vapour phase separator with a filtering element;</li>
+  <li>Differential valve 2";</li>
+  <li>A set of shut-off, relief and control valves;</li>
+  <li>Inlet and outlet fitting DN50, M 60x4, left-hand;</li>
+  <li>Connection to an impulse pipeline RVS 22 mm.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,86 @@
+---
+title:           LNG Dispensers Produced by the FAS Company
+contentTitle:    LNG Dispensers Produced by the FAS Company
+navTitle:        LNG Dispensers Produced by the FAS Company
+breadcrumbTitle: LNG Dispensers Produced by the FAS Company
+
+description: 'LNG dispensers can be manufactured and supplied with different types of fuelling nozzles.'
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [ 
+  { url: 'equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--5.jpg' }  
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+
+<p>The LNG dispensers feature a different principle of operation as compared to the CNG dispensers, since the gas has a low temperature and requires maintenance of a constant temperature, pressure and density. Depending on the type of dispenser, the gas volume can be accounted on the return line.</p>
+<p>LNG dispensers can be manufactured and supplied with different types of fuelling nozzles.</p>
+
+<h2>Design Features</h2>
+<ul>
+  <li>LNG feeding at -162°C.</li>
+  <li>EU Declaration of Conformity and marking.</li>
+  <li>ATEX, MID – EU Certificate of Validation (NMI).</li>
+  <li>Max. flow rate is 100 kg/min.</li>
+  <li>Mass flow meter MicroMotion Elite.</li>
+  <li>CMF100 with OIML R81 and R117-1 (measurement accuracy of 0.35%).</li>
+  <li>Electronic register EAS2 with certificate.</li>
+  <li>OIML R81, R117-1 and R139 (NMi).</li>
+  <li>Mass flow meter data exchange via MODBUS.</li>
+  <li>Data exchange between a payment terminal and an authorization system via the EAS1 or IFSF LON protocol.</li>
+  <li>SPS connection via Modbus.</li>
+  <li>Graphic display indicating price per unit (unit/kg), mass (kg) and total value (€).</li>
+  <li>Logging of recent operations (150) and errors (250).</li>
+  <li>Power consumption does not exceed 300 W (230 V, 50 Hz).</li>
+  <li>Integrated EAS2 register isolated in accordance with IP54.</li>
+  <li>Stainless steel casing, primed and painted.</li>
+  <li>Automatic control of cooling, filling and ventilation (pneumatic control).</li>
+  <li>Adjustment of filling pressure depending on temperature.</li>
+  <li>High-pressure filling hose with a quick coupling.</li>
+  <li>Emergency button.</li>
+  <li>Terminal block ground.</li>
+  <li>Pneumatic fuelling nozzle.</li>
+</ul>
+
+<h2>LNG Recalculation Table</h2>
+{% set pageEq = [
+  { title: '1 ton of LNG', spgm: '', pgnm: '2,36', spglitr: 1490, spgtonn: 2.366 },
+  { title: '1 m³ of LNG', spgm: '0,423', pgnm: '', spglitr: 630, spgtonn: '1.000' },
+  { title: '1 Nm³ of natural gas', spgm: '0,000671', pgnm: '0,00159', spglitr: '', spgtonn: '1,588' },
+  { title: '1 litre of LNG', spgm: '0,00423', pgnm: '0,001', spglitr: '0,63', spgtonn: '' }
+] %}
+
+<table class='Table h-cells-padding-ends-- h-margin-top+'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Measurement Unit</th>
+      <th>1 m³ of LNG</th>
+      <th>1 Nm³ of natural gas</th>
+      <th>1 litre of LNG</th>
+      <th>1 ton of LNGГ</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEq %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.spgm }}</td>
+      <td class='h-align--right'>{{ e.pgnm }}</td>
+      <td class='h-align--right'>{{ e.spglitr }}</td>
+      <td class='h-align--right'>{{ e.spgtonn }}</td>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

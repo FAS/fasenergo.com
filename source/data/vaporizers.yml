@@ -1,0 +1,985 @@
+---
+
+# performance: кг/ч
+
+# Испарители
+
+'20.0010':
+  id: '20.0010'
+  article: '20.0010'
+  type: испаритель
+  title: Evaporator FEM 10 SE
+  price: 800
+  specs:
+    performance: 10
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0015':
+  id: '20.0015'
+  article: '20.0015'
+  type: испаритель
+  title: Evaporator FEM 15 SE
+  price: 950
+  specs:
+    performance: 15
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0020':
+  id: '20.0020'
+  article: '20.0020'
+  type: испаритель
+  title: Evaporator FEM 20 SE
+  price: 1100
+  specs:
+    performance: 20
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0025':
+  id: '20.0025'
+  article: '20.0025'
+  type: испаритель
+  title: Evaporator FEM 25 SE
+  price: 1200
+  specs:
+    performance: 25
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0030':
+  id: '20.0030'
+  article: '20.0030'
+  type: испаритель
+  title: Evaporator FEM 30 SE
+  price: 1250
+  specs:
+    performance: 30
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0040':
+  id: '20.0040'
+  article: '20.0040'
+  type: испаритель
+  title: Evaporator FEM 40 SE
+  price: 1300
+  specs:
+    performance: 40
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0060':
+  id: '20.0060'
+  article: '20.0060'
+  type: испаритель
+  title: Evaporator FEM 60 SE
+  price: 4000
+  specs:
+    performance: 60
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0070':
+  id: '20.0070'
+  article: '20.0070'
+  type: испаритель
+  title: Evaporator FEM 70 SE
+  price: 4800
+  specs:
+    performance: 70
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0080':
+  id: '20.0080'
+  article: '20.0080'
+  type: испаритель
+  title: Evaporator FEM 80 SE
+  price: 5300
+  specs:
+    performance: 80
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0100':
+  id: '20.0100'
+  article: '20.0100'
+  type: испаритель
+  title: Evaporator FEM 100 SE
+  price: 6300
+  specs:
+    performance: 100
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0120':
+  id: '20.0120'
+  article: '20.0120'
+  type: испаритель
+  title: Evaporator FEM 120 SE
+  price: 6800
+  specs:
+    performance: 120
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0160':
+  id: '20.0160'
+  article: '20.0160'
+  type: испаритель
+  title: Evaporator FEM 160 SE
+  price: 6900
+  specs:
+    performance: 160
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0180':
+  id: '20.0180'
+  article: '20.0180'
+  type: испаритель
+  title: Evaporator FEM 180 SE
+  price: 8800
+  specs:
+    performance: 180
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0200':
+  id: '20.0200'
+  article: '20.0200'
+  type: испаритель
+  title: Evaporator FEM 200 SE
+  price: 10500
+  specs:
+    performance: 200
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0240':
+  id: '20.0240'
+  article: '20.0240'
+  type: испаритель
+  title: Evaporator FEM 240 SE
+  price: 11300
+  specs:
+    performance: 240
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0280':
+  id: '20.0280'
+  article: '20.0280'
+  type: испаритель
+  title: Evaporator FEM 280 SE
+  price: 13000
+  specs:
+    performance: 280
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+'20.0300':
+  id: '20.0300'
+  article: '20.0300'
+  type: испаритель
+  title: Evaporator FEM 300 SE
+  price: 14000
+  specs:
+    performance: 300
+    heatType: 'электрический'
+    heatTransferType: 'непрямой'
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: null
+
+# Испарительные установки низкого давления в шкафном исполнении
+
+## Электрический подогрев
+
+'20.1020':
+  id: '20.1020'
+  article: '20.1020'
+  type: испарительная установка
+  title: Evaporative unit FEM 20 SE/SH
+  price: 3700
+  specs:
+    performance: 20
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1025':
+  id: '20.1025'
+  article: '20.1025'
+  type: испарительная установка
+  title: Evaporative unit FEM 25 SE/SH
+  price: 4000
+  specs:
+    performance: 25
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1030':
+  id: '20.1030'
+  article: '20.1030'
+  type: испарительная установка
+  title: Evaporative unit FEM 30 SE/SH
+  price: 4500
+  specs:
+    performance: 30
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1035':
+  id: '20.1035'
+  article: '20.1035'
+  type: испарительная установка
+  title: Evaporative unit FEM 35 SE/SH
+  price: 4800
+  specs:
+    performance: 35
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1040':
+  id: '20.1040'
+  article: '20.1040'
+  type: испарительная установка
+  title: Evaporative unit FEM 40 SE/SH
+  price: 5200
+  specs:
+    performance: 40
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1050':
+  id: '20.1050'
+  article: '20.1050'
+  type: испарительная установка
+  title: Evaporative unit FEM 50 SE/SH
+  price: 7000
+  specs:
+    performance: 50
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1060':
+  id: '20.1060'
+  article: '20.1060'
+  type: испарительная установка
+  title: Evaporative unit FEM 60 SE/SH
+  price: 7800
+  specs:
+    performance: 60
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1070':
+  id: '20.1070'
+  article: '20.1070'
+  type: испарительная установка
+  title: Evaporative unit FEM 70 SE/SH
+  price: 8000
+  specs:
+    performance: 70
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1080':
+  id: '20.1080'
+  article: '20.1080'
+  type: испарительная установка
+  title: Evaporative unit FEM 80 SE/SH
+  price: 8500
+  specs:
+    performance: 80
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1100':
+  id: '20.1100'
+  article: '20.1100'
+  type: испарительная установка
+  title: Evaporative unit FEM 100 SE/SH
+  price: 9500
+  specs:
+    performance: 100
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1120':
+  id: '20.1120'
+  article: '20.1120'
+  type: испарительная установка
+  title: Evaporative unit FEM 120 SE/SH
+  price: 10200
+  specs:
+    performance: 120
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1160':
+  id: '20.1160'
+  article: '20.1160'
+  type: испарительная установка
+  title: Evaporative unit FEM 160 SE/SH
+  price: 11500
+  specs:
+    performance: 160
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1180':
+  id: '20.1180'
+  article: '20.1180'
+  type: испарительная установка
+  title: Evaporative unit FEM 180 SE/SH
+  price: 13500
+  specs:
+    performance: 180
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1200':
+  id: '20.1200'
+  article: '20.1200'
+  type: испарительная установка
+  title: Evaporative unit FEM 200 SE/SH
+  price: 14100
+  specs:
+    performance: 200
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1240':
+  id: '20.1240'
+  article: '20.1240'
+  type: испарительная установка
+  title: Evaporative unit FEM 240 SE/SH
+  price: 14200
+  specs:
+    performance: 240
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1260':
+  id: '20.1260'
+  article: '20.1260'
+  type: испарительная установка
+  title: Evaporative unit FEM 260 SE/SH
+  price: 14300
+  specs:
+    performance: 260
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1280':
+  id: '20.1280'
+  article: '20.1280'
+  type: испарительная установка
+  title: Evaporative unit FEM 280 SE/SH
+  price: 15000
+  specs:
+    performance: 280
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1300':
+  id: '20.1300'
+  article: '20.1300'
+  type: испарительная установка
+  title: Evaporative unit FEM 300 SE/SH
+  price: 15100
+  specs:
+    performance: 300
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1320':
+  id: '20.1320'
+  article: '20.1320'
+  type: испарительная установка
+  title: Evaporative unit FEM 320 SE/SH
+  price: 15200
+  specs:
+    performance: 320
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1350':
+  id: '20.1350'
+  article: '20.1350'
+  type: испарительная установка
+  title: Evaporative unit FEM 350 SE/SH
+  price: 17000
+  specs:
+    performance: 350
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1400':
+  id: '20.1400'
+  article: '20.1400'
+  type: испарительная установка
+  title: Evaporative unit FEM 400 SE/SH
+  price: 19500
+  specs:
+    performance: 400
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1450':
+  id: '20.1450'
+  article: '20.1450'
+  type: испарительная установка
+  title: Evaporative unit FEM 450 SE/SH
+  price: 20000
+  specs:
+    performance: 450
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1500':
+  id: '20.1500'
+  article: '20.1500'
+  type: испарительная установка
+  title: Evaporative unit FEM 500 SE/SH
+  price: 20500
+  specs:
+    performance: 500
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1520':
+  id: '20.1520'
+  article: '20.1520'
+  type: испарительная установка
+  title: Evaporative unit FEM 520 SE/SH
+  price: 21000
+  specs:
+    performance: 520
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1560':
+  id: '20.1560'
+  article: '20.1560'
+  type: испарительная установка
+  title: Evaporative unit FEM 560 SE/SH
+  price: 23000
+  specs:
+    performance: 560
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1600':
+  id: '20.1600'
+  article: '20.1600'
+  type: испарительная установка
+  title: Evaporative unit FEM 600 SE/SH
+  price: 25000
+  specs:
+    performance: 600
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1640':
+  id: '20.1640'
+  article: '20.1640'
+  type: испарительная установка
+  title: Evaporative unit FEM 640 SE/SH
+  price: 28000
+  specs:
+    performance: 640
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1720':
+  id: '20.1720'
+  article: '20.1720'
+  type: испарительная установка
+  title: Evaporative unit FEM 720 SE/SH
+  price: 29000
+  specs:
+    performance: 720
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1780':
+  id: '20.1780'
+  article: '20.1780'
+  type: испарительная установка
+  title: Evaporative unit FEM 780 SE/SH
+  price: 39000
+  specs:
+    performance: 780
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1840':
+  id: '20.1840'
+  article: '20.1840'
+  type: испарительная установка
+  title: Evaporative unit FEM 840 SE/SH
+  price: 43000
+  specs:
+    performance: 840
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+# @todo This station is not preset in price
+'no-id-850-se-sh':
+  id: 'no-id-850-se-sh'
+  article: null
+  type: испарительная установка
+  title: Evaporative unit FEM 850 SE/SH
+  price: null
+  specs:
+    performance: 850
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.1960':
+  id: '20.1960'
+  article: '20.1960'
+  type: испарительная установка
+  title: Evaporative unit FEM 960 SE/SH
+  price: 45000
+  specs:
+    performance: 960
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.11250':
+  id: '20.11250'
+  article: '20.11250'
+  type: испарительная установка
+  title: Evaporative unit FEM 1250 SE/SH
+  price: 49000
+  specs:
+    performance: 1250
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: низкое
+    selfHeating: false
+  enclosure:
+    type: шкаф
+
+## Жидкостный подогрев
+
+'20.2200':
+  id: '20.2200'
+  article: '20.2200'
+  type: испарительная установка
+  title: Evaporative unit FEM 200 ZH/SH
+  price: 17800
+  specs:
+    performance: 200
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.2300':
+  id: '20.2300'
+  article: '20.2300'
+  type: испарительная установка
+  title: Evaporative unit FEM 300 ZH/SH
+  price: 18500
+  specs:
+    performance: 300
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.2400':
+  id: '20.2400'
+  article: '20.2400'
+  type: испарительная установка
+  title: Evaporative unit FEM 400 ZH/SH
+  price: 23000
+  specs:
+    performance: 400
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.2600':
+  id: '20.2600'
+  article: '20.2600'
+  type: испарительная установка
+  title: Evaporative unit FEM 600 ZH/SH
+  price: 26000
+  specs:
+    performance: 600
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.2800':
+  id: '20.2800'
+  article: '20.2800'
+  type: испарительная установка
+  title: Evaporative unit FEM 800 ZH/SH
+  price: 34000
+  specs:
+    performance: 800
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.21500':
+  id: '20.21500'
+  article: '20.21500'
+  type: испарительная установка
+  title: Evaporative unit FEM 1200 ZH/SH
+  price: 42000
+  specs:
+    performance: 1200
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+# @todo This station is not preset in price
+'no-id-1500-zh-sh':
+  id: 'no-id-1500-zh-sh'
+  article: null
+  type: испарительная установка
+  title: Evaporative unit FEM 1500 ZH/SH
+  price: null
+  specs:
+    performance: 1500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.21900':
+  id: '20.21900'
+  article: '20.21900'
+  type: испарительная установка
+  title: Evaporative unit FEM 1900 ZH/SH
+  price: 45000
+  specs:
+    performance: 1900
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.22500':
+  id: '20.22500'
+  article: '20.22500'
+  type: испарительная установка
+  title: Evaporative unit FEM 2500 ZH/SH
+  price: 54000
+  specs:
+    performance: 2500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.23000':
+  id: '20.23000'
+  article: '20.23000'
+  type: испарительная установка
+  title: Evaporative unit FEM 3000 ZH/SH
+  price: 58000
+  specs:
+    performance: 3000
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+'20.23800':
+  id: '20.23800'
+  article: '20.23800'
+  type: испарительная установка
+  title: Evaporative unit FEM 3800 ZH/SH
+  price: 60000
+  specs:
+    performance: 3800
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: шкаф
+
+# Кольцевые испарительные установки
+
+## Электрический подогрев
+
+'20.30100':
+  id: '20.30100'
+  article: '20.30100'
+  type: испарительная установка
+  title: Ring type evaporative unit FEM 100 SE/C
+  price: 8000
+  specs:
+    performance: 100
+    heatType: электрический
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
+
+# @todo Here in original site were more models, with different performance
+#       and different pressure types (basic, med and low)
+
+## Жидкостный подогрев
+
+# @todo Here in original site were more models, with different performance
+#       and different pressure types (basic, med and low)
+
+'20.30150':
+  id: '20.30150'
+  article: '20.30150'
+  type: испарительная установка
+  title: Ring type evaporative unit FEM 150 ZH/C
+  price: 10000
+  specs:
+    performance: 150
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
+'20.30200':
+  id: '20.30200'
+  article: '20.30200'
+  type: испарительная установка
+  title: Ring type evaporative unit FEM 200 ZH/C
+  price: 12000
+  specs:
+    performance: 200
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: false
+  enclosure:
+    type: кольцевое
+
+# Испарительные установки с самоподогревом
+
+'20.40250':
+  id: '20.40250'
+  article: '20.40250'
+  type: испарительная установка
+  title: Evaporative unit FEM 250 ZH/A/K
+  price: 45000
+  specs:
+    performance: 250
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
+'20.40500':
+  id: '20.40500'
+  article: '20.40500'
+  type: испарительная установка
+  title: Evaporative unit FEM 500 ZH/A/K
+  price: 55000
+  specs:
+    performance: 500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
+'20.40800':
+  id: '20.40800'
+  article: '20.40800'
+  type: испарительная установка
+  title: Evaporative unit FEM 800 ZH/A/K
+  price: 95000
+  specs:
+    performance: 800
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null
+'20.42500':
+  id: '20.42500'
+  article: '20.42500'
+  type: испарительная установка
+  title: Evaporative unit FEM 2500 ZH/A/K
+  price: 180000
+  specs:
+    performance: 2500
+    heatType: жидкостный
+    heatTransferType: непрямой
+    pressureType: null
+    selfHeating: true
+  enclosure:
+    type: null

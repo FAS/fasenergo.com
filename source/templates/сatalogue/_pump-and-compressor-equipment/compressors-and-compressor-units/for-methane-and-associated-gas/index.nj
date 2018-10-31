@@ -1,0 +1,19 @@
+---
+title:           Compressors and Compressor Units For Methane and Associated Gas
+contentTitle:    Compressors and Compressor Units For Methane and Associated Gas
+navTitle:        Compressors and Compressor Units For Methane and Associated Gas
+breadcrumbTitle: For Methane and Associated Gas
+
+description:  Compressors and Compressor Units For Methane and Associated Gas
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

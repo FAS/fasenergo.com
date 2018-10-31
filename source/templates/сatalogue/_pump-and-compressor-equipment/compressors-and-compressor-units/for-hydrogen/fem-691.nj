@@ -1,0 +1,62 @@
+---
+title:           Reciprocating Compressor Unit FEM 691 for Hydrogen (1,700 Nm³/hour)
+contentTitle:    Reciprocating Compressor Unit FEM 691 for Hydrogen (1,700 Nm³/hour)
+navTitle:        Reciprocating Compressor Unit FEM 691 for Hydrogen (1,700 Nm³/hour)
+breadcrumbTitle: FEM 691
+
+description: Reciprocating Compressor Unit FEM 691 for Hydrogen (1,700 Nm³/hour)
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A dry running reciprocating compressor unit FEM 691 designed to pump a mixture of gases:</p>
+
+<ul>
+  <li>Hydrogen — 84.6%;</li>
+  <li>Methane — 9.7%;</li>
+  <li>Ethane — 5.7%.</li>
+</ul>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/pump-and-compressor-equipment/compressor-unit-fem-691/compressor-unit-fem-691--front-left-top.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Work Process Related Parameters</h2>
+
+<ul>
+  <li>Inlet mixture pressure: 26 bar;</li>
+  <li>Inlet mixture temperature: 40 °C;</li>
+  <li>Outlet mixture pressure: 33.3 bar;</li>
+  <li>Outlet mixture temperature: 62 °C;</li>
+  <li>Rated capacity: up to 1,700 Nm³/hour at motor speed of 825 rpm.</li>
+</ul>
+
+<h2>Basic Package</h2>
+
+<ul>
+  <li>A FEM type dry running compressor — T691-4 with triple guide rod sealing, with a possibility of purging the intermediate sealing, and a special covering of piston rings Alloy-50;</li>
+  <li>Electric motor, 17.5 kW, EExe II T3, 400/690 V, B3, 50 Hz;</li>
+  <li>Liquid phase separator with condensate blowing;</li>
+  <li>Four-way ball valve DN40;</li>
+  <li>Relief valve for a set pressure of 33.3 bar;</li>
+  <li>Filtering strainer DN40, PN40.</li>
+</ul>
+
+<p>The compressor unit is factory-assembled on one frame, primed, and painted.</p>
+
+<h2>Connection</h2>
+
+<ul>
+  <li>Inlet: DN40;</li>
+  <li>Outlet: DN40.</li>
+</ul>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,18 @@
+---
+title:           Gas Control & Distribution Units (GRP)
+contentTitle:    Gas Control & Distribution Units (GRP)
+navTitle:        Gas Control & Distribution Units (GRP)
+breadcrumbTitle: GRP
+
+description: Gas Control & Distribution Units (GRP).
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

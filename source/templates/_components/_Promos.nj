@@ -1,0 +1,31 @@
+{% from '_components/_PromoPreview.nj' import PromoPreview with context %}
+
+{##
+ # Display _active_ promos preview based on content of '/сompany/news' directory
+ #
+ # @param {string}  [path] = ['сompany', 'news']
+ #                                                  Path to section from which should be taken promos
+ # @param {number}  [limit]                         Max promos to display
+ # @param {boolean} [displayInactivePromos=false]   Should inactive promos be displayed
+ #
+ # @return {string} Active promos previews
+ #
+ # @example {{ Promos() }}
+ #}
+{% macro Promos(path = ['сompany', 'news'], limit, displayInactivePromos = false) %}
+{% set promos = selectPromos(getPage(path)|format(PLACEHOLDERS)) %}
+{% set promos = not displayInactivePromos and filterActivePromos(promos) or promos %}
+{% set promos = sortPostsByDate(promos) %}
+{% set promos = limit and _.take(promos, limit) or promos %}
+
+{% for p in promos %}
+{{ PromoPreview(
+  title = p.props.contentTitle,
+  excerpt = p.props.excerpt,
+  date = p.props.date,
+  url = p.props.url,
+  image = p.props.image,
+  imageCover = p.props.imageCover if p.props.imageCover == false else true
+) }}
+{% endfor %}
+{% endmacro %}

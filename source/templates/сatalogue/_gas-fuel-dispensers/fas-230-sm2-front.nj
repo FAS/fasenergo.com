@@ -1,0 +1,70 @@
+---
+title:           Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934
+contentTitle:    Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934
+navTitle:        FAS-230 SM2 (Economy Class) №936934
+breadcrumbTitle: FAS-230 SM2 (Economy Class) №936934
+
+description: Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>Gas dispenser FAS-230 SM2 for propane-butane intended to supply consumer with liquefied petroleum gas in litres.</p>
+<p>Version: With two fuelling nozzles on one (front) side of the dispenser and a 4-piston mechanical meter (2 pcs).</p>
+
+<h2>Basic Package</h2>
+
+<h3>Casing</h3>
+
+<ul>
+  <li>Wide 120;</li>
+  <li>Painted steel;</li>
+  <li>Colour: white.</li>
+</ul>
+
+<h3>Electronic Components</h3>
+
+<ul>
+  <li>Electronic part: FAS+CSA type;</li>
+  <li>Power supply node 230 V AC / 50 Hz;</li>
+  <li>Rotary switch;</li>
+  <li>Display panel on one (front) side of the dispenser, 2 pcs;</li>
+  <li>Hose on one (front) side of the dispenser, 2 pcs.</li>
+</ul>
+
+<h3>Hydraulic System PN 25</h3>
+
+<ul>
+  <li>Four-piston mechanical meter for liquefied petroleum gas, 5–50 L/min, 2 pcs.;</li>
+  <li>Vapour phase separator;</li>
+  <li>Fine filter;</li>
+  <li>Differential valve, 2 pcs;</li>
+  <li>LPG high-pressure hose, 2 pcs.;</li>
+  <li>Quick coupling, 2 pcs.;</li>
+  <li>Relief valves;</li>
+  <li>Filling clamp, 2 pcs;</li>
+  <li>Two-stage solenoid valve, 2 pcs;</li>
+  <li>Equipment for setting the dose of refuelling.</li>
+</ul>
+
+<h3>Information on the Display Panel</h3>
+
+<ul>
+  <li>Price per litre;</li>
+  <li>Number of dispensed litres;</li>
+  <li>Total cost.</li>
+</ul>
+
+<h2>Optional Equipment</h2>
+
+<ul>
+  <li>Electronic unit heating.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>8 200 €</p>
+  <p class='h-margin-bottom+'>Delivery terms: 4–8 weeks</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

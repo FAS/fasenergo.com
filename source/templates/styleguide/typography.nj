@@ -1,0 +1,39 @@
+---
+title:           Typography
+contentTitle:    Typography
+navTitle:        Typography
+breadcrumbTitle: Typography
+
+description: Typography
+
+applyWrapperMain:    false
+applyWrapperContent: false
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_Example.nj' import Example with context %}
+
+{% call Example(title = 'Текст') -%}
+<p class='h-text++'>Крупный текст</p>
+<p class='h-text+'>Лид-текст</p>
+<p>Обычный текст</p>
+<p class='h-text-'>Мини-текст</p>
+<p class='h-text--'>Микро-текст</p>
+{% endcall %}
+
+{% call Example(title = 'Заголовки') -%}
+<h1>Заголовок 1</h1>
+<h2>Заголовок 2</h2>
+<h3>Заголовок 3</h3>
+<h4>Заголовок 4</h4>
+<h5>Заголовок 5</h5>
+<h6>Заголовок 6</h6>
+{% endcall %}
+
+{% call Example(title = 'Ссылка') -%}
+<a href='#'>Ссылка</a>
+{% endcall %}
+
+{% endblock %}

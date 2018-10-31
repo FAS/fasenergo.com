@@ -1,0 +1,40 @@
+// =============================================================================
+// ^Cover
+// =============================================================================
+
+.Cover {
+  // Prevent display of page cover images on smaller desktops
+  display: none;
+
+  @include ekzo-breakpoint(desk) { display: block; }
+
+  z-index: ekzo-z-index(deepdive);
+
+  position: fixed;
+
+  height: 100%;
+  width: 100%;
+
+  // Fix IE11
+  top: 0;
+  bottom: 0;
+
+  // @note Don't use `background-attachment: fixed;`, otherwise it will cause
+  //       jumping background during scrolling with mousewheel
+  background-position:   700px center;
+  background-size:       cover;
+  background-repeat:     no-repeat;
+
+  &:after {
+    @include ekzo-breakpoint(desk) {
+      display: block;
+      content: '';
+    }
+
+    height: 100%;
+    width: 100%;
+
+    @include ekzo-theme() { background-color: ekzo-theme(cover-overlay); }
+  }
+
+}

@@ -1,0 +1,27 @@
+---
+title:           Commercial Loans
+contentTitle:    Commercial Loans
+navTitle:        Commercial Loans
+breadcrumbTitle: Commercial Loans
+
+description: Commercial Loans.
+
+icon:             cart
+shortDesc:        Loans to purchase equipment available in the product catalogue for Russian buyers and for export.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Email, Phone with context %}
+
+{% set pageE = CONTACTS.departments.sales %}
+{% set pagePhone1 = Phone(pageE.phones[0]) %}
+{% set pageEmail = Email(pageE.emails[0]) %}
+
+<p>Russian buyers can have any generators available in our product catalogue on hire purchase terms. Loans are not provided for services and spare parts. The crediting programme is serviced by Alfa-Bank.</p>
+<p>For large deliveries abroad, we offer export loans in partnership with the Russian Export Centre. The conditions depend on the loan amount, the country of registration and the credit rating of the buying company. Important: our generators have export privileges provided by the RF government.<br>
+<strong>Important:</strong> our generators have export privileges provided by the RF government.</p>
+
+<p>The exact crediting terms can be found out in the Sales Department: {{ pagePhone1 }}, {{ pageEmail }}.</p>
+{% endblock %}

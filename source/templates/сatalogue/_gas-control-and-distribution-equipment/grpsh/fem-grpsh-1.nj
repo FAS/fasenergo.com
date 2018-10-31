@@ -1,0 +1,40 @@
+---
+title:           Cabinet Type Gas Control & Distribution Unit FEM GRPSh/1
+contentTitle:    Cabinet Type Gas Control & Distribution Unit FEM GRPSh/1
+navTitle:        FEM GRPSh/1
+breadcrumbTitle: FEM GRPSh/1
+
+description: Cabinet Type Gas Control & Distribution Unit FEM GRPSh/1
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>A packaged control and distribution unit of cabinet type is designed for a two-stage pressure reduction of the LPG vapour phase.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-control-and-distribution-equipment/fem-grpsh-1/cabinet-type-gas-control-and-distribution-unit-fem-grpsh-1--1--front.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Principal Components</h2>
+
+<ol>
+  <li>Steel cabinet;</li>
+  <li>Gas separator;</li>
+  <li>Medium pressure regulator DN25, PN40;</li>
+  <li>Low pressure regulator DN50, PN4, with SAV and SBV;</li>
+  <li>Relief valve;</li>
+  <li>Ball valve;</li>
+  <li>Pressure gauge and shut-off valve – 2 pcs.</li>
+  <li>Interflanged gaskets.;</li>
+  <liPressure gauge gaskets.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

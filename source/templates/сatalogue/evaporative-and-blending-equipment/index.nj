@@ -1,0 +1,82 @@
+---
+title:           Evaporative & Blending Equipment for LPG
+contentTitle:    Evaporative & Blending Equipment for LPG
+navTitle:        Evaporative & Blending Equipment
+breadcrumbTitle: Evaporative & Blending Equipment
+
+description: Evaporative & Blending Equipment for LPG.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p class='h-margin-bottom+'>The evaporative and blending units are designed for use of propane/butane in gas supply systems intended to run on natural gas in order to ensure the uninterrupted operation of burners for various purposes while reducing the volumes of natural gas supply (the peak loads reduction function) as well as to carry out the main gas supply (the reserve or emergency gas supply function). The advantage of using the evaporative and blending units is that the gas burners for propane/butane do not require adjustment.</p>
+
+{% call CategoryCard(
+  title = 'Blending Units',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/evaporative-and-blending-equipment/blending-units.jpg',
+  url = '/сatalogue/evaporative-and-blending-equipment/blending-units'
+) %}{% endcall %}
+
+<h2>Evaporative and Blending Units</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Cabinet Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-and-blending-equipment/cabinet-type-evaporative-and-blending-units.jpg',
+    url = '/сatalogue/evaporative-and-blending-equipment/cabinet-type-evaporative-and-blending-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Container Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-and-blending-equipment/container-type-evaporative-and-blending-units.jpg',
+    url = '/сatalogue/evaporative-and-blending-equipment/container-type-evaporative-and-blending-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<p>FASENERGOMASH, LLC manufactures blending units, evaporative and blending units, as well as autonomous self-heating systems for liquid evaporative units working on liquefied propane/butane. The product catalogue includes both low-pressure blending and evaporative-blending units as well as high-pressure FEM units. FEM units are designed for various volumes of gas consumption: from 150 m3/hour to 9,600 m3/hour.</p>
+
+<h2>Advantages of FEM Evaporative and Blending Units</h2>
+
+<ul>
+  <li>Using the FEM evaporative and blending units ensures a continuous gas supply of the facility;</li>
+  <li>The units can operate on both external and internal sources of gas supply and be adjusted for them, depending on cost-saving advantages at a particular moment in time;</li>
+  <li>Using the evaporative and blending units produced by FASENERGOMASH, LLC makes it possible to create gas reserves for a desired period of time;</li>
+  <li>FASENERGOMASH, LLC reduced the size of the evaporative units used in the production of evaporative-blending systems, while maintaining their high capacity level;</li>
+  <li>The company's manufacturing, service and storage facilities are located in St. Petersburg (RF), which means that the equipment and spare parts can be supplied and serviced fast.</i>
+</ul>
+
+<h2>Basic Specifications of Evaporative and Blending Equipment</h2>
+
+<p>The German-Russian manufacturer of gas equipment FASENERGOMASH, LLC can manufacture an evaporative and blending unit according to the customer's specifications with the required characteristics. However, there are ready-made solutions with standard set parameters.</p>
+
+<h3>Basic Specifications of Blending Units</h3>
+
+<ul>
+  <li>The capacity of FEM SU/ND blending units of standard configuration varies from 150 m3/hour to 9,600 m3/hour of ready-made mixture;</li>
+  <li>The LPG inlet pressure is from 2 to 5 bar, while the outlet pressure is up to 500 mbar (depends on the incoming pressure);</li>
+  <li>The LPG outlet pressure: 10 °C above the dew point;</li>
+  <li>The estimated product used: a mixture of propane/butane 60/40, 112.6 mJ/cm;</li>
+  <li>Composition of the LPG/air mixture: 56/44%;</lu>
+</ul>
+
+<h3>Basic Specifications of Evaporative Units</h3>
+
+<ul>
+  <li>The capacity of FEM SE evaporative units with electric heating varies from 10 to 600 kg/hour;</li>
+  <li>The voltage required for the operation of electric evaporators varies from 45 kW to 360 kW;</li>
+  <li>Liquid evaporative units feature higher output and are more cost-saving than electric ones. They are configured to produce an LPG volume of 1,200 kg/hour to 9,600 kg/hour;</li>
+  <li>The required water temperature is 70–90 oC;</li>
+  <li>The rated gas/water pressure makes 25/10 bar.</li>
+</ul>
+{% endblock %}

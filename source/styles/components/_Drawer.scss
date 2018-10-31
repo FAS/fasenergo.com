@@ -1,0 +1,94 @@
+// =============================================================================
+// ^SIDEBAR
+// =============================================================================
+
+// @note @todo This is kinda "magick" number and potentially should be avoided in future
+//             It defines how Drawer should be offsetted from top to match position of main Nav.
+//             It should be always equal to `offsetTop` of `.Nav` element in main sidebar
+//             If anything in Sidebar will be changed or removed (for instance, intro text) and will result
+//             in main Nav displacement, this value has to be adjusted to match main Nav new position
+$main-nav-offset: 200px;
+
+$transition: .3s ease-out;
+$padding: ekzo-space();
+
+.Drawer,
+.Drawer__overlay,
+.Drawer__bg {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+
+  height: 100%;
+
+  // Make non-expanded Drawer menu inaccessible. Prevents tabing out from Nav root link into the void.
+  visibility: hidden;
+
+  &.is-expanded {
+    left: $sidebar-width;
+    visibility: visible;
+  }
+
+}
+
+.Drawer,
+.Drawer__bg {
+  transition: left $transition, visibility $transition;
+  width: $sidebar-width;
+}
+
+.Drawer {
+  padding-top: $main-nav-offset;
+  padding-left: $padding;
+  padding-right: $padding;
+
+  overflow: auto;
+
+  z-index: -1;
+}
+
+  // This is slightly undesired additional class, but it is the only way
+  // to make content in overflowed container ('.Drawer') properly bounce off from bottom edge in FF, Edge and IE
+  .Drawer__content { margin-bottom: $padding * 1.5; }
+
+  .Drawer__close {
+    position: absolute;
+
+    right: $padding;
+
+    cursor: pointer;
+
+    color: inherit;
+    background-color: transparent;
+
+    &:hover,
+    &:focus { opacity: .7; }
+
+    &:active { opacity: .9; }
+
+  }
+
+  .Drawer__bg {
+    @include ekzo-theme() { background-color: ekzo-theme(drawer-bg); }
+
+    z-index: -2;
+  }
+
+  .Drawer__overlay {
+    width: 0;
+
+    @include ekzo-theme() { background-color: ekzo-theme(drawer-overlay); }
+
+    opacity: 0;
+    transition: opacity $transition;
+
+    z-index: -3;
+
+    &.is-expanded {
+      transition: opacity $transition;
+      width: 100%;
+      opacity: 1;
+    }
+
+  }

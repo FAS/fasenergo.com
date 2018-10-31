@@ -1,0 +1,36 @@
+---
+title:           Power Engineering
+contentTitle:    Power Engineering
+navTitle:        Power Engineering
+breadcrumbTitle: Power Engineering
+
+description: Power Engineering.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+<p>FAS generators provide a constant power supply to remote settlements and industrial enterprises being powered from the gas pipeline, compressed methane, associated gas or propane-butane. Such possibility is of major importance given a relatively low cost.</p>
+
+<h2>High Efficiency at Low Cost</h2>
+
+<p>Generators can be supplied as part of synchronized generator groups with a capacity of up to 2 mW and, given the same efficiency, are 3–4 times cheaper than similar in capacity gas-turbine units and 2 times cheaper than similar in capacity imported gas-piston stations.</p>
+<p>If compared to diesel stations, FAS generators feature a lower generation cost: from 2 RUB per 1 kW/hour as compared to 9–10 RUB. To improve efficiency, FASENERGOMASH, LLC supplies cogeneration modules for units with a capacity of 40 kW and above to collect the heat of a cooling liquid and exhaust gases. Cogeneration units allow to receive about 65 kW of heat in the form of hot water when generating 50 kW of electric power, to save on heat supply and to greatly increase the overall efficiency. Cogeneration units are equipped with their own cooling system (radiator with a fan), so when the hot water is turned off, the unit will immediately start cooling itself.</p>
+
+<h2>Trigeneration</h2>
+
+<p>Cogeneration enables trigeneration with the generation of cold. In this case, the cogeneration unit is followed by a special cooler (an absorption refrigerating machine chiller), which consumes minimum power, but, using the existing heat of a cogeneration unit, converts the heat into the cold. In output, there is water of +4–7 °C, which can be used for air conditioning of office or storage rooms. This is especially important in a hot climate.</p>
+
+<h2>Addition to Solar and Wind Power Plants</h2>
+
+<p>FAS generators can also be used to balance fluctuations in solar and wind power plants when weather conditions change. For example, in the case of a sudden wind stoppage or strong cloudiness, solar and wind power plants dramatically reduce the amount of generation. In this case, a gas generator with a quick start can partially compensate for the decline. Unlike boilers with turbines, the generator is able to switch on and off quickly, and unlike gas-turbine units, it can be switched on several times a day.</p>
+
+<h2>For Renewable Energy Facilities</h2>
+
+<p>FAS generators are ideally suited for biogas power plants, stations operating on landfill gas and waste.</p>
+<p>It is important that such facilities are wholly subject to state benefits for purchasing electricity on the wholesale/retail market or compensating for the purchase of equipment.</p>
+
+<h2>Legal Advice</h2>
+
+<p>FASENERGOMASH, LLC experts are ready to advise customers on how to generate and sell their own electricity generated from gas or waste making their power plants economically efficient and at the same time legally protected at all stages of preparation, construction and operation.</p>
+{% endblock %}

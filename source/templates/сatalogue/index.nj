@@ -1,0 +1,81 @@
+---
+title:           Catalogue
+contentTitle:    Gas Equipment FASENERGOMASH, LLC
+navTitle:        Catalogue
+breadcrumbTitle: Catalogue
+
+description: Gas Equipment FASENERGOMASH, LLC.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<div class='h-margin-top+'>
+
+  {% call CategoryCard(
+    title = 'Gas Generators',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/gas-generators.jpg',
+    url = '/сatalogue/gas-generators',
+    discount = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discount,
+    discountDate = getGeneratorsWithHighestDiscount(selectGenerators(GENERATORS)).discountDate,
+    class = 'h-margin-top+'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
+    title = 'Evaporative Equipment',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/evaporative-equipment.jpg',
+    url = '/сatalogue/evaporative-equipment'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
+    title = 'Evaporative & Blending Equipment',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/evaporative-and-blending-equipment.jpg',
+    url = '/сatalogue/evaporative-and-blending-equipment'
+  ) %}{% endcall %}
+
+  <hr>
+
+   {% call CategoryCard(
+    title = 'Cogeneration units',
+    hLevel = 2,
+    image = '/' + PATH.images + '/equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-2--front.jpg',
+    url = '/сatalogue/cogeneration-units'
+  ) %}{% endcall %}
+
+</div>
+
+<hr>
+
+<p>FASENERGOMASH, LLC is a Russian manufacturer of gas equipment. The company has been operating in the Russian market since 1995 The company's manufacturing line produces equipment for facilities with large volumes of liquefied gas consumption as well as equipment for small sites, such as country houses, residential houses and cottages.</p>
+
+<h2>Industrial Gas Equipment</h2>
+
+<p>To ensure an uninterrupted and safe operation of enterprises, the high-quality gas equipment is needed. Its sophisticated technical units and assemblies must necessarily be manufactured in accordance with the Russian state standards (GOST) and international quality standards (CE and ISO). The advanced safety requirements are applied to the gas equipment, therefore it should be purchased from the industry-related manufacturing organisations. FASENERGOMASH, LLC manufactures gas equipment in strict accordance with Russian and international quality standards: GOST, CE and ISO.</p>
+
+<p>The company sells the following gas equipment to industrial enterprises and facilities with high gas consumption:</p>
+
+<ul>
+  <li>high-power gas generators;</li>
+  <li>evaporative and blending units;</li>
+  <li>pump and compressor equipment of various types and purposes;</li>
+  <li>evaporative units that ensure continuous gas supply at high volumes of gas consumption;</li>
+  <li>autonomous gasification systems that allow to fix the issue of power supply and heating of industrial enterprises as well as facilities with a high level of liquefied gas consumption;</li>
+  <li>control and adjustment tooling: control and adjustment stations, pressure regulating devices;</li>
+  <li>fuel dispensing elements: pumps, gas filling stations, electrical control panels;</li>
+  <li>on/off & shut-off valves: filters, relief and check valves, cutoffs, electromagnetic valves, etc.</li>
+</ul>
+
+<h2>Gas Equipment for Private Houses and Cottages</h2>
+
+<p>FASENERGOMASH, LLC also offers solutions for autonomous gasification and electrification of small gas supply facilities, such as private houses, cottages and country houses. The range of products for facilities with low gas consumption, gas power stations, equipment for storage, transportation and distribution of gas comprises small and medium-sized gas generators, gas control and reducing units, liquefied gas transfer pumps.</p>
+<p>The company manufactures commercial products and has all the necessary licenses and certificates that confirm their quality. Having its own production, storage and supply facilities, the company can offer its clients competitive prices and delivers its products around the world in the shortest possible time.</p>
+{% endblock %}
