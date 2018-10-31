@@ -52,9 +52,9 @@
  # @param {boolean}  [data.noParentheses] Should city code be wrapped in parentheses
  # @param {boolean}  [data.track]         Should phone number be replaced and tracked with Mango Call Tracker
  # @param {string}   [class]              CSS class for anchor
- # @param {string}   [addClass]           CSS class for span with 'доб. ' part
+ # @param {string}   [addClass]           CSS class for span with 'extens. ' part
  # @param {boolean}  [showCountry = true] Should + with country code be shown
- # @param {boolean}  [showAdd = true]     Should 'доб. ' part be shown (if add info exists)
+ # @param {boolean}  [showAdd = true]     Should 'extens. ' part be shown (if add info exists)
  # @param {boolean}  [plain]              Should number be displayed in plain format
  #
  # @return {string} Phone number inside anchor
@@ -72,7 +72,7 @@
   {% set macroCity = ('(' if not data.noParentheses) + data.city + (')' if not data.noParentheses) %}
   {% set macroCountry = '+' + data.country + '&nbsp;' if showCountry %}
   {% set macroPhone = macroCountry + macroCity + '&nbsp;' + data.tel[0] + '-' + data.tel[1] + '-' + data.tel[2] %}
-  {% set macroAdd = '&nbsp;доб.&nbsp;' + data.add%}
+  {% set macroAdd = '&nbsp;extens.&nbsp;' + data.add%}
 
   {%- if plain -%}
   {{ macroPhone }}{{ macroAdd if showAdd }}
