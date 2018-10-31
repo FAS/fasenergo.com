@@ -69,7 +69,7 @@
   class,
   linksClass
 ) %}
-{% set priceFormatted = Price(price) %}
+{% set priceFormatted = Price(price, 'EUR') %}
 
 <article
   class='{{ class }} js-catalog-product Box h-border-top0 h-border-left0 h-border-right0 h-padding-ends+ h-padding-sides'
