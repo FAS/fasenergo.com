@@ -89,7 +89,7 @@ description: Cryogenic LNG Storage Tanks.
 <ul>
   <li>Design code: EN 13458 — Annex C, ASME (U STAMP) and GOST standards;</li>
   <li>Operating pressure: 5–37 bar (MAWP);</li>
-  <li>Design temperature: +50 / -196 °C.;</li>  
+  <li>Design temperature: +50 / -196 °C.;</li>
   <li>Ambient temperature: -50 / +50 °C;</li>
   <li>Container material: the inner part is made of stainless steel; the outer part is made of steel, stainless steel or aluminium;</li>
   <li>X-ray control: depending on the design;</li>
@@ -125,7 +125,7 @@ description: Cryogenic LNG Storage Tanks.
 
 <ul>
   <li>Design code: EN 13530 – ADR – RID – ADN – IMDG – UIC – CSC – TC – TIR;</li>
-  <liContainer type: 1СС-1ВВ-1АА;</li>
+  <li>Container type: 1СС-1ВВ-1АА;</li>
   <li>Design testing: Bureau Veritas, Lloyd’s Register;</li>
   <li>Design temperature: +50 / -196 °C;</li>
   <li>Container size: 20, 30 and 40-foot containers;</li>
