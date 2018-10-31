@@ -32,7 +32,7 @@ description: Oil and Gas Industry.
 
 <h2>Coal Industry</h2>
 
-<p>FAS generators were once successfully tested for operation from coalmine methane. This solution avoids cost-consuming efforts aimed at bringing the gas concentration to a 100% level and instead insures operation at any methane concentration starting from 7%. At a low methane concentration of <7%, generators can work with rotary-filtration machines.</p>
+<p>FAS generators were once successfully tested for operation from coalmine methane. This solution avoids cost-consuming efforts aimed at bringing the gas concentration to a 100% level and instead insures operation at any methane concentration starting from 7%. At a low methane concentration of 7%, generators can work with rotary-filtration machines.</p>
 <p>For example, in Kuzbass, FAS generators are already working from the coal bed methane. When equipping the unit with an automatic mixture-formation system, it can then be operated from a methane-vapour mixture of used mines or from the enriched ventilation mixture of working mines.</p>
 <p>In addition, FAS generators can work with coal gasification plants. Such plants are already used in the remote areas located far from centralized power supply networks. It is important to note that, according to Russian legislation, these facilities are related to the renewable energy sources.</p>
 {% endblock %}
