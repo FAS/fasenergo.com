@@ -17,7 +17,7 @@
 {% set warrantyFromInstallation = gen.warranty.installation  %}
 {% set warrantyServiceLife = gen.warranty.serviceLife %}
 {% set currentPrice = getGeneratorCurrentPrice(gen) %}
-{% set currentPriceFormatted = Price(currentPrice) %}
+{% set currentPriceFormatted = Price(currentPrice, 'EUR') %}
 {% set isDiscontinued = generatorIsDiscontinued(gen) %}
 {% set isAvailable = generatorIsAvailable(gen) %}
 {% set powers = getGeneratorMaxPowers(gen) %}
@@ -47,7 +47,7 @@
   {% endif %}
 
   <header property='offers' typeof='Offer' class='o-grid h-childs-displace h-flex-y--center h-margin-bottom'>
-    <meta property='priceCurrency' content='RUB' />
+    <meta property='priceCurrency' content='EUR' />
 
     <div class='o-grid__item h-5/9 h-1/3@lap h-align--center'>
       <a class='h-border-bottom0 js-smooth-jump' href='#photos'>
@@ -100,7 +100,7 @@
             <p class='h-text- h-margin-bottom--'><i>{{ DateEnd(gen.discountDate, 'Акция до ') }}</i></p>
             {% endif %}
             {% else %}
-            <p {% if currentPrice %}aria-label='Цена: {{ currentPriceFormatted }}'{% endif %}
+            <p {% if currentPrice %}aria-label='Price: {{ currentPriceFormatted }}'{% endif %}
               class='h-margin-bottom-- h-h2 text-green h-text--nowrap'
             >
               {% if currentPrice %}
@@ -125,7 +125,7 @@
             {% else %}
             <p class='h-text- h-mar1gin-bottom-- h-text--nowrap'>
               <link property='availability' href='http://schema.org/PreOrder'/>
-              {{ Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>Made to order</span>
+              {{ Icon('clock', class = 'text-blue h-text- h-align--middle Icon--left') }}<span class='h-align--middle'>On demand</span>
             </p>
             {% endif %}
 
@@ -236,7 +236,7 @@
         <table class='Table h-table--fixed h-margin-bottom0 h-cells-padding--'>
           {% if size %}<tr><th class='h-text--'>Dimensions</th><td>{{ size }} <span class='h-text--'>mm</span></td></tr>{% endif %}
           {% if enclosure.weight %}<tr><th class='h-text--'>Weight</th><td>{{ enclosure.weight }} <span class='h-text--'>kg</span></td></tr>{% endif %}
-        </table> 
+        </table>
         {% endif %}
 
       </div>
