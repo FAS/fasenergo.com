@@ -4,7 +4,7 @@ contentTitle:    Cogeneration units
 navTitle:        Cogeneration units
 breadcrumbTitle: Cogeneration units
 
-description: A cogeneration unit is a solution that allows the use of heat produced during the generator's operation, which otherwise is simply emitted into the air.
+description: A cogeneration unit is a solution that allows the use of heat produced during the generator operation, which otherwise is simply emitted into the air.
 ---
 
 {% extends '_layouts/_main.nj' %}
