@@ -98,9 +98,9 @@ module.exports = Generators = r.EqualKeyAndProp('slug') t.dict t.String, t.struc
 
   enclosure: t.struct
     # исполнение
-    type: t.maybe t.enums.of ['закрытое', 'открытое']
+    type: t.maybe t.enums.of ['Enclosed', 'Open']
     # материал
-    material: t.maybe t.enums.of ['пластик', 'метал']
+    material: t.maybe t.enums.of ['Plastic', 'Metal']
     # покрытие
     coating: t.maybe t.union [t.String, r.False]
     # теплоизоляция

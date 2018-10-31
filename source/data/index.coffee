@@ -20,7 +20,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       build: config('path.build')
     SITE:
       name: 'FASENERGOMASH'
-      shortName: 'FASENERGOMASH'
+      shortName: 'FASENERGO'
       version: pkg.version
       description: 'German-Russian Manufacturer of Gas Equipment'
       homepage: if sitename then "https://#{sitename}" else pkg.homepage
