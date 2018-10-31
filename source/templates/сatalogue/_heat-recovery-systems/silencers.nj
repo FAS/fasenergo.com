@@ -13,7 +13,7 @@ description: The high level of noise emitted by a generator during its operation
 {% from '_components/_Image.nj' import Image with context %}
 
 <p>The high level of noise emitted by a generator during its operation due to pulsating engine exhaust can be significantly reduced through application of silencers.</p>
-<pFASENERGOMASH, LLC has entered a batch production of personally designed silencers for various types of generators and standalone power stations of three types: industrial (9–15 dB), low noise (20–30 dB) and critical (30–45 dB). These silencers make it possible to reduce the noise level within the range featured by the best foreign analogues at a much lower cost.</p>
+<p>FASENERGOMASH, LLC has entered a batch production of personally designed silencers for various types of generators and standalone power stations of three types: industrial (9–15 dB), low noise (20–30 dB) and critical (30–45 dB). These silencers make it possible to reduce the noise level within the range featured by the best foreign analogues at a much lower cost.</p>
 
 {{ Image(
   src = '/' + PATH.images + '/equipment/heat-recovery-systems/silencers-fas--1---front.jpg',
