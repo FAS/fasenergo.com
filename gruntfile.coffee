@@ -145,7 +145,6 @@ module.exports = (grunt) ->
     'clean:scripts'
     'cacheBust'
     'sitemap_xml'
-    'yandexMarketLanguage'
     'size_report'
   ]
 
