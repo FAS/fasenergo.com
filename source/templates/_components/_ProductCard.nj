@@ -121,7 +121,7 @@
 
       {% else %}
 
-      <p class='h-h5'>цена по запросу</p>
+      <p class='h-h5'>price on request</p>
 
       {% endif %}
 

@@ -1,4 +1,4 @@
-{% extends '_layouts/_main.nj' %}
+gj{% extends '_layouts/_main.nj' %}
 
 {% block main %}
 {% from '_components/_ProductCardVert.nj' import ProductCardVert with context %}
@@ -106,7 +106,7 @@
               {% if currentPrice %}
               {{ currentPriceFormatted}}
               {% else %}
-              цена по запросу
+              price on request
               {% endif %}
             </p>
             {% endif %}
