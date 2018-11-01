@@ -114,7 +114,6 @@
     {% call(depth) Item('/сompany/видеоматериалы', depth = depth) %}{% endcall %}
     {% endif %} #}
     {% call(depth) Item('/сompany/news', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/сompany/journal', depth = depth) %}{% endcall %}
   {% endcall %}
 
   {% call(depth) Item('/contact-us') %}{% endcall %}
