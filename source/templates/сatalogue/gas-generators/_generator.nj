@@ -312,7 +312,7 @@ gj{% extends '_layouts/_main.nj' %}
 
       {% if not gen.equipment.AST %}
       {{ _Solution(
-        title = 'АВР',
+        title = 'ATS',
         url = '/solutions/engineering-solutions/ats-automatic-transfer-switch',
         image = '/' + PATH.images + '/solutions/ats/ats-fasenergomash--front-right.jpg'
       ) }}
