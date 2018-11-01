@@ -324,7 +324,7 @@ gj{% extends '_layouts/_main.nj' %}
     <ul class='h-margin-top'>
       {% for e in options %}
       <li>
-        <p>{{ e.title }} — {{ Price(e.price) }}</p>
+        <p>{{ e.title }}{% if e.price %} — {{ Price(e.price) }}{% endif %}</p>
         {% if e.description %}
         <p class='h-text- h-bleed-top--'>{{ e.description }}</p>
         {% endif %}
