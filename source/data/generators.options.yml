@@ -8,31 +8,31 @@
   id: '6030624'
   title: Accumulator battery 
   description: null
-  price: null
+  price: 0
 
 6080843:
   id: '6080843'
   title: Accumulator battery charger
   description: null
-  price: null
+  price: 0
 
 7000697:
   id: '7000697'
   title: Air mixture heating device 
   description: null
-  price: null
+  price: 0
 
 7000698:
   id: '7000698'
   title: Engine pan heater
   description: null
-  price: null
+  price: 0
 
 7000699:
   id: '7000699'
   title: ATS panel for air-cooled generators 
   description: null
-  price: 350
+  price: 0
 
 ################################################################################
 # Системы синхронизации для ГПЭС ФАС от 8 до 50 кВт с водяным охлаждением
@@ -42,87 +42,87 @@
   id: '7000696'
   title: Controller with synchronization function for one gas-piston station with a rated capacity of 40 kW (driven by VAZ and ZMZ engines)
   description: It is used to synchronize a VAZ and ZMZ engine driven gas-piston station. The number of controllers corresponds to the number of synchronized gas-piston stations.
-  price: null
+  price: 0
 
 96973:
   id: '96973'
   title: Controller with synchronization function for one gas-piston station with a rated capacity of 40 and 50 kW (driven by MMZ engine) 
   description: It is used to synchronize an MMZ engine driven gas-piston station. The number of controllers corresponds to the number of synchronized gas-piston stations.
-  price: null
+  price: 0
 
 7000689:
   id: '7000689'
   title: ATS panel for backup operation of 2 gas-piston stations with a rated capacity of 32 kW each
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the capacity of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 1500
+  price: 0
 
 7000690:
   id: '7000690'
   title: ATS panel for backup operation of 3 gas-piston stations with a rated capacity of 32 kW each
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the capacity of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 1600
+  price: 0
 
 7000691:
   id: '7000691'
   title: ATS panel for backup operation of 4 gas-piston stations with a rated capacity of 32 kW each
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the capacity of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 1650
+  price: 0
 
 7000683:
   id: '7000683'
   title: ATS panel for backup operation of 2 gas-piston stations with a rated capacity of 50 kW each
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the capacity of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 1950
+  price: 0
 
 
 7000684:
   id: '7000684'
   title: ATS panel for backup operation of 3 gas-piston stations with a rated capacity of 50 kW each 
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the power of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 2900
+  price: 0
 
 7000685:
   id: '7000685'
   title: ATS panel for backup operation of 4 gas-piston stations with a rated capacity of 50 kW each
   description: 1 PANEL is used for the whole cascaded unit. It reserves network corresponding to the power of the cascaded unit. When reserving a more powerful network, the price is calculated individually. Synchronization with the network is calculated individually.
-  price: 3550
+  price: 0
 
 
 7000692:
   id: '7000692'
   title: Load distribution panel for backup operation of 2 gas-piston stations with a rated capacity of 32 kW each
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 1150
+  price: 0
 
 7000693:
   id: '7000693'
   title: Load distribution panel for backup operation of 3 gas-piston stations with a rated capacity of 32 kW each 
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 1400
+  price: 0
 
 7000694:
   id: '7000694'
   title: Load distribution panel for backup operation of 4 gas-piston stations with a rated capacity of 32 kW each.
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 1450
+  price: 0
 
 7000686:
   id: '7000686'
   title: Load distribution panel for backup operation of 2 gas-piston stations with a rated capacity of 50 kW each 
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 1400
+  price: 0
 
 7000687:
   id: '7000687'
   title: Load distribution panel for backup operation of 3 gas-piston stations with a rated capacity of 50 kW each
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 2100
+  price: 0
 
 7000688:
   id: '7000688'
   title: Load distribution panel for backup operation of 4 gas-piston stations with a rated capacity of 50 kW each
   description: 1 PANEL is used for the whole cascaded unit. It is used for stand-alone operation of the cascaded unit.
-  price: 2750
+  price: 0
 
 ################################################################################
 # Блок модуль утилизации тепла для генератора
@@ -132,22 +132,22 @@ heat-module-1:
   id: 'heat-module-1'
   title: Heat recovery module for MMZ-based generators with a rated capacity of 40 and 50 kW
   description: Adaptation of an MMZ engine driven gas-piston station with a rated capacity of 40 and 50 kW for operation of a gas powered generator equipped with a heat recovery module. The module can be used for both FAS-40-3/M and FAS-50-3/M models.
-  price: 11500
+  price: 0
 
 heat-module-2:
   id: 'heat-module-2'
   title: Heat recovery module for YaMZ-based generators with a rated capacity of 100 and 150 kW
   description: Adaptation of an YaMZ engine driven gas-piston station with a rated capacity of 100 and 150 kW for operation of a gas generator equipped with a heat recovery module. The module can be used for both FAS-100-3/R and FAS-150-3/R models.
-  price: 14550
+  price: 0
 
 heat-module-3:
   id: 'heat-module-3'
   title: Модуль утилизации тепла для генератора на ЯМЗ 200 и 250 кВт
   description: Адаптация ГПС 200 и 250 кВт на базе ЯМЗ для работы ГПУ с модулем УТ. Модуль универсален для ФАС-200-3/Р и ФАС-250-3/Р.
-  price: null
+  price: 0
 
 heat-module-4:
   id: 'heat-module-4'
   title: Heat recovery module for YMZ-based generators with a rated capacity of 315 kW
   description: Adaptation of an YMZ engine driven gas-piston station with a rated capacity of 315 kW for operation with a gas powered generator equipped with a heat recovery module. Module for FAS-315-3/R.
-  price: 18200
+  price: 0
