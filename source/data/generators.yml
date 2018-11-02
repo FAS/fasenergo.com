@@ -1313,8 +1313,17 @@ fas-8-1-vp-8-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--closed--1.jpg
       main: true
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-right--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--4.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--right--closed--5.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--6.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--7.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--8.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--9.jpg   
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg      
     - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
     - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
     - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
@@ -1431,18 +1440,27 @@ fas-10-1-vp-10-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front-right--closed--2.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--left--closed--3.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--back--closed--4.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--open--5.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front-left--open--6.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--closed--panel--7.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--inside--8.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--inside--9.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--close--gas-input--10.jpg
-    - url: equipment/gas-generators/fas-10-1-vp/gas-generator-fas-10-1-vp--front--close--gas-input--11.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-right--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--4.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--right--closed--5.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--6.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--7.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--8.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--9.jpg   
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--11.jpg
   videos: null
   docs: null
   tags:
@@ -1549,18 +1567,27 @@ fas-10-3-vp-10-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front-right--closed--2.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--left--closed--3.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--back--closed--4.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--open--5.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front-left--open--6.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--closed--panel--7.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--inside--8.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--inside--9.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--close--gas-input--10.jpg
-    - url: equipment/gas-generators/fas-10-3-vp/gas-generator-fas-10-3-vp--front--close--gas-input--11.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-right--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--4.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--right--closed--5.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--6.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--7.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--8.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--9.jpg   
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--11.jpg
   videos: null
   docs: null
   tags:
@@ -1667,18 +1694,27 @@ fas-13-1-vp-13-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front-right--closed--2.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--left--closed--3.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--back--closed--4.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--open--5.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front-left--open--6.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--closed--panel--7.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--inside--8.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--inside--9.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--close--gas-input--10.jpg
-    - url: equipment/gas-generators/fas-13-1-vp/gas-generator-fas-13-1-vp--front--close--gas-input--11.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-right--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--4.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--right--closed--5.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--6.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--7.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--8.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--9.jpg   
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--11.jpg
   videos: null
   docs: null
   tags:
@@ -1785,18 +1821,27 @@ fas-13-3-vp-13-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front-right--closed--2.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--left--closed--3.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--back--closed--4.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--open--5.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front-left--open--6.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--closed--panel--7.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--inside--8.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--inside--9.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--close--gas-input--10.jpg
-    - url: equipment/gas-generators/fas-13-3-vp/gas-generator-fas-13-3-vp--front--close--gas-input--11.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-right--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--4.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--right--closed--5.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--6.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--7.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--8.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--9.jpg   
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-right--closed--2.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--left--closed--3.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--back--closed--4.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--open--5.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front-left--open--6.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--closed--panel--7.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--8.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--inside--9.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--10.jpg
+    - url: equipment/gas-generators/fas-8-1-vp/gas-generator-fas-8-1-vp--front--close--gas-input--11.jpg
   videos: null
   docs: null
   tags:
@@ -2359,8 +2404,15 @@ fas-21-1-vp-21-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--1.jpg
       main: true
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--open--3.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--left--open--4.jpg
@@ -2813,15 +2865,22 @@ fas-28-3-vp-28-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front-left--closed--2.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--open--3.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--left--open--4.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--open--panel--5.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--inside--6.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--inside--7.jpg
-    - url: equipment/gas-generators/fas-28-3-vp/gas-generator-fas-28-3-vp--front--close--gas-input--8.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--open--3.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--left--open--4.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--panel--5.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--6.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--7.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--close--gas-input--8.jpg
   videos: null
   docs: null
   tags:
@@ -2928,15 +2987,22 @@ fas-32-3-vp-32-kw:
     <p>Being equipped with a waterproof casing, generators do not require a closed space for installation, while the heating and electronic control systems enable quick start-up at low temperatures in automatic mode.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--1.jpg
       main: true
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front-left--closed--2.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--open--3.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--left--open--4.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--open--panel--5.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--inside--6.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--inside--7.jpg
-    - url: equipment/gas-generators/fas-32-3-vp/gas-generator-fas-32-3-vp--front--close--gas-input--8.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front--open--2.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--open--3.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--left--open--4.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--panel--5.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--6.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--inside--7.jpg
+    - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--close--gas-input--8.jpg
   videos: null
   docs: null
   tags:
