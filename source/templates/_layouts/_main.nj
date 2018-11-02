@@ -125,8 +125,6 @@
           <p class='h-margin-bottom--'><b class='h-text+'>{{ mainLayoutPhone }}</b></p>
           <p>{{ mainLayoutEmail }}</p>
 
-          {{ SocialUrls() }}
-
         </div>
 
       </div>
