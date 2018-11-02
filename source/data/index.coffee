@@ -72,12 +72,12 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       portalDomain: 'fasenergo.bitrix24.ru'
       forms:
         requestOffer:
-          id: 9
-          sec: '2j2s4m'
+          id: 11
+          sec: '6hhgxd'
           type: 'button'
           click: ''
           # This can't be configurated, last number should always match id
-          selector: 'b24-web-form-popup-btn-9'
+          selector: 'b24-web-form-popup-btn-11'
     ENV:
       production: config('env.production')
       staging: config('env.staging')
