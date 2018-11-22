@@ -39,7 +39,7 @@ description: FASENERGOMASH, LLC has entered a batch production of airflow switch
 
 <p>If a gas flow switch is mounted on a gas flue with a high operating temperature, it is coated with a special enamel on a silicone-based substrate that withstands a high degree of heating. Besides, a flow switch that works with granular media has been additionally designed.</p>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Commercial Offer</button></p>
 
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}

@@ -11,7 +11,7 @@ description: Agriculture.
 
 {% block main %}
 <p>FAS generators are successfully used in complexes for the use and production of biogas from manure and agricultural waste.</p>
-<p>Evobios Company is a constant partner of FASENERGOMASH, LLC for regional biogas projects. The company also cooperates with such companies as Energorezhim, Gildia M and Fluid-Biogas.</p>
+<p><a href='http://evobios.com'target="_blank">Evobios Company</a> is a constant partner of FASENERGOMASH, LLC for regional biogas projects. The company also cooperates with such companies as <a href='http://энергорежим.рф'target="_blank">Energorezhim</a>, <a href='http://gildiam.ru/en-us/'target="_blank">Gildia M</a> and <a href='http://www.fluid-biogas.com'target="_blank">Fluid-Biogas</a>.</p>
 <p>It also participates in the projects of the Swiss company FDC Engineering AG, which introduces serial biogas plants in Europe.</p>
 
 <h2>Energy and Heat Supply of Greenhouses</h2>

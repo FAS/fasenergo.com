@@ -66,7 +66,7 @@ description: Cryogenic LNG Storage Tanks.
       <th>Length</th>
       <th>Width</th>
       <th>Height</th>
-      <th>TCO</th>
+      <th>Commercial Offer</th>
     </tr>
   </thead>
   <tbody>
@@ -77,7 +77,7 @@ description: Cryogenic LNG Storage Tanks.
       <td class='h-align--right'>{{ e.length }} mm</td>
       <td class='h-align--right'>{{ e.width }} mm</td>
       <td class='h-align--right'>{{ e.height }} mm</td>
-      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a Commercial Offer</button>
       </td>
     </tr>
     {% endfor %}

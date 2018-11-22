@@ -56,7 +56,7 @@ description: The design of equipment manufactured by FASENERGOMASH, LLC, in the 
 
 <p>The correct operation of an automatic system basically depends on the algorithm of actions that was developed during its creation. Other aspects are also important, but to a less extent. The FASENERGOMASH, LLC employees specialize primarily in small- scale power generation, which allows the company to design and implement thermal and electric networks, complete them with cogeneration equipment, and install peripheral units of in-house production. The company experts are well aware of all operation processes featured by each energy hub element and can fine-tune both any separate mechanism and the entire system. The company uses the entire accumulated experience and in-house developments to create effective, high-quality and cost saving systems and units.</p>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Commercial Offer</button></p>
 
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}

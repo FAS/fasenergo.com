@@ -35,5 +35,5 @@ description: FASENERGOMASH, LLC is engaged in development and manufacture of flu
 
 <p>If necessary, the flue gas stacks produced by FASENERGOMASH, LLC can be completed with additional equipment: maintenance grounds, flashing beacons, explosive valves, ladders, automatic dump valves and the like.</p>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Commercial Offer</button></p>
 {% endblock %}

@@ -52,6 +52,8 @@
     {% call(depth) Item('/сatalogue/gas-generators') %}{% endcall %}
     {% call(depth) Item('/сatalogue/evaporative-equipment', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/evaporative-and-blending-equipment', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/сatalogue/autonomous-gas-supply-systems', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/сatalogue/heat-recovery-systems', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/cogeneration-units', depth = depth) %}{% endcall %}
 
     <li class='Nav__item Nav__item--h2'>Others</li>

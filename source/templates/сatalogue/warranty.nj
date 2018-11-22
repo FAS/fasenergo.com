@@ -38,6 +38,5 @@ description: Warranty.
 
 <p>If you find a malfunction in the operation of a generator, contact your dealer or our Service Centre.</p>
 <p>At first, we will need to know the model number of your generator, the serial number stamped on the nameplate, and the description of the malfunction, preferably with photos or even video. Then we will try to determine the cause of the problem remotely. If this does not work out, or the malfunction is too serious, we will send a specialist to your site for diagnosis and repair.</p>
-<p>Spare parts, if they are required, are delivered very quickly. The delivery is carried out the same day if the required spare parts are in stock at the dealer’s site. Otherwise, the delivery will take 2–3 days.</p>
 <p>The repair time depends on the severity of the malfunction.</p>
 {% endblock %}

@@ -25,7 +25,7 @@ description: A thermal module of a complete factory configuration allows the use
 <ul>
   <li>Over fifteen years of experience in the development and implementation of heat recovery systems of any type. Application of the most effective work algorithms;</li>
   <li>Profound knowledge of hydraulic resistances at all sections of the recovery system pipeline, which allows a precise selection of the required pumping equipment;</li>
-  <li>The installation and commissioning works can be performed simply and conveniently. It is not difficult to connect contours;</li>
+  <li>The installation and commissioning works can be performed simply and conveniently. It is enough just to connect the contours;</li>
   <li>FASENERGOMASH, LLC provides warranty obligations for the quality operation of the entire system.</li>  
 </ul>  
 
@@ -50,7 +50,7 @@ description: A thermal module of a complete factory configuration allows the use
   center = true
 ) }}
 
-<h2>A heat recovery system can be additionally equipped with the following apparatuses:</h2>
+<h2>A heat recovery system can be additionally equipped with the following equipment:</h2>
 
 <ul>
   <li>pumps for antifreeze and network water pumping;</li>
@@ -62,7 +62,7 @@ description: A thermal module of a complete factory configuration allows the use
   <li>a flue gas stack.</li>
 </ul> 
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Commercial Offer</button></p>
 
 <p class='h-text-'><i>* * The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}
