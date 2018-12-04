@@ -15,6 +15,56 @@ description: Electric Heated Evaporative Units.
 
 <p>The SE type electric evaporators produced by the Russian company FASENERGOMASH, LLC are designed for propane, butane and their mixtures (S) and feature indirect electric heating (E). The figure following the series abbreviation means the model number in the FEM catalogue.</p>
 
+<h2>Indirect electric heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--2--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--4--back-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--5--back.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--6--back-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--7--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--8--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporator FEM SE-A 13') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.0013', title: 'Evaporator FEM 13 SE-A', performance: '13 kg/hour' , price: 'Price on request' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>Price</th>      
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
 {# @todo Missing Испарители 40-300SE renders #}
 {% set pageEqElPhotos = [
   { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--1--front.jpg' },
@@ -32,12 +82,7 @@ description: Electric Heated Evaporative Units.
 
 {{ PhotosPreview(pageEqElPhotos, 'Evaporators FEM SE 10-40') }}
 
-<h2>Indirect electric heating</h2>
-
-<ul>
-  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
-  <li>All units are factory-assembled and checked for pressure.</li>
-</ul>
+<p></p>
 
 {{ VaporizersTable(selectVaporizers(VAPORIZERS)) }}
 
