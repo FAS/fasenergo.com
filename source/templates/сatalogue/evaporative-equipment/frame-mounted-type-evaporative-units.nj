@@ -19,7 +19,8 @@ description: Испарительные установки СУГ на раме 
 {% set pageEqElPhotos = [
   { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--2--front-left.jpg' },
-  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--3--front-right.jpg' }
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--3--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--4--front-right--scheme.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/R') }}
