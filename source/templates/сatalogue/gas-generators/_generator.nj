@@ -387,7 +387,7 @@ gj{% extends '_layouts/_main.nj' %}
      #       Also, `url-joiner()` might fix that issue.
      #}
     {{ ProductCardVert(
-      url = '/сatalogue/газовые-генераторы/' + g.slug,
+      url = '/сatalogue/gas-generators/' + g.slug,
       image = '/' + PATH.images + '/' + getGeneratorMainPhoto(g).url,
       model = g.model,
       powers = getGeneratorMaxPowers(g),
