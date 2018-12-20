@@ -90,9 +90,9 @@ fas-5-1lp-5-kw:
     removablePanels: null
     noise: 90
     size:
-      length: 1058
-      width: 705
-      height: 620
+      length: 1082
+      width: 611
+      height: 656
     weight: 90
 
 
@@ -190,9 +190,9 @@ fas-5-1lm-5-kw:
     removablePanels: null
     noise: 90
     size:
-      length: 1058
-      width: 705
-      height: 620
+      length: 1082
+      width: 611
+      height: 656
     weight: 90
 
 
@@ -484,9 +484,9 @@ fas-8-1lp-8-kw:
     removablePanels: null
     noise: 90
     size:
-      length: 1058
-      width: 705
-      height: 620
+      length: 1098
+      width: 696
+      height: 741
     weight: 125
 
 
@@ -584,9 +584,9 @@ fas-8-1lm-8-kw:
     removablePanels: null
     noise: 90
     size:
-      length: 1058
-      width: 705
-      height: 620
+      length: 1098
+      width: 696
+      height: 741
     weight: 125
 
 
@@ -1275,10 +1275,10 @@ fas-15-3lm-15-kw:
     removablePanels: null
     noise: null
     size:
-      length: null
-      width: null
-      height: null
-    weight: null
+      length: 1162
+      width: 770
+      height: 841
+    weight: 145
 
 
 
