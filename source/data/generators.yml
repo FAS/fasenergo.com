@@ -32,6 +32,7 @@ fas-5-1lp-5-kw:
       main: true
     - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
     - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-5-1lp--4--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -132,6 +133,7 @@ fas-5-1lm-5-kw:
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-5-1lm--7--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -426,6 +428,7 @@ fas-8-1lp-8-kw:
       main: true
     - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--2--front-left.jpg
     - url: equipment/gas-generators/fas-lp/gas-generator-fas-lp--3--front-right.jpg
+    - url: equipment/gas-generators/fas-lp/gas-generator-fas-8-1lp--5--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -526,6 +529,7 @@ fas-8-1lm-8-kw:
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-8-1lm--8--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1217,6 +1221,7 @@ fas-15-3lm-15-kw:
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--4--back-left.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--5--back-right.jpg
     - url: equipment/gas-generators/fas-lm/gas-generator-fas-lm--6--front-right.jpg
+    - url: equipment/gas-generators/fas-lm/gas-generator-fas-15-3lm--9--front-left--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1322,7 +1327,8 @@ fas-8-1-vp-8-kw:
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-6.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--n-7.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--n-8.jpg
-    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-10--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -1391,9 +1397,9 @@ fas-8-1-vp-8-kw:
     removablePanels: null
     noise: 62
     size:
-      length: 1321
-      width: 780
-      height: 963
+      length: 1414
+      width: 811
+      height: 1022
     weight: 400
 
 
@@ -1439,6 +1445,7 @@ fas-10-1-vp-10-kw:
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--n-7.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--n-8.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-10--scheme.jpg    
   videos: null
   docs: null
   tags:
@@ -1507,9 +1514,9 @@ fas-10-1-vp-10-kw:
     removablePanels: null
     noise: 62
     size:
-      length: 1321
-      width: 780
-      height: 963
+      length: 1414
+      width: 811
+      height: 1022
     weight: 400
 
 
@@ -1555,6 +1562,7 @@ fas-10-3-vp-10-kw:
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--n-7.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--n-8.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg  
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-10--scheme.jpg    
   videos: null
   docs: null
   tags:
@@ -1623,9 +1631,9 @@ fas-10-3-vp-10-kw:
     removablePanels: null
     noise: 62
     size:
-      length: 1321
-      width: 780
-      height: 963
+      length: 1414
+      width: 811
+      height: 1022
     weight: 400
 
 
@@ -1671,6 +1679,7 @@ fas-13-1-vp-13-kw:
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--n-7.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--n-8.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-10--scheme.jpg    
   videos: null
   docs: null
   tags:
@@ -1739,9 +1748,9 @@ fas-13-1-vp-13-kw:
     removablePanels: null
     noise: 63
     size:
-      length: 1321
-      width: 780
-      height: 963
+      length: 1414
+      width: 811
+      height: 1022
     weight: 410
 
 
@@ -1786,7 +1795,8 @@ fas-13-3-vp-13-kw:
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-6.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back--closed--n-7.jpg
     - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--back-right--closed--n-8.jpg
-    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg  
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--left--closed--n-9.jpg 
+    - url: equipment/gas-generators/fas-8-13-vp/gas-generator-fas-8-13-vp--front-left--closed--n-10--scheme.jpg     
   videos: null
   docs: null
   tags:
@@ -1855,9 +1865,9 @@ fas-13-3-vp-13-kw:
     removablePanels: null
     noise: 63
     size:
-      length: 1321
-      width: 780
-      height: 963
+      length: 1414
+      width: 811
+      height: 1022
     weight: 410
 
 
@@ -2356,7 +2366,8 @@ fas-21-1-vp-21-kw:
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
-    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg 
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--8--scheme.jpg      
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
@@ -2817,7 +2828,8 @@ fas-28-3-vp-28-kw:
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
-    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg  
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--8--scheme.jpg   
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
@@ -2939,7 +2951,8 @@ fas-32-3-vp-32-kw:
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-right--open--4.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back--open--5.jpg
     - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-right--open--6.jpg
-    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg    
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--back-left--open--7.jpg
+    - url: equipment/gas-generators/fas-21-32-vp/gas-generator-fas-21-32-vp--front-left--closed--8--scheme.jpg     
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--closed--1.jpg      
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front-left--closed--2.jpg
     - url: equipment/gas-generators/fas-21-1-vp/gas-generator-fas-21-1-vp--front--open--3.jpg
@@ -3297,6 +3310,7 @@ fas-100-3-yp-100-kw:
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--4--back.jpg
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--5--back-right.jpg
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--6--front-right.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--7--back-right--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -3404,6 +3418,7 @@ fas-150-3-yp-150-kw:
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--4--back.jpg
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--5--back-right.jpg
     - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--6--front-right.jpg
+    - url: equipment/gas-generators/fas-100-3-yp--150-3-yp/gas-generator-fas-100-3-yp--150-3-yp--7--back-right--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -3731,6 +3746,7 @@ fas-315-3-yp-315-kw:
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back.jpg
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back-left.jpg
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front-left.jpg
+    - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--back-right--scheme.jpg
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container.jpg
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container--open-1.jpg
     - url: equipment/gas-generators/fas-315-3-yp/gas-generator-fas-315-3-yp--front--container--open-2.jpg
@@ -3845,6 +3861,7 @@ cogeneration-unit-fas-50-70m:
     - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back-left.jpg
     - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back--open.jpg
     - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--back-right--open.jpg
+    - url: equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m--front-left--open--scheme.jpg
   videos: null
   docs:
     - title: Scheme FAS-TM100
@@ -3904,9 +3921,9 @@ cogeneration-unit-fas-50-70m:
     removablePanels: null
     noise: 65
     size:
-      length: 2507
+      length: 2511
       width: 1181
-      height: 2345
+      height: 2517
     weight: 1706
 
 
@@ -4175,6 +4192,7 @@ fas-13-1-vt-turbo-13-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4290,6 +4308,7 @@ fas-13-3-vt-turbo-13-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4405,6 +4424,7 @@ fas-21-1-vt-turbo-21-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4520,6 +4540,7 @@ fas-21-3-vt-turbo-21-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4635,6 +4656,7 @@ fas-24-3-vt-turbo-24-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4749,6 +4771,7 @@ fas-28-3-vt-turbo-28-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -4864,6 +4887,7 @@ fas-32-3-vt-turbo-32-kw:
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-top.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--left--closed.jpg
     - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--right--closed.jpg
+    - url: equipment/gas-generators/fas-vpt/gas-generator-fas-vpt--front-left--closed--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -5098,6 +5122,7 @@ fas-35-3-zr-35-kw:
     - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-right-top--open.jpg
     - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-left-top--open.jpg
     - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-left-top--close--scheme.jpg
   videos: null
   docs: null
   tags:
@@ -5195,6 +5220,7 @@ fas-40-3-zr-40-kw:
     - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-right-top--open.jpg
     - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-left-top--open.jpg
     - url: equipment/gas-generators/fas-40-3-zr/gas-generator-fas-40-3-zr--front-top--open.jpg
+    - url: equipment/gas-generators/fas-35-3-zr/gas-generator-fas-35-3-zr--front-left-top--close--scheme.jpg
   videos: null
   docs: null
   tags:
