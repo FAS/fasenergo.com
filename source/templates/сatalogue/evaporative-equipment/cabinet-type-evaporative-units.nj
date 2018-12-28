@@ -39,6 +39,7 @@ description: Cabinet Type Evaporative Units.
 ] %}
 
 {% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-800-zh-sh--5--front.jpg' },
   { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--2--left.jpg' },
   { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--3--right.jpg' },
