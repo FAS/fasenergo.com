@@ -1,0 +1,95 @@
+---
+title:           Regional dealers in Saint-Petersburg
+contentTitle:    Regional dealers in Saint-Petersburg
+navTitle:        Saint-Petersburg
+breadcrumbTitle: Saint-Petersburg
+
+description: Fasenergomash's dealers in Saint-Petersburg.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Saint-Petersburg</h2>
+    <ul>
+      <li><strong>FASENERGOMASH, LLC<br><span class='h-text-'>{{ SITE.description }}</span></strong></li>
+      <li>
+        {{ Dealer(
+          name = 'Odissey Group, LLC',
+          address = 'Business Centre Antares Office 301, bldg. 83, block 3, Savushkin Street, 197374, St. Petersburg, Russian Federation',
+          phones = [{ country: '8', city: '800', tel: ['511', '63', '45'], noParentheses: true }]
+        ) }}
+      </li>
+      <li>
+        {{ Dealer(
+          name = 'Gazovyye Energeticheskiye Sistemy, LLC',
+          phones = [{ country: '7', city: '800', tel: ['707', '52', '58'] }],
+          email = 'info@gesystems.ru',
+          url = 'http://tgs.su'
+        ) }}
+      </li>   
+      <li>
+        {{ Dealer(
+          name = 'Gazovoz-M, LLC',
+          phones = [{ country: '7', city: '812', tel: ['648', '24', '78'] }],
+          email = 'info@gazovoz.com',
+          url = 'http://gazovoz.com'
+        ) }}
+      </li>  
+      <li>
+        {{ Dealer(
+          name = 'Lenekotreyd, LLC',
+          phones = [{ country: '7', city: '812', tel: ['677', '07', '21'] }],
+          email = 'export.russia@gmail.com'
+        ) }}
+      </li>   
+      <li>
+        {{ Dealer(
+          name = 'Tekhnogazstroy, LLC',
+          phones = [{ country: '7', city: '812', tel: ['448', '47', '41'] }],
+          email = 'svd@tgas.su',
+          url = 'http://tgas.su'
+        ) }}
+      </li>           
+      <li>Kompania Gruppa Yug, LLC</li>
+    </ul>
+  </article>
+</div>
+{% endblock %}

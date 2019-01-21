@@ -1,0 +1,105 @@
+---
+title:           Regional dealers in Moscow
+contentTitle:    Regional dealers in Moscow
+navTitle:        Moscow
+breadcrumbTitle: Moscow
+
+description: Fasenergomash's dealers in Moscow.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Moscow</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'ENERGOPROF, LLC',
+          phones = [{ country: '7', city: '495', tel: ['789', '47', '76'] }],
+          url = 'http://sklad-generator.ru'
+        ) }}
+      </li> 
+     <li>
+        {{ Dealer(
+          name = 'PGS, LLC',
+          phones = [
+            { country: '7', city: '495', tel: ['502', '56', '65'] },
+            { country: '7', city: '495', tel: ['518', '07', '75'] }
+          ],
+          url = 'http://promgasstroy.ru'
+        ) }}
+      </li> 
+     <li>
+        {{ Dealer(
+          name = 'Gaz Region Invest, LLC',
+          phones = [
+            { country: '7', city: '495', tel: ['646', '00', '90'] }
+          ],
+          url = 'http://gasregioninvest.ru'
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'NeftoGaz-Soyuz, LLC',
+          phones = [
+            { country: '8', city: '800', tel: ['250', '44', '04'] }
+          ],
+          url = 'http://neftogaz.ru'
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'Dobryy gaz, LLC',
+          phones = [
+            { country: '7', city: '495', tel: ['532', '59', '99'] }
+          ],
+          url = 'http://dobrogaz.ru'         
+        ) }}
+      </li>
+     <li>
+        {{ Dealer(
+          name = 'Russkiy gaz, LLC',
+          phones = [
+            { country: '7', city: '495', tel: ['150', '68', '00'] }
+          ],
+          url = 'http://rugas.ru'         
+        ) }}
+      </li>                           
+  </article>
+</div>
+{% endblock %}

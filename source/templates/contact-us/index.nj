@@ -24,16 +24,88 @@ description: 'Contact Us'
 
   <hr>
 
-  <h2>Representative Offices</h2>
+{% from '_components/_formatters.nj' import Phone with context %}
 
-  {% for depName, dep in CONTACTS.representatives %}
-  {{ Contact(dep, expandable = true) }}
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
   {% endfor %}
+</ul>
+{% endif %}
 
-  <hr>
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
 
-  <h2>Official Partners</h2>
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
 
-  <p><a href='/contact-us/business-partners' class='Btn Btn+ Btn--wide'>View the List</a></p>
+<div class='o-grid h-childs-displace++'>
+
+  <article class='o-grid__item h-1/3'>
+    <h2>Representative offices</h2>
+    <ul>
+      <li><a href='/contact-us'>Russia</a></li>
+      <li>Germany</li>
+      <li>Estonia</li></li>
+      <li><a href='/contact-us/representative-offices/kazakhstan'>Kazakhstan</a></li>
+      <li>Uzbekistan</li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/3'>
+    <h2>Regional dealers</h2>
+    <ul>
+      <li><a href='/contact-us/regional-dealers/moscow'>Moscow</a></li>
+      <li><a href='/contact-us/regional-dealers/saint-petersburg'>Saint-Petersburg</a></li>
+      <li><a href='/contact-us/regional-dealers/krasnodar'>Krasnodar</a></li>
+      <li><a href='/contact-us/regional-dealers/rostov-on-don'>Rostov-on-Don</a></li>
+      <li><a href='/contact-us/regional-dealers/yekaterinburg'>Yekaterinburg</a></li>
+      <li><a href='/contact-us/regional-dealers/nizhny-novgorod'>Nizhny Novgorod</a></li>
+      <li><a href='/contact-us/regional-dealers/chelyabinsk'>Chelyabinsk</a></li>
+      <li><a href='/contact-us/regional-dealers/perm'>Perm</a></li>
+      <li><a href='/contact-us/regional-dealers/vladivostok'>Vladivostok</a></li>
+      <li><a href='/contact-us/regional-dealers/stavropol'>Stavropol</a></li>
+      <li><a href='/contact-us/regional-dealers/bryansk'>Bryansk</a></li>
+    </ul>
+  </article>
+
+  <article class='o-grid__item h-1/3'>
+    <h2>Regional service centers</h2>
+    <ul>
+      <li><a href='/contact-us/regional-service-centers/moscow'>Moscow</a></li>
+      <li><a href='/contact-us/regional-service-centers/saint-petersburg'>Saint-Petersburg</a></li>      
+      <li><a href='/contact-us/regional-service-centers/krasnodar'>Krasnodar</a></li>
+      <li><a href='/contact-us/regional-service-centers/rostov-on-don'>Rostov-on-Don</a></li>
+      <li><a href='/contact-us/regional-service-centers/yekaterinburg'>Yekaterinburg</a></li>
+      <li><a href='/contact-us/regional-service-centers/kazan'>Kazan</a></li>
+      <li><a href='/contact-us/regional-service-centers/nizhny-novgorod'>Nizhny Novgorod</a></li>
+      <li><a href='/contact-us/regional-service-centers/chelyabinsk'>Chelyabinsk</a></li> 
+      <li><a href='/contact-us/regional-service-centers/perm'>Perm</a></li>
+      <li><a href='/contact-us/regional-service-centers/stavropol'>Stavropol</a></li>      
+    </ul>
+  </article>
+</div>
+
+<hr>
+<p style="text-align: center;"><a href="mailto:info@fasenergo.ru">File a complaint</a></p>
 
 {% endblock %}

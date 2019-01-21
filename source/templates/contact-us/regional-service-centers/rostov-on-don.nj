@@ -1,0 +1,66 @@
+---
+title:           Regional service centers in Rostov-on-Don
+contentTitle:    Regional service centers in Rostov-on-Don
+navTitle:        Rostov-on-Don
+breadcrumbTitle: Rostov-on-Don
+
+description: Fasenergomash's service centers in Rostov-on-Don.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+<div class='o-grid h-childs-displace++'>
+
+   <article class='o-grid__item h-1/2'>
+    <h2>Rostov-on-Don</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'Haustand, LLC',
+          phones = [
+            { country: '8', city: '800', tel: ['234', '37', '66'] },
+            { country: '8', city: '988', tel: ['840', '09', '00'] }
+          ],          
+          email = 'info@hausstand.ru',
+          url = 'http://hausstand.ru'
+        ) }}
+      </li>
+    </ul>
+  </article>
+</div>
+{% endblock %}

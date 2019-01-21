@@ -1,0 +1,70 @@
+---
+title:           Regional service centers in Moscow
+contentTitle:    Regional service centers in Moscow
+navTitle:        Moscow
+breadcrumbTitle: Moscow
+
+description: Fasenergomash's service centers in Moscow.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_formatters.nj' import Phone with context %}
+
+{% macro Dealer(
+  name,
+  address,
+  phones,
+  email,
+  url
+) %}
+<p>{{ name }}</p>
+
+{% if address %}
+<p class='h-bleed-top--'>{{ address }}</p>
+{% endif %}
+
+{% if phones.length %}
+<ul class='g-list0 h-margin-bottom--'>
+  {% for phone in phones %}
+  <li>{{ Phone(phone) }}</li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% if email %}
+<p><a href='mailto:{{ email }}'>{{ email }}</a><br></p>
+{% endif %}
+
+{% if url %}
+<p class='h-bleed-top--'>
+  <a href='{{ url }}' target='_blank' rel='nofollow'>{{ url.replace('http://', '').replace('https://', '') }}</a>
+</p>
+{% endif %}
+{% endmacro %}
+
+  <article class='o-grid__item h-1/2'>
+    <h2>Moscow</h2>
+    <ul>
+      <li>
+        {{ Dealer(
+          name = 'ENERGOPROF, LLC',
+          phones = [{ country: '7', city: '495', tel: ['789', '47', '76'] }],
+          url = 'http://sklad-generator.ru'
+        ) }}
+      </li> 
+      <li>
+        {{ Dealer(
+          name = 'PGS, LLC',
+          phones = [
+            { country: '7', city: '495', tel: ['502', '56', '65'] },
+            { country: '7', city: '495', tel: ['518', '07', '75'] }
+          ],
+          url = 'http://promgasstroy.ru'
+        ) }}
+      </li> 
+    </ul>
+  </article>
+</div>
+{% endblock %}
