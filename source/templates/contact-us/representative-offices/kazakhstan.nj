@@ -1,10 +1,10 @@
 ---
-title:           Представительства в Казахстане
-contentTitle:    Представительства в Казахстане
+title:           Representative offices in Kazakhstan
+contentTitle:    Representative offices in Kazakhstan
 navTitle:        Kazakhstan
 breadcrumbTitle: Kazakhstan
 
-description: Представительства компании «Фасэнергомаш» в Республике Казахстан.
+description: Fasenergomash representative offices in Kazakhstan
 ---
 
 {% extends '_layouts/_main.nj' %}

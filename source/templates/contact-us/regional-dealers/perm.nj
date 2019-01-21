@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Perm
 navTitle:        Perm
 breadcrumbTitle: Perm
 
-description: Fasenergomash's dealers in Perm.
+description: Fasenergomash dealers in Perm.
 ---
 
 {% extends '_layouts/_main.nj' %}

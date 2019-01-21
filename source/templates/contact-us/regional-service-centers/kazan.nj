@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Kazan
 navTitle:        Kazan
 breadcrumbTitle: Kazan
 
-description: Fasenergomash's service centers in Kazan.
+description: Fasenergomash service centers in Kazan.
 ---
 
 {% extends '_layouts/_main.nj' %}

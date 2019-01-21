@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Rostov-on-Don
 navTitle:        Rostov-on-Don
 breadcrumbTitle: Rostov-on-Don
 
-description: Fasenergomash's service centers in Rostov-on-Don.
+description: Fasenergomash service centers in Rostov-on-Don.
 ---
 
 {% extends '_layouts/_main.nj' %}

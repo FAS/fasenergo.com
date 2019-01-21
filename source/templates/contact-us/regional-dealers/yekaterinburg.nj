@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Yekaterinburg
 navTitle:        Yekaterinburg
 breadcrumbTitle: Yekaterinburg
 
-description: Fasenergomash's dealers in Yekaterinburg.
+description: Fasenergomash dealers in Yekaterinburg.
 ---
 
 {% extends '_layouts/_main.nj' %}

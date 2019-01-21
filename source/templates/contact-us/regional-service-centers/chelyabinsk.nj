@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Chelyabinsk
 navTitle:        Chelyabinsk
 breadcrumbTitle: Chelyabinsk
 
-description: Fasenergomash's service centers in Chelyabinsk.
+description: Fasenergomash service centers in Chelyabinsk.
 ---
 
 {% extends '_layouts/_main.nj' %}

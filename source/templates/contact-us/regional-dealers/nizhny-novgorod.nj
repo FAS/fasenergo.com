@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Nizhny Novgorod
 navTitle:        Nizhny Novgorod
 breadcrumbTitle: Nizhny Novgorod
 
-description: Fasenergomash's dealers in Nizhny Novgorod.
+description: Fasenergomash dealers in Nizhny Novgorod.
 ---
 
 {% extends '_layouts/_main.nj' %}

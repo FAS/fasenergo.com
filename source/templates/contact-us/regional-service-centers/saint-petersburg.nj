@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Saint Petersburg
 navTitle:        Saint Petersburg
 breadcrumbTitle: Saint Petersburg
 
-description: Fasenergomash's service centers in Saint Petersburg.
+description: Fasenergomash service centers in Saint Petersburg.
 ---
 
 {% extends '_layouts/_main.nj' %}

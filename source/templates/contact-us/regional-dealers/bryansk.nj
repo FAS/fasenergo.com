@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Bryansk
 navTitle:        Bryansk
 breadcrumbTitle: Bryansk
 
-description: Fasenergomash's dealers in Bryansk.
+description: Fasenergomash dealers in Bryansk.
 ---
 
 {% extends '_layouts/_main.nj' %}

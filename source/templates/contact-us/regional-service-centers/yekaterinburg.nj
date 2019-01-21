@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Yekaterinburg
 navTitle:        Yekaterinburg
 breadcrumbTitle: Yekaterinburg
 
-description: Fasenergomash's service centers in Yekaterinburg.
+description: Fasenergomash service centers in Yekaterinburg.
 ---
 
 {% extends '_layouts/_main.nj' %}

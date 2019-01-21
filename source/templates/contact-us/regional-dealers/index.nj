@@ -1,10 +1,10 @@
 ---
-title:           Региональные дилеры
-contentTitle:    Региональные дилеры
-navTitle:        Региональные дилеры
-breadcrumbTitle: Региональные дилеры
+title:           Regional dealers
+contentTitle:    Regional dealers
+navTitle:        Regional dealers
+breadcrumbTitle: Regional dealers
 
-description: Региональные дилеры компании «Фасэнергомаш» в различных регионах страны.
+description: Fasenergomash regional dealers.
 ---
 
 {% extends '_layouts/_main.nj' %}

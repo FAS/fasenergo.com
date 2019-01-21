@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Vladivostok
 navTitle:        Vladivostok
 breadcrumbTitle: Vladivostok
 
-description: Fasenergomash's dealers in Vladivostok.
+description: Fasenergomash dealers in Vladivostok.
 ---
 
 {% extends '_layouts/_main.nj' %}

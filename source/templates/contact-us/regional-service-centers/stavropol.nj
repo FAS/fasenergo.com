@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Stavropol
 navTitle:        Stavropol
 breadcrumbTitle: Stavropol
 
-description: Fasenergomash's service centers in Stavropol.
+description: Fasenergomash service centers in Stavropol.
 ---
 
 {% extends '_layouts/_main.nj' %}

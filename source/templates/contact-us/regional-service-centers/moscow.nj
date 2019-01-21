@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Moscow
 navTitle:        Moscow
 breadcrumbTitle: Moscow
 
-description: Fasenergomash's service centers in Moscow.
+description: Fasenergomash service centers in Moscow.
 ---
 
 {% extends '_layouts/_main.nj' %}

@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Krasnodar
 navTitle:        Krasnodar
 breadcrumbTitle: Krasnodar
 
-description: Fasenergomash's service centers in Krasnodar.
+description: Fasenergomash service centers in Krasnodar.
 ---
 
 {% extends '_layouts/_main.nj' %}

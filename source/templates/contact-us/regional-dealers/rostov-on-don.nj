@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Rostov-on-Don
 navTitle:        Rostov-on-Don
 breadcrumbTitle: Rostov-on-Don
 
-description: Fasenergomash's dealers in Rostov-on-Don.
+description: Fasenergomash dealers in Rostov-on-Don.
 ---
 
 {% extends '_layouts/_main.nj' %}

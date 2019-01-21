@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Stavropol
 navTitle:        Stavropol
 breadcrumbTitle: Stavropol
 
-description: Fasenergomash's dealers in Stavropol.
+description: Fasenergomash dealers in Stavropol.
 ---
 
 {% extends '_layouts/_main.nj' %}

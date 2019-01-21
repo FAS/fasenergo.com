@@ -4,7 +4,7 @@ contentTitle:    Regional dealers in Moscow
 navTitle:        Moscow
 breadcrumbTitle: Moscow
 
-description: Fasenergomash's dealers in Moscow.
+description: Fasenergomash dealers in Moscow.
 ---
 
 {% extends '_layouts/_main.nj' %}

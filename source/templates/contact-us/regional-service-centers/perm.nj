@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Perm
 navTitle:        Perm
 breadcrumbTitle: Perm
 
-description: Fasenergomash's service centers in Perm.
+description: Fasenergomash service centers in Perm.
 ---
 
 {% extends '_layouts/_main.nj' %}

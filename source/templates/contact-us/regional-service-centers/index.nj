@@ -1,10 +1,10 @@
 ---
-title:           Региональные сервисные центры
-contentTitle:    Региональные сервисные центры
-navTitle:        Региональные сервисные центры
-breadcrumbTitle: Региональные сервисные центры
+title:           Regional service centers
+contentTitle:    Regional service centers
+navTitle:        Regional service centers
+breadcrumbTitle: Regional service centers
 
-description: Региональные сервисные центры компании «Фасэнергомаш» в различных регионах страны.
+description: Fasenergomash regional service centers.
 ---
 
 {% extends '_layouts/_main.nj' %}

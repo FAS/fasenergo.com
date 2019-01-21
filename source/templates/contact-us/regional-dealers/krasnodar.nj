@@ -4,8 +4,7 @@ contentTitle:    Regional dealers in Krasnodar
 navTitle:        Krasnodar
 breadcrumbTitle: Krasnodar
 
-description: Fasenergomash's dealers in
- Krasnodar.
+description: Fasenergomash dealers in Krasnodar.
 ---
 
 {% extends '_layouts/_main.nj' %}

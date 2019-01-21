@@ -1,10 +1,10 @@
 ---
-title:           Представительства
-contentTitle:    Представительства
-navTitle:        Представительства
-breadcrumbTitle: Представительства
+title:           Representative offices
+contentTitle:    Representative offices
+navTitle:        Representative offices
+breadcrumbTitle: Representative offices
 
-description: Представительства компании «Фасэнергомаш» в различных странах.
+description: Fasenergomash representative offices.
 ---
 
 {% extends '_layouts/_main.nj' %}

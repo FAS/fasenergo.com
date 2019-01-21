@@ -4,7 +4,7 @@ contentTitle:    Regional service centers in Nizhny Novgorod
 navTitle:        Nizhny Novgorod
 breadcrumbTitle: Nizhny Novgorod
 
-description: Fasenergomash's service centers in Nizhny Novgorod.
+description: Fasenergomash service centers in Nizhny Novgorod.
 ---
 
 {% extends '_layouts/_main.nj' %}
