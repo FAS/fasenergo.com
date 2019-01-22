@@ -100,6 +100,7 @@
         <div class='o-grid__item h-2/3 h-text- h-childs-margin-bottom--'>
           <p>All information provided on the website is for reference only and can never be considered as a public or otherwise offer as determined by the provisions of the Civil Code of the Russian Federation.</p>
           <p>All materials posted on the website are protected by the copyright law.</p>
+          <p><a href='https://fasenergo.ru' target='_blank'>Русская версия</a></p>
           <p>© 2006 – {{ moment().year() }} FASENERGOMASH, LLC</p>
         </div>
 
