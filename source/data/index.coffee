@@ -32,7 +32,7 @@ module.exports = ({ config, file: { readYAML, readJSON } }) ->
       matter: () => require(join(cwd, config('file.temp.data.matter')))
       images: () => require(join(cwd, config('file.temp.data.images')))
       googleAnalyticsId: 'UA-35704990-1'
-      yandexMetrikaId: '20139793'
+      yandexMetrikaId: '34940415'
       mangoCallTrackerId: 11927
       roistatId: '87857cf3f1dc945c5daa3ef27bf87cfd'
       googleOptimizeId: 'GTM-WT37JN9'
