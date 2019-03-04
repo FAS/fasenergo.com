@@ -27,13 +27,22 @@ description: Gas Equipment FASENERGOMASH, LLC.
   <hr>
 
   {% call CategoryCard(
-    title = 'Evaporative Equipment',
+    title = 'Evaporative Equipment for LPG',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/evaporative-equipment.jpg',
     url = '/сatalogue/evaporative-equipment'
   ) %}{% endcall %}
 
   <hr>
+
+  {% call CategoryCard(
+    title = 'Evaporative Equipment for ammonia',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/evaporators.jpg',
+    url = '/сatalogue/evaporative-equipment-for-ammonia'
+  ) %}{% endcall %}
+
+  <hr>  
 
   {% call CategoryCard(
     title = 'Evaporative & Blending Equipment',

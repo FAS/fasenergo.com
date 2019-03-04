@@ -1,0 +1,44 @@
+---
+title:           Evaporative Equipment for ammonia
+contentTitle:    Evaporative Equipment for ammonia
+navTitle:        Evaporative Equipment for ammonia
+breadcrumbTitle: Evaporative Equipment for ammonia
+
+description: Evaporative Equipment for LPG.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{# <p class='h-margin-bottom+'>For propane-butane and their mixtures. This equipment is used for forced evaporation of liquid phase of the liquefied gas when the natural evaporation in tanks (LPG storage facilities) is not enough.</p> #}
+
+{% call CategoryCard(
+  title = 'Evaporators',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/evaporative-equipment/evaporators.jpg',
+  url = '/сatalogue/evaporative-equipment-for-ammonia/evaporators'
+) %}{% endcall %}
+
+<h2>Evaporative Units</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Cabinet Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/cabinet-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment-for-ammonia/cabinet-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Frame Mounted Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/frame-mounted-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment-for-ammonia/frame-mounted-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}

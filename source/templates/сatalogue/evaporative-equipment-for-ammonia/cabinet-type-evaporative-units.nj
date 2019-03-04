@@ -1,0 +1,147 @@
+---
+title:           Cabinet Type Evaporative Units for ammonia
+contentTitle:    Cabinet Type Evaporative Units for ammonia
+navTitle:        Cabinet Type Evaporative Units for ammonia
+breadcrumbTitle: Cabinet Type Evaporative Units for ammonia
+
+description: Cabinet Type Evaporative Units for ammonia.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--3--right-n.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-800-zh-sh--5--front.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-zh--4--right--scheme.jpg' }
+] %}
+
+<h2>Indirect Electric Heating</h2>
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/SH', class = 'h-margin-bottom+') }}
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{% set pageEqEl = [
+  {  artitle: '20.1050', title: 'Evaporative unit FEM 50 AE/SH', performance: '50 kg/hour' },
+  {  artitle: '20.1060', title: 'Evaporative unit FEM 60 AE/SH', performance: '60 kg/hour' },
+  {  artitle: '20.1070', title: 'Evaporative unit FEM 70 AE/SH', performance: '70 kg/hour' },
+  {  artitle: '20.1080', title: 'Evaporative unit FEM 80 AE/SH', performance: '80 kg/hour' },
+  {  artitle: '20.1090', title: 'Evaporative unit FEM 90 AE/SH', performance: '90 kg/hour' },
+  {  artitle: '20.1100', title: 'Evaporative unit FEM 100 AE/SH', performance: '100 kg/hour' },
+  {  artitle: '20.1120', title: 'Evaporative unit FEM 120 AE/SH', performance: '120 kg/hour' },
+  {  artitle: '20.1130', title: 'Evaporative unit FEM 130 AE/SH', performance: '130 kg/hour' },
+  {  artitle: '20.1140', title: 'Evaporative unit FEM 140 AE/SH', performance: '140 kg/hour' },
+  {  artitle: '20.1150', title: 'Evaporative unit FEM 150 AE/SH', performance: '150 kg/hour' },
+  {  artitle: '20.1160', title: 'Evaporative unit FEM 160 AE/SH', performance: '160 kg/hour' },
+  {  artitle: '20.1165', title: 'Evaporative unit FEM 165 AE/SH', performance: '165 kg/hour' },
+  {  artitle: '20.1175', title: 'Evaporative unit FEM 175 AE/SH', performance: '175 kg/hour' },
+  {  artitle: '20.1200', title: 'Evaporative unit FEM 200 AE/SH', performance: '200 kg/hour' },
+  {  artitle: '20.1225', title: 'Evaporative unit FEM 225 AE/SH', performance: '225 kg/hour' },
+  {  artitle: '20.1250', title: 'Evaporative unit FEM 250 AE/SH', performance: '250 kg/hour' },
+  {  artitle: '20.1260', title: 'Evaporative unit FEM 260 AE/SH', performance: '260 kg/hour' },
+  {  artitle: '20.1280', title: 'Evaporative unit FEM 280 AE/SH', performance: '280 kg/hour' },
+  {  artitle: '20.1300', title: 'Evaporative unit FEM 300 AE/SH', performance: '300 kg/hour' },
+  {  artitle: '20.1320', title: 'Evaporative unit FEM 320 AE/SH', performance: '320 kg/hour' },
+  {  artitle: '20.1360', title: 'Evaporative unit FEM 360 AE/SH', performance: '360 kg/hour' },
+  {  artitle: '20.1390', title: 'Evaporative unit FEM 390 AE/SH', performance: '390 kg/hour' },
+  {  artitle: '20.1420', title: 'Evaporative unit FEM 420 AE/SH', performance: '420 kg/hour' },
+  {  artitle: '20.1480', title: 'Evaporative unit FEM 480 AE/SH', performance: '480 kg/hour' },
+  {  artitle: '20.1625', title: 'Evaporative unit FEM 625 AE/SH', performance: '625 kg/hour' },
+  {  artitle: '20.1725', title: 'Evaporative unit FEM 725 AE/SH', performance: '725 kg/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>     
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Indirect Liquid Heating</h2>
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM ZH/SH', class = 'h-margin-bottom+') }}
+
+{% set pageEqEl = [
+  {  artitle: '20.2100', title: 'Evaporative unit FEM 100 AZH/SH', performance: '100 kg/hour' },
+  {  artitle: '20.2150', title: 'Evaporative unit FEM 150 AZH/SH', performance: '150 kg/hour' },
+  {  artitle: '20.2200', title: 'Evaporative unit FEM 200 AZH/SH', performance: '200 kg/hour' },
+  {  artitle: '20.2300', title: 'Evaporative unit FEM 300 AZH/SH', performance: '300 kg/hour' }, 
+  {  artitle: '20.2400', title: 'Evaporative unit FEM 400 AZH/SH', performance: '400 kg/hour' },
+  {  artitle: '20.2600', title: 'Evaporative unit FEM 600 AZH/SH', performance: '600 kg/hour' },
+  {  artitle: '20.2950', title: 'Evaporative unit FEM 950 AZH/SH', performance: '950 kg/hour' },
+  {  artitle: '20.21250', title: 'Evaporative unit FEM 1250 AZH/SH', performance: '1250 kg/hour' }, 
+  {  artitle: '20.21500', title: 'Evaporative unit FEM 1500 AZH/SH', performance: '1500 kg/hour' }, 
+  {  artitle: '20.21900', title: 'Evaporative unit FEM 1900 AZH/SH', performance: '1900 kg/hour' }    
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>     
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

@@ -1,0 +1,133 @@
+---
+title:           Electric Heated Evaporative Units for ammonia
+contentTitle:    Evaporators for ammonia
+navTitle:        Evaporators for ammonia
+breadcrumbTitle: Evaporators for ammonia
+
+description: Electric Heated Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>The AE type electric evaporators produced by the Russian company FASENERGOMASH, LLC are designed for ammonia (A) and feature indirect electric heating (E). The figure following the series abbreviation means the model number in the FEM catalogue.</p>
+
+<h2>Indirect electric heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled and checked for pressure.</li>
+</ul>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--2--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--4--back-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--5--back.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--6--back-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--7--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--8--front-left.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporator FEM SE-A 13') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.002', title: 'Evaporator FEM 2.5 AE-A', performance: '2,5 kg/hour' },
+  {  artitle: '20.005', title: 'Evaporator FEM 5 AE-A', performance: '5 kg/hour' },
+  {  artitle: '20.006', title: 'Evaporator FEM 6.5 AE-A', performance: '6,5 kg/hour' }  
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>     
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+{# @todo Missing Испарители 40-300SE renders #}
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--3--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--4--front-right--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--3--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--4--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--5--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--6--front-top.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--7--front-left--scheme.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporators FEM SE 10-40') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.0010', title: 'Evaporator FEM 10 AE', performance: '10 kg/hour' }, 
+  {  artitle: '20.0012', title: 'Evaporator FEM 12.5 AE', performance: '12,5 kg/hour' },
+  {  artitle: '20.0015', title: 'Evaporator FEM 15 AE', performance: '15 kg/hour' },
+  {  artitle: '20.0017', title: 'Evaporator FEM 17.5 AE', performance: '17,5 kg/hour' },
+  {  artitle: '20.0020', title: 'Evaporator FEM 20 AE', performance: '20 kg/hour' },
+  {  artitle: '20.0025', title: 'Evaporator FEM 25 AE', performance: '25 kg/hour' },  
+  {  artitle: '20.0030', title: 'Evaporator FEM 30 AE', performance: '30 kg/hour' }, 
+  {  artitle: '20.0035', title: 'Evaporator FEM 35 AE', performance: '35 kg/hour' }, 
+  {  artitle: '20.0040', title: 'Evaporator FEM 40 AE', performance: '40 kg/hour' }, 
+  {  artitle: '20.0050', title: 'Evaporator FEM 50 AE', performance: '50 kg/hour' },   
+  {  artitle: '20.0060', title: 'Evaporator FEM 60 AE', performance: '60 kg/hour' }, 
+  {  artitle: '20.0070', title: 'Evaporator FEM 70 AE', performance: '70 kg/hour' },   
+  {  artitle: '20.0080', title: 'Evaporator FEM 80 AE', performance: '80 kg/hour' }, 
+  {  artitle: '20.0090', title: 'Evaporator FEM 90 AE', performance: '90 kg/hour' }, 
+  {  artitle: '20.0100', title: 'Evaporator FEM 100 AE', performance: '100 kg/hour' },    
+  {  artitle: '20.0120', title: 'Evaporator FEM 120 AE', performance: '120 kg/hour' }, 
+  {  artitle: '20.0130', title: 'Evaporator FEM 130 AE', performance: '130 kg/hour' },
+  {  artitle: '20.0140', title: 'Evaporator FEM 140 AE', performance: '140 kg/hour' }, 
+  {  artitle: '20.0150', title: 'Evaporator FEM 150 AE', performance: '150 kg/hour' },   
+  {  artitle: '20.0160', title: 'Evaporator FEM 160 AE', performance: '160 kg/hour' }     
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>     
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

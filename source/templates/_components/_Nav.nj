@@ -51,6 +51,7 @@
 
     {% call(depth) Item('/сatalogue/gas-generators') %}{% endcall %}
     {% call(depth) Item('/сatalogue/evaporative-equipment', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/сatalogue/evaporative-equipment-for-ammonia', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/evaporative-and-blending-equipment', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/autonomous-gas-supply-systems', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/heat-recovery-systems', depth = depth) %}{% endcall %}
