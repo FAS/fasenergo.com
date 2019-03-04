@@ -1,10 +1,10 @@
 ---
-title:           Frame Mounted Type Evaporative Units
-contentTitle:    Frame Mounted Type Evaporative Units
-navTitle:        Frame Mounted Type Evaporative Units
-breadcrumbTitle: Frame Mounted Type Evaporative Units
+title:           Frame Mounted Type Evaporative Units for LPG
+contentTitle:    Frame Mounted Type Evaporative Units for LPG
+navTitle:        Frame Mounted Type Evaporative Units for LPG
+breadcrumbTitle: Frame Mounted Type Evaporative Units for LPG
 
-description: Frame Mounted Type Evaporative Units
+description: Frame Mounted Type Evaporative Units for LPG
 ---
 
 {% extends '_layouts/_main.nj' %}

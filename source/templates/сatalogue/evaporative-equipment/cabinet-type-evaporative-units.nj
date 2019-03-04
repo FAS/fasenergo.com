@@ -1,10 +1,10 @@
 ---
-title:           Cabinet Type Evaporative Units
-contentTitle:    Cabinet Type Evaporative Units
-navTitle:        Cabinet Type Evaporative Units
-breadcrumbTitle: Cabinet Type Evaporative Units
+title:           Cabinet Type Evaporative Units for LPG
+contentTitle:    Cabinet Type Evaporative Units for LPG
+navTitle:        Cabinet Type Evaporative Units for LPG
+breadcrumbTitle: Cabinet Type Evaporative Units for LPG
 
-description: Cabinet Type Evaporative Units.
+description: Cabinet Type Evaporative Units for LPG.
 ---
 
 {% extends '_layouts/_main.nj' %}

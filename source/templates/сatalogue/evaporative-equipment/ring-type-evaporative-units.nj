@@ -1,10 +1,10 @@
 ---
-title:           Ring Type Evaporative Units
-contentTitle:    Ring Type Evaporative Units
-navTitle:        Ring Type Evaporative Units
-breadcrumbTitle: Ring Type Evaporative Units
+title:           Ring Type Evaporative Units for LPG
+contentTitle:    Ring Type Evaporative Units for LPG
+navTitle:        Ring Type Evaporative Units for LPG
+breadcrumbTitle: Ring Type Evaporative Units for LPG
 
-description: Ring Type Evaporative Units.
+description: Ring Type Evaporative Units for LPG.
 ---
 
 {% extends '_layouts/_main.nj' %}
