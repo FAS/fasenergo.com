@@ -29,7 +29,7 @@ description: Frame Mounted Type Evaporative Units for LPG
 
 <ul>
   <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
-  <li>All units are factory-assembled and checked for pressure.</li>
+  <li>All units are factory-assembled, and pressure checked.</li>
 </ul>
 
 {% set pageEqEl = [
