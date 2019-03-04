@@ -38,7 +38,9 @@ description: Electric Heated Evaporative Units.
 <p></p>
 
 {% set pageEqEl = [
-  {  artitle: '20.0013', title: 'Evaporator FEM 13 SE-A', performance: '13 kg/hour' , price: 'Price on request' }
+  {  artitle: '20.005', title: 'Evaporator FEM 5 SE-A', performance: '5 kg/hour' },
+  {  artitle: '20.0010', title: 'Evaporator FEM 10 SE-A', performance: '10 kg/hour' },
+  {  artitle: '20.0013', title: 'Evaporator FEM 13 SE-A', performance: '13 kg/hour' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
@@ -46,8 +48,7 @@ description: Electric Heated Evaporative Units.
     <tr>
       <th>Product code</th>
       <th>Item Name</th>
-      <th>Rated Capacity</th>
-      <th>Price</th>      
+      <th>Rated Capacity</th>   
       <th>TCO</th>
     </tr>
   </thead>
@@ -57,7 +58,6 @@ description: Electric Heated Evaporative Units.
       <td>{{ e.artitle }}</td>
       <td>{{ e.title }}</td>
       <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--right'>{{ e.price }}</td>
       <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
       </td>
     </tr>

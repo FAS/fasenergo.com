@@ -4,7 +4,7 @@ contentTitle:    Frame Mounted Type Evaporative Units
 navTitle:        Frame Mounted Type Evaporative Units
 breadcrumbTitle: Frame Mounted Type Evaporative Units
 
-description: Испарительные установки СУГ на раме от «Фасэнергомаш»
+description: Frame Mounted Type Evaporative Units
 ---
 
 {% extends '_layouts/_main.nj' %}
