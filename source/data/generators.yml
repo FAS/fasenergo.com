@@ -4169,7 +4169,7 @@ fas-13-1-vt-turbo-13-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4285,7 +4285,7 @@ fas-13-3-vt-turbo-13-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4517,7 +4517,7 @@ fas-21-3-vt-turbo-21-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4633,7 +4633,7 @@ fas-24-3-vt-turbo-24-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4748,7 +4748,7 @@ fas-28-3-vt-turbo-28-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
@@ -4864,7 +4864,7 @@ fas-32-3-vt-turbo-32-kw:
   priceBeforeDiscount: null
   discount: null
   discountDate: null
-  availability: preorder
+  availability: discontinued
   warranty:
     delivery: 24
     installation: 24
