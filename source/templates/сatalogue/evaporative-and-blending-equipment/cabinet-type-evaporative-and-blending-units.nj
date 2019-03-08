@@ -33,10 +33,10 @@ description: Cabinet Type Evaporative and Blending Units
 {{ PhotosPreview(pageEqElPhotos, 'Испарительно-смесительная ФАС ISU/SE/ND/SH', class = 'h-margin-bottom+') }}
 
 {% set pageEqElLow = [
-  { title: 'Evaporative and blending unit FEM 60 ISU/SE/ND/SH', performance: '60 m3/hour' },
-  { title: 'Evaporative and blending unit FEM 300 ISU/SE/ND/SH', performance: '300 m3/hour' },
-  { title: 'Evaporative and blending unit FEM 400 ISU/SE/ND/SH', performance: '400 m3/hour' },
-  { title: 'Evaporative and blending unit FEM 600 ISU/SE/ND/SH', performance: '600 m3/hour' }
+  { title: 'Evaporative and blending unit FEM 60 ISU/SE/ND/H', performance: '60 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 300 ISU/SE/ND/H', performance: '300 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 400 ISU/SE/ND/H', performance: '400 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 600 ISU/SE/ND/H', performance: '600 m3/hour' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
@@ -67,8 +67,8 @@ description: Cabinet Type Evaporative and Blending Units
 {{ PhotosPreview(pageEqLiqPhotos, 'Испарительно-смесительная ФАС ISU/ZH/ND/SH', class = 'h-margin-bottom+') }}
 
 {% set pageEqLiqLow = [
-  { title: 'Evaporative and blending unit FEM 300 ISU/ZH/ND/SH', performance: '300 m3/hour' },
-  { title: 'Evaporative and blending unit FEM 600 ISU/ZH/ND/SH', performance: '600 m3/hour' }
+  { title: 'Evaporative and blending unit FEM 300 ISU/ZH/ND/H', performance: '300 m3/hour' },
+  { title: 'Evaporative and blending unit FEM 600 ISU/ZH/ND/H', performance: '600 m3/hour' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
