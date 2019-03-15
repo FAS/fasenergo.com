@@ -25,7 +25,11 @@
     {{ entry.specs.performance }} kg/hour
     {% endif %}
   </td>
-  <td class='h-align--right'>{{ Price(entry.price, 'EUR') if entry.price }}</td>
+  <td class='h-align--right'>{{ Price(entry.price, 'EUR') if entry.price }}
+  {% if (entry.price == '') or (entry.price == 0) or (entry.price == '0') or (entry.price == NaN) or (entry.price == null) %}
+  On request
+  {% endif %}
+  </td>
   <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
   </td>
 </tr>
