@@ -1,0 +1,42 @@
+---
+title:           Evaporative Equipment for chlorine
+contentTitle:    Evaporative Equipment for chlorine
+navTitle:        Evaporative Equipment for chlorine
+breadcrumbTitle: Evaporative Equipment for chlorine
+
+description: Evaporative Equipment for chlorine.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{% call CategoryCard(
+  title = 'Evaporators',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/evaporative-equipment/evaporators.jpg',
+  url = '/сatalogue/evaporative-equipment-for-chlorine/evaporators'
+) %}{% endcall %}
+
+<h2>Evaporative Units</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Cabinet Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/cabinet-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment-for-chlorine/cabinet-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Frame Mounted Type',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/evaporative-equipment/frame-mounted-type-evaporative-units.jpg',
+    url = '/сatalogue/evaporative-equipment-for-chlorine/frame-mounted-type-evaporative-units',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+{% endblock %}

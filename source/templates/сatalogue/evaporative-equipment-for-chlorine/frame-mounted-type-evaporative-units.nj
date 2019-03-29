@@ -1,0 +1,63 @@
+---
+title:           Frame Mounted Type Evaporative Units for chlorine
+contentTitle:    Frame Mounted Type Evaporative Units for chlorine
+navTitle:        Frame Mounted Type Evaporative Units for chlorine
+breadcrumbTitle: Frame Mounted Type Evaporative Units for chlorine
+
+description: Frame Mounted Type Evaporative Units for chlorine
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>These types of evaporative units are supplied without any casing. The structure is completely mounted on a frame and is ready for operation.</p>
+<p>The frame assemblages of the evaporative units can be installed in appropriate buildings or vented containers, which ensures mobility of an evaporative unit.</p>
+<p>The frame is designed according to the customer's request.</p>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--3--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--4--front-right--scheme.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM CLE/R') }}
+
+<h2>Indirect Electric Heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled, and pressure checked.</li>
+</ul>
+
+{% set pageEqEl = [
+  { title: 'Evaporative unit&nbsp;FEM 630&nbsp;CLE/R', performance: '630 kg/hour' },
+  { title: 'Evaporative unit&nbsp;FEM 840&nbsp;CLE/R', performance: '840 kg/hour' },
+  { title: 'Evaporative unit&nbsp;FEM 980&nbsp;CLE/R', performance: '980 kg/hour' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Запросить ТКП</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}
+

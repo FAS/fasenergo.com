@@ -1,0 +1,92 @@
+---
+title:           Electric Heated Evaporative Units for chlorine
+contentTitle:    Evaporators for chlorine
+navTitle:        Evaporators for chlorine
+breadcrumbTitle: Evaporators for chlorine
+
+description: Electric Heated Evaporative Units.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>The CLE type electric evaporators produced by the Russian company FASENERGOMASH, LLC are designed for chlorine (CL) and feature indirect electric heating (E). The figure following the series abbreviation means the model number in the FEM catalogue.</p>
+
+<h2>Indirect electric heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled, and pressure checked.</li>
+</ul>
+
+{# @todo Missing Evaporators 14-224 CLE renders #}
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--3--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--4--front-right--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--2--front-left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--3--left.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--4--right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--5--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--6--front-top.jpg' },
+  { url: 'equipment/evaporative-equipment/se-40-300/evaporator-fem-se-40-300--7--front-left--scheme.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporator FEM 14-224 CLE') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.0014/CLE', title: 'Evaporator FEM 14 CLE', performance: '14 kg/hour', price: 'On request' },
+  {  artitle: '20.0017/CLE', title: 'Evaporator FEM 17.5 CLE', performance: '17,5 kg/hour', price: 'On request' },
+  {  artitle: '20.0021/CLE', title: 'Evaporator FEM 21 CLE', performance: '21 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0024/CLE', title: 'Evaporator FEM 24.5 CLE', performance: '24,5 kg/hour', price: 'On request' },
+  {  artitle: '20.0028/CLE', title: 'Evaporator FEM 28 CLE', performance: '28 kg/hour', price: 'On request' },
+  {  artitle: '20.0035/CLE', title: 'Evaporator FEM 35 CLE', performance: '35 kg/hour', price: 'On request' },
+  {  artitle: '20.0042/CLE', title: 'Evaporator FEM 42 CLE', performance: '42 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0049/CLE', title: 'Evaporator FEM 49 CLE', performance: '49 kg/hour', price: 'On request' },  
+  {  artitle: '20.0056/CLE', title: 'Evaporator FEM 56 CLE', performance: '56 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0070/CLE', title: 'Evaporator FEM 70 CLE', performance: '70 kg/hour', price: 'On request' },   
+  {  artitle: '20.0084/CLE', title: 'Evaporator FEM 84 CLE', performance: '84 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0098/CLE', title: 'Evaporator FEM 98 CLE', performance: '98 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0112/CLE', title: 'Evaporator FEM 112 CLE', performance: '112 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0126/CLE', title: 'Evaporator FEM 126 CLE', performance: '126 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0140/CLE', title: 'Evaporator FEM 140 CLE', performance: '140 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0168/CLE', title: 'Evaporator FEM 168 CLE', performance: '168 kg/hour', price: 'On request' },
+  {  artitle: '20.0182/CLE', title: 'Evaporator FEM 182 CLE', performance: '182 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0196/CLE', title: 'Evaporator FEM 196 CLE', performance: '196 kg/hour', price: 'On request' }, 
+  {  artitle: '20.0210/CLE', title: 'Evaporator FEM 210 CLE', performance: '210 kg/hour', price: 'On request' },    
+  {  artitle: '20.0224/CLE', title: 'Evaporator FEM 224 CLE', performance: '224 kg/hour', price: 'On request' }     
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>    
+      <th>Price</th>      
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

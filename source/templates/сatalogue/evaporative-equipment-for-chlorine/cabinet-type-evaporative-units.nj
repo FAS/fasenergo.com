@@ -1,0 +1,163 @@
+---
+title:           Cabinet Type Evaporative Units for chlorine
+contentTitle:    Cabinet Type Evaporative Units for chlorine
+navTitle:        Cabinet Type Evaporative Units for chlorine
+breadcrumbTitle: Cabinet Type Evaporative Units for chlorine
+
+description: Cabinet Type Evaporative Units for chlorine.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+{% set vaporizers = selectVaporizingStationsInLocker(VAPORIZERS) %}
+{% set electrical = filterWithElectricalHeating(vaporizers) %}
+{% set liquid = filterWithLiquidHeating(vaporizers) %}
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-20-40-se-sh-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-20-40-se-sh-x1--1--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--3--right-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--4--front--scheme.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--2--left-n.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--3--right-n.jpg' }
+] %}
+
+{% set pageEqLiqPhotos = [
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-800-zh-sh--5--front.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--2--left.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-sh--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment/zh-sh/evaporative-unit-fem-zh-zh--4--right--scheme.jpg' }
+] %}
+
+<h2>Indirect Electric Heating</h2>
+
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM CLE/H', class = 'h-margin-bottom+') }}
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled, and pressure checked.</li>
+</ul>
+
+{% set pageEqEl = [
+  {  artitle: '20.1014/CLE/H', title: 'Evaporative unit FEM 14 CLE/H', performance: '14 kg/hour', price: 'On request' },
+  {  artitle: '20.1017/CLE/H', title: 'Evaporative unit FEM 17.5 CLE/H', performance: '17,5 kg/hour', price: 'On request' },
+  {  artitle: '20.1021/CLE/H', title: 'Evaporative unit FEM 21 CLE/H', performance: '21 kg/hour', price: 'On request' },
+  {  artitle: '20.1024/CLE/H', title: 'Evaporative unit FEM 24.5 CLE/H', performance: '24,5 kg/hour', price: 'On request' },
+  {  artitle: '20.1028/CLE/H', title: 'Evaporative unit FEM 28 CLE/H', performance: '28 kg/hour', price: 'On request' },
+  {  artitle: '20.1035/CLE/H', title: 'Evaporative unit FEM 35 CLE/H', performance: '35 kg/hour', price: 'On request' },
+  {  artitle: '20.1042/CLE/H', title: 'Evaporative unit FEM 42 CLE/H', performance: '42 kg/hour', price: 'On request' },
+  {  artitle: '20.1049/CLE/H', title: 'Evaporative unit FEM 49 CLE/H', performance: '49 kg/hour', price: 'On request' },
+  {  artitle: '20.1056/CLE/H', title: 'Evaporative unit FEM 56 CLE/H', performance: '56 kg/hour', price: 'On request' },
+  {  artitle: '20.1070/CLE/H', title: 'Evaporative unit FEM 70 CLE/H', performance: '70 kg/hour', price: 'On request' },
+  {  artitle: '20.1084/CLE/H', title: 'Evaporative unit FEM 84 CLE/H', performance: '84 kg/hour', price: 'On request' },
+  {  artitle: '20.1098/CLE/H', title: 'Evaporative unit FEM 98 CLE/H', performance: '98 kg/hour', price: 'On request' },
+  {  artitle: '20.1112/CLE/H', title: 'Evaporative unit FEM 112 CLE/H', performance: '112 kg/hour', price: 'On request' },
+  {  artitle: '20.1126/CLE/H', title: 'Evaporative unit FEM 126 CLE/H', performance: '126 kg/hour', price: 'On request' },
+  {  artitle: '20.1140/CLE/H', title: 'Evaporative unit FEM 140 CLE/H', performance: '140 kg/hour', price: 'On request' },
+  {  artitle: '20.1168/CLE/H', title: 'Evaporative unit FEM 168 CLE/H', performance: '168 kg/hour', price: 'On request' },
+  {  artitle: '20.1182/CLE/H', title: 'Evaporative unit FEM 182 CLE/H', performance: '182 kg/hour', price: 'On request' },
+  {  artitle: '20.1196/CLE/H', title: 'Evaporative unit FEM 196 CLE/H', performance: '196 kg/hour', price: 'On request' },
+  {  artitle: '20.1210/CLE/H', title: 'Evaporative unit FEM 210 CLE/H', performance: '210 kg/hour', price: 'On request' },
+  {  artitle: '20.1224/CLE/H', title: 'Evaporative unit FEM 224 CLE/H', performance: '224 kg/hour', price: 'On request' },
+  {  artitle: '20.1231/CLE/H', title: 'Evaporative unit FEM 231 CLE/H', performance: '231 kg/hour', price: 'On request' },
+  {  artitle: '20.1245/CLE/H', title: 'Evaporative unit FEM 245 CLE/H', performance: '245 kg/hour', price: 'On request' },
+  {  artitle: '20.1280/CLE/H', title: 'Evaporative unit FEM 280 CLE/H', performance: '280 kg/hour', price: 'On request' },
+  {  artitle: '20.1315/CLE/H', title: 'Evaporative unit FEM 315 CLE/H', performance: '315 kg/hour', price: 'On request' },
+  {  artitle: '20.1350/CLE/H', title: 'Evaporative unit FEM 350 CLE/H', performance: '350 kg/hour', price: 'On request' },
+  {  artitle: '20.1364/CLE/H', title: 'Evaporative unit FEM 364 CLE/H', performance: '364 kg/hour', price: 'On request' },
+  {  artitle: '20.1392/CLE/H', title: 'Evaporative unit FEM 392 CLE/H', performance: '392 kg/hour', price: 'On request' },
+  {  artitle: '20.1420/CLE/H', title: 'Evaporative unit FEM 420 CLE/H', performance: '420 kg/hour', price: 'On request' },
+  {  artitle: '20.1448/CLE/H', title: 'Evaporative unit FEM 448 CLE/H', performance: '448 kg/hour', price: 'On request' },
+  {  artitle: '20.1504/CLE/H', title: 'Evaporative unit FEM 504 CLE/H', performance: '504 kg/hour', price: 'On request' },
+  {  artitle: '20.1546/CLE/H', title: 'Evaporative unit FEM 546 CLE/H', performance: '546 kg/hour', price: 'On request' },
+  {  artitle: '20.1588/CLE/H', title: 'Evaporative unit FEM 588 CLE/H', performance: '588 kg/hour', price: 'On request' },
+  {  artitle: '20.1672/CLE/H', title: 'Evaporative unit FEM 672 CLE/H', performance: '672 kg/hour', price: 'On request' },
+  {  artitle: '20.1875/CLE/H', title: 'Evaporative unit FEM 875 CLE/H', performance: '875 kg/hour', price: 'On request' },
+  {  artitle: '20.11015/CLE/H', title: 'Evaporative unit FEM 1015 CLE/H', performance: '1015 kg/hour', price: 'On request' }
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>    
+      <th>Price</th>        
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h2>Indirect Liquid Heating</h2>
+
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM CLZH/H', class = 'h-margin-bottom+') }}
+
+{% set pageEqEl = [
+  {  artitle: '20.2140/CLZH/H', title: 'Evaporative unit FEM 140 CLZH/H', performance: '140 kg/hour', price: 'On request' },
+  {  artitle: '20.2210/CLZH/H', title: 'Evaporative unit FEM 210 CLZH/H', performance: '210 kg/hour', price: 'On request' },
+  {  artitle: '20.2280/CLZH/H', title: 'Evaporative unit FEM 280 CLZH/H', performance: '280 kg/hour', price: 'On request' },
+  {  artitle: '20.2420/CLZH/H', title: 'Evaporative unit FEM 420 CLZH/H', performance: '420 kg/hour', price: 'On request' }, 
+  {  artitle: '20.2560/CLZH/H', title: 'Evaporative unit FEM 560 CLZH/H', performance: '560 kg/hour', price: 'On request' },
+  {  artitle: '20.2700/CLZH/H', title: 'Evaporative unit FEM 700 CLZH/H', performance: '700 kg/hour', price: 'On request' },
+  {  artitle: '20.2840/CLZH/H', title: 'Evaporative unit FEM 840 CLZH/H', performance: '840 kg/hour', price: 'On request' },
+  {  artitle: '20.21330/CLZH/H', title: 'Evaporative unit FEM 1330 CLZH/H', performance: '1330 kg/hour', price: 'On request' }, 
+  {  artitle: '20.21750/CLZH/H', title: 'Evaporative unit FEM 1750 CLZH/H', performance: '1750 kg/hour', price: 'On request' }, 
+  {  artitle: '20.22100/CLZH/H', title: 'Evaporative unit FEM 2100 CLZH/H', performance: '2100 kg/hour', price: 'On request' },
+  {  artitle: '20.22660/CLZH/H', title: 'Evaporative unit FEM 2660 CLZH/H', performance: '2660 kg/hour', price: 'On request' }   
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>    
+      <th>Price</th>        
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--right'>{{ e.price }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a TCO</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}
