@@ -18,6 +18,8 @@ description: Cabinet Type Evaporative Units for LPG.
 {% set liquid = filterWithLiquidHeating(vaporizers) %}
 
 {% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-20-40-se-sh-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-20-40-se-sh-x1--1--front--scheme.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--4--front--scheme.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--2--left-n.jpg' },
