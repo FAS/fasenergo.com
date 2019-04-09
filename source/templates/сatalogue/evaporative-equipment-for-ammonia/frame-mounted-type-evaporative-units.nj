@@ -23,7 +23,7 @@ description: Frame Mounted Type Evaporative Units for ammonia
   { url: 'equipment/evaporative-equipment/se-r/evaporative-unit-fem-se-r--4--front-right--scheme.jpg' }
 ] %}
 
-{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/R') }}
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM AE/R') }}
 
 <h2>Indirect Electric Heating</h2>
 
@@ -33,9 +33,9 @@ description: Frame Mounted Type Evaporative Units for ammonia
 </ul>
 
 {% set pageEqEl = [
-  { title: 'Evaporative unit FEM 450 AE/R', performance: '450 kg/hour' },
-  { title: 'Evaporative unit FEM 600 AE/R', performance: '600 kg/hour' },
-  { title: 'Evaporative unit FEM 700 AE/R', performance: '700 kg/hour' }
+  { title: 'Evaporative unit FEM 300 AE/R', performance: '300 kg/hour' },
+  { title: 'Evaporative unit FEM 400 AE/R', performance: '400 kg/hour' },
+  { title: 'Evaporative unit FEM 466 AE/R', performance: '466 kg/hour' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>

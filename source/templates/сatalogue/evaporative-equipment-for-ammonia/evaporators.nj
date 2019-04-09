@@ -22,50 +22,7 @@ description: Electric Heated Evaporative Units.
   <li>All units are factory-assembled, and pressure checked.</li>
 </ul>
 
-{% set pageEqElPhotos = [
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--1--front.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--2--front-right.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--3--right.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--4--back-left.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--5--back.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--6--back-right.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--7--left.jpg' },
-  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--8--front-left.jpg' }
-] %}
-
-{{ PhotosPreview(pageEqElPhotos, 'Evaporator FEM SE-A 13') }}
-
-<p></p>
-
-{% set pageEqEl = [
-  {  artitle: '20.002', title: 'Evaporator FEM 2.5 AE-A', performance: '2,5 kg/hour' },
-  {  artitle: '20.005', title: 'Evaporator FEM 5 AE-A', performance: '5 kg/hour' },
-  {  artitle: '20.006', title: 'Evaporator FEM 6.5 AE-A', performance: '6,5 kg/hour' }  
-] %}
-
-<table class='Table h-cells-padding-ends--'>
-  <thead class='h-text- h-align--center'>
-    <tr>
-      <th>Product code</th>
-      <th>Item Name</th>
-      <th>Rated Capacity</th>     
-      <th>TCO</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for e in pageEqEl %}
-    <tr>
-      <td>{{ e.artitle }}</td>
-      <td>{{ e.title }}</td>
-      <td class='h-align--right'>{{ e.performance }}</td>
-      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
-      </td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-{# @todo Missing Испарители 40-300SE renders #}
+{# @todo Missing Испарители 53-106AE renders #}
 {% set pageEqElPhotos = [
   { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-10-40/evaporator-fem-se-10-40--2--front-left.jpg' },
@@ -84,27 +41,15 @@ description: Electric Heated Evaporative Units.
 
 <p></p>
 
-{% set pageEqEl = [
-  {  artitle: '20.0010', title: 'Evaporator FEM 10 AE', performance: '10 kg/hour' }, 
-  {  artitle: '20.0012', title: 'Evaporator FEM 12.5 AE', performance: '12,5 kg/hour' },
-  {  artitle: '20.0015', title: 'Evaporator FEM 15 AE', performance: '15 kg/hour' },
-  {  artitle: '20.0017', title: 'Evaporator FEM 17.5 AE', performance: '17,5 kg/hour' },
-  {  artitle: '20.0020', title: 'Evaporator FEM 20 AE', performance: '20 kg/hour' },
-  {  artitle: '20.0025', title: 'Evaporator FEM 25 AE', performance: '25 kg/hour' },  
-  {  artitle: '20.0030', title: 'Evaporator FEM 30 AE', performance: '30 kg/hour' }, 
-  {  artitle: '20.0035', title: 'Evaporator FEM 35 AE', performance: '35 kg/hour' }, 
-  {  artitle: '20.0040', title: 'Evaporator FEM 40 AE', performance: '40 kg/hour' }, 
-  {  artitle: '20.0050', title: 'Evaporator FEM 50 AE', performance: '50 kg/hour' },   
-  {  artitle: '20.0060', title: 'Evaporator FEM 60 AE', performance: '60 kg/hour' }, 
-  {  artitle: '20.0070', title: 'Evaporator FEM 70 AE', performance: '70 kg/hour' },   
-  {  artitle: '20.0080', title: 'Evaporator FEM 80 AE', performance: '80 kg/hour' }, 
-  {  artitle: '20.0090', title: 'Evaporator FEM 90 AE', performance: '90 kg/hour' }, 
-  {  artitle: '20.0100', title: 'Evaporator FEM 100 AE', performance: '100 kg/hour' },    
-  {  artitle: '20.0120', title: 'Evaporator FEM 120 AE', performance: '120 kg/hour' }, 
-  {  artitle: '20.0130', title: 'Evaporator FEM 130 AE', performance: '130 kg/hour' },
-  {  artitle: '20.0140', title: 'Evaporator FEM 140 AE', performance: '140 kg/hour' }, 
-  {  artitle: '20.0150', title: 'Evaporator FEM 150 AE', performance: '150 kg/hour' },   
-  {  artitle: '20.0160', title: 'Evaporator FEM 160 AE', performance: '160 kg/hour' }     
+{% set pageEqEl = [ 
+  {  artitle: '20.0053/AE', title: ' Evaporator FEM 53 AE', performance: '53 kg/hour' }, 
+  {  artitle: '20.0060/AE', title: ' Evaporator FEM 60 AE', performance: '60 kg/hour' }, 
+  {  artitle: '20.0066/AE', title: ' Evaporator FEM 66 AE', performance: '66 kg/hour' },    
+  {  artitle: '20.0080/AE', title: ' Evaporator FEM 80 AE', performance: '80 kg/hour' }, 
+  {  artitle: '20.0086/AE', title: ' Evaporator FEM 86 AE', performance: '86 kg/hour' },
+  {  artitle: '20.0093/AE', title: ' Evaporator FEM 93 AE', performance: '93 kg/hour' }, 
+  {  artitle: '20.0100/AE', title: ' Evaporator FEM 100 AE', performance: '100 kg/hour' },   
+  {  artitle: '20.0106/AE', title: ' Evaporator FEM 106 AE', performance: '106 kg/hour' }     
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
@@ -112,7 +57,7 @@ description: Electric Heated Evaporative Units.
     <tr>
       <th>Product code</th>
       <th>Item Name</th>
-      <th>Rated Capacity</th>     
+      <th>Rated Capacity</th>    
       <th>TCO</th>
     </tr>
   </thead>

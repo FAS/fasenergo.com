@@ -4,7 +4,7 @@ contentTitle:    Evaporative Equipment for ammonia
 navTitle:        Evaporative Equipment for ammonia
 breadcrumbTitle: Evaporative Equipment for ammonia
 
-description: Evaporative Equipment for LPG.
+description: Evaporative Equipment for ammonia
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Evaporative Equipment for LPG.
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-{# <p class='h-margin-bottom+'>For propane-butane and their mixtures. This equipment is used for forced evaporation of liquid phase of the liquefied gas when the natural evaporation in tanks (LPG storage facilities) is not enough.</p> #}
+<p class='h-margin-bottom+'>It is used for forced conversion of ammonia liquid phase into its vapor phase, ready to be supplied to the consumer.</p>
 
 {% call CategoryCard(
   title = 'Evaporators',

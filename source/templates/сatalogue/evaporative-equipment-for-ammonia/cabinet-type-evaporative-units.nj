@@ -46,7 +46,7 @@ description: Cabinet Type Evaporative Units for ammonia.
 
 <h2>Indirect Electric Heating</h2>
 
-{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM SE/SH', class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqElPhotos, 'Evaporative unit FEM AE/H', class = 'h-margin-bottom+') }}
 
 <ul>
   <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
@@ -54,32 +54,29 @@ description: Cabinet Type Evaporative Units for ammonia.
 </ul>
 
 {% set pageEqEl = [
-  {  artitle: '20.1050', title: 'Evaporative unit FEM 50 AE/SH', performance: '50 kg/hour' },
-  {  artitle: '20.1060', title: 'Evaporative unit FEM 60 AE/SH', performance: '60 kg/hour' },
-  {  artitle: '20.1070', title: 'Evaporative unit FEM 70 AE/SH', performance: '70 kg/hour' },
-  {  artitle: '20.1080', title: 'Evaporative unit FEM 80 AE/SH', performance: '80 kg/hour' },
-  {  artitle: '20.1090', title: 'Evaporative unit FEM 90 AE/SH', performance: '90 kg/hour' },
-  {  artitle: '20.1100', title: 'Evaporative unit FEM 100 AE/SH', performance: '100 kg/hour' },
-  {  artitle: '20.1120', title: 'Evaporative unit FEM 120 AE/SH', performance: '120 kg/hour' },
-  {  artitle: '20.1130', title: 'Evaporative unit FEM 130 AE/SH', performance: '130 kg/hour' },
-  {  artitle: '20.1140', title: 'Evaporative unit FEM 140 AE/SH', performance: '140 kg/hour' },
-  {  artitle: '20.1150', title: 'Evaporative unit FEM 150 AE/SH', performance: '150 kg/hour' },
-  {  artitle: '20.1160', title: 'Evaporative unit FEM 160 AE/SH', performance: '160 kg/hour' },
-  {  artitle: '20.1165', title: 'Evaporative unit FEM 165 AE/SH', performance: '165 kg/hour' },
-  {  artitle: '20.1175', title: 'Evaporative unit FEM 175 AE/SH', performance: '175 kg/hour' },
-  {  artitle: '20.1200', title: 'Evaporative unit FEM 200 AE/SH', performance: '200 kg/hour' },
-  {  artitle: '20.1225', title: 'Evaporative unit FEM 225 AE/SH', performance: '225 kg/hour' },
-  {  artitle: '20.1250', title: 'Evaporative unit FEM 250 AE/SH', performance: '250 kg/hour' },
-  {  artitle: '20.1260', title: 'Evaporative unit FEM 260 AE/SH', performance: '260 kg/hour' },
-  {  artitle: '20.1280', title: 'Evaporative unit FEM 280 AE/SH', performance: '280 kg/hour' },
-  {  artitle: '20.1300', title: 'Evaporative unit FEM 300 AE/SH', performance: '300 kg/hour' },
-  {  artitle: '20.1320', title: 'Evaporative unit FEM 320 AE/SH', performance: '320 kg/hour' },
-  {  artitle: '20.1360', title: 'Evaporative unit FEM 360 AE/SH', performance: '360 kg/hour' },
-  {  artitle: '20.1390', title: 'Evaporative unit FEM 390 AE/SH', performance: '390 kg/hour' },
-  {  artitle: '20.1420', title: 'Evaporative unit FEM 420 AE/SH', performance: '420 kg/hour' },
-  {  artitle: '20.1480', title: 'Evaporative unit FEM 480 AE/SH', performance: '480 kg/hour' },
-  {  artitle: '20.1625', title: 'Evaporative unit FEM 625 AE/SH', performance: '625 kg/hour' },
-  {  artitle: '20.1725', title: 'Evaporative unit FEM 725 AE/SH', performance: '725 kg/hour' }
+  {  artitle: '20.1053/AE/H', title: 'Evaporative unit FEM 53 AE/H', performance: '53 kg/hour' },
+  {  artitle: '20.1060/AE/H', title: 'Evaporative unit FEM 60 AE/H', performance: '60 kg/hour' },
+  {  artitle: '20.1066/AE/H', title: 'Evaporative unit FEM 66 AE/H', performance: '66 kg/hour' },
+  {  artitle: '20.1080/AE/H', title: 'Evaporative unit FEM 80 AE/H', performance: '80 kg/hour' },
+  {  artitle: '20.1086/AE/H', title: 'Evaporative unit FEM 86 AE/H', performance: '86 kg/hour' },
+  {  artitle: '20.1093/AE/H', title: 'Evaporative unit FEM 93 AE/H', performance: '93 kg/hour' },
+  {  artitle: '20.1100/AE/H', title: 'Evaporative unit FEM 100 AE/H', performance: '100 kg/hour' },
+  {  artitle: '20.1106/AE/H', title: 'Evaporative unit FEM 106 AE/H', performance: '106 kg/hour' },
+  {  artitle: '20.1110/AE/H', title: 'Evaporative unit FEM 110 AE/H', performance: '110 kg/hour' },
+  {  artitle: '20.1116/AE/H', title: 'Evaporative unit FEM 116 AE/H', performance: '116 kg/hour' },
+  {  artitle: '20.1133/AE/H', title: 'Evaporative unit FEM 133 AE/H', performance: '133 kg/hour' },
+  {  artitle: '20.1150/AE/H', title: 'Evaporative unit FEM 150 AE/H', performance: '150 kg/hour' },
+  {  artitle: '20.1166/AE/H', title: 'Evaporative unit FEM 166 AE/H', performance: '166 kg/hour' },
+  {  artitle: '20.1173/AE/H', title: 'Evaporative unit FEM 173 AE/H', performance: '173 kg/hour' },
+  {  artitle: '20.1186/AE/H', title: 'Evaporative unit FEM 186 AE/H', performance: '186 kg/hour' },
+  {  artitle: '20.1200/AE/H', title: 'Evaporative unit FEM 200 AE/H', performance: '200 kg/hour' },
+  {  artitle: '20.1213/AE/H', title: 'Evaporative unit FEM 213 AE/H', performance: '213 kg/hour' },
+  {  artitle: '20.1240/AE/H', title: 'Evaporative unit FEM 240 AE/H', performance: '240 kg/hour' },
+  {  artitle: '20.1260/AE/H', title: 'Evaporative unit FEM 260 AE/H', performance: '260 kg/hour' },
+  {  artitle: '20.1280/AE/H', title: 'Evaporative unit FEM 280 AE/H', performance: '280 kg/hour' },
+  {  artitle: '20.1320/AE/H', title: 'Evaporative unit FEM 320 AE/H', performance: '320 kg/hour' },
+  {  artitle: '20.1416/AE/H', title: 'Evaporative unit FEM 416 AE/H', performance: '416 kg/hour' },
+  {  artitle: '20.1483/AE/H', title: 'Evaporative unit FEM 483 AE/H', performance: '483 kg/hour' }
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
@@ -106,19 +103,20 @@ description: Cabinet Type Evaporative Units for ammonia.
 
 <h2>Indirect Liquid Heating</h2>
 
-{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM ZH/SH', class = 'h-margin-bottom+') }}
+{{ PhotosPreview(pageEqLiqPhotos, 'Evaporative unit FEM AZH/H', class = 'h-margin-bottom+') }}
 
 {% set pageEqEl = [
-  {  artitle: '20.2100', title: 'Evaporative unit FEM 100 AZH/SH', performance: '100 kg/hour' },
-  {  artitle: '20.2150', title: 'Evaporative unit FEM 150 AZH/SH', performance: '150 kg/hour' },
-  {  artitle: '20.2200', title: 'Evaporative unit FEM 200 AZH/SH', performance: '200 kg/hour' },
-  {  artitle: '20.2300', title: 'Evaporative unit FEM 300 AZH/SH', performance: '300 kg/hour' }, 
-  {  artitle: '20.2400', title: 'Evaporative unit FEM 400 AZH/SH', performance: '400 kg/hour' },
-  {  artitle: '20.2600', title: 'Evaporative unit FEM 600 AZH/SH', performance: '600 kg/hour' },
-  {  artitle: '20.2950', title: 'Evaporative unit FEM 950 AZH/SH', performance: '950 kg/hour' },
-  {  artitle: '20.21250', title: 'Evaporative unit FEM 1250 AZH/SH', performance: '1250 kg/hour' }, 
-  {  artitle: '20.21500', title: 'Evaporative unit FEM 1500 AZH/SH', performance: '1500 kg/hour' }, 
-  {  artitle: '20.21900', title: 'Evaporative unit FEM 1900 AZH/SH', performance: '1900 kg/hour' }    
+  {  artitle: '20.2066/AZH/H', title: 'Evaporative unit FEM 66 AZH/H', performance: '66 kg/hour' },
+  {  artitle: '20.2100/AZH/H', title: 'Evaporative unit FEM 100 AZH/H', performance: '100 kg/hour' },
+  {  artitle: '20.2133/AZH/H', title: 'Evaporative unit FEM 133 AZH/H', performance: '133 kg/hour' },
+  {  artitle: '20.2200/AZH/H', title: 'Evaporative unit FEM 200 AZH/H', performance: '200 kg/hour' }, 
+  {  artitle: '20.2266/AZH/H', title: 'Evaporative unit FEM 266 AZH/H', performance: '266 kg/hour' },
+  {  artitle: '20.2333/AZH/H', title: 'Evaporative unit FEM 333 AZH/H', performance: '333 kg/hour' },
+  {  artitle: '20.2400/AZH/H', title: 'Evaporative unit FEM 400 AZH/H', performance: '400 kg/hour' },
+  {  artitle: '20.2633/AZH/H', title: 'Evaporative unit FEM 633 AZH/H', performance: '633 kg/hour' }, 
+  {  artitle: '20.2833/AZH/H', title: 'Evaporative unit FEM 833 AZH/H', performance: '833 kg/hour' }, 
+  {  artitle: '20.21000/AZH/H', title: 'Evaporative unit FEM 1000 AZH/H', performance: '1000 kg/hour' }, 
+  {  artitle: '20.21266/AZH/H', title: 'Evaporative unit FEM 1266 AZH/H', performance: '1266 kg/hour' }    
 ] %}
 
 <table class='Table h-cells-padding-ends--'>
