@@ -47,7 +47,7 @@ description: Gas Equipment FASENERGOMASH, LLC.
   {% call CategoryCard(
     title = 'Evaporative Equipment for chlorine',
     hLevel = 2,
-    image = '/' + PATH.images + '/categories/evaporative-equipment/frame-mounted-type-evaporative-units.jpg', 
+    image = '/' + PATH.images + '/categories/evaporative-equipment-for-chlorine/cabinet-type-evaporative-units.jpg',
     url = '/сatalogue/evaporative-equipment-for-chlorine'
   ) %}{% endcall %}
 

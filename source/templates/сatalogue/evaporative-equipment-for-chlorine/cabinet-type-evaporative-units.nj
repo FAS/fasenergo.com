@@ -18,16 +18,16 @@ description: Cabinet Type Evaporative Units for chlorine.
 {% set liquid = filterWithLiquidHeating(vaporizers) %}
 
 {% set pageEqElPhotos = [
-  { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-cle-h-x1--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-h-x1/evaporative-unit-fem-cle-h-x1--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--2--left-n.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x1/evaporative-unit-fem-se-sh-x1--3--right-n.jpg' },
-  { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-cle-h-x2--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-h-x2/evaporative-unit-fem-cle-h-x2--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--2--left-n.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x2/evaporative-unit-fem-se-sh-x2--3--right-n.jpg' },
-  { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-cle-h-x3--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-h-x3/evaporative-unit-fem-cle-h-x3--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--2--left-n.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x3/evaporative-unit-fem-se-sh-x3--3--right-n.jpg' },
-  { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-cle-h-x4--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-h-x4/evaporative-unit-fem-cle-h-x4--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--2--left-n.jpg' },
   { url: 'equipment/evaporative-equipment/se-sh-x4/evaporative-unit-fem-se-sh-x4--3--right-n.jpg' }
 ] %}

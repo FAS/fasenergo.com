@@ -15,7 +15,7 @@ description: Evaporative Equipment for chlorine.
 {% call CategoryCard(
   title = 'Evaporators',
   hLevel = 2,
-  image = '/' + PATH.images + '/categories/evaporative-equipment/evaporators.jpg',
+  image = '/' + PATH.images + '/categories/evaporative-equipment-for-chlorine/evaporators.jpg',
   url = '/сatalogue/evaporative-equipment-for-chlorine/evaporators'
 ) %}{% endcall %}
 
@@ -25,7 +25,7 @@ description: Evaporative Equipment for chlorine.
   {% call CategoryCard(
     title = 'Cabinet Type',
     hLevel = 3,
-    image = '/' + PATH.images + '/categories/evaporative-equipment/cabinet-type-evaporative-units.jpg',
+    image = '/' + PATH.images + '/categories/evaporative-equipment-for-chlorine/cabinet-type-evaporative-units.jpg',
     url = '/сatalogue/evaporative-equipment-for-chlorine/cabinet-type-evaporative-units',
     class = 'o-grid__item h-1/4',
     size = 'small'
