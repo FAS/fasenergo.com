@@ -96,7 +96,6 @@
     {% call(depth) Item('/services', depth = depth, exact = true, class = 'Nav__item Nav__item--h1') %}{% endcall %}
 
     {% call(depth) Item('/services/delivery', depth = depth) %}{% endcall %}
-    {% call(depth) Item('/services/commercial-loans', depth = depth) %}{% endcall %}
     {% call(depth) Item('/services/maintenance-and-repair', depth = depth) %}{% endcall %}
     {% call(depth) Item('/services/design-and-feasibility-study', depth = depth) %}{% endcall %}
     {% call(depth) Item('/services/turnkey-projects') %}{% endcall %}

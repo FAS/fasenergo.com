@@ -4,10 +4,10 @@ contentTitle:    Delivery
 navTitle:        Delivery
 breadcrumbTitle: Delivery
 
-description: Delivery from the factory to a facility or distribution centre of a transport company all over Russia.
+description: Delivery to most parts of the world.
 
 icon:             flash
-shortDesc:        Delivery from the factory to a facility or distribution centre of a transport company all over Russia.
+shortDesc:        Delivery to most parts of the world.
 ---
 
 {% extends '_layouts/_main.nj' %}
