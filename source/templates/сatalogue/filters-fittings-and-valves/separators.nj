@@ -12,8 +12,8 @@ description: Separators.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>A separator is designed to cut off the liquid phase of the liquefied gas at the consumer supplying pipeline. It is installed between an evaporative unit and a consumer.</p>
-<p>The separator can be equipped with a level control sensor to monitor the level of LPG liquid phase inside the separator. When the maximum value is reached, the control sensor turns off the evaporative unit.</p>
+<p>A separator is designed to cut off the liquid phase of the liquefied gas at the consumer supplying pipeline. It is installed between an vaporizing unit and a consumer.</p>
+<p>The separator can be equipped with a level control sensor to monitor the level of LPG liquid phase inside the separator. When the maximum value is reached, the control sensor turns off the vaporizing unit.</p>
 
 {% set pageEqPhotos = [
   { url: 'equipment/filters-fittings-and-valves/separators/separators.jpg' }
@@ -23,7 +23,7 @@ description: Separators.
 
 <h2>Separator PN25</h2>
 
-<p>With an 1" NPT-IG assembly for a control sensor, for mounting behind the evaporative unit, in compliance with the AD requirements and TRB, primed and varnished.</p>
+<p>With an 1" NPT-IG assembly for a control sensor, for mounting behind the vaporizing unit, in compliance with the AD requirements and TRB, primed and varnished.</p>
 
 {% set pageEq = [
   { title: 'Separator (coupling ¾" NPT)', volume: 2.9, size: 160, weight: 6.9 },

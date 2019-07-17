@@ -1,10 +1,10 @@
 ---
-title:           Gas Ball Stop Valves (Interflanged)
-contentTitle:    Gas Ball Stop Valves (Interflanged)
-navTitle:        Gas Ball Stop Valves (Interflanged)
-breadcrumbTitle: Gas Ball Stop Valves (Interflanged)
+title:           Ball shut-off Valves (Interflanged)
+contentTitle:    Ball shut-off Valves (Interflanged)
+navTitle:        Ball shut-off Valves (Interflanged)
+breadcrumbTitle: Ball shut-off Valves (Interflanged)
 
-description: Gas Ball Stop Valves (Interflanged).
+description: Ball shut-off Valves (Interflanged).
 ---
 
 {% extends '_layouts/_main.nj' %}

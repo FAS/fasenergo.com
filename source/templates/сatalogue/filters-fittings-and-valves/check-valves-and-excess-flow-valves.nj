@@ -1,10 +1,10 @@
 ---
-title:           Check and Speed Valves
-contentTitle:    Check and Speed Valves
-navTitle:        Check and Speed Valves
-breadcrumbTitle: Check and Speed Valves
+title:           Check Valves and Excess Flow Valves
+contentTitle:    Check Valves and Excess Flow Valves
+navTitle:        Check Valves and Excess Flow Valves
+breadcrumbTitle: Check Valves and Excess Flow Valves
 
-description: Check and Speed Valves.
+description: Check Valves and Excess Flow Valves.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Check and Speed Valves.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Check valves are installed on the pipeline sections to prevent back flow of gas. Speed shut-off valves prevent accidental discharge of the product in case of pipeline or used rubber hose sleeve damage.</p>
+<p>Excess-flow valves prevent accidental discharge of the product in case of pipeline or used rubber hose sleeve damage.</p>
 
 {% set pageEqPhotos = [
   { url: 'equipment/filters-fittings-and-valves/check-and-speed-valves/check-and-speed-valves.jpg', alt: 'check-and-speed-valves' }

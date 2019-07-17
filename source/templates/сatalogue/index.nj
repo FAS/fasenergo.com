@@ -62,6 +62,24 @@ description: Gas Equipment FASENERGOMASH, LLC.
 
   <hr>
 
+  {% call CategoryCard(
+    title = 'Autonomous Gas Supply Systems',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/autonomous-gas-supply-systems.jpg',
+    url = '/сatalogue/autonomous-gas-supply-systems'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
+    title = 'Filters, Fittings & Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves'
+  ) %}{% endcall %}
+
+  <hr>
+
    {% call CategoryCard(
     title = 'Cogeneration units',
     hLevel = 2,

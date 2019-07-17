@@ -12,14 +12,14 @@ description: Filters, Fittings & Valves.
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-<p>FASENERGOMASH, LLC offers on/off & shut-off valves for various gas equipment and gas supply systems. The range of gas fittings includes by-pass valves, flanges, filters and ball valves from the world’s leading manufacturers, such as RegO, FAS, NPT, ASTM, GOK and Coprim.</p>
+<p class='h-margin-bottom+'>FASENERGOMASH, LLC offers shut-off valves for various gas equipment and gas supply systems. The range of gas fittings includes by-pass valves, flanges, filters and ball valves from the world’s leading manufacturers, such as RegO, FAS, NPT, ASTM, GOK and Coprim.</p>
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'Inspection Windows',
+    title = 'Sight flow indicators',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/filters-fittings-and-valves/inspection-windows.jpg',
-    url = '/сatalogue/filters-fittings-and-valves/inspection-windows',
+    url = '/сatalogue/filters-fittings-and-valves/sight-flow-indicators',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -27,7 +27,7 @@ description: Filters, Fittings & Valves.
     title = 'Shut-off and Relief Valves',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/filters-fittings-and-valves/shut-off-and-relief-valve.jpg',
-    url = '/сatalogue/filters-fittings-and-valves/shut-off-and-relief-valve',
+    url = '/сatalogue/filters-fittings-and-valves/shut-off-and-relief-valves',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -40,10 +40,10 @@ description: Filters, Fittings & Valves.
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Ball Stop Valves (Interflanged)',
+    title = 'Ball shut-off Valves (Interflanged)',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/filters-fittings-and-valves/gas-ball-stop-valves-interflanged.jpg',
-    url = '/сatalogue/filters-fittings-and-valves/gas-ball-stop-valves-interflanged',
+    url = '/сatalogue/filters-fittings-and-valves/ball-shut-off-valves-interflanged',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -56,10 +56,10 @@ description: Filters, Fittings & Valves.
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Check and Speed Valves',
+    title = 'Check Valves and Excess Flow Valves',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/filters-fittings-and-valves/check-and-speed-valves.jpg',
-    url = '/сatalogue/filters-fittings-and-valves/check-and-speed-valves',
+    url = '/сatalogue/filters-fittings-and-valves/check-valves-and-excess-flow-valves',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -88,7 +88,7 @@ description: Filters, Fittings & Valves.
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'Check Valves for Self-Priming Units',
+    title = 'Check Valves for Complete suction pump unit',
     hLevel = 2,
     image = '/' + PATH.images + '/categories/filters-fittings-and-valves/gas-check-valves-for-self-priming-units.jpg',
     url = '/сatalogue/filters-fittings-and-valves/gas-check-valves-for-self-priming-units',
@@ -125,7 +125,7 @@ description: Filters, Fittings & Valves.
 <p>FASENERGOMASH, LLC is the leader of the North-western Federal District of the Russian Federation in the production of gas equipment. The company sells gas fittings of the following types:</p>
 <ul>
     <li>By-pass valves;</li>
-    <li>Check and speed valves;</li>
+    <li>Check valves and Excess Flow valves;</li>
     <li>Stop/screwed ball valves;</li>
     <li>Safety relief valves;</li>
     <li>Safety bleeder valves, separators;</li>
@@ -135,8 +135,8 @@ description: Filters, Fittings & Valves.
 <p>Gas supply valves are classified according to their intended purpose, such as shut-off, safety, filtering, and control. There are also pipeline distribution valves, the function of which is to distribute the pipeline strings between several sections.</p>
 <p>Pipeline gas fittings are classified according to the nominal inside diameter (DN—size) and rated pressure.</p>
 
-<h3>On/off & Shut-off Gas Valves</h3>
-<p>The on/off & shut-off gas fittings include various types of valves intended for leak-proof disconnection of gas pipeline sections. Devices related to the on/off & shut-off valves must provide a leak-proof pipe closure as well as time saving and convenient operation of gas systems.</p>
+<h3>Shut-off Gas Valves</h3>
+<p>Shut-off gas fittings include various types of valves intended for leak-proof disconnection of gas pipeline sections. Devices related shut-off valves must provide a leak-proof pipe closure as well as time saving and convenient operation of gas systems.</p>
 
 <h3>Safety Gas Valves</h3>
 <p>The function of safety valves is to protect gas equipment by relieving excess pressure. Such type of devices include safety, relieve and by-pass valves, as well as pilot operated safety devices and burst valves.</p>
@@ -147,7 +147,7 @@ description: Filters, Fittings & Valves.
 <h3>Control Valves</h3>
 <p>The control gas valves include devices that are configured to regulate parameters of the equipment operating environment. Regulation implies the control of flow, maintenance of the required pressure within set limits, maintenance of the required mixture composition, etc.</p>
 
-<h2>On/off & Shut-off Valve Application</h2>
+<h2>Shut-off Valve Application</h2>
 <p>The shut-off valves are used on gas pipelines of various pressure levels, on both the main lines and the local pipelines of gas distributing and control equipment. The shut-off valves are used for distribution and safe operation of gas systems indoors and outdoors. The function of shut-off elements is to close and open gas channels.</p>
 <p>It is possible to conditionally divide the shut-off gas fittings into industrial shut-off valves and shut-off valves of general purpose. Industrial valves are used in complex industrial and process systems at gas, oil refining and petrochemical enterprises. These devices are subject to heightened requirements for safety and resistance to destructive effect of the environment.</p>
 <p>The shut-off gas valves of general purpose are widely used to ensure safe and comfortable operation of household equipment. They are widely used in autonomous gas supply systems and local gas distribution systems.</p>
