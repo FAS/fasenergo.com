@@ -12,7 +12,7 @@ fas-5-1lp-5-kw:
   series: null
   model: FAS-5/1LP
   title: Gas Generator <span class='text-red'>FAS-5/1LP</span> (5 kW)
-  price: 1850
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -110,7 +110,7 @@ fas-5-1lm-5-kw:
   series: null
   model: FAS-5/1LM
   title: Gas Generator <span class='text-red'>FAS-5/1LM</span> (5 kW)
-  price: 1700
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -211,7 +211,7 @@ fas-6-1lp-6-kw:
   series: null
   model: ФАС-6/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-6/1ЛП</span> (6 кВт)
-  price: 206000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -308,7 +308,7 @@ fas-6-1lm-6-kw:
   series: null
   model: ФАС-6/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-6/1ЛМ</span> (6 кВт)
-  price: 178000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -408,7 +408,7 @@ fas-8-1lp-8-kw:
   series: null
   model: FAS-8/1LP
   title: Gas Generator <span class='text-red'>FAS-8/1LP</span> (8 kW)
-  price: 2700
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -506,7 +506,7 @@ fas-8-1lm-8-kw:
   series: null
   model: FAS-8/1LM
   title: Gas Generator <span class='text-red'>FAS-8/1LM</span> (8 kW)
-  price: 2500
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -607,7 +607,7 @@ fas-10-1lp-10-kw:
   series: null
   model: ФАС-10/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-10/1ЛП</span> (10 кВт)
-  price: 257000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -704,7 +704,7 @@ fas-10-1lm-10-kw:
   series: null
   model: ФАС-10/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-10/1ЛМ</span> (10 кВт)
-  price: 229000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -804,7 +804,7 @@ fas-13-1lp-13-kw:
   series: null
   model: ФАС-13/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-13/1ЛП</span> (13 кВт)
-  price: 320000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -901,7 +901,7 @@ fas-13-1lm-13-kw:
   series: null
   model: ФАС-13/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-13/1ЛМ</span> (13 кВт)
-  price: 290000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1001,7 +1001,7 @@ fas-15-1lp-15-kw:
   series: null
   model: ФАС-15/1ЛП
   title: Газовый генератор <span class='text-red'>ФАС-15/1ЛП</span> (15 кВт)
-  price: 390000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1098,7 +1098,7 @@ fas-15-1lm-15-kw:
   series: null
   model: ФАС-15/1ЛМ
   title: Газовый генератор <span class='text-red'>ФАС-15/1ЛМ</span> (15 кВт)
-  price: 360000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1198,7 +1198,7 @@ fas-15-3lm-15-kw:
   series: null
   model: FAS-15/3LM
   title: Gas Generator <span class='text-red'>FAS-15/3LM</span> (15 kW)
-  price: 4300
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1300,7 +1300,7 @@ fas-8-1-vp-8-kw:
   series: null
   model: FAS-8-1/VP
   title: Gas Generator <span class='text-red'>FAS-8-1/VP</span> (8 kW)
-  price: 4600
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1417,7 +1417,7 @@ fas-10-1-vp-10-kw:
   series: null
   model: FAS-10-1/VP
   title: Gas Generator <span class='text-red'>FAS-10-1/VP</span> (10 kW)
-  price: 4900
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1534,7 +1534,7 @@ fas-10-3-vp-10-kw:
   series: null
   model: FAS-10-3/VP
   title: Gas Generator <span class='text-red'>FAS-10-3/VP</span> (10 kW)
-  price: 4900
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1651,7 +1651,7 @@ fas-13-1-vp-13-kw:
   series: null
   model: FAS-13-1/VP
   title: Gas Generator <span class='text-red'>FAS-13-1/VP</span> (13 kW)
-  price: 5050
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1768,7 +1768,7 @@ fas-13-3-vp-13-kw:
   series: null
   model: FAS-13-3/VP
   title: Gas Generator <span class='text-red'>FAS-13-3/VP</span> (13 kW)
-  price: 5050
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -1885,7 +1885,7 @@ fas-15-1-vr-15-kw:
   series: null
   model: FAS-15-1/VR
   title: Gas Generator <span class='text-red'>FAS-15-1/VR</span> (15 kW)
-  price: 6100
+  price: null
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -1999,7 +1999,7 @@ fas-15-3-vr-15-kw:
   series: null
   model: FAS-15-3/VR 
   title: Gas Generator <span class='text-red'>FAS-15-3/VR</span> (15 kW)
-  price: 6150
+  price: null
   priceBeforeDiscount: null
   discount: 10
   discountDate: '2017-12-29'
@@ -2113,7 +2113,7 @@ fas-18-1-vr-18-kw:
   series: null
   model: FAS-18-1/VR
   title: Gas Generator <span class='text-red'>FAS-18-1/VR</span> (18 kW)
-  price: 6100
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2227,7 +2227,7 @@ fas-18-3-vr-18-kw:
   series: null
   model: FAS-18-3/VR
   title: Gas Generator <span class='text-red'>FAS-18-3/VR</span> (18 kW)
-  price: 6150
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2341,7 +2341,7 @@ fas-21-1-vp-21-kw:
   series: null
   model: FAS-21-1/VP
   title: Gas Generator <span class='text-red'>FAS-21-1/VP</span> (21 kW)
-  price: 6250
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2464,7 +2464,7 @@ fas-21-1-vr-21-kw:
   series: null
   model: ФАС-21-1/ВР
   title: Газовый генератор <span class='text-red'>ФАС-21-1/ВР</span> (21 кВт)
-  price: 510000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2577,7 +2577,7 @@ fas-21-3-vr-21-kw:
   series: null
   model: FAS-21-3/VR
   title: Gas Generator <span class='text-red'>FAS-21-3/VR</span> (21 kW)
-  price: 6000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2689,7 +2689,7 @@ fas-24-3-vr-24-kw:
   series: null
   model: FAS-24-3/VR
   title: Gas Generator <span class='text-red'>FAS-24-3/VR</span> (24 kW)
-  price: 6900
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2803,7 +2803,7 @@ fas-28-3-vp-28-kw:
   series: null
   model: FAS-28-3/VP
   title: Gas Generator <span class='text-red'>FAS-28-3/VP</span> (28 kW)
-  price: 6950
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -2926,7 +2926,7 @@ fas-32-3-vp-32-kw:
   series: null
   model: FAS-32-3/VP
   title: Gas Generator <span class='text-red'>FAS-32-3/VP</span> (32 kW)
-  price: 6950
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3056,7 +3056,7 @@ fas-40-3-m-40-kw:
   series: null
   model: FAS-40-3/M
   title: Gas Generator <span class='text-red'>FAS-40-3/M</span> (40 kW)
-  price: 16550
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3173,7 +3173,7 @@ fas-50-3-m-50-kw:
   series: null
   model: FAS-50-3/M
   title: Gas Generator <span class='text-red'>FAS-50-3/M</span> (50 kW)
-  price: 16650
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3288,7 +3288,7 @@ fas-100-3-yp-100-kw:
   series: null
   model: FAS-100-3/YP
   title: Gas Generator <span class='text-red'>FAS-100-3/YP</span> (100 kW)
-  price: 25000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3396,7 +3396,7 @@ fas-150-3-yp-150-kw:
   series: null
   model: FAS-150-3/YP
   title: Gas Generator <span class='text-red'>Gas Generator</span> (150 kW)
-  price: 25800
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3504,7 +3504,7 @@ fas-200-3-yp-200-kw:
   series: null
   model: ФАС-200-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-200-3/ЯП</span> (200 кВт)
-  price: 3900000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3614,7 +3614,7 @@ fas-250-3-yp-250-kw:
   series: null
   model: ФАС-250-3/ЯП
   title: Газовый генератор <span class='text-red'>ФАС-250-3/ЯП</span> (250 кВт)
-  price: 4000000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3724,7 +3724,7 @@ fas-315-3-yp-315-kw:
   series: null
   model: FAS-315-3/YP
   title: Gas Generator <span class='text-red'>FAS-315-3/YP</span> (315 kW)
-  price: 75000
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -3834,7 +3834,7 @@ cogeneration-unit-fas-50-70m:
   series: null
   model: FAS-50/70M
   title: Cogeneration Unit <span class='text-red'>FAS-50/70M</span>
-  price: 27700
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5097,7 +5097,7 @@ fas-35-3-zr-35-kw:
   series: null
   model: FAS-35-3/ZR
   title: Gas Generator <span class='text-red'>FAS-35-3/ZR</span> (35 kW)
-  price: 11250
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
@@ -5195,7 +5195,7 @@ fas-40-3-zr-40-kw:
   series: null
   model: FAS-40-3/ZR
   title: Gas Generator <span class='text-red'>FAS-40-3/ZR</span> (40 kW)
-  price: 11250
+  price: null
   priceBeforeDiscount: null
   discount: null
   discountDate: null
