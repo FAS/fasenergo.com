@@ -72,10 +72,10 @@ description: Gas Equipment FASENERGOMASH, LLC.
   <hr>
 
   {% call CategoryCard(
-    title = 'Filters, Fittings & Valves',
+    title = 'Heat Recovery Systems',
     hLevel = 2,
-    image = '/' + PATH.images + '/categories/filters-fittings-and-valves.jpg',
-    url = '/сatalogue/filters-fittings-and-valves'
+    image = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-fas--1---front.jpg',
+    url = '/сatalogue/heat-recovery-systems'
   ) %}{% endcall %}
 
   <hr>
@@ -85,6 +85,24 @@ description: Gas Equipment FASENERGOMASH, LLC.
     hLevel = 2,
     image = '/' + PATH.images + '/equipment/gas-generators/fas-50-70m/cogeneration-unit-fas-50-70m-2--front.jpg',
     url = '/сatalogue/cogeneration-units'
+  ) %}{% endcall %}
+
+  <hr>
+
+   {% call CategoryCard(
+    title = 'Gas Control & Distribution Equipment',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/gas-control-and-distribution-equipment.jpg',
+    url = '/сatalogue/gas-control-and-distribution-equipment'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
+    title = 'Filters, Fittings & Valves',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/filters-fittings-and-valves.jpg',
+    url = '/сatalogue/filters-fittings-and-valves'
   ) %}{% endcall %}
 
 </div>
