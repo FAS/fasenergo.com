@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FAS-120 №35486
-contentTitle:    Electronic Fuel Dispenser FAS-120 №35486
-navTitle:        FAS-120 №35486
-breadcrumbTitle: FAS-120 №35486
+title:           Electronic Fuel Dispenser FAS-220 HM №354732
+contentTitle:    Electronic Fuel Dispenser FAS-220 HM №354732
+navTitle:        FAS-220 HM №354732
+breadcrumbTitle: FAS-220 HM №354732
 
-description: Electronic Fuel Dispenser FAS-120 №35486.
+description: Electronic Fuel Dispenser FAS-220 HM №354732.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,10 +12,12 @@ description: Electronic Fuel Dispenser FAS-120 №35486.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic dispenser of FAS-120 type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of an additional accounting panel installed in the dispenser.</p>
+<p>Electronic gas dispenser of FAS-220 HM type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of an additional accounting panel installed in the dispenser.</p>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/gas-fuel-dispensers/fas-120/electronic-fuel-dispenser-fas-120--1--front-right.jpg' }
+  { url: 'equipment/gas-fuel-dispensers/fas-220/electronic-fuel-dispenser-fas-220--1--front-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fas-220/electronic-fuel-dispenser-fas-220--2--front--inner.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fas-220/electronic-fuel-dispenser-fas-220--3--right--inner.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
@@ -25,13 +27,14 @@ description: Electronic Fuel Dispenser FAS-120 №35486.
 <h3>Casing</h3>
 
 <ul>
-  <li>Stainless steel.</li>
+  <li>Stainless steel;</li>
+  <li>Casing model: HIGH MAST.</li>
 </ul>
 
 <h3>Electronic Components</h3>
 
 <ul>
-  <li>Electronic part: ER 4/5 type;</li>
+  <li>Electronic part: ER 4 type;</li>
   <li>Power supply node 230 V AC / 50 Hz;</li>
   <li>Panel for taking current meter readings in kilograms (integrated);</li>
   <li>LCD display panel (readings in litres);</li>
@@ -41,15 +44,16 @@ description: Electronic Fuel Dispenser FAS-120 №35486.
 <h3>Hydraulic System PN 25</h3>
 
 <ul>
-  <li>Special mass flow meter for liquefied petroleum gas, 5–50 L/min.;</li>
+  <li>Special Coriolis flow meter for liquefied petroleum gas, 5–50 L/min.</li>
   <li>Vapour phase separator with an integrated fine filter;</li>
   <li>Differential valve;</li>
   <li>Check valve;</li>
   <li>Diaphragm regulator;</li>
-  <li>LPG 19 high-pressure hose with a speed valve as a safety feature, 4.5 m in length;</li>
+  <li>LPG 19 high-pressure hose with a speed valve as a safety feature, 5 m in length;</li>
+  <li>Automatic hose positioning system;</li>
   <li>Quick coupling;</li>
   <li>RegO relief valves, 25 bar;</li>
-  <li>Filling clamp;</li>
+  <li>Filling clamp of T3 (or R1) type;</li>
   <li>Mounting components, inlet/liquid phase: ball valve 1"NPT IG;</li>
   <li>Mounting components, outlet/vapour phase: ball valve 3/4"NPT IG.</li>
 </ul>
@@ -70,6 +74,8 @@ description: Electronic Fuel Dispenser FAS-120 №35486.
   <li>Temperature.</li>
 </ul>
 
+<p>Certification 2.1 EN 10 204.</p>
+
 <h2>Optional Equipment</h2>
 
 <ul>
@@ -79,8 +85,7 @@ description: Electronic Fuel Dispenser FAS-120 №35486.
 </ul>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>9 980 €</p>
-  <p class='h-margin-bottom+'>Delivery terms: 6–8 weeks</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 {% endblock %}

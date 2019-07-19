@@ -1,27 +1,29 @@
 ---
-title:           Electronic Fuel Dispenser FEM S/111/K
-contentTitle:    Electronic Fuel Dispenser FEM S/111/K
-navTitle:        FEM S/111/K
-breadcrumbTitle: FEM S/111/K
+title:           Electronic Fuel Dispenser FEM S/420/K
+contentTitle:    Electronic Fuel Dispenser FEM S/420/K
+navTitle:        FEM S/420/K
+breadcrumbTitle: FEM S/420/K
 
-description: Electronic Fuel Dispenser FEM S/111/K.
---- 
+description: Electronic Fuel Dispenser FEM S/420/K.
+---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser of FEM 100 type with one fuelling hose (located on the lateral side), with a Coriolis mass flow meter Endress+Hauser (Switzerland) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>Electronic fuel dispenser FEM 400 type, with 2 fuelling hoses (located on the front sides), with 2 Coriolis mass flow meters Endress+Hauser (Switzerland) and electronic components by FASENERGOMASH (Russia).</p> 
 <p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--1--front.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--2--front-right.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--3--left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--4--front-left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--5--front--scheme.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--6--front-right--scheme.jpg' }  
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--2--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--3--left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--4--front-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--5--back.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--6--back-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--7--right.jpg' },    
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--8--back-right.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
@@ -60,16 +62,16 @@ description: Electronic Fuel Dispenser FEM S/111/K.
 <h2>Hydraulic System PN 25</h2>
 
 <ul>
-<li>Mass flow meter for liquefied petroleum gas, 5–50 L/min;</li>
+<li>Two mass flow meters for liquefied petroleum gas, 5–50 L/min;</li>
 <li>Vapour phase separator;</li>
 <li>Differential valve;</li>
-<li>High-pressure hose, 5 m in length;</li>
+<li>Two high-pressure hoses, 5 m in length each;</li>
 <li>Quick coupling on the hose;</li>
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
-<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
+<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
@@ -81,7 +83,7 @@ description: Electronic Fuel Dispenser FEM S/111/K.
 </ul>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>444 000 ₽</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 <p></p>

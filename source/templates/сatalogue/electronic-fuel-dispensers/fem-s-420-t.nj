@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FEM N/420/T
-contentTitle:    Electronic Fuel Dispenser FEM N/420/T
-navTitle:        FEM N/420/T
-breadcrumbTitle: FEM N/420/T
+title:           Electronic Fuel Dispenser FEM S/420/T
+contentTitle:    Electronic Fuel Dispenser FEM S/420/T
+navTitle:        FEM S/420/T
+breadcrumbTitle: FEM S/420/T
 
-description: Electronic Fuel Dispenser FEM N/420/T.
+description:  Electronic Fuel Dispenser FEM S/420/T.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Electronic Fuel Dispenser FEM N/420/T.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser of FEM 400 type, with 2 fuelling hoses (located on the front sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>Electronic fuel dispenser FEM 400 type, with 2 fuelling hoses (located on the front sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
 <p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
@@ -40,7 +40,7 @@ description: Electronic Fuel Dispenser FEM N/420/T.
 <h2>Casing Design</h2>
 
 <ul>
-  <li>Stainless steel;</li>
+  <li>Painted steel;</li>
   <li>RAL colour as specified by the customer.</li>
 </ul>
 
@@ -69,8 +69,8 @@ description: Electronic Fuel Dispenser FEM N/420/T.
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
-<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
+<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
@@ -81,7 +81,11 @@ description: Electronic Fuel Dispenser FEM N/420/T.
 <li>Two-stage solenoid valve.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
-
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+<p></p>
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}
+

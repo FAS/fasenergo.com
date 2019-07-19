@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FAS-230 №35474
-contentTitle:    Electronic Fuel Dispenser FAS-230 №35474
-navTitle:        FAS-230 №35474
-breadcrumbTitle: FAS-230 №35474
+title:           Electronic Fuel Dispenser FAS-230 HM №354731
+contentTitle:    Electronic Fuel Dispenser FAS-230 HM №354731
+navTitle:        FAS-230 HM №354731
+breadcrumbTitle: FAS-230 HM №354731
 
-description: Electronic Fuel Dispenser FAS-230 №35474.
+description: Electronic Fuel Dispenser FAS-230 HM №354731.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Electronic Fuel Dispenser FAS-230 №35474.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic double dispenser of FAS-230 type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of an additional Coriolis flow meter control panel installed in the dispenser.</p>
+<p>Electronic double dispenser of FAS-230 HM type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of an additional Coriolis flow meter control panel installed in the dispenser.</p>
 <p>Version: With two fuelling nozzles and a Coriolis flow meter (2 pcs).</p>
 
 {% set pageEqPhotos = [
@@ -88,8 +88,7 @@ description: Electronic Fuel Dispenser FAS-230 №35474.
 </ul>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>17 320 €</p>
-  <p class='h-margin-bottom+'>Delivery terms: 4–8 weeks</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 {% endblock %}

@@ -1,10 +1,10 @@
 ---
-title:           'Gas Fuel Dispensers'
-contentTitle:    Gas Fuel Dispensers
-navTitle:        Gas Fuel Dispensers
-breadcrumbTitle: Gas Fuel Dispensers
+title:           'Electronic Fuel Dispensers'
+contentTitle:    Electronic Fuel Dispensers
+navTitle:        Electronic Fuel Dispensers
+breadcrumbTitle: Electronic Fuel Dispensers
 
-description: Gas Fuel Dispensers.
+description: Electronic Fuel Dispensers.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -21,7 +21,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/111/K<span class="h-block h-padding-top-- h-text-">with one fuelling nozzle located on the lateral side</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-111-k/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-111-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-111-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -30,7 +30,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/111/T<span class="h-block h-padding-top-- h-text-">with one fuelling nozzle located on the lateral side</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-111-t/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-111-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-111-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -40,19 +40,19 @@ description: Gas Fuel Dispensers.
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>  
   {% call CategoryCard(
-    title = 'FEM S/223/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front- opposite sides</span>',
+    title = 'FEM S/223/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front-opposite sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-223-k/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-223-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-223-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   
   {% call CategoryCard(
-    title = 'FEM S/223/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front- opposite sides</span>',
+    title = 'FEM S/223/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front-opposite sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-223-t/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-223-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-223-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -65,7 +65,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/320/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-320/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-320-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-320-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -73,7 +73,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/320/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-320/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-320-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-320-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -82,7 +82,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/322/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-322-k/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-322-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-322-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -90,7 +90,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/322/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-322-t/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-322-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-322-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -103,7 +103,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/420/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-420-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-420-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -111,7 +111,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/420/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-420-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-420-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -119,7 +119,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/422/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-422-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-422-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -127,7 +127,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/422/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-422-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-422-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -135,7 +135,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM N/420/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-n-420-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-n-420-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -143,7 +143,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM N/420/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the front sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-n-420-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-n-420-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -151,7 +151,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM N/422/K <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-n-422-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-n-422-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -159,7 +159,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM N/422/T <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the diagonal sides</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-400/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-n-422-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-n-422-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -172,7 +172,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/511/K <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle located on the lateral side</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-500/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-511-k',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-511-k',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -180,7 +180,7 @@ description: Gas Fuel Dispensers.
     title = 'FEM S/511/T <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle located on the lateral side</span>',
     hLevel = 4,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-500/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fem-s-511-t',
+    url = '/сatalogue/electronic-fuel-dispensers/fem-s-511-t',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
@@ -190,82 +190,83 @@ description: Gas Fuel Dispensers.
 
 <div class='o-grid h-childs-displace h-bleed-bottom'>
   {% call CategoryCard(
-    title = 'FAS-120 SK №936931 (economy class) <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle</span>',
+    title = 'FAS-120 E №936931 (economy class) <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle and Coriolis flow meter</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-120-sk/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-120-sk',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-120-e-936931',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-120 SM №936933 (economy class) <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle</span>',
+    title = 'FAS-120 E №936933 (economy class) <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle and 4-piston mechanical meter</span>',
     hLevel = 3,
-    url = '/сatalogue/gas-fuel-dispensers/fas-120-sm',
+    image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-120-sk/card.jpg',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-120-e-936933',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
 
   {% call CategoryCard(
-    title = 'FAS-120 №35486 <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle</span>',
+    title = 'FAS-120 №354733 <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle and Coriolis flow meter</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-120/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-120',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-120-354733',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-220 №35473 <span class="h-block h-padding-top-- h-text-">with one fuelling nozzle</span>',
+    title = 'FAS-220 HM №354732<span class="h-block h-padding-top-- h-text-">with one fuelling nozzle and Coriolis flow meter</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-220/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-220',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-220-hm-354732',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
 
   {% call CategoryCard(
-    title = 'FAS-230 SK2 (economy class) №936932 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on one side</span>',
+    title = 'FAS-230 E (economy class) №936932 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles and Coriolis flow meters</span>',
     hLevel = 3,
-    url = '/сatalogue/gas-fuel-dispensers/fas-230-sk2-front',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-230-sk2-front',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-230 SK2 (economy class) №936936 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the opposite sides</span>',
+    title = 'FAS-230 E (economy class) №936936 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles and Coriolis flow meters</span>',
     hLevel = 3,
-    url = '/сatalogue/gas-fuel-dispensers/fas-230-sk2',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-230-sk2',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-230 SM2 (economy class) №936934 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on one side</span>',
+    title = 'FAS-230 E (economy class) №936934 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles and 4-piston mechanical meters</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-230-sm2/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-230-sm2-front',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-230-sm2-front',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
   {% call CategoryCard(
-    title = 'FAS-230 SM2 (economy class) №936937 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles located on the opposite sides</span>',
+    title = 'FAS-230 E (economy class) №936937 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles and 4-piston mechanical meters</span>',
     hLevel = 3,
-    url = '/сatalogue/gas-fuel-dispensers/fas-230-sm2',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-230-sm2',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
 
   {% call CategoryCard(
-    title = 'FAS-230 №35474 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles</span>',
+    title = 'FAS-230 HM №354731 <span class="h-block h-padding-top-- h-text-">with two fuelling nozzles and Coriolis flow meters</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-230/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-230',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-230-hm-354731',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}
 
   {% call CategoryCard(
-    title = 'FAS-220M №354752 <span class="h-block h-padding-top-- h-text-">for cars and household gas cylinders</span>',
+    title = 'FAS-220 WM №354752 <span class="h-block h-padding-top-- h-text-">for cars and household gas cylinders</span>',
     hLevel = 3,
     image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fas-220m/card.jpg',
-    url = '/сatalogue/gas-fuel-dispensers/fas-220m',
+    url = '/сatalogue/electronic-fuel-dispensers/fas-220-wm-354752',
     class = 'o-grid__item h-1/4',
     size = 'small'
   ) %}{% endcall %}

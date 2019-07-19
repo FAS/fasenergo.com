@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FEM S/420/K
-contentTitle:    Electronic Fuel Dispenser FEM S/420/K
-navTitle:        FEM S/420/K
-breadcrumbTitle: FEM S/420/K
+title:           Electronic Fuel Dispenser FEM N/420/T
+contentTitle:    Electronic Fuel Dispenser FEM N/420/T
+navTitle:        FEM N/420/T
+breadcrumbTitle: FEM N/420/T
 
-description: Electronic Fuel Dispenser FEM S/420/K.
+description: Electronic Fuel Dispenser FEM N/420/T.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser of FEM 400 type, with 2 fuelling hoses (located on the front sides), with 2 Coriolis mass flow meters Endress+Hauser (Switzerland) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>Electronic fuel dispenser FEM 400 type, with 2 fuelling hoses (located on the front sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
 <p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
@@ -31,17 +31,16 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 <h2>Information on the Display Panel</h2>
 
 <ul>
-  <li>Price per kg;</li>
-  <li>Total cost;</li>
-  <li>Number of dispensed kg;</li>
-  <li>Gas density.</li>
+  <li>Price per litre;</li>
+  <li>Number of dispensed litres;</li>
+  <li>Total cost.</li>
 </ul>
-<p>Additional information data (when switching the display): summing data on the number of dispensed kg.</p>
+<p>Additional information data (when switching the display): summing data on the number of dispensed litres.</p>
 
 <h2>Casing Design</h2>
 
 <ul>
-  <li>Painted steel;</li>
+  <li>Stainless steel;</li>
   <li>RAL colour as specified by the customer.</li>
 </ul>
 
@@ -53,7 +52,7 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 <li>Panel for taking meter readings in litres and kilograms;</li>
 <li>One LCD display panel;</li>
 <li>Rotary switch;</li>
-<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2 protocols; self-contained operation without a cash system.</li>
+<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2.0 protocols; self-contained operation without a cash system.</li>
 <li>Operation simultaneously with level gauges (if an electrical control panel is available);</li>
 <li>Operation simultaneously with a pump (if an electrical control panel is available);</li>
 <li>Operation simultaneously with solenoid valves (if an electrical control panel is available).</li>
@@ -62,7 +61,7 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 <h2>Hydraulic System PN 25</h2>
 
 <ul>
-<li>Two mass flow meters for liquefied petroleum gas, 5–50 L/min;</li>
+<li>Two turbine meters for liquefied petroleum gas, 5–50 L/min.;</li>
 <li>Vapour phase separator;</li>
 <li>Differential valve;</li>
 <li>Two high-pressure hoses, 5 m in length each;</li>
@@ -70,8 +69,8 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
-<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
+<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
@@ -82,7 +81,12 @@ description: Electronic Fuel Dispenser FEM S/420/K.
 <li>Two-stage solenoid valve.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+
+<p></p>
 
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}

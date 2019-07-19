@@ -72,6 +72,15 @@ description: Gas Equipment FASENERGOMASH, LLC.
   <hr>
 
   {% call CategoryCard(
+    title = 'Electronic Fuel Dispensers',
+    hLevel = 2,
+    image = '/' + PATH.images + '/equipment/gas-fuel-dispensers/fem-s-320/card.jpg',
+    url = '/сatalogue/electronic-fuel-dispensers'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
     title = 'Heat Recovery Systems',
     hLevel = 2,
     image = '/' + PATH.images + '/equipment/heat-recovery-systems/thermal-module-fas--1---front.jpg',

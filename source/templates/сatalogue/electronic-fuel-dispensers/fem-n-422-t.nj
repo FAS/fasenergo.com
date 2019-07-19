@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FEM S/322/T
-contentTitle:    Electronic Fuel Dispenser FEM S/322/T
-navTitle:        FEM S/322/T
-breadcrumbTitle: FEM S/322/T
+title:           Electronic Fuel Dispenser FEM N/422/T
+contentTitle:    Electronic Fuel Dispenser FEM N/422/T
+navTitle:        FEM N/422/T
+breadcrumbTitle: FEM N/422/T
 
-description: Electronic Fuel Dispenser FEM S/322/T.
+description: Electronic Fuel Dispenser FEM N/422/T.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,16 +12,18 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser of FEM 300 type, with 2 fuelling hoses (located on the diagonal sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
-<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres. Country of intended use: Russian Federation.</p>
+<p>Electronic fuel dispenser FEM 400 type, with 2 fuelling hoses (located on the diagonal sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-t/electronic-fuel-dispenser-fem-s-322-t--1--front.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-t/electronic-fuel-dispenser-fem-s-322-t--2--front-right.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-t/electronic-fuel-dispenser-fem-s-322-t--3--left.jpg' },  
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-t/electronic-fuel-dispenser-fem-s-322-t--4--front-left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-k/electronic-fuel-dispenser-fem-s-322-k--5--front--scheme.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-322-k/electronic-fuel-dispenser-fem-s-322-k--6--front-right--scheme.jpg' }
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--2--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--3--left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--4--front-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--5--back.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--6--back-left.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--7--right.jpg' },    
+  { url: 'equipment/gas-fuel-dispensers/fem-400/electronic-fuel-dispenser-fem-400--8--back-right.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
@@ -29,7 +31,7 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 <h2>Information on the Display Panel</h2>
 
 <ul>
-  <li>Price per litre.;</li>
+  <li>Price per litre;</li>
   <li>Number of dispensed litres;</li>
   <li>Total cost.</li>
 </ul>
@@ -38,7 +40,7 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 <h2>Casing Design</h2>
 
 <ul>
-  <li>Painted steel;</li>
+  <li>Stainless steel;</li>
   <li>RAL colour as specified by the customer.</li>
 </ul>
 
@@ -67,8 +69,8 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
-<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
+<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
@@ -79,7 +81,11 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 <li>Two-stage solenoid valve.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
-
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+<p></p>
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}
+

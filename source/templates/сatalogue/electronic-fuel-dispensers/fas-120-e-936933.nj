@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931
-contentTitle:    Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931
-navTitle:        FAS-120 SK (Economy Class) №936931
-breadcrumbTitle: FAS-120 SK (Economy Class) №936931
+title:           Electronic Fuel Dispenser FAS-120 E (Economy Class) № 936933
+contentTitle:    Electronic Fuel Dispenser FAS-120 E (Economy Class) № 936933
+navTitle:        FAS-120 E (Economy Class) № 936933
+breadcrumbTitle: FAS-120 E (Economy Class) № 936933
 
-description: Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931.
+description: Electronic Fuel Dispenser FAS-120 E (Economy Class) № 936933.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,8 +12,8 @@ description: Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Gas dispenser FAS-120 SK (economy class) for propane-butane intended to supply consumer with liquefied petroleum gas in litres with a possibility of obtaining data on kilograms and density.</p>
-<p>Version: with one fuelling nozzle and Coriolis flow meter.</p>
+<p>Gas dispenser FAS-120 E (economy class) for propane-butane intended to supply consumer with liquefied petroleum gas in litres.</p>
+<p>Version: With one fuelling nozzle and 4-piston mechanical meter.</p>
 
 {% set pageEqPhotos = [
   { url: 'equipment/gas-fuel-dispensers/fas-120-sk/electronic-fuel-dispenser-fas-120-sk--1--front-right.jpg' },
@@ -42,9 +42,9 @@ description: Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931.
 <h3>Hydraulic System PN 25</h3>
 
 <ul>
-  <li>Mass flow meter for liquefied petroleum gas, 5–50 L/min;</li>
+  <li>Four-piston mechanical meter for liquefied petroleum gas, 5–50 L/min.;</li>
   <li>Vapour phase separator;</li>
-  <li>Fine filte;</li>
+  <li>Fine filter;</li>
   <li>Differential valve;</li>
   <li>Solenoid valve;</li>
   <li>LPG high-pressure hose;</li>
@@ -66,12 +66,11 @@ description: Electronic Fuel Dispenser FAS-120 SK (Economy Class) №936931.
 <h2>Optional Equipment</h2>
 
 <ul>
-  <li>Electronic unit heating (FAS №22117).</li>
+  <li>Electronic unit heating (FAS № 22117).</li>
 </ul>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>6 600 €</p>
-  <p class='h-margin-bottom+'>Delivery terms: 6–8 weeks</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 {% endblock %}

@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752
-contentTitle:    Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752
-navTitle:        FAS-220M №354752 
-breadcrumbTitle: FAS-220M №354752 
+title:           Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220 WM №354752 
+contentTitle:    Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220 WM №354752 
+navTitle:        FAS-220 WM №354752  
+breadcrumbTitle: FAS-220 WM №354752  
 
-description: Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220M №354752. 
+description: Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-220 WM №354752 . 
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,7 +12,7 @@ description: Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic dispenser of FAS-220M type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of additional Coriolis flow meter control panels installed in the dispenser.</p>
+<p>Electronic dispenser of FAS-220 WM type intended to supply consumer with liquefied petroleum gas in litres with a possibility of dispensed gas accounting in kilograms with the help of additional Coriolis flow meter control panels installed in the dispenser.</p>
 
 <p><strong>With a function of filling household gas cylinders.</strong></p>
 
@@ -69,8 +69,7 @@ description: Electronic Fuel Dispenser for Cars and Household Gas Cylinders FAS-
 <p>Certification 2.1 EN 10 204.</p>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>19 570 €</p>
-  <p class='h-margin-bottom+'>Delivery terms: 6-10 weeks</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 {% endblock %}

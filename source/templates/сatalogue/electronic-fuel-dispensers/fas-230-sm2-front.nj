@@ -1,16 +1,16 @@
 ---
-title:           Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934
-contentTitle:    Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934
-navTitle:        FAS-230 SM2 (Economy Class) №936934
-breadcrumbTitle: FAS-230 SM2 (Economy Class) №936934
+title:           Electronic Fuel Dispenser FAS-230 E (Economy Class) №936934
+contentTitle:    Electronic Fuel Dispenser FAS-230 E (Economy Class) №936934
+navTitle:        FAS-230 E (Economy Class) №936934
+breadcrumbTitle: FAS-230 E (Economy Class) №936934
 
-description: Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934.
+description: Electronic Fuel Dispenser FAS-230 E (Economy Class) №936934.
 ---
 
 {% extends '_layouts/_main.nj' %}
 
 {% block main %}
-<p>Gas dispenser FAS-230 SM2 for propane-butane intended to supply consumer with liquefied petroleum gas in litres.</p>
+<p>Gas dispenser FAS-230 E for propane-butane intended to supply consumer with liquefied petroleum gas in litres.</p>
 <p>Version: With two fuelling nozzles on one (front) side of the dispenser and a 4-piston mechanical meter (2 pcs).</p>
 
 <h2>Basic Package</h2>
@@ -63,8 +63,7 @@ description: Electronic Fuel Dispenser FAS-230 SM2 (Economy Class) №936934.
 </ul>
 
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>8 200 €</p>
-  <p class='h-margin-bottom+'>Delivery terms: 4–8 weeks</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 {% endblock %}

@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FEM S/111/T
-contentTitle:    Electronic Fuel Dispenser FEM S/111/T
-navTitle:        FEM S/111/T
-breadcrumbTitle: FEM S/111/T
+title:           Electronic Fuel Dispenser FEM S/511/T
+contentTitle:    Electronic Fuel Dispenser FEM S/511/T
+navTitle:        FEM S/511/T
+breadcrumbTitle: FEM S/511/T
 
-description: Electronic Fuel Dispenser FEM S/111/T.
+description: Electronic Fuel Dispenser FEM S/511/T.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,16 +12,13 @@ description: Electronic Fuel Dispenser FEM S/111/T.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser of FEM 100 type with one fuelling hose (located on the lateral side), with a turbine meter (USA) and electronic components by FASENERGOMASH (Russia).</p> 
-<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
+<p>Electronic fuel dispenser FEM 500 type with one fuelling hose (located on the lateral side), with a turbine meter (USA) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres. Country of intended use: Russian Federation.</p>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-t/electronic-fuel-dispenser-fem-s-111-t--1--front.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-t/electronic-fuel-dispenser-fem-s-111-t--2--front-right.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-t/electronic-fuel-dispenser-fem-s-111-t--3--left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-t/electronic-fuel-dispenser-fem-s-111-t--4--front-left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--5--front--scheme.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-111-k/electronic-fuel-dispenser-fem-s-111-k--6--front-right--scheme.jpg' }    
+  { url: 'equipment/gas-fuel-dispensers/fem-s-500/electronic-fuel-dispenser-fem-s-500--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-s-500/electronic-fuel-dispenser-fem-s-500--2--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-s-500/electronic-fuel-dispenser-fem-s-500--3--front-left.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
@@ -48,9 +45,9 @@ description: Electronic Fuel Dispenser FEM S/111/T.
 <li>Electronic components are manufactured by FASENERGOMASH, LLC (Russia);</li>
 <li>Power supply node 230 V AC / 50 Hz;</li>
 <li>Panel for taking meter readings in litres and kilograms;</li>
-<li>One LCD display panel;</li>
+<li>Two LCD display panels;</li>
 <li>Rotary switch;</li>
-<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2 protocols; self-contained operation without a cash system.</li>
+<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2.0 protocols; self-contained operation without a cash system.</li>
 <li>Operation simultaneously with level gauges (if an electrical control panel is available);</li>
 <li>Operation simultaneously with a pump (if an electrical control panel is available);</li>
 <li>Operation simultaneously with solenoid valves (if an electrical control panel is available).</li>
@@ -59,7 +56,7 @@ description: Electronic Fuel Dispenser FEM S/111/T.
 <h2>Hydraulic System PN 25</h2>
 
 <ul>
-<li>Turbine meter for liquefied petroleum gas, 5–50 L/min;</li>
+<li>Turbine meter for liquefied petroleum gas, 5–50 L/min.;</li>
 <li>Vapour phase separator;</li>
 <li>Differential valve;</li>
 <li>High-pressure hose, 5 m in length;</li>
@@ -67,8 +64,8 @@ description: Electronic Fuel Dispenser FEM S/111/T.
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
-<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
+<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
+<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
@@ -79,11 +76,11 @@ description: Electronic Fuel Dispenser FEM S/111/T.
 <li>Two-stage solenoid valve.</li>
 </ul>
 
-
 <div class='h-align--center h-margin-top++'>
-  <p class='h-h2 text-green h-text--nowrap'>250 000 ₽</p>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
   <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 </div>
 <p></p>
 <p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
 {% endblock %}
+

@@ -1,0 +1,76 @@
+---
+title:           Electronic Fuel Dispenser FAS-120 E (Economy Class) №936931
+contentTitle:    Electronic Fuel Dispenser FAS-120 E (Economy Class) №936931
+navTitle:        FAS-120 E (Economy Class) №936931
+breadcrumbTitle: FAS-120 E (Economy Class) №936931
+
+description: Electronic Fuel Dispenser FAS-120 E (Economy Class) №936931.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Gas dispenser FAS-120 E (economy class) for propane-butane intended to supply consumer with liquefied petroleum gas in litres with a possibility of obtaining data on kilograms and density.</p>
+<p>Version: with one fuelling nozzle and Coriolis flow meter.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-fuel-dispensers/fas-120-sk/electronic-fuel-dispenser-fas-120-sk--1--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fas-120-sk/electronic-fuel-dispenser-fas-120-sk--2--front--inner.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Basic Package</h2>
+
+<h3>Casing</h3>
+
+<ul>
+  <li>Painted steel;</li>
+  <li>Colour: white.</li>
+</ul>
+
+<h3>Electronic Components</h3>
+
+<ul>
+  <li>Electronic part: FAS+CSA type;</li>
+  <li>Power supply node 230 V AC / 50 Hz;</li>
+  <li>Rotary switch.</li>
+</ul>
+
+<h3>Hydraulic System PN 25</h3>
+
+<ul>
+  <li>Mass flow meter for liquefied petroleum gas, 5–50 L/min;</li>
+  <li>Vapour phase separator;</li>
+  <li>Fine filte;</li>
+  <li>Differential valve;</li>
+  <li>Solenoid valve;</li>
+  <li>LPG high-pressure hose;</li>
+  <li>Quick coupling;</li>
+  <li>Relief valves;</li>
+  <li>Filling clamp of T3 (or R1) type;</li>
+  <li>Two-stage solenoid valve;</li>
+  <li>Equipment for setting the dose of refuelling.</li>
+</ul>
+
+<h3>Information on the Display Panel</h3>
+
+<ul>
+  <li>Price per litre;</li>
+  <li>Number of dispensed litres;</li>
+  <li>Total cost.</li>
+</ul>
+
+<h2>Optional Equipment</h2>
+
+<ul>
+  <li>Electronic unit heating (FAS №22117).</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

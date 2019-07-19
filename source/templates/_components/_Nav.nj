@@ -55,6 +55,7 @@
     {% call(depth) Item('/сatalogue/evaporative-equipment-for-chlorine', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/evaporative-and-blending-equipment', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/autonomous-gas-supply-systems', depth = depth) %}{% endcall %}
+    {% call(depth) Item('/сatalogue/electronic-fuel-dispensers', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/heat-recovery-systems', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/cogeneration-units', depth = depth) %}{% endcall %}
     {% call(depth) Item('/сatalogue/gas-control-and-distribution-equipment', depth = depth) %}{% endcall %}
