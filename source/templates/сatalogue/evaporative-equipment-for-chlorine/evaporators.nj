@@ -24,6 +24,14 @@ description: Electric Heated Evaporative Units.
 
 {# @todo Missing Evaporators 14-224 CLE renders #}
 {% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--1--front.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--2--front-right.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--3--right.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--4--back-left.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--5--back.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--6--back-right.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--7--left.jpg' },
+  { url: 'equipment/evaporative-equipment-for-chlorine/cle-a/evaporator-fem-cle-a-13--8--front-left.jpg' },
   { url: 'equipment/evaporative-equipment-for-chlorine/cle/evaporator-fem-cle-mini--1--front.jpg' },
   { url: 'equipment/evaporative-equipment-for-chlorine/cle/evaporator-fem-cle-mini--2--front--right.jpg' },
   { url: 'equipment/evaporative-equipment-for-chlorine/cle/evaporator-fem-cle-mini--3--left.jpg' },
