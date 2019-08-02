@@ -2657,7 +2657,7 @@ fas-21-3-vr-21-kw:
       lpg: 0,33 kg/h * 1 kW
     operatingSpeed: 2800
     cooling: null
-  engineId: vaz-21083
+  engineId: vaz-21213
   enclosure:
     type: Enclosed
     material: null
