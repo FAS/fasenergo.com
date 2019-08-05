@@ -23,6 +23,11 @@ description: Electric Heated Evaporative Units.
 </ul>
 
 {% set pageEqElPhotos = [
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-5--1.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-5--2.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-5--3.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-5--4.jpg' },
+  { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-5--5.jpg' },
   { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--1--front.jpg' },
   { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--2--front-right.jpg' },
   { url: 'equipment/evaporative-equipment/se-a/evaporator-fem-se-a-13--3--right.jpg' },
