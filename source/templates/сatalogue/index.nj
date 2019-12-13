@@ -51,6 +51,15 @@ description: Gas Equipment FASENERGOMASH, LLC.
     url = '/сatalogue/evaporative-equipment-for-chlorine'
   ) %}{% endcall %}
 
+  <hr>  
+
+  {% call CategoryCard(
+    title = 'LPG Vapour Phase Heaters',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/lpg-vapour-phase-heaters.jpg',
+    url = '/сatalogue/lpg-vapour-phase-heaters'
+  ) %}{% endcall %}
+
   <hr>    
 
   {% call CategoryCard(

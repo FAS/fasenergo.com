@@ -1,0 +1,97 @@
+---
+title:           LPG Vapour Phase Heaters
+contentTitle:    LPG Vapour Phase Heaters
+navTitle:        LPG Vapour Phase Heaters
+breadcrumbTitle: LPG Vapour Phase Heaters
+
+description: Догреватели паровой фазы сжиженного углеводородного газа (СУГ) от «Фасэнергомаш». Производительность до 300 kg/hour.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+{% from '_components/_Image.nj' import Image with context %}
+{% from '_components/_VaporizersTable.nj' import VaporizersTable with context %}
+
+<p>The DE type vapour phase heaters produced by the Russian company FASENERGOMASH, LLC — heaters (D) for indirect electric heating (E). The figure following the series abbreviation means the model number in the FEM catalogue.</p>
+
+<h2>Indirect electric heating</h2>
+
+<ul>
+  <li>Automatic capacity control for stand-alone and standby gas supply systems.</li>
+  <li>All units are factory-assembled, and pressure checked.</li>
+</ul>
+
+{% set pageEqElPhotos = [
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--1.jpg' },
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--2.jpg' },
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--3.jpg' },
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--4.jpg' },
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--5.jpg' },
+  { url: 'equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--sh-1.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqElPhotos, 'Heaters FEM DE 60-300') }}
+
+<p></p>
+
+{% set pageEqEl = [
+  {  artitle: '20.0060/DE', title: 'Heater FEM 60 DE', performance: '60 kg/hour' },
+  {  artitle: '20.0070/DE', title: 'Heater FEM 70 DE', performance: '70 kg/hour' },
+  {  artitle: '20.0080/DE', title: 'Heater FEM 80 DE', performance: '80 kg/hour' }, 
+  {  artitle: '20.0100/DE', title: 'Heater FEM 100 DE', performance: '100 kg/hour' }, 
+  {  artitle: '20.0120/DE', title: 'Heater FEM 120 DE', performance: '120 kg/hour' }, 
+  {  artitle: '20.0140/DE', title: 'Heater FEM 140 DE', performance: '140 kg/hour' }, 
+  {  artitle: '20.0160/DE', title: 'Heater FEM 160 DE', performance: '160 kg/hour' },
+  {  artitle: '20.0180/DE', title: 'Heater FEM 180 DE', performance: '180 kg/hour' }, 
+  {  artitle: '20.0200/DE', title: 'Heater FEM 200 DE', performance: '200 kg/hour' }, 
+  {  artitle: '20.0240/DE', title: 'Heater FEM 240 DE', performance: '240 kg/hour' },    
+  {  artitle: '20.0260/DE', title: 'Heater FEM 260 DE', performance: '260 kg/hour' },
+  {  artitle: '20.0280/DE', title: 'Heater FEM 280 DE', performance: '280 kg/hour' },      
+  {  artitle: '20.0300/DE', title: 'Heater FEM 300 DE', performance: '300 kg/hour' }     
+] %}
+
+<table class='Table h-cells-padding-ends--'>
+  <thead class='h-text- h-align--center'>
+    <tr>
+      <th>Product code</th>
+      <th>Item Name</th>
+      <th>Rated Capacity</th>   
+      <th>TCO</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for e in pageEqEl %}
+    <tr>
+      <td>{{ e.artitle }}</td>
+      <td>{{ e.title }}</td>
+      <td class='h-align--right'>{{ e.performance }}</td>
+      <td class='h-align--center'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn'>Request a COMMERCIAL OFFER</button>
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+
+<hr>
+
+<p>Heater is an auxiliary evaporator of liquefied petroleum gases, which prevents the penetration of butane condensate into gas consuming equipment. The heaters are usually applied with the local surface gas pipelines connecting the main evaporators with the consumer’s systems. However, such heaters may also be required for the subsurface pipelining during especially hard winters, when the estimated depth of soil freezing is exceeded significantly.</p>
+
+<p>The LPG vapour phase is supplied from evaporators at a temperature of 40–60 degrees. If the pipelines are too long or there are pauses in gas consumption, in winter, the vapour phase temperature can go below zero reaching the point of butane condensation. If the resulting condensate comes into contact with the running equipment, it may cause damage to the equipment and even a fire. This problem can be solved in two ways— by using subsurface pipelines installed below the winter level of soil freezing or by means of good thermal insulation and cable heating of surface piping.</p>
+
+<p>However, at low temperatures, these methods do not guarantee the complete absence of condensate. Therefore, special condensate collectors are used to remove the condensate. Their condition and filling level must be monitored, while the accumulated butane condensate, as a rule, is disposed of, which leads to pointless expenditures.</p>
+
+
+{{ Image(
+  src = '/' + PATH.images + '/equipment/lpg-vapour-phase-heaters/lpg-vapour-phase-heater--sh.jpg',
+  alt = 'Vapour Phase Heater in Autonomous Gas Supply System',
+  caption = 'Vapour Phase Heater in Autonomous Gas Supply System',
+  center = true  
+) }}
+
+<p>FASENERGOMASH, LLC has developed a vapour phase heater, which is installed directly in front of the consumer and prevents the formation of condensate or evaporates the already formed condensate. It is designed as an electric LPG evaporator of relatively low power. FASENERGOMASH, LLC is currently producing a range of heating evaporators with a capacity of 60 to 600 kg/hour.</p>
+
+{% endblock %}
