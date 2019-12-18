@@ -13,7 +13,7 @@ description: Electronic Fuel Dispenser FEM S/322/T.
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
 <p>Electronic fuel dispenser FEM 300 type, with 2 fuelling hoses (located on the diagonal sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
-<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres. Country of intended use: Russian Federation.</p>
+<p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
   { url: 'equipment/gas-fuel-dispensers/fem-s-322-t/electronic-fuel-dispenser-fem-s-322-t--1--front.jpg' },

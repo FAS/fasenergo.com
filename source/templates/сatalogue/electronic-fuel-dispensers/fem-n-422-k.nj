@@ -12,7 +12,7 @@ description: Electronic Fuel Dispenser FEM N/422/K.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser FAS 400 type, with 2 fuelling hoses (located on the diagonal sides), with 2 Coriolis mass flow meters Endress+Hauser (Switzerland) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>Electronic fuel dispenser FEM 400 type, with 2 fuelling hoses (located on the diagonal sides), with 2 Coriolis mass flow meters Endress+Hauser (Switzerland) and electronic components by FASENERGOMASH (Russia).</p> 
 <p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [

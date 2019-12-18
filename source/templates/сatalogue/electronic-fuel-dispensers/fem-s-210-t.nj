@@ -1,10 +1,10 @@
 ---
-title:           Electronic Fuel Dispenser FEM S/223/T
-contentTitle:    Electronic Fuel Dispenser FEM S/223/T
-navTitle:        FEM S/223/T
-breadcrumbTitle: FEM S/223/T
+title:           Electronic Fuel Dispenser FEM S/210/T
+contentTitle:    Electronic Fuel Dispenser FEM S/210/T
+navTitle:        FEM S/210/T
+breadcrumbTitle: FEM S/210/T
 
-description: Electronic Fuel Dispenser FEM S/223/T.
+description: Electronic Fuel Dispenser FEM S/210/T.
 ---
 
 {% extends '_layouts/_main.nj' %}
@@ -12,19 +12,13 @@ description: Electronic Fuel Dispenser FEM S/223/T.
 {% block main %}
 {% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
 
-<p>Electronic fuel dispenser FEM 200 type, of flag type, with 2 fuelling hoses (located on the front-opposite sides), with 2 turbine meters (USA) and electronic components by FASENERGOMASH (Russia).</p> 
+<p>Electronic fuel dispenser of FEM 200 type with one fuelling hose (located on the front side), with a turbine meter (USA) and electronic components by FASENERGOMASH (Russia).</p>
 <p>The dispenser is intended to supply consumer with liquefied petroleum gas in litres.</p>
 
 {% set pageEqPhotos = [
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--1--front.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--2--front-right.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--3--left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--4--front-left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--5--back-left.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--6--right.jpg' },    
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-t/electronic-fuel-dispenser-fem-s-223-t--7--back-right.jpg' },
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-k/electronic-fuel-dispenser-fem-s-223-k--8--front--scheme.jpg' },    
-  { url: 'equipment/gas-fuel-dispensers/fem-s-223-k/electronic-fuel-dispenser-fem-s-223-k--9--front-right--scheme.jpg' }  
+  { url: 'equipment/gas-fuel-dispensers/fem-s-210/electronic-fuel-dispenser-fem-s-210--1--front.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-s-210/electronic-fuel-dispenser-fem-s-210--2--front-right.jpg' },
+  { url: 'equipment/gas-fuel-dispensers/fem-s-210/electronic-fuel-dispenser-fem-s-210--3--front-left.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
@@ -53,7 +47,7 @@ description: Electronic Fuel Dispenser FEM S/223/T.
 <li>Panel for taking meter readings in litres and kilograms;</li>
 <li>One LCD display panel;</li>
 <li>Rotary switch;</li>
-<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2 protocols; self-contained operation without a cash system.</li>
+<li>Electronics allows selection of a data communication protocol given the remote control of a dispenser or the connection of additional devices in the following designs: control independently of network connections (local dispenser’s control panel); compatible with DART and AZT 2.0 protocols; self-contained operation without a cash system;</li>
 <li>Operation simultaneously with level gauges (if an electrical control panel is available);</li>
 <li>Operation simultaneously with a pump (if an electrical control panel is available);</li>
 <li>Operation simultaneously with solenoid valves (if an electrical control panel is available).</li>
@@ -62,16 +56,16 @@ description: Electronic Fuel Dispenser FEM S/223/T.
 <h2>Hydraulic System PN 25</h2>
 
 <ul>
-<li>Two turbine meters for liquefied petroleum gas, 5–50 L/min;</li>
+<li>Turbine meter for liquefied petroleum gas, 5–50 L/min;</li>
 <li>Vapour phase separator;</li>
 <li>Differential valve;</li>
-<li>Two high-pressure hoses, 5 m in length each;</li>
+<li>High-pressure hose, 5 m in length;</li>
 <li>Quick coupling on the hose;</li>
 <li>ReGo relief valves, actuation pressure: 25 bar;</li>
 <li>Filling clamp (of T3 or R1 type) according to the customer’s specifications;</li>
 <li>Solenoid valve (a two-stage valve is supplied at extra charge);</li>
-<li>Mounting components, inlet/liquid phase: ball valve with coupling DN25;</li>
-<li>Mounting components, outlet/vapour phase: ball valve with coupling DN20.</li>
+<li>Mounting components, inlet/liquid phase: trunnion mounted ball valve DN25;</li>
+<li>Mounting components, outlet/vapour phase: trunnion mounted ball valve DN20.</li>
 </ul>
 
 <h2>Additional Equipment for an Extra Charge</h2>
