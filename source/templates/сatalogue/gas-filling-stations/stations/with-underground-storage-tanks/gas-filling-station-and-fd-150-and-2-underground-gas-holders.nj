@@ -1,0 +1,59 @@
+---
+title:           Modular Gas Filling, Dispensing and Pumping Station with Two Pumps of FD-150 Type for Connection of Two Underground Tanks
+contentTitle:    Modular Gas Filling, Dispensing and Pumping Station with Two Pumps of FD-150 Type for Connection of Two Underground Tanks
+navTitle:        Modular Gas Filling, Dispensing and Pumping Station with Two Pumps of FD-150 Type for Connection of Two Underground Tanks
+breadcrumbTitle: Modular Gas Filling, Dispensing and Pumping Station with Two Pumps of FD-150 Type for Connection of Two Underground Tanks
+
+description:  Modular Gas Filling, Dispensing and Pumping Station with Two Pumps of FD-150 Type for Connection of Two Underground Tanks.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{{ PhotosPreview([
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-fd-150-and-2-underground-gas-holders/gas-filling-station-and-fd-150-and-2-underground-gas-holders.jpg' }
+], PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+<p>A modular process system of FEM type. It is designed to be mounted as part of two underground tanks manufactured by FASENERGOMASH (volume of 4.6/6.4/8.5/9.2/12/20 cubic metres) with an industrial cover, without a fuel dispenser (can be supplied separately). The pumping system is designed to pump liquefied gas from tanks and supply it to a fuel dispenser. The design of a modular LPG pumping unit provides for its application as part of two tanks at small automobile gas filling stations.</p>
+
+<p>The pumping unit No. 93.1241 is a gas pump with a shut-off valve connection. The pumping unit comprises a by-pass valve, flanges, a solenoid valve, as well as a filling system for liquid and vapour phases.</p>
+
+<p>Cost saving design.</p>
+
+<h2>Basic Package:</h2>
+
+<ul>
+  <li>FD-150 type pumping unit, 2 pcs;</li>
+  <li>By-pass valve, 2 pcs;</li>
+  <li>A pipe to connect liquid phase to a fuel dispenser with insulating flanges DN25, liquid phase;</li>
+  <li>A vapour phase pipe with a connection to a RVS 22 fuel dispenser, equipped with an insulating joint;</li>
+  <li>Pressure gauge with needle valves, 2 pcs.</li>
+</ul>
+
+<p>All connections on the tank cover are equipped with shut-off valves:</p>
+
+<ul>
+  <li>Ball valve DN25 — filling, vapour and by-pass pipes, 6 pcs;</li>
+  <li>Ball valve DN40 — liquid phase intake pipe, 2 pcs;</li>
+  <li>Strainer filter DN40, at the inlet to each pump unit.
+</ul>
+
+<p>Fitting for additional tank connections:</p>
+
+<ul>
+  <li>Solenoid valve 3/4” on the dispenser connection pipes, 2 pcs;</li>
+  <li>Check valve on the vapour return pipe coming from a dispenser;</li>
+  <li>Check valve on the filling pipe;</li>
+  <li>Filling assembly for liquid and vapour phases with filling couplings M 60x4, left-hand;</li>
+  <li>A set of pipes used between the tanks and pumping systems for liquid and vapour phases.</li>
+</ul>
+
+<p>Tanks are not included into the delivery package.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap h-margin-bottom+'>14 760 €</p>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+</div>
+{% endblock %}

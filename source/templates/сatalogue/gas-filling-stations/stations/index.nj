@@ -1,0 +1,68 @@
+---
+title:           Modular Gas Filling, Dispensing and Pumping Stations 
+contentTitle:    Modular Gas Filling, Dispensing and Pumping Stations 
+navTitle:        Modular Gas Filling, Dispensing and Pumping Stations 
+breadcrumbTitle: Modular Gas Filling, Dispensing and Pumping Stations 
+
+description: Modular Gas Filling, Dispensing and Pumping Stations with underground and aboveground tanks.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+{% call CategoryCard(
+  title = 'Modular Gas Filling, Dispensing and Pumping Stations with Aboveground Storage Tanks',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders--4.jpg',
+  url = '/сatalogue/gas-filling-stations/stations/with-aboveground-storage-tanks'
+) %}{% endcall %}
+{% call CategoryCard(
+  title = 'Modular Gas Filling, Dispensing and Pumping Stations with Underground Storage Tanks',
+  hLevel = 2,
+  image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-station-and-fd-150-and-2-underground-gas-holders.jpg',
+  url = '/сatalogue/gas-filling-stations/stations/with-underground-storage-tanks'
+) %}{% endcall %}
+
+<h2>Auxiliary Equipment</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+
+  {% call CategoryCard(
+    title = 'FEM 26.1105/1',
+    hLevel = 4,
+    image = '/' + PATH.images + '/equipment/gas-filling-stations/electrical-control-panels/fem-26-1105-1/card.jpg',
+    url = '/сatalogue/gas-filling-stations/stations/electrical-control-panels/fem-26-1105-1',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<p>FASENERGOMASH, LLC designs and manufactures on a turnkey basis gas filling stations of any complexity, including roadside service facilities and gas filling stations for motor transport enterprises.</p>
+
+<p>Our specialists will develop an optimal facility construction project, select the necessary equipment, carry out the earth, construction, mounting and commissioning works.</p>
+
+<p>FASENERGOMASH, LLC has extensive experience in supplying gas dispensers, pump units, electrical control and automation panels, storage tanks for liquefied petroleum gas throughout Russia, neighbouring countries and beyond.</p>
+
+<p>Specialists of our company are ready to install and mount tanks, reservoirs, process pipelines, modular process systems with pumping units, safety and security systems, connect and adjust fuel dispensers, as well as perform earth works to settle underground storage tanks. Besides, our company refits the existing gas filling stations and supplies spare parts.</p>
+</p>
+<p>FASENERGOMASH, LLC experts can select, install, mount and connect modular gas filling stations, fuel dispensers with the function of filling household gas cylinders, backup power supply systems completed with Russian gas generators.</p>
+
+<p>FASENERGOMASH, LLC has all necessary licenses, permits and certificates to work with gas equipment.</p>
+
+
+<h2>Basic Package</h2>
+
+<ol>
+  <li>One to four tanks. All tanks and vessels have a special anti-corrosion coating. To install underground tanks, an anodic-cathodic protection is also included in the delivery package.</li>
+  <li>A gas filling station can be equipped with fuel and gas dispensers completed with one or two hoses.</li>
+  <li>The delivery package of a gas filling station includes a self-priming unit for gas supply from underground tanks with a capacity of 100 litres per minute, with a gas lifting depth of about 4 metres and a differential pressure of 14 bar. A set of shut-off and relief valves from American or European manufacturers.</li>
+  <li>A remote explosion-proof electrical control panel or an electrical control panel for installation outside the explosion hazardous area.</li>
+  <li>Our company can provide an automated LPG transfer control system for a gas filling station.</li>
+</ol>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+{% endblock %}

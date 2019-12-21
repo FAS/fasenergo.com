@@ -1,0 +1,187 @@
+---
+title:           Modular Gas Filling, Dispensing and Pumping Station with a Pump of FAS NZ 36-8 Type and Two Tanks of 4.6 NS Type with a Rated Capacity of 4.6 m³
+contentTitle:    Modular Gas Filling, Dispensing and Pumping Station with a Pump of FAS NZ 36-8 Type and Two Tanks of 4.6 NS Type with a Rated Capacity of 4.6 m³
+navTitle:        Modular Gas Filling, Dispensing and Pumping Station with a Pump of FAS NZ 36-8 Type and Two Tanks of 4.6 NS Type with a Rated Capacity of 4.6 m³
+breadcrumbTitle: Modular Gas Filling, Dispensing and Pumping Station with a Pump of FAS NZ 36-8 Type and Two Tanks of 4.6 NS Type with a Rated Capacity of 4.6 m³
+
+description:  Modular Gas Filling, Dispensing and Pumping Station with a Pump of FAS NZ 36-8 Type and Two Tanks of 4.6 NS Type with a Rated Capacity of 4.6 m³.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--1.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--2.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--3.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--4.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--5.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--6.jpg' },    
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--7.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-station-and-nz-36-8-and-2-gas-holders/gas-filling-station-and-nz-36-8-and-2-gas-holders--8.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>1. FEM Modular Process System No. 93.0210/4</h2>
+
+<p>According to drawing No. _____, it is applied for propane/butane pumping based on a pumping unit of NZ 36-8 type, for connecting to two aboveground tanks, with a self-fuelling function.</p>
+
+<h3>The System Consists of the Following Main Components:</h3>
+
+<ul>
+<li>NZ 36-8 type pumping unit for propane/butane with multifunction gland sealing and a capacity of 100 L/min, at a differential pressure of 14 bar under 1500 rpm;</li>
+<li>Input: DN 50, PN 40, DIN 2635;</li>
+<li>Output: DN 32, PN 40, DIN 2635;</li>
+<li>Explosion-proof electric motor of 5.5 kW, EEx e II T3, 230/400V, 50 Hz, IP 55, 1500 rpm, with coupling and protective casing.</li>
+</ul>
+
+
+<h3>Basic Package:</h3>
+
+<ul>
+  <li>Liquid phase inlet DN50 with a ball valve DN50;</li>
+  <li>Liquid phase outlet DN25 with a ball valve DN25 and a check valve;</li>
+  <li>Bypass line with a valve;</li>
+  <li>By-pass pipe outlet with a ball valve DN25 on the tank connection line;</li>
+  <li>Vapour phase pipe with a ball valve DN20 on the tank connection line;</li>
+  <li>Vapour phase compensating pipe assembly DN20 with a filling coupling M 60x4.0, left-hand, with a protective cover;</li>
+  <li>Filling pipe DN50 with a ball valve DN50, a check valve and a screwed coupling M 60x4, left-hand, with a protective cover;</li>
+  <li>Strainer DN50 on a suction pipe;</li>
+  <li>Shut-off, relief and control valves installed in accordance with the existing regulations;</li>
+  <li>START/STOP explosion-proof push-button panel;</li>
+  <li>Instrumentation and monitoring equipment;</li>
+  <li>Discharge system of “Candle” type.</li>
+</ul>
+
+
+<p>The system is assembled on a common frame with the possibility of subsequent installation of an electronic FAS (FASENERGOMASH or similar) gas dispenser thereon. Primed and painted.</p>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p class='h-margin-bottom+'>Delivery terms: 4–6 weeks<br>Manufactured by FASENERGOMASH, LLC<br>Russia</p>
+</div>
+
+<hr>
+
+<h2>2. Tank of 4.6-HC Type for System Connection with a Rated Capacity of 4.6 m³ for Aboveground Installation</h2>
+
+<p>Tank diameter 1,200 mm; inspection window DN 500; operating temperature -40 / +40 °C; operating pressure 1.48 MPa; weatherproof corrosion-resistant coating of the outer tank surface.</p>
+
+<h3>Basic Package:</h3>
+
+<ul>
+  <li>Relief valve with a shut-off valve and a gasket;</li>
+  <li>Fill-up valve;</li>
+  <li>Vapour phase recovery valve with a speed valve;</li>
+  <li>Angle valve for liquid phase intake with a speed valve;</li>
+  <li>Overflow pipe;</li>
+  <li>Pressure gauge with a casing diameter 63 mm;</li>
+  <li>Mechanical level gauge;</li>
+  <li>Flanged socket DN 40 for tank discharging and charging with LPG liquid phase;</li>
+  <li>Flanged socket DN 20 for LPG vapour phase discharging;</li>
+  <li>Flanged socket DN 25 for a bypass line;</li>
+  <li>Female connector G3/4”;</li>
+  <li>Tank supports for understructure installation.</li>
+</ul>
+
+<h2>Auxiliary Tank of 4.6-HC Type with a Lateral Filling Line Outlet, with a Rated Capacity of 4.6 m³ for Aboveground Installation</h2>
+
+<p>Tank diameter 1,200 mm; inspection window DN 500; operating temperature -40 / +40 °C; operating pressure 1.48 MPa; weatherproof corrosion-resistant coating of the outer tank surface.</p>
+
+<h3>Basic Package:</h3>
+
+<ul>
+  <li>Relief valve with a shut-off valve and a gasket;</li>
+  <li>Fill-up valve;</li>
+  <li>Vapour phase recovery valve with a speed valve;</li>
+  <li>Angle valve for liquid phase intake with a speed valve;</li>
+  <li>Overflow pipe;</li>
+  <li>Pressure gauge with a casing diameter 63 mm;</li>
+  <li>Mechanical level gauge;</li>
+  <li>Flanged socket DN 40 with a lateral outlet for tank discharging and charging with LPG liquid phase;</li>
+  <li>Flanged socket DN 20 for LPG vapour phase discharging;</li>
+  <li>Flanged socket DN 25 for a bypass line;</li>
+  <li>Female connector G3/4”;</li>
+  <li>Tank supports for understructure installation.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p class='h-margin-bottom+'>Delivery terms: 4–6 weeks<br>Made in Russia</p>
+</div>
+
+<hr>
+
+<h2>3. Electrical Control Panel FAS No. 26.1105/1 for Mounting Outside the Explosion Hazardous Area</h2>
+
+<h3>Adapted for Connection with:</h3>
+
+<ul>
+  <li>Fuel dispenser of FAS (FAS - 120, 220, 230), FASENERGOMASH (series 100, 200, 300, 400, 500), or Wayne-Dresser types.;</li>
+  <li>Electric motor of a pumping unit (up to 5.5 kW, 400 V) with a smooth starting function.</li>
+</ul>
+
+<h3>Equipped with:</h3>
+
+<ul>
+  <li>Network availability indication on the front panel;</li>
+  <li>START and STOP buttons for one electric motor;</li>
+  <li>Accident indication;</li>
+  <li>Control panel unlock button in the event of alarm signal activation;</li>
+  <li>A bus for connecting the response device of the dry-running sensor and the external fire alarm;</li>
+  <li>Connection of up to 2 external START and STOP control buttons;</li>
+  <li>Terminals for connecting external sound and light alarms.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p class='h-h2 text-green h-text--nowrap'>Price on request</p>
+  <p class='h-margin-bottom+'>Delivery terms: 4–6 weeks<br>Manufactured by FASENERGOMASH, LLC<br>Russia</p>
+</div>
+
+<hr>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>  
+</div>
+
+<hr>
+
+<h2>4. Auxiliary Equipment for Gas Filling Stations</h2>
+
+<h3>When Ordering a Tank:</h3>
+
+<ul>
+  <li>Flanged socket DN 50 for a PMP level gauge;</li>
+  <li>Flanged socket DN 80 for a PMP level gauge with a density control;</li>
+  <li>Fitting DN 100 for “String” system installation;</li>
+  <li>Fitting DN 200 for “String” system installation;</li>
+  <li>Fitting 3/4" NPT for VEGA level gauge installation;</li>
+  <li>Thermal insulation of tank.</li>
+</ul>
+
+<h3>Equipment:</h3>
+
+<ul>
+  <li>Electronic level gauges of PMP, STRING, VEGA, OPW types;</li>
+  <li>Automation sets;</li>
+  <li>UZA road tanker earthing devices.</li>
+</ul>
+
+<h3>Electronic Fuel Dispensers:</h3>
+
+<ul>
+  <li>FAS series: 120, 220, 230;</li>
+  <li>FASENERGOMASH series: 100, 200, 300, 400, 500.</li>
+</ul>
+
+<p></p>
+
+<p>Electronic fuel dispensers are available here:</p>
+
+<p class='h-margin-ends+ h-align--center'><a class='Btn Btn--primary Btn+' href='/сatalogue/electronic-fuel-dispensers'>Electronic Fuel Dispensers</a></p>
+
+<p class='h-text-'><i>* The arrangement of elements may differ from those shown in the pictures. FASENERGOMASH, LLC reserves the right to introduce technical changes.</i></p>
+{% endblock %}

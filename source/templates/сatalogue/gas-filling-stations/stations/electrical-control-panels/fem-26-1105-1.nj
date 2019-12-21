@@ -1,0 +1,46 @@
+---
+title:           Electrical Control Panel FAS No. 26.1105/1
+contentTitle:    Electrical Control Panel FAS No. 26.1105/1
+navTitle:        FEM 26.1105/1
+breadcrumbTitle: FEM 26.1105/1
+
+description: Electrical Control Panel FAS No. 26.1105/1
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<p>Electrical control panel for installation outside the explosion hazardous area.</p>
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/electrical-control-panels/fem-26-1105-1/electrical-control-panel-fem-26-1105--open.jpg' },
+  { url: 'equipment/gas-filling-stations/electrical-control-panels/fem-26-1105-1/electrical-control-panel-fem-26-1105--close.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle) }}
+
+<h2>Adapted for Connection with</h2>
+
+<ul>
+   <li>Fuel dispenser of FAS (FAS - 120, 220, 230), FASENERGOMASH (series 100, 200, 300, 400, 500), or Wayne-Dresser types;</li>
+   <li>Electric motor of a pumping unit (up to 5.5 kW, 400 V) with a smooth starting function.</li>
+</ul>
+
+<h2>Equipped with</h2>
+
+<ul>
+	<li>Network availability indication on the front panel;</li>
+	<li>START and STOP buttons for one electric motor;</li>
+	<li>Accident indication;</li>
+	<li>Control panel unlock button in the event of alarm signal activation;</li>
+	<li>A bus for connecting the response device of the dry-running sensor and the external fire alarm;</li>
+	<li>Connection of up to 2 external START and STOP control buttons;</li>
+	<li>Terminals for connecting external sound and light alarms.</li>
+</ul>
+
+<div class='h-align--center h-margin-top++'>
+  <p><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
+</div>
+{% endblock %}

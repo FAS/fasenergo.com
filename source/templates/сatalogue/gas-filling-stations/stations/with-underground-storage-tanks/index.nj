@@ -1,0 +1,73 @@
+---
+title:           Modular Gas Filling, Dispensing and Pumping Stations with Underground Storage Tanks
+contentTitle:    Modular Gas Filling, Dispensing and Pumping Stations with Underground Storage Tanks
+navTitle:        With Underground Storage Tanks
+breadcrumbTitle: With Underground Storage Tanks
+
+description: Modular Gas Filling, Dispensing and Pumping Stations with Underground Storage Tanks.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+{% from '_components/_PhotosPreview.nj' import PhotosPreview with context %}
+
+<h2>Based on a modular process system with two pumps of FD-150 type</h2>
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'for two storage tanks',
+    hLevel = 3,
+    image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-station-and-fd-150-and-2-underground-gas-holders.jpg',
+    url = '/сatalogue/gas-filling-stations/stations/with-underground-storage-tanks/gas-filling-station-and-fd-150-and-2-underground-gas-holders',
+    class = 'o-grid__item h-1/4',
+    size = 'small'
+  ) %}{% endcall %}
+</div>
+
+<hr>
+
+<pGas filling stations with underground tanks are installed within the limited territory allocated for the placement of gas filling, dispensing and pumping stations. The underground location is considered to be the most preferable one. Moreover, the decision is provided for by the current technical regulations.</p>
+
+<p>It does not require additional compensatory measures. The gas filling, dispensing and pumping stations with underground storage tanks are the most suitable solution. The self-priming units installed on the block structures feature stable supply of gas to fuel dispensers since, with such systems, the gas temperature changes do not affect the equipment performance.</p>
+
+
+{% set pageEqPhotos = [
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--5.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--4.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/fd150-and-gas-holder--1.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/fd150-and-gas-holder--2.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/fd150-and-gas-holder--3.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/fd150-and-gas-holder--4.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--16.jpg' },
+  { url: 'equipment/gas-filling-stations/gas-filling-stations/gas-filling-stations-fem--17.jpg' }
+] %}
+
+{{ PhotosPreview(pageEqPhotos, PAGE.contentTitle, class = 'h-margin-bottom+') }}
+
+
+<h2>Standard Configuration:</h2>
+
+<ul>
+  <li>FAS NZ 36-8/Corken FD-150 pumping unit;</li>
+  <li>By-pass valve on a by-pass line;</li>
+  <li>Filtering strainer;</li>
+  <li>A set of pipelines;</li>
+  <li>Pressure gauges with shut-off valves;</li>
+  <li>Ball flanged valves;</li>
+  <li>Relief valves;</li>
+  <li>“Candle” type system;</li>
+  <li>Nodes for connecting with a gas carrier vehicle with protective caps (liquid and vapour phases).</li>
+</ul>
+
+<p>A fuel dispenser is not included into the system..</p>
+
+<p>FASENERGOMASH, LLC offers the best comprehensive solutions based on the world experience in the production of gas filling stations. Components by German and American manufacturers are used when producing gas filling, dispensing and pumping stations.</p>
+
+<p>FASENERGOMASH, LLC possesses a vast experience in the supply, manufacture, and installation of modular and fixed-site gas filling stations.
+Our company has the entire in-house resource base required to manufacture customised equipment for individual projects.
+We are ready to manufacture integrated gas filling, dispensing and pumping stations of any degree of complexity.</p>
+
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+{% endblock %}

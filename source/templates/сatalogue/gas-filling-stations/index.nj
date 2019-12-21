@@ -12,39 +12,16 @@ description: Gas Filling Stations.
 {% block main %}
 {% from '_components/_CategoryCard.nj' import CategoryCard with context %}
 
-{% call CategoryCard(
-  title = 'Gas Filling Stations',
-  hLevel = 2,
-  image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-stations.jpg',
-  url = '/сatalogue/gas-filling-stations/gas-filling-stations'
-) %}{% endcall %}
+<p class='h-margin-bottom+'>Gas filling stations adapted for operation with underground and aboveground tanks.</p>
+
+<p> </p>
 
 {% call CategoryCard(
-  title = 'LNG & LNG-CNG Filling Stations from FAS Company',
+  title = 'Modular Gas Filling, Dispensing and Pumping Stations',
   hLevel = 2,
-  image = '/' + PATH.images + '/equipment/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company/lng-and-lng-cng-filling-stations-from-fas-company--1.jpg',
-  url = '/сatalogue/gas-filling-stations/lng-and-lng-cng-filling-stations-from-fas-company'
+  image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-station-and-fd-150-and-2-gas-holders--2.jpg',
+  url = '/сatalogue/gas-filling-stations/stations'
 ) %}{% endcall %}
-
-<h2>Electrical Control Panels</h2>
-
-<div class='o-grid h-childs-displace h-bleed-bottom'>
-  {% call CategoryCard(
-    title = 'FEM 22.7112',
-    hLevel = 4,
-    url = '/сatalogue/gas-filling-stations/electrical-control-panels/fem-22-7112',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-  
-  {% call CategoryCard(
-    title = 'FEM 22.561',
-    hLevel = 4,
-    url = '/сatalogue/gas-filling-stations/electrical-control-panels/fem-22-561',
-    class = 'o-grid__item h-1/4',
-    size = 'small'
-  ) %}{% endcall %}
-</div>
 
 <hr>
 
@@ -85,10 +62,10 @@ description: Gas Filling Stations.
 </ul>
 
 <p>The volume and quantity of gas tanks are calculated based on the customer's requirements and reference documentation.</p>
-<p>We offer to purchase underground and aboveground tanks produced by Faskhimmash, which are manufactured in Russia in compliance with the German FAS Company’s technology. The tanks optimally combine European quality with competitive prices and are perfectly adapted to Russian climatic conditions.</p>
-<p>The required capacity of pumps and compressors depends on the as filling station load. When completing gas filling stations, we offer the pump and compressor equipment manufactured by Faskhimmash and American company Corken. For example, we offer to use a vortex pump FD-150 to complete a car gas filling station equipped with 1–2 fuelling nozzles, and high-performance vane pumps Z-2000 and Z-3500 to complete stations with high throughput.</p>
+<p>We offer to purchase underground and aboveground tanks produced by FASENERGOMASH, which are manufactured in Russia in compliance with the German FAS Company’s technology. The tanks optimally combine European quality with competitive prices and are perfectly adapted to Russian climatic conditions.</p>
+<p>The required capacity of pumps and compressors depends on the as filling station load. When completing gas filling stations, we offer the pump and compressor equipment manufactured by Deutsch company VDM Technik and American company Corken. For example, we offer to use a vortex pump FD-150 to complete a car gas filling station equipped with 1–2 fuelling nozzles, and high-performance vane pumps Z-2000 and Z-3500 to complete stations with high throughput.</p>
 <p>Fuel dispensers with an accounting system are an important component of any gas filling station. We offer fuel dispensers FASENERGOMASH manufactured in compliance with German technologies as well as FAS fuel dispensers well-known on the Russian market.</p>
-<p>The safety and reliability of the entire system largely depends on the quality of fittings, shut-off valves and other components. Equipment by such manufacturers as RegO, Corken, and FAS have proved to be excellent.</p>
+<p>The safety and reliability of the entire system largely depends on the quality of fittings, shut-off valves and other components. Equipment by such manufacturers as RegO, VDM, Corken, and FAS have proved to be excellent.</p>
 <p>As an auxiliary and service equipment, we offer pump and compressor units to pump liquefied gas from road tankers that are not equipped with their own pumps and to purge the system with nitrogen during repair works.</p>
 
 <h3>Earth, Construction and Mounting Works</h3>
