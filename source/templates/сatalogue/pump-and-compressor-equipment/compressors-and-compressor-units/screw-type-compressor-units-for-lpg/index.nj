@@ -1,0 +1,19 @@
+---
+title:           Screw-Type Compressor Units for LPG
+contentTitle:    Screw-Type Compressor Units for LPG
+navTitle:        Screw-Type Compressor Units for LPG
+breadcrumbTitle: Screw-Type Compressor Units for LPG
+
+description: Screw-Type Compressor Units for LPG
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{# @todo Нет контента #}
+<ul>
+  {% for slug, item in getPage(PAGE.breadcrumb) %}
+  <li><a href='{{ item.props.url }}'>{{ item.props.navTitle }}</a></li>
+  {% endfor %}
+</ul>
+{% endblock %}

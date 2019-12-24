@@ -69,6 +69,15 @@ description: Gas Equipment FASENERGOMASH, LLC.
     url = '/сatalogue/evaporative-and-blending-equipment'
   ) %}{% endcall %}
 
+  <hr>    
+
+  {% call CategoryCard(
+    title = 'Pump & Compressor Equipment',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-3-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment'
+  ) %}{% endcall %}
+
   <hr>
 
   {% call CategoryCard(
@@ -76,6 +85,15 @@ description: Gas Equipment FASENERGOMASH, LLC.
     hLevel = 2,
     image = '/' + PATH.images + '/categories/autonomous-gas-supply-systems.jpg',
     url = '/сatalogue/autonomous-gas-supply-systems'
+  ) %}{% endcall %}
+
+  <hr>
+
+  {% call CategoryCard(
+    title = 'Gas Filling Stations',
+    hLevel = 2,
+    image = '/' + PATH.images + '/categories/gas-filling-stations/gas-filling-station-and-nz-36-8-and-1-gas-holder--3.jpg',
+    url = '/сatalogue/gas-filling-stations'
   ) %}{% endcall %}
 
   <hr>

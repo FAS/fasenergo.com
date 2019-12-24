@@ -1,0 +1,90 @@
+---
+title:           'Pump & Compressor Equipment'
+contentTitle:    Pump & Compressor Equipment
+navTitle:        Pump & Compressor Equipment
+breadcrumbTitle: Pump & Compressor Equipment
+
+description: Pump & Compressor Equipment.
+---
+
+{% extends '_layouts/_main.nj' %}
+
+{% block main %}
+{% from '_components/_CategoryCard.nj' import CategoryCard with context %}
+
+<p>The pump and compressor equipment produced by FASENERGOMASH, LLC is used for pumping liquefied petroleum gases from one tank to another in order to unload and load the railway and truck tanks and gas holders as well as to supply gas to fuel-dispensing equipment at fuel gas stations.</p>
+
+<h2>Compressors and Compressor Units</h2>
+
+<h3>Screw-Type Compressor Units for LPG</h3>
+
+
+<div class='o-grid h-childs-displace h-bleed-bottom'>
+  {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.310<span class="h-block h-padding-top-- h-text-">Сapacity 60 m³/h<br>Electric motor 5,5 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-3-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-310',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.311<span class="h-block h-padding-top-- h-text-">Сapacity 100 m³/h<br>Electric motor 7,5 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-1-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-311',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.312<span class="h-block h-padding-top-- h-text-">Сapacity 200 m³/h<br>Electric motor 22 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-2-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-312',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+
+   {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.313<span class="h-block h-padding-top-- h-text-">Сapacity 300 m³/h<br>Electric motor 30 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-3-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-313',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.314<span class="h-block h-padding-top-- h-text-">Сapacity 500 m³/h<br>Electric motor 55 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-1-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-314',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %}
+  {% call CategoryCard(
+    title = 'Screw-Type Compressor Unit<br>VDM № 667.315<span class="h-block h-padding-top-- h-text-">Сapacity 700 m³/h<br>Electric motor 90 kW</span>',
+    hLevel = 4,
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-2-1.jpg',
+    url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-315',
+    class = 'o-grid__item h-1/3',
+    size = 'small'
+  ) %}{% endcall %} 
+</div>
+
+<hr>
+
+<h2>FEM Pumps and Pump Units for Gas</h2>
+
+<p>Pumps and pump units for working with liquefied petroleum gas (LPG) produced by FASENERGOMASH, LLC are designed to pump propane, butane and their mixtures from one tank to another, as well as to supply gas engine fuel from underground and aboveground gas holders and tanks to fuel dispensers at gas filling stations. The FEM gas pumps increase the pressure of the liquefied natural gas phase, thereby accelerating the process of LPG pumping into the gas supply system.</p>
+
+<h3>Basic Specifications of FEM Pump Units</h3>
+
+<p>The manufacturer of gas equipment FASENERGOMASH, LLC offers its customers self-priming and vortex pump-counting LPG units, pump units for gas filling stations and pumps. The apparatuses are mounted on a frame or in a cabinet and are equipped with all necessary process and control-measuring equipment.</p>
+<p>The company offers to buy gas pumps of standard design with a capacity of 50 to 900 L/min or models made to order that are assembled to meet specific customer requirements. At the customer’s request, the company can also manufacture pump units of the required capacity and with the required differential pressure. All pump-counting units are equipped with an electrical control panel of explosion-proof design, which ensures safe and convenient operation.</p>
+
+<h2>FEM Compressor Units</h2>
+
+<p>FASENERGOMASH, LLC manufactures compressor units for fast and safe pumping of liquefied gases from tanks and reservoirs. Compressors are most often used for loading and unloading of railway wagons and sea tankers.</p>
+<p>The use of compressor equipment, in some cases, allows a faster and more efficient pumping of gases if compared to the use of gas pumps. In addition, compressors can be used for gas recovery during distillation.</p>
+<p>FASENERGOMASH, LLC manufactures compressors for methane, LPG (propane and butane), hydrogen and associated petroleum gas, as well as for carbon dioxide, ethylene and propylene. The capacity of products reaches up to 700 m3/hour. All units are frame-mounted and have the necessary reinforcement and control-metric accessories.</p>
+{% endblock %}
