@@ -28,7 +28,7 @@ description: Modular Gas Filling, Dispensing and Pumping Stations with Undergrou
 
 <hr>
 
-<pGas filling stations with underground tanks are installed within the limited territory allocated for the placement of gas filling, dispensing and pumping stations. The underground location is considered to be the most preferable one. Moreover, the decision is provided for by the current technical regulations.</p>
+<p>Gas filling stations with underground tanks are installed within the limited territory allocated for the placement of gas filling, dispensing and pumping stations. The underground location is considered to be the most preferable one. Moreover, the decision is provided for by the current technical regulations.</p>
 
 <p>It does not require additional compensatory measures. The gas filling, dispensing and pumping stations with underground storage tanks are the most suitable solution. The self-priming units installed on the block structures feature stable supply of gas to fuel dispensers since, with such systems, the gas temperature changes do not affect the equipment performance.</p>
 
@@ -70,4 +70,5 @@ Our company has the entire in-house resource base required to manufacture custom
 We are ready to manufacture integrated gas filling, dispensing and pumping stations of any degree of complexity.</p>
 
 <p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+
 {% endblock %}
