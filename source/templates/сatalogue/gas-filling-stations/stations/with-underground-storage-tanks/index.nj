@@ -69,6 +69,6 @@ description: Modular Gas Filling, Dispensing and Pumping Stations with Undergrou
 Our company has the entire in-house resource base required to manufacture customised equipment for individual projects.
 We are ready to manufacture integrated gas filling, dispensing and pumping stations of any degree of complexity.</p>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 
 {% endblock %}

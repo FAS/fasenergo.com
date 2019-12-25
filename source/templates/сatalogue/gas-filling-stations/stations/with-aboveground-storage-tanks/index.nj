@@ -228,5 +228,5 @@ description: Modular Gas Filling, Dispensing and Pumping Stations with Abovegrou
   <li>Possible protection of tanks against heating during the summer period and in case of emergency.</li>
 </ul>
 
-<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Запросить ТКП</button></p>
+<p class='h-align--center h-margin-ends++'><button class='{{ BITRIX.forms.requestOffer.selector }} js-metrica-request-offer Btn Btn--primary Btn+ Btn--wide h-text++'>Request a TCO</button></p>
 {% endblock %}
