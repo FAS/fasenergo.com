@@ -79,15 +79,7 @@ description: Fasenergomash dealers in Saint-Petersburg.
           phones = [{ country: '7', city: '812', tel: ['677', '07', '21'] }],
           email = 'export.russia@gmail.com'
         ) }}
-      </li>   
-      <li>
-        {{ Dealer(
-          name = 'Tekhnogazstroy, LLC',
-          phones = [{ country: '7', city: '812', tel: ['448', '47', '41'] }],
-          email = 'svd@tgas.su',
-          url = 'http://tgas.su'
-        ) }}
-      </li>           
+      </li>             
       <li>Kompania Gruppa Yug, LLC</li>
     </ul>
   </article>
