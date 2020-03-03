@@ -3071,18 +3071,16 @@ fas-40-3-m-40-kw:
     <p>The generators are equipped with an electric starter, an accumulator battery, a mains charger that keeps the accumulator performance for long periods of its inactivity, an automatic transfer switch (ATS), and an automatic voltage and frequency controller.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--01--front-right--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front--closed.jpg
       main: true
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--02--front-right--half-open--03.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--03--back-left--closed.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--04--back-top-left.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--05--front-top-right.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--06--front.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--07--front-top.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--08--top-front.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--09--back-top.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--10--back.jpg
-    - url: equipment/gas-generators/fas-40-3-m/gas-generator-fas-40-3-m--11--front-panel.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--right--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front--open.jpg  
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back--open.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-right--open.jpg                
   videos: null
   docs: null
   tags:
@@ -3188,11 +3186,16 @@ fas-50-3-m-50-kw:
     <p>The generators are equipped with an electric starter, an accumulator battery, a mains charger that keeps the accumulator performance for long periods of its inactivity, an automatic transfer switch (ATS), and an automatic voltage and frequency controller.</p>
   features: null
   photos:
-    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front--closed--1.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front--closed.jpg
       main: true
-    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front-left--closed--2.jpg
-    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--back-left--closed--3.jpg
-    - url: equipment/gas-generators/fas-50-3-m/gas-generator-fas-50-3-m--front--closed-electro--4.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front-left--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-left--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-right--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--right--closed.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--front--open.jpg  
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back--open.jpg
+    - url: equipment/gas-generators/fas-mp/gas-generator-fas-mp--back-right--open.jpg     
   videos: null
   docs: null
   tags:
