@@ -39,7 +39,7 @@ description: Pump & Compressor Equipment.
   {% call CategoryCard(
     title = 'Screw-Type Compressor Unit<br>VDM № 667.312<span class="h-block h-padding-top-- h-text-">Сapacity 200 m³/h<br>Electric motor 22 kW</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-2-1.jpg',
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-5-1.jpg',
     url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-312',
     class = 'o-grid__item h-1/3',
     size = 'small'
@@ -48,7 +48,7 @@ description: Pump & Compressor Equipment.
    {% call CategoryCard(
     title = 'Screw-Type Compressor Unit<br>VDM № 667.313<span class="h-block h-padding-top-- h-text-">Сapacity 300 m³/h<br>Electric motor 30 kW</span>',
     hLevel = 4,
-    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-3-1.jpg',
+    image = '/' + PATH.images + '/categories/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/card-4-1.jpg',
     url = '/сatalogue/pump-and-compressor-equipment/compressors-and-compressor-units/screw-type-compressor-units-for-lpg/vdm-667-313',
     class = 'o-grid__item h-1/3',
     size = 'small'

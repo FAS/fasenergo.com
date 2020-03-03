@@ -15,14 +15,14 @@ description: Screw-Type Compressor Unit VDM № 667.313 for LPG. Compressor capa
 <p>Screw-Type Compressor Unit for LPG pumping with a capacity of 300 m³/hour. Made in Germany.</p>
  
 {% set pageEqElPhotos = [
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--front-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--front-left-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--left-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--back-right-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--back-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--back-left-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--right-n.jpg' },
-  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/compressor-unit-render--front-right-n.jpg' }
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--front-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--front-left-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--left-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--back-right-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--back-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--back-left-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--right-n.jpg' },
+  { url: 'equipment/pump-and-compressor-equipment/screw-type-compressor-units-for-lpg/200-300m3/compressor-unit-200-300m3--front-right-n.jpg' }
 ] %}
 
 {{ PhotosPreview(pageEqElPhotos, 'Screw-Type Compressor Unit for LPG') }}
