@@ -12,11 +12,6 @@ description: LLC "Fasenergomash" is a German-Russian manufacturer and the leader
 {% block main %}
 {% from '_components/_Image.nj' import Image with context %}
 
-{{ Image(
-  src = urljoin('/', PATH.images, '/company/Офис-Фасэнергомаш--05.jpg'),
-  alt = 'Office'
-) }}
-
 <p><iframe width="895" height="503" src="https://www.youtube.com/embed/d3BV0mCrR2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 
 <p>FASENERGOMASH, LLC is a German-Russian manufacturer and the leader among suppliers of gas equipment for the energy industry in Russia.</p>
@@ -55,6 +50,11 @@ description: LLC "Fasenergomash" is a German-Russian manufacturer and the leader
 <p>In March 2017, the assortment of power equipment was supplemented by a technological novelty — single-phase air-cooled FAS gas generators with a capacity of 5 to 10 kW, which are designed for emergency or backup power supply to private households.</p>
 <p>In July 2017, FASENERGOMASH, LLC started manufacture of new products — evaporative equipment for the energy industry. The model range of the FAS evaporative equipment is favourably characterized by small dimensions, reduced material consumption and low cost. Electric and liquid FAS evaporators and evaporative units are designed to provide consumers with the vapour phase of liquefied petroleum gas and include models with a capacity of 10 to 2,000 kg/hour with the function of automatic gas flow adjustment depending on the consumption rate.</p>
 <p>The company's products are used in various sectors of manufacturing industry, agriculture, cottage housing construction, hotel and restaurant business for energy supply of residential houses, townhouse villages, warehouses, and industrial premises.</p>
+
+{{ Image(
+  src = urljoin('/', PATH.images, '/company/Офис-Фасэнергомаш--05.jpg'),
+  alt = 'Office'
+) }}
 
 <h2>Our Partners</h2>
 
