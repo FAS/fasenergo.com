@@ -106,7 +106,7 @@ showContentTitle:          false
   </div>
 </header>
 
-<section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
+<!--<section class='{{ pageContainerClass }} {{ pageSectionTopWrapper }} {{ pageSectionBottomWrapper }}'>
   <div class='{{ pageContentClass }}'>
 
     <h2 class='h-margin-bottom+ h-color--secondary'>News</h2>
@@ -117,7 +117,7 @@ showContentTitle:          false
     <p><a href='/company/news' class='Btn'>Read All</a></p>
 
   </div>
-</section>
+</section>-->
 
 <section class='t-quaternary'>
   <div class='{{ pageContainerClass }}'>
