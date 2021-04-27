@@ -56,15 +56,10 @@ description: LLC "Fasenergomash" is a German-Russian manufacturer and the leader
   alt = 'Office'
 ) }}
 
-<h2>Our Partners</h2>
-
-<p>FASENERGOMASH, LLC is one of the leading business partners for enterprises engaged in the oil and gas, petrochemical and energy sectors.</p>
-<p>The list of our partners and customers includes Gazprom, Gazprom Mezhregiongaz, Lukoil, Rosneft, Tatneft, NGK Slavneft.</p>
-
 <h2>Certificates</h2>
 
 <p>The quality management system of FASENERGOMASH, LLC is certified according to GOST ISO 9001-2011 standard (Certificate of Compliance ST.RU.0001.M0004043, valid until 6 February 2018).</p>
-<p>The products are certified according to the GOST R system (Certificate of Conformity ROSS RU.AG42.H00484, valid until 5 July 2019), EAC (Declaration of Conformity TS No. RU D-RU.AL16.В.29791, valid until 31 January 2019), CE (Certificate of Conformity No. 161299183, valid until 13 September 2019) and GAZPROMCERT (Certificate of Conformity No. GO00.RU.1335.Н00483, valid until 19 February 2020).</p>
+<p>The products are certified according to the GOST R system (Certificate of Conformity ROSS RU.AG42.H00484, valid until 5 July 2019), EAC (Declaration of Conformity TS No. RU D-RU.AL16.В.29791, valid until 31 January 2019), CE (Certificate of Conformity No. 161299183, valid until 13 September 2019).</p>
 <p>The company's specialists were certified by the Federal Service for the Supervision of Environment, Technology and Nuclear Management (Rostekhnadzor) of the Russian Federation and trained in Germany.</p>
 <p>All certificates received by FASENERGOMASH, LLC are available <a href='/сompany/certificates'>here</a>.</p>
 {% endblock %}
